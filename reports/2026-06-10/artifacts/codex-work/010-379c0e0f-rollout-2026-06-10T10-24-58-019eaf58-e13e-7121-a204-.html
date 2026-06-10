@@ -76,31 +76,31 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">3.8 MB</span>
-            <span class="chip">2026-06-10 08:35:57</span>
+            <span class="chip">4.9 MB</span>
+            <span class="chip">2026-06-10 09:16:11</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>177</b><span>评分</span></div><div class="metric"><b>3.8 MB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>168</b><span>评分</span></div><div class="metric"><b>4.9 MB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
     <div class="content">
     <section class="panel artifact-summary codex-work-summary">
-      <div class="section-title"><h2>工作交差摘要</h2><span>飞书 / 协作</span></div>
+      <div class="section-title"><h2>工作交差摘要</h2><span>代码 / 自动化</span></div>
       <div class="summary-layout">
         <article class="summary-main">
           <h3>现在还存在一个问题 codex每次答复的内容太多了 信息太多我没法从里面挑出有用的信息，所以我需要AI帮我筛选一次，又希望Ai帮我将内容都落地…</h3>
-          <p>**结论** 已把“四段式回复校验”接进每天的 Codex CODEX-006 内测任务队列。后续每天不只是记录“用了四段式”，还会要求跑 validate_reply_format.py 检查是否真的短、四段齐、且 已归档 有路径。 **需要你决定** 还缺你的明确确认：是否批准四段式作为 Codex 默认回复格式。确认后才能生成 董事长确认.md。 **已落地** 已更新： - run_daily_brief.sh - test_ceo_todo_beta_queue.py - 任务总表.md - 完成审计.md - 每日任务接入记录.md 已同步 launchd 实际运行副本： ~/Library/Application Support/GM Daily Brief/scripts/run_daily_brief.sh 验证结果： - 总经理日报测试：32 条通过 - CEO/TODO 内测包测试：16 条通过 - 内测状态：BETA_IN_PROGRESS - 完整性门禁：PASS - 最终结案审计：FAIL，符合预期，不能提前公测 **已归档** 本轮 raw / filtered / landing / audit 已写入： 本地归档</p>
-          <ul class="mini-list"><li>**结论** 已把“四段式回复校验”接进每天的 Codex CODEX-006 内测任务队列</li><li>后续每天不只是记录“用了四段式”，还会要求跑 validate_reply_format.py 检查是否真的短、四段齐、且 已归档 有路径</li><li>**需要你决定** 还缺你的明确确认：是否批准四段式作为 Codex 默认回复格式</li><li>确认后才能生成 董事长确认.md</li></ul>
+          <p>结论 - 办法已落地：以后聊天只给 结论 / 需要你决定 / 已落地 / 已归档，详细内容进文件，不在聊天里堆。 - 当前状态：BETA_IN_PROGRESS，内测第 1/7 天，不能提前公测。 需要你决定 - 暂无。到 2026-06-17 内测满 7 天后，再决定是否写 董事长确认.md 并迁入公测。 已落地 - 已把每日 cron 固定到 run_beta_day.py --date 当天 --today 当天。 - 每天最终回复样本固定路径：回复样本/YYYY-MM-DD-最终回复样本.md。 - 已同步 launchd runtime；测试通过：CEO/TODO 23 条，总经理日报 32 条。 已归档 - 本地归档 - 最终结案审计仍是 FAIL，这是正确状态：7 天内测、公测迁移和董事长确认还没完成。</p>
+          <ul class="mini-list"><li>结论 - 办法已落地：以后聊天只给 结论 / 需要你决定 / 已落地 / 已归档，详细内容进文件，不在聊天里堆</li><li>- 当前状态：BETA_IN_PROGRESS，内测第 1/7 天，不能提前公测</li><li>需要你决定 - 暂无</li><li>到 2026-06-17 内测满 7 天后，再决定是否写 董事长确认.md 并迁入公测</li><li>已落地 - 已把每日 cron 固定到 run_beta_day.py --date 当天 --today 当天</li><li>- 每天最终回复样本固定路径：回复样本/YYYY-MM-DD-最终回复样本.md</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：现在还存在一个问题 codex每次答复的内容太多了 信息太多我没法从里面挑出有用的信息，所以我需要AI帮我…</span>
           <span>开始：2026-06-10 10:24:58</span>
-          <span>完成：1781079059</span>
+          <span>完成：1781082807</span>
           <span>HTML 成品：0</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
@@ -112,27 +112,15 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p><strong>结论</strong> 已把“四段式回复校验”接进每天的 Codex CODEX-006 内测任务队列。后续每天不只是记录“用了四段式”，还会要求跑 validate_reply_format.py 检查是否真的短、四段齐、且 已归档 有路径。 <strong>需要你决定</strong> 还缺你的明确确认：是否批准四段式作为 Codex 默认回复格式。确认后才能生成 董事长确认.md。 <strong>已落地</strong> 已更新： - run_daily_brief.sh - test_ceo_todo_beta_queue.py - 任务总表.md - 完成审计.md - 每日任务接入记录.md 已同步 launchd 实际运行副本： ~/Library/Application Support/GM Daily Brief/scripts/run_daily_brief.sh 验证结果： - 总经理日报测试：32 条通过 - CEO/TODO 内测包测试：16 条通过 - 内测状态：BETA_IN_PROGRESS - 完整性门禁：PASS - 最终结案审计：FAIL，符合预期，不能提前公测 <strong>已归档</strong> 本轮 raw / filtered / landing / audit 已写入： 本地归档</p></article>
+      <article class="doc"><p>结论 - 办法已落地：以后聊天只给 结论 / 需要你决定 / 已落地 / 已归档，详细内容进文件，不在聊天里堆。 - 当前状态：BETA_IN_PROGRESS，内测第 1/7 天，不能提前公测。 需要你决定 - 暂无。到 2026-06-17 内测满 7 天后，再决定是否写 董事长确认.md 并迁入公测。 已落地 - 已把每日 cron 固定到 run_beta_day.py --date 当天 --today 当天。 - 每天最终回复样本固定路径：回复样本/YYYY-MM-DD-最终回复样本.md。 - 已同步 launchd runtime；测试通过：CEO/TODO 23 条，总经理日报 32 条。 已归档 - 本地归档 - 最终结案审计仍是 FAIL，这是正确状态：7 天内测、公测迁移和董事长确认还没完成。</p></article>
     </section>
     
     <section class="panel">
-      <div class="section-title"><h2>关联本地证据</h2><span>4 个文件路径</span></div>
+      <div class="section-title"><h2>关联本地证据</h2><span>1 个文件路径</span></div>
       <div class="compact-list">
         <a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">PY</span>
-          <div><h3>test_ceo_todo_beta_queue.py</h3><p>~/Desktop/总经理/06-AI组织与派工/Codex自动日报/tests/test_ceo_todo_beta_queue.py</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
           <span class="nav-code">MD</span>
-          <div><h3>任务总表.md</h3><p>~/Desktop/CEO/TODO/任务总表.md</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">MD</span>
-          <div><h3>完成审计.md</h3><p>~/Desktop/CEO/TODO/完成审计.md</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">MD</span>
-          <div><h3>每日任务接入记录.md</h3><p>~/Desktop/CEO/TODO/内测/Codex输出二次筛选与落地闭环/每日任务接入记录.md</p></div>
+          <div><h3>2026-06-10-CEO-TODO-固定每日回复样本路径-audit.md</h3><p>~/Desktop/Codex工作记录/audit/2026-06-10-CEO-TODO-固定每日回复样本路径-audit.md</p></div>
           <div class="row-actions"><span>证据</span></div>
         </a>
       </div>
