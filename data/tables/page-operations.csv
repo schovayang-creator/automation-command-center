@@ -1,7 +1,7 @@
 页面ID,代码,执行项,说明,负责人,入口
 dashboard,FIRST,第一屏判定,只看等级看板、当天待办和 1/2/3/4 日报是否齐。这里不展开长文，负责总态势分流。,总指挥,reports/2026-06-10/index.html
 dashboard,TODO,待办验收,P0/P1 必须能点到日报、自动化或类目页；不能验收的事项留在待补，不给 XP。,验收官,reports/2026-06-10/daily-report/index.html
-dashboard,RPT,日报顺序,四篇日报固定按总经理、Hermes、曹博士、自动化/机会排布，避免当天入口散掉。,日报复盘官,reports/2026-06-10/daily-report/index.html
+dashboard,RPT,日报顺序,六个每日 cron 固定按 A 股、Hermes、双创、Linux、总经理、曹博士排布，避免当天入口散掉。,日报复盘官,reports/2026-06-10/daily-report/index.html
 dashboard,DRILL,下钻方式,简报看不够时先到体系详图，再到数据表格；所有卡片优先整块可点击。,系统司令,reports/2026-06-10/system-detail/index.html
 cron,DAILY,每日任务归类,A 股、Hermes、双创、Linux、总经理、曹博士六条固定每日 cron 进入每日日报任务表。,自动化主管,reports/2026-06-10/data-tables/index.html#daily-task-ledger
 cron,SPEC,专项 Cron,苏州、山西、陶瓷膜、竞品、政策、招投标、专家资源等 24 小时主控只归入业务类目。,业务类目官,reports/2026-06-10/categories/index.html
@@ -12,7 +12,7 @@ categories,PROOF,证据,类目页只做摘要，真正证据在 Markdown、CSV�
 categories,GAP,保留位,暂时无产物的类目保留在表里，显示待补，方便后续自动化接入。,系统司令,reports/2026-06-10/data-tables/index.html#module-ledger
 categories,USE,日报引用,总经理日报或机会日报需要业务结论时，从类目页提取关键批阅页，不改变类目身份。,日报复盘官,reports/2026-06-10/daily-report/index.html
 daily-report,TASK,六条每日任务,每天按时间顺序看 00:00、06:30、07:00、17:00、19:00、22:30 六个来源。,日报复盘官,reports/2026-06-10/data-tables/index.html#daily-task-ledger
-daily-report,SEQ,四篇日报,首页和日报页都固定使用 1/2/3/4 序列表；缺失就写缺口，不做替换。,总经理助理,reports/2026-06-10/data-tables/index.html#report-sequence
+daily-report,SEQ,六个每日 cron,首页和日报页都固定使用 1 到 6 的每日 cron 序列表；缺失就写缺口，不做替换。,总经理助理,reports/2026-06-10/data-tables/index.html#report-sequence
 daily-report,DENSE,关键汇报,今日关键汇报要像总经理助理专属页一样密集：标题、来源、产物、状态和跳转都要有。,验收官,reports/2026-06-10/daily-report/index.html
 daily-report,NEXT,明日队列,日报里没有完成的事项不消失，进入明日待办或自动化失败复盘。,日历官,calendar.html
 verification,COV,内容覆盖,六类用户要求逐项确认：固定自动化、本地项目、公司管理、体重管理、等级 XP、批阅链接。,验收官,reports/2026-06-10/daily-report/index.html

@@ -78,7 +78,7 @@
       </div>
       <aside class="panel hero-side">
         <h2>后台索引</h2>
-        <div class="metric-row"><div class="metric"><b>13</b><span>数据表</span></div><div class="metric"><b>15</b><span>自动化</span></div><div class="metric"><b>12</b><span>需求</span></div><div class="metric"><b>2287</b><span>总 XP</span></div></div>
+        <div class="metric-row"><div class="metric"><b>13</b><span>数据表</span></div><div class="metric"><b>15</b><span>自动化</span></div><div class="metric"><b>12</b><span>需求</span></div><div class="metric"><b>2428</b><span>总 XP</span></div></div>
       </aside>
     </section>
     <section class="grid">
@@ -163,7 +163,7 @@
           </article>
           <article class="module-card">
             <div class="module-head"><h3>3. 一次性 / 提醒层</h3><span class="status info">1 条</span></div>
-            <p>heartbeat 或一次性验收只在需要时进入日报，不占 1/2/3/4 日报序列，也不抢每日任务固定位置。</p>
+            <p>heartbeat 或一次性验收只在需要时进入日报，不占每日 cron 固定序列，也不抢每日任务固定位置。</p>
             <div class="chip-row"><span class="chip">按需引用</span><span class="chip">不占日报序列</span></div>
           </article>
           <article class="module-card">
@@ -250,8 +250,8 @@
         <div class="module-grid dense-grid">
           <a class="module-card click-card" href="../index.html">
             <div class="module-head"><h3>当天总看板</h3><span class="status info">母页</span></div>
-            <p>左上等级、右上待办、下方 1/2/3/4 日报，负责当天总态势和入口分流。</p>
-            <div class="chip-row"><span class="chip">HOME</span><span class="chip">总 XP、待办、日报序列、自动化态势</span></div>
+            <p>左上等级、右上待办、下方 6 个每日 cron 日报，负责当天总态势和入口分流。</p>
+            <div class="chip-row"><span class="chip">HOME</span><span class="chip">总 XP、待办、日报汇总、自动化态势</span></div>
           </a><a class="module-card click-card" href="../system-detail/index.html">
             <div class="module-head"><h3>体系详图</h3><span class="status info">详细页</span></div>
             <p>承接首页简报背后的完整解释：页面母子关系、数据表、等级、日报、自动化、日历和验收标准。</p>
@@ -271,7 +271,7 @@
           </a><a class="module-card click-card" href="../daily-report/index.html">
             <div class="module-head"><h3>日报收录</h3><span class="status info">日报页</span></div>
             <p>每日日报任务是日报来源；业务类目是日报引用对象；关键报告进入批阅页验收。</p>
-            <div class="chip-row"><span class="chip">RPT</span><span class="chip">四篇日报、每日任务、关键汇报、收录规则</span></div>
+            <div class="chip-row"><span class="chip">RPT</span><span class="chip">6 个每日 cron、每日任务、关键汇报、收录规则</span></div>
           </a><a class="module-card click-card" href="../cron/index.html">
             <div class="module-head"><h3>自动化登记簿</h3><span class="status info">自动化页</span></div>
             <p>Codex app 全部 cron / heartbeat 自动化都登记，按每日、专项、一次性分层。</p>
@@ -397,7 +397,7 @@
             <p>业务类目不是每日报告，而是日报引用对象</p>
             <div class="chip-row"><span class="chip">10 列</span><span class="chip">module-ledger</span></div>
           </a><a class="module-card click-card" href="../data-tables/index.html#report-sequence">
-            <div class="module-head"><h3>1/2/3/4 日报序列表</h3><span class="status info">4 行</span></div>
+            <div class="module-head"><h3>每日 cron 日报序列表</h3><span class="status info">6 行</span></div>
             <p>首页和日报页固定使用这张顺序表</p>
             <div class="chip-row"><span class="chip">8 列</span><span class="chip">report-sequence</span></div>
           </a><a class="module-card click-card" href="../data-tables/index.html#level-ladder">
@@ -459,7 +459,7 @@
                 <td>automation-3</td>
                 <td>曹博士岗位更新</td>
                 <td>ACTIVE</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>本地归档</td>
                 <td>-</td>
@@ -470,7 +470,7 @@
                 <td>总经理助理</td>
                 <td>ACTIVE</td>
                 <td>DELIVERY_SUCCESS</td>
-                <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
+                <td>019eb132-43e3-7b80-bf83-c7c8017cc962</td>
                 <td>本地归档</td>
                 <td>-</td>
                 <td>本地归档</td>
@@ -499,7 +499,7 @@
                 <td>17-00-linux-mac</td>
                 <td>每天 17:00 Linux 工作日报验收并拉取到 Mac</td>
                 <td>ACTIVE</td>
-                <td>SUCCESS</td>
+                <td>HTTP_200</td>
                 <td>019eb0c4-6a59-73b2-8cd8-129a6e86e5b1</td>
                 <td>本地归档</td>
                 <td>/home/wang/Desktop/今日任务.html</td>
@@ -509,7 +509,7 @@
                 <td>24-6</td>
                 <td>公司机会总控中台24小时主控</td>
                 <td>PAUSED</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>-</td>
                 <td>-</td>
@@ -519,7 +519,7 @@
                 <td>24-2</td>
                 <td>竞品同行服务商情报24小时主控</td>
                 <td>PAUSED</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>本地归档</td>
                 <td>-</td>
@@ -529,7 +529,7 @@
                 <td>24</td>
                 <td>山西研发客户转化24小时主控</td>
                 <td>PAUSED</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>本地归档</td>
                 <td>-</td>
@@ -539,7 +539,7 @@
                 <td>automation-5</td>
                 <td>苏州客户转化24小时主控</td>
                 <td>PAUSED</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>本地归档</td>
                 <td>-</td>
@@ -549,7 +549,7 @@
                 <td>automation-4</td>
                 <td>陶瓷膜客户转化24小时主控</td>
                 <td>PAUSED</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>本地归档</td>
                 <td>-</td>
@@ -559,7 +559,7 @@
                 <td>24-4</td>
                 <td>招投标环评技改意向雷达24小时主控</td>
                 <td>PAUSED</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>-</td>
                 <td>-</td>
@@ -569,7 +569,7 @@
                 <td>24-3</td>
                 <td>政策补贴项目申报雷达24小时主控</td>
                 <td>PAUSED</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>-</td>
                 <td>-</td>
@@ -579,7 +579,7 @@
                 <td>24-5</td>
                 <td>专家高校博士资源池24小时主控</td>
                 <td>PAUSED</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>-</td>
                 <td>-</td>
@@ -589,7 +589,7 @@
                 <td>skill</td>
                 <td>8小时后验收隔日预测 skill 重做优化</td>
                 <td>PAUSED</td>
-                <td>DELIVERY_SUCCESS</td>
+                <td>PUBLISH_SUCCESS</td>
                 <td>019ead22-4769-7361-9a99-7f28a22d0770</td>
                 <td>-</td>
                 <td>-</td>

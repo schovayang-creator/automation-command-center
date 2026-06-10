@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T10:01:20.732Z",
+  "generatedAt": "2026-06-10T11:08:07.470Z",
   "reportDate": "2026-06-10",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -271,8 +271,8 @@
         "layer": "母页",
         "title": "当天总看板",
         "href": "reports/{date}/index.html",
-        "rule": "左上等级、右上待办、下方 1/2/3/4 日报，负责当天总态势和入口分流。",
-        "evidence": "总 XP、待办、日报序列、自动化态势"
+        "rule": "左上等级、右上待办、下方 6 个每日 cron 日报，负责当天总态势和入口分流。",
+        "evidence": "总 XP、待办、日报汇总、自动化态势"
       },
       {
         "code": "SYS",
@@ -312,7 +312,7 @@
         "title": "日报收录",
         "href": "reports/{date}/daily-report/index.html",
         "rule": "每日日报任务是日报来源；业务类目是日报引用对象；关键报告进入批阅页验收。",
-        "evidence": "四篇日报、每日任务、关键汇报、收录规则"
+        "evidence": "6 个每日 cron、每日任务、关键汇报、收录规则"
       },
       {
         "code": "CR",
@@ -375,10 +375,10 @@
       {
         "code": "RPT",
         "title": "日报复盘分配",
-        "source": "1 / 2 / 3 / 4 日报",
+        "source": "6 个每日 cron 日报",
         "weight": "18%",
-        "rule": "四篇日报按顺序收录；缺口要显式显示，不静默。",
-        "proof": "日报收录页、总经理日报、Hermes、曹博士、机会日报"
+        "rule": "六个固定 cron 按顺序收录；缺口要显式显示，不静默。",
+        "proof": "日报收录页、A 股、Hermes、双创、Linux、总经理、曹博士"
       }
     ],
     "operatingLoops": [
@@ -683,10 +683,10 @@
         "页面ID": "dashboard",
         "页面": "当天总看板",
         "层级/模式": "简报入口",
-        "用途": "给当天只看 3 分钟的人使用：左上等级、右上待办、下方 1/2/3/4 日报，再把所有详细页分流出去。",
+        "用途": "给当天只看 3 分钟的人使用：左上等级、右上待办、下方 6 个每日 cron 日报，再把所有详细页分流出去。",
         "数据来源": "growthSystem、dailyReports、todoItems、dailyTasks、health、modules、automations。",
         "阅读方式": "先看 P0/P1 待办，再看日报 1/2/3/4 是否齐，再进入数据表格或体系详图查看底层口径。",
-        "验收标准": "第一屏必须不空；四篇日报必须顺序固定；每日任务必须按 00:00、06:30、07:00、17:00、19:00、22:30 展示。",
+        "验收标准": "第一屏必须不空；六个每日 cron 必须顺序固定；每日任务必须按 00:00、06:30、07:00、17:00、19:00、22:30 展示。",
         "详细入口": "reports/2026-06-10/system-detail/index.html"
       },
       {
@@ -715,7 +715,7 @@
         "层级/模式": "每日总账",
         "用途": "把 6 条每日日报任务和业务类目关键产物收进同一个日报体系。",
         "数据来源": "dailyTasks、buildDailyReports、自动化 topArtifacts、业务类目 topArtifacts。",
-        "阅读方式": "先看 6 条每日任务归类，再看 1/2/3/4 日报序列，最后看今日关键汇报和收录规则。",
+        "阅读方式": "先看 6 条每日任务归类，再看 1 到 6 的日报汇总，最后看今日关键汇报和收录规则。",
         "验收标准": "A 股、Hermes、双创、Linux、总经理、曹博士必须是每日任务；苏州、山西、陶瓷膜等只能是业务类目引用对象。",
         "详细入口": "reports/2026-06-10/system-detail/index.html#daily-report-detail"
       },
@@ -801,7 +801,7 @@
         "页面ID": "dashboard",
         "代码": "RPT",
         "执行项": "日报顺序",
-        "说明": "四篇日报固定按总经理、Hermes、曹博士、自动化/机会排布，避免当天入口散掉。",
+        "说明": "六个每日 cron 固定按 A 股、Hermes、双创、Linux、总经理、曹博士排布，避免当天入口散掉。",
         "负责人": "日报复盘官",
         "入口": "reports/2026-06-10/daily-report/index.html"
       },
@@ -888,8 +888,8 @@
       {
         "页面ID": "daily-report",
         "代码": "SEQ",
-        "执行项": "四篇日报",
-        "说明": "首页和日报页都固定使用 1/2/3/4 序列表；缺失就写缺口，不做替换。",
+        "执行项": "六个每日 cron",
+        "说明": "首页和日报页都固定使用 1 到 6 的每日 cron 序列表；缺失就写缺口，不做替换。",
         "负责人": "总经理助理",
         "入口": "reports/2026-06-10/data-tables/index.html#report-sequence"
       },
@@ -1161,10 +1161,10 @@
       },
       {
         "id": "report-sequence",
-        "title": "1/2/3/4 日报序列表",
+        "title": "每日 cron 日报序列表",
         "subtitle": "首页和日报页固定使用这张顺序表",
         "headers": 8,
-        "rows": 4,
+        "rows": 6,
         "csv": "data/tables/report-sequence.csv"
       },
       {
@@ -1320,8 +1320,8 @@
       "name": "每天 17:00 Linux 工作日报验收并拉取到 Mac",
       "role": "Linux 验收官",
       "status": "ACTIVE",
-      "artifacts": 3,
-      "points": 27,
+      "artifacts": 4,
+      "points": 40,
       "href": "reports/2026-06-10/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1388,7 +1388,7 @@
       "role": "岗位情报官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-09 22:51:40 CST",
         "publishTarget": ""
       },
@@ -1411,7 +1411,7 @@
       "lane": "每日日报任务",
       "role": "总经理助理",
       "latestRun": {
-        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "sessionId": "019eb132-43e3-7b80-bf83-c7c8017cc962",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-09 运行摘要",
         "publishTarget": ""
@@ -1484,8 +1484,8 @@
       "role": "Linux 验收官",
       "latestRun": {
         "sessionId": "019eb0c4-6a59-73b2-8cd8-129a6e86e5b1",
-        "status": "SUCCESS",
-        "completedAt": "2026-06-09 17:03:08 CST",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-09 18:21 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
@@ -1496,8 +1496,8 @@
         "dailyReport": "Linux 工作日报验收并拉取到 Mac",
         "acceptance": "Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。"
       },
-      "artifacts": 3,
-      "points": 27,
+      "artifacts": 4,
+      "points": 40,
       "href": "reports/2026-06-10/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1508,7 +1508,7 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1526,7 +1526,7 @@
       "role": "竞品情报官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "Automation 24-2 Memory",
         "publishTarget": ""
       },
@@ -1544,7 +1544,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "Automation 24 Memory",
         "publishTarget": ""
       },
@@ -1562,7 +1562,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
@@ -1580,7 +1580,7 @@
       "role": "客户转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
@@ -1598,7 +1598,7 @@
       "role": "意向信号官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1616,7 +1616,7 @@
       "role": "政策机会官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1634,7 +1634,7 @@
       "role": "资源池官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1652,7 +1652,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1760,7 +1760,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 14,
+      "artifacts": 16,
       "href": "reports/2026-06-10/codex-work/index.html"
     }
   ]

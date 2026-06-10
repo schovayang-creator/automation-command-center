@@ -432,23 +432,23 @@ button, input { font: inherit; }
 .brief-card {
   display: grid;
   align-content: start;
-  gap: 6px;
+  gap: 8px;
 }
 
 .mini-list {
   display: grid;
-  gap: 4px;
-  margin: 6px 0 0;
+  gap: 6px;
+  margin: 8px 0 0;
   padding: 0;
   list-style: none;
 }
 
 .mini-list li {
   position: relative;
-  padding-left: 11px;
+  padding-left: 13px;
   color: var(--text);
-  font-size: 11px;
-  line-height: 1.36;
+  font-size: 12.5px;
+  line-height: 1.5;
 }
 
 .mini-list li::before {
@@ -1090,17 +1090,17 @@ button, input { font: inherit; }
 .daily-task-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
+  gap: 10px;
 }
 
 .daily-task-card {
   display: grid;
   grid-template-columns: 96px minmax(0, 1fr);
-  gap: 10px;
+  gap: 12px;
   align-items: start;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 10px;
+  padding: 12px;
   background: var(--surface);
 }
 
@@ -1120,15 +1120,15 @@ button, input { font: inherit; }
 .daily-task-card h3 {
   margin: 0;
   color: var(--ink);
-  font-size: 14px;
-  line-height: 1.24;
+  font-size: 15.5px;
+  line-height: 1.28;
 }
 
 .daily-task-card p {
-  margin: 4px 0 0;
+  margin: 6px 0 0;
   color: var(--text);
-  font-size: 12px;
-  line-height: 1.38;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .compact-list {
@@ -1232,30 +1232,30 @@ button, input { font: inherit; }
 
 .summary-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(240px, 0.55fr);
-  gap: 10px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
+  gap: 12px;
 }
 
 .summary-main,
 .summary-side {
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 12px;
+  padding: 16px;
   background: var(--surface-2);
 }
 
 .summary-main h3 {
   margin: 0;
   color: var(--ink);
-  font-size: 18px;
-  line-height: 1.28;
+  font-size: 22px;
+  line-height: 1.22;
 }
 
 .summary-main p {
-  margin: 7px 0 0;
+  margin: 10px 0 0;
   color: var(--text);
-  font-size: 13px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.62;
 }
 
 .summary-side {
@@ -1267,16 +1267,16 @@ button, input { font: inherit; }
 
 .summary-side b {
   color: var(--ink);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .summary-side span,
 .summary-side a {
   border-top: 1px solid var(--line);
-  padding-top: 7px;
+  padding-top: 9px;
   color: var(--text);
-  font-size: 12px;
-  line-height: 1.35;
+  font-size: 13.5px;
+  line-height: 1.5;
 }
 
 .summary-side a {
@@ -2030,7 +2030,7 @@ tr:last-child td { border-bottom: 0; }
   .compact-row h3 {
     max-width: 100%;
     overflow-wrap: anywhere;
-    word-break: break-all;
+    word-break: normal;
   }
 
   .module-grid,

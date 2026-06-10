@@ -1,5 +1,7 @@
 顺序,代码,日报,负责人,状态,XP,摘要,页面
-1,01,总经理日报,总经理助理,已收录,180,经营结论、董事长决策题、项目/任务看板、明日队列。,reports/2026-06-10/cron/automation-2/index.html
-2,02,内容 / Hermes 日报,内容简报官,已收录,140,素材雷达、主推选题、Hermes 交接稿、自动化质量风险。,reports/2026-06-10/cron/hermes/index.html
-3,03,曹博士岗位日报,岗位情报官,已收录,150,岗位检索长报告、简报、结果表和夜间检索记录。,reports/2026-06-10/cron/automation-3/index.html
-4,04,自动化 / 机会日报,机会雷达官 / 验收官,已收录,130,双创任务、Linux 验收、A 股模拟盘和一次性研究验收进入总控台。,reports/2026-06-10/cron/automation/index.html
+1,01,A股每日模拟盘研究与盈亏回放,交易研究官,已收录,16,模拟盘日报、盈亏回放、持仓、skill 复盘和次日观察计划进入每日日报。,reports/2026-06-10/cron/a/index.html
+2,02,Hermes 每日任务,内容简报官,已收录,100,素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。,reports/2026-06-10/cron/hermes/index.html
+3,03,双创比赛今日任务发布到 Linux 桌面,机会雷达官,已收录,44,双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。,reports/2026-06-10/cron/automation/index.html
+4,04,Linux 工作日报验收并拉取到 Mac,Linux 验收官,已收录,40,Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。,reports/2026-06-10/cron/17-00-linux-mac/index.html
+5,05,总经理日报,总经理助理,已收录,125,经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。,reports/2026-06-10/cron/automation-2/index.html
+6,06,曹博士岗位日报,岗位情报官,今日待补,30,岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。,reports/2026-06-10/cron/automation-3/index.html
