@@ -1,5 +1,5 @@
 页面ID,代码,执行项,说明,负责人,入口
-dashboard,FIRST,第一屏判定,只看等级看板、当天待办和 1/2/3/4 日报是否齐。这里不展开长文，负责总态势分流。,总指挥,reports/2026-06-10/index.html
+dashboard,FIRST,第一屏判定,只看等级看板、当天待办和六个每日 cron 是否齐。这里不展开长文，负责总态势分流。,总指挥,reports/2026-06-10/index.html
 dashboard,TODO,待办验收,P0/P1 必须能点到日报、自动化或类目页；不能验收的事项留在待补，不给 XP。,验收官,reports/2026-06-10/daily-report/index.html
 dashboard,RPT,日报顺序,六个每日 cron 固定按 A 股、Hermes、双创、Linux、总经理、曹博士排布，避免当天入口散掉。,日报复盘官,reports/2026-06-10/daily-report/index.html
 dashboard,DRILL,下钻方式,简报看不够时先到体系详图，再到数据表格；所有卡片优先整块可点击。,系统司令,reports/2026-06-10/system-detail/index.html

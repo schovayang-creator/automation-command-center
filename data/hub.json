@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T11:08:07.470Z",
+  "generatedAt": "2026-06-10T11:21:34.424Z",
   "reportDate": "2026-06-10",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -24,7 +24,7 @@
     "自动化包括 Codex app 全部配置：总经理助理、炒股、曹博士、Hermes、Linux、双创、24h 专项等。",
     "山西、苏州、陶瓷膜等不是每日报告，而是业务类目；A 股、Hermes、双创、Linux、总经理、曹博士这 6 个固定自动化是每日日报任务。",
     "首页左上角必须是等级看板，右上角必须是当天待办任务看板。",
-    "首页下方必须按 1、2、3、4 顺序排布完整日报汇总。",
+    "首页下方必须按 1、2、3、4、5、6 顺序排布完整日报汇总。",
     "等级页面要有总积分体系、奖励体系、角色体系、经验来源和后台分配规则。",
     "体系覆盖公司 OKR、公司待办、个人待办、体重管理、每日日报任务管理。",
     "日历页要成为日历主页面，能按天追踪 OKR、体重、待办、自动化和日报。",
@@ -63,7 +63,7 @@
         "level": 5,
         "title": "经营参谋",
         "minXp": 4200,
-        "unlock": "解锁经营日报 1/2/3/4 汇总和董事长决策题。"
+        "unlock": "解锁六个每日 cron 汇总和董事长决策题。"
       },
       {
         "level": 6,
@@ -143,7 +143,7 @@
         "track": "日报复盘",
         "code": "RPT",
         "points": "每篇完整日报 120 XP，关键决策题闭环 80 XP",
-        "detail": "日报是当天总账；1/2/3/4 篇按固定顺序进入首页。"
+        "detail": "日报是当天总账；六个固定 cron 按 1 到 6 顺序进入首页。"
       }
     ],
     "rewards": [
@@ -164,8 +164,8 @@
       },
       {
         "level": 5,
-        "reward": "日报 1/2/3/4 固定序列",
-        "condition": "当天四类日报都有入口或明确缺口。"
+        "reward": "六个每日 cron 固定序列",
+        "condition": "当天六个固定 cron 都有入口或明确缺口。"
       },
       {
         "level": 6,
@@ -262,7 +262,7 @@
         "title": "日报复盘",
         "owner": "总经理助理",
         "href": "reports/{date}/daily-report/index.html",
-        "goal": "1/2/3/4 篇日报按序汇总，作为当天总账。"
+        "goal": "六个固定 cron 按序汇总，作为当天总账。"
       }
     ],
     "architectureBlueprint": [
@@ -495,11 +495,11 @@
       {
         "code": "RPT-COMPLETE",
         "track": "日报复盘",
-        "event": "1/2/3/4 日报入口齐全",
+        "event": "六个每日 cron 日报入口齐全",
         "baseXp": 120,
-        "cap": 480,
-        "evidence": "日报收录页四张日报卡",
-        "rule": "缺日报不静默，必须显示缺口或落到自动化/机会日报。"
+        "cap": 720,
+        "evidence": "日报收录页六张日报卡",
+        "rule": "缺日报不静默，必须显示缺口或落到对应自动化日报。"
       },
       {
         "code": "TODO-P0",
@@ -601,7 +601,7 @@
         "level": 5,
         "title": "经营参谋",
         "minXp": 4200,
-        "unlock": "解锁经营日报 1/2/3/4 汇总和董事长决策题。",
+        "unlock": "解锁六个每日 cron 汇总和董事长决策题。",
         "maxXp": 6599,
         "requiredTracks": "日报 / 自动化 / OKR",
         "evidence": "有周复盘、有任务闭环、有数据表",
@@ -685,7 +685,7 @@
         "层级/模式": "简报入口",
         "用途": "给当天只看 3 分钟的人使用：左上等级、右上待办、下方 6 个每日 cron 日报，再把所有详细页分流出去。",
         "数据来源": "growthSystem、dailyReports、todoItems、dailyTasks、health、modules、automations。",
-        "阅读方式": "先看 P0/P1 待办，再看日报 1/2/3/4 是否齐，再进入数据表格或体系详图查看底层口径。",
+        "阅读方式": "先看 P0/P1 待办，再看六个每日 cron 是否齐，再进入数据表格或体系详图查看底层口径。",
         "验收标准": "第一屏必须不空；六个每日 cron 必须顺序固定；每日任务必须按 00:00、06:30、07:00、17:00、19:00、22:30 展示。",
         "详细入口": "reports/2026-06-10/system-detail/index.html"
       },
@@ -785,7 +785,7 @@
         "页面ID": "dashboard",
         "代码": "FIRST",
         "执行项": "第一屏判定",
-        "说明": "只看等级看板、当天待办和 1/2/3/4 日报是否齐。这里不展开长文，负责总态势分流。",
+        "说明": "只看等级看板、当天待办和六个每日 cron 是否齐。这里不展开长文，负责总态势分流。",
         "负责人": "总指挥",
         "入口": "reports/2026-06-10/index.html"
       },
@@ -1388,7 +1388,7 @@
       "role": "岗位情报官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-09 22:51:40 CST",
         "publishTarget": ""
       },
@@ -1508,7 +1508,7 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1526,7 +1526,7 @@
       "role": "竞品情报官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "Automation 24-2 Memory",
         "publishTarget": ""
       },
@@ -1544,7 +1544,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "Automation 24 Memory",
         "publishTarget": ""
       },
@@ -1562,7 +1562,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
@@ -1580,7 +1580,7 @@
       "role": "客户转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
@@ -1598,7 +1598,7 @@
       "role": "意向信号官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1616,7 +1616,7 @@
       "role": "政策机会官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1634,7 +1634,7 @@
       "role": "资源池官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1652,7 +1652,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
