@@ -1,20 +1,12 @@
 {
-  "status": "published",
+  "status": "pending-publish",
   "date": "2026-06-11",
   "automation": "a",
-  "generatedAt": "2026-06-10T16:29:54.865Z",
+  "generatedAt": "2026-06-10T17:08:06.267Z",
   "publicDashboardUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-11/index.html",
   "publicDailyReportUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-11/daily-report/index.html",
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-11/cron/index.html",
   "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-11/cron/a/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
-  "remote": "https://github.com/schovayang-creator/automation-command-center.git",
-  "contentCommit": "4353ae3",
-  "commit": "4353ae3",
-  "http": {
-    "ok": true,
-    "attempts": 1,
-    "output": "Manual verification: dashboard and automation detail returned HTTP 200 via curl on 2026-06-11 CST."
-  },
-  "openclawStatus": "delivered"
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
 }

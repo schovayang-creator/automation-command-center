@@ -113,14 +113,14 @@
             <h3>A股每日模拟盘研究与盈亏回放 1</h3>
             <span class="status info">任务页</span>
           </div>
-          <ul class="mini-list native-html-list"><li>核心模拟盈亏和账本已生成，但仍有数据缺口：Tushare token 缺失；东方财富实时全市场接口失败；数据模式为 seed_universe_kline_fallback；K 线失败 1 个</li><li>用于计算本次当日盈亏和模拟成交数</li><li>账户权益 100,299.73 -&gt; 99,508.77 CNY</li><li>累计收益率 -0.49%</li><li>按回放/估值交易日的 OPEN 买入统计</li><li>按回放/估值交易日的 CLOSED/FILLED 卖出统计</li><li>写入账本、等待下一轮真实行情回放</li><li>模拟盘 OPEN 持仓数量</li></ul>
+          <ul class="mini-list native-html-list"><li>核心模拟盈亏和账本已生成，但仍有数据缺口：Tushare token 缺失；东方财富实时全市场接口失败；数据模式为 seed_universe_kline_fallback；K 线失败 1 个</li><li>用于计算本次当日盈亏和模拟成交数</li><li>账户权益 100,299.73 -&gt; 99,508.77 CNY</li><li>累计收益率 -0.49%</li><li>按回放/估值交易日的 OPEN 买入统计</li><li>按回放/估值交易日的 CLOSED/FILLED 卖出统计</li><li>亏损轮动触发时写入，等待下一轮真实行情回放</li><li>写入账本、等待下一轮真实行情回放</li></ul>
           
         </article><article class="native-html-section">
           <div class="module-head">
             <h3>A股每日模拟盘研究与盈亏回放 2</h3>
             <span class="status info">任务页</span>
           </div>
-          <ul class="mini-list native-html-list"><li>## 0A. 3 分钟简报</li><li><strong>今天结论：</strong> 今天完成了 2026-06-11 的 A 股模拟盘回放、候选观察和账本更新；本次运行结论为部分跑完，没有触碰真实账户或真实交易。</li><li>1. 今天按项目本地日历判断为交易日候选日，启动检查说明为：2026-06-11 为周四；项目无本地临时休市配置，按工作日处理，并留痕上交所 2026 休市公告：<a href="https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml">https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml</a></li><li>2. 昨日模拟盈亏为 -790.96 CNY，昨日模拟日收益率为 -0.79%，累计模拟收益率为 -0.49%。</li><li>3. 今日没有新增模拟买入计划，主要原因是模拟持仓已经达到上限或候选只适合观察。 当前模拟持仓为 京东方A（000725.SZ）、工商银行（601398.SH）、中国银行（601988.SH），所有金额和收益都只按模拟盘口径计算。</li><li>4. 今日观察候选为 TCL中环（002129.SZ）、国泰海通（601211.SH）、兴业银行（601166.SH），这些候选是模型推断的观察名单，不是收益承诺或真实买卖建议。</li><li>5. 连续收益 gate 仍为 继续模拟观察，目前连续超过 5% 的完整交易日数量是 0/3。</li><li><strong>风险和缺口：</strong> 最大风险是Tushare token 缺失，行业、概念、公告、财务和龙虎榜排雷不完整；东方财富实时全市场接口失败，今日研究依赖历史 K 线 fallback；如果这些缺口继续存在，候选评分只能视为公开行情和历史 K 线层面的实验。</li></ul>
+          <ul class="mini-list native-html-list"><li>## 0A. 3 分钟简报</li><li><strong>今天结论：</strong> 今天完成了 2026-06-11 的 A 股模拟盘亏损复盘、策略重写、模拟清仓和重新选股；本次运行结论为部分跑完，没有触碰真实账户或真实交易。</li><li>1. 今天按项目本地日历判断为交易日候选日，启动检查说明为：2026-06-11 为周四；项目无本地临时休市配置，按工作日处理，并留痕上交所 2026 休市公告：<a href="https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml">https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml</a></li><li>2. 昨日模拟盈亏为 -790.96 CNY，昨日模拟日收益率为 -0.79%，累计模拟收益率为 -0.49%。</li><li>3. 今天因为模拟盘出现亏损，已写入 3 条模拟清仓计划和 3 条高弹性模拟买入计划；这些只等待明天真实 K 线回放，不是实盘委托。 当前模拟持仓为 京东方A（000725.SZ）、工商银行（601398.SH）、中国银行（601988.SH），所有金额和收益都只按模拟盘口径计算。</li><li>4. 今日观察候选为 沪硅产业（688126.SH）、TCL中环（002129.SZ）、中兴通讯（000063.SZ），这些候选是模型推断的观察名单，不是收益承诺或真实买卖建议。</li><li>5. 连续收益 gate 仍为 继续模拟观察，目前连续超过 5% 的完整交易日数量是 0/3。</li><li><strong>风险和缺口：</strong> 最大风险是Tushare token 缺失，行业、概念、公告、财务和龙虎榜排雷不完整；东方财富实时全市场接口失败，今日研究依赖历史 K 线 fallback；高弹性轮动为了冲击 +5% 模型目标，会主动承担更大的跳空和回撤风险；如果这些缺口继续存在，候选评分只能视为公开行情和历史 K 线层面的实验。</li></ul>
           
         </article>
       </div>

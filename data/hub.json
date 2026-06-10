@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T16:29:54.673Z",
+  "generatedAt": "2026-06-10T17:08:06.090Z",
   "reportDate": "2026-06-11",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1525,8 +1525,8 @@
       "role": "交易研究官",
       "latestRun": {
         "sessionId": "019eb244-f0a9-7892-8125-49c7035a32a0",
-        "status": "DELIVERY_SUCCESS",
-        "completedAt": "Automation a Memory",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 00:40:00 CST",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1571,11 +1571,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "机会总控官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019eb244-f0a9-7892-8125-49c7035a32a0",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 00:40:00 CST",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-06-11/cron/24-6/index.html"
     },
     {
@@ -1585,15 +1590,15 @@
       "lane": "专项主控 Cron",
       "role": "竞品情报官",
       "latestRun": {
-        "sessionId": "",
-        "status": "RECORDED",
-        "completedAt": "Automation 24-2 Memory",
+        "sessionId": "019eb244-f0a9-7892-8125-49c7035a32a0",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 00:40:00 CST",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-06-11/cron/24-2/index.html"
     },
     {
@@ -1621,15 +1626,15 @@
       "lane": "专项主控 Cron",
       "role": "销售转化官",
       "latestRun": {
-        "sessionId": "",
-        "status": "SUCCESS",
-        "completedAt": "automation-5 memory",
+        "sessionId": "019eb244-f0a9-7892-8125-49c7035a32a0",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 00:40:00 CST",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-06-11/cron/automation-5/index.html"
     },
     {
@@ -1639,15 +1644,15 @@
       "lane": "专项主控 Cron",
       "role": "客户转化官",
       "latestRun": {
-        "sessionId": "",
-        "status": "RECORDED",
-        "completedAt": "automation-4 memory",
+        "sessionId": "019eb244-f0a9-7892-8125-49c7035a32a0",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 00:40:00 CST",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-06-11/cron/automation-4/index.html"
     },
     {
@@ -1656,11 +1661,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "意向信号官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019eb244-f0a9-7892-8125-49c7035a32a0",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 00:40:00 CST",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-06-11/cron/24-4/index.html"
     },
     {
@@ -1669,11 +1679,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "政策机会官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019eb244-f0a9-7892-8125-49c7035a32a0",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 00:40:00 CST",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-06-11/cron/24-3/index.html"
     },
     {
@@ -1682,11 +1697,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "资源池官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019eb244-f0a9-7892-8125-49c7035a32a0",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 00:40:00 CST",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-06-11/cron/24-5/index.html"
     },
     {
@@ -1697,8 +1717,8 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019eb244-f0a9-7892-8125-49c7035a32a0",
-        "status": "DELIVERY_SUCCESS",
-        "completedAt": "2026-06-11 00:02:03",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 00:40:00 CST",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1796,7 +1816,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 3,
+      "artifacts": 6,
       "href": "reports/2026-06-11/codex-html/index.html"
     },
     {
