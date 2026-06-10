@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T14:56:52.182Z",
+  "generatedAt": "2026-06-10T15:32:00.705Z",
   "reportDate": "2026-06-10",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1241,6 +1241,71 @@
       }
     ]
   },
+  "todoBoard": {
+    "storageKey": "commander:2026-06-10:todo-board",
+    "rows": [
+      {
+        "project": "P01",
+        "task": "T01",
+        "priority": "P0",
+        "title": "审核总经理日报里的董事长决策题",
+        "owner": "总指挥",
+        "status": "待确认",
+        "xp": 160,
+        "href": "reports/2026-06-10/cron/a/index.html"
+      },
+      {
+        "project": "P01",
+        "task": "T02",
+        "priority": "P0",
+        "title": "补录现金、收入、回款、预算风险",
+        "owner": "OKR 管理官",
+        "status": "经营缺口",
+        "xp": 160,
+        "href": "reports/2026-06-10/daily-report/index.html"
+      },
+      {
+        "project": "P02",
+        "task": "T01",
+        "priority": "P1",
+        "title": "巡检 6 个 ACTIVE 自动化",
+        "owner": "自动化主管",
+        "status": "今日巡检",
+        "xp": 100,
+        "href": "reports/2026-06-10/cron/index.html"
+      },
+      {
+        "project": "P02",
+        "task": "T02",
+        "priority": "P1",
+        "title": "六个每日 cron 入口已排布",
+        "owner": "日报复盘官",
+        "status": "可复盘",
+        "xp": 40,
+        "href": "reports/2026-06-10/daily-report/index.html"
+      },
+      {
+        "project": "P03",
+        "task": "T01",
+        "priority": "P1",
+        "title": "补今日体重 / 训练记录",
+        "owner": "体重管理官",
+        "status": "待记录",
+        "xp": 80,
+        "href": "calendar.html"
+      },
+      {
+        "project": "P04",
+        "task": "T01",
+        "priority": "P2",
+        "title": "补 SZ/SX/CM 类目产物",
+        "owner": "业务类目负责人",
+        "status": "待归档",
+        "xp": 50,
+        "href": "reports/2026-06-10/categories/index.html"
+      }
+    ]
+  },
   "health": {
     "exists": true,
     "latest": {
@@ -1389,7 +1454,7 @@
       "latestRun": {
         "sessionId": "019eb1f1-9e4d-7dc3-9749-0fb8268d3b4c",
         "status": "DELIVERY_SUCCESS",
-        "completedAt": "2026-06-09 22:51:40 CST",
+        "completedAt": "2026-06-10 23:59 Asia/Shanghai",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1508,7 +1573,7 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1526,7 +1591,7 @@
       "role": "竞品情报官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Automation 24-2 Memory",
         "publishTarget": ""
       },
@@ -1544,7 +1609,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Automation 24 Memory",
         "publishTarget": ""
       },
@@ -1562,7 +1627,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
@@ -1580,7 +1645,7 @@
       "role": "客户转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
@@ -1598,7 +1663,7 @@
       "role": "意向信号官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1616,7 +1681,7 @@
       "role": "政策机会官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1634,7 +1699,7 @@
       "role": "资源池官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1652,7 +1717,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1751,7 +1816,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 77,
+      "artifacts": 78,
       "href": "reports/2026-06-10/codex-html/index.html"
     },
     {

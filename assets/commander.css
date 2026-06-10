@@ -931,6 +931,94 @@ button, input { font: inherit; }
   gap: 7px;
 }
 
+.todo-board {
+  display: grid;
+  gap: 8px;
+}
+
+.todo-board-head,
+.todo-board-row {
+  display: grid;
+  grid-template-columns: 44px 44px 52px 64px minmax(120px, 1fr) 74px 36px 42px;
+  gap: 5px;
+  align-items: center;
+}
+
+.todo-board-head {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.todo-board-rows {
+  display: grid;
+  gap: 7px;
+}
+
+.todo-board-row {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 7px;
+  background: var(--surface);
+}
+
+.todo-cell {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  padding: 4px 5px;
+  color: var(--text);
+  font-size: 11.5px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.todo-code {
+  justify-content: center;
+  background: var(--side);
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.todo-title {
+  color: var(--ink);
+  font-weight: 850;
+}
+
+.todo-cell[contenteditable="true"]:focus {
+  outline: none;
+  border-color: #93c5bd;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(20, 131, 119, 0.12);
+}
+
+.todo-open,
+.todo-add {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--teal);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.todo-open {
+  min-height: 30px;
+  display: grid;
+  place-items: center;
+  font-size: 11.5px;
+}
+
+.todo-add {
+  width: 38px;
+  height: 34px;
+  justify-self: end;
+  font-size: 22px;
+  line-height: 1;
+}
+
 .todo-row {
   display: grid;
   grid-template-columns: 46px minmax(0, 1fr);
@@ -1085,6 +1173,92 @@ button, input { font: inherit; }
   color: var(--text);
   font-size: 12px;
   line-height: 1.42;
+}
+
+.automation-brief-list {
+  display: grid;
+  gap: 8px;
+}
+
+.automation-brief-row {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) minmax(180px, 320px);
+  gap: 10px;
+  align-items: start;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 11px;
+  background: var(--surface);
+}
+
+.automation-row-main {
+  min-width: 0;
+}
+
+.automation-brief-row h3,
+.automation-brief-row p,
+.automation-brief-row strong {
+  margin: 0;
+}
+
+.automation-brief-row h3 {
+  color: var(--ink);
+  font-size: 15.5px;
+  line-height: 1.25;
+}
+
+.automation-brief-row p {
+  color: var(--text);
+  font-size: 12.5px;
+  line-height: 1.42;
+}
+
+.automation-brief-row strong {
+  color: var(--teal);
+  font-size: 12px;
+  line-height: 1.42;
+}
+
+.weight-spotlight {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 3px 12px;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid #b9dec7;
+  border-radius: 8px;
+  padding: 12px;
+  background: linear-gradient(135deg, #ecfdf5, #f8fafc);
+}
+
+.weight-spotlight span,
+.weight-spotlight p,
+.weight-spotlight b {
+  margin: 0;
+}
+
+.weight-spotlight span {
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.weight-spotlight strong {
+  grid-row: span 2;
+  color: var(--ink);
+  font-size: 34px;
+  line-height: 1;
+}
+
+.weight-spotlight p {
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.weight-spotlight b {
+  color: var(--green);
+  font-size: 12px;
 }
 
 .daily-task-grid {
@@ -1930,6 +2104,36 @@ tr:last-child td { border-bottom: 0; }
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .todo-board-head {
+    display: none;
+  }
+
+  .todo-board-row {
+    grid-template-columns: 52px 52px minmax(0, 1fr) 70px;
+  }
+
+  .todo-board-row .todo-cell:nth-child(4),
+  .todo-board-row .todo-cell:nth-child(6),
+  .todo-board-row .todo-cell:nth-child(7) {
+    grid-column: span 1;
+  }
+
+  .todo-board-row .todo-title {
+    grid-column: span 2;
+  }
+
+  .todo-open {
+    grid-column: auto;
+  }
+
+  .automation-brief-row {
+    grid-template-columns: 42px minmax(0, 1fr);
+  }
+
+  .automation-brief-row strong {
+    grid-column: 2;
+  }
+
   .span-12,
   .span-8,
   .span-7,
@@ -2031,6 +2235,8 @@ tr:last-child td { border-bottom: 0; }
   .brief-grid article,
   .daily-task-card,
   .daily-card,
+  .todo-board-row,
+  .automation-brief-row,
   .review-card,
   .plain-list span,
   .compact-row p,
@@ -2062,6 +2268,41 @@ tr:last-child td { border-bottom: 0; }
 	    grid-template-columns: 1fr;
 	    min-width: 0;
 	  }
+
+  .todo-board-head {
+    display: none;
+  }
+
+  .todo-board-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .todo-board-row .todo-title,
+  .todo-board-row .todo-cell:nth-child(6),
+  .todo-board-row .todo-open {
+    grid-column: 1 / -1;
+  }
+
+  .todo-cell {
+    min-height: 34px;
+  }
+
+  .automation-brief-row {
+    grid-template-columns: 40px minmax(0, 1fr);
+  }
+
+  .automation-brief-row strong {
+    grid-column: 1 / -1;
+  }
+
+  .weight-spotlight {
+    grid-template-columns: 1fr;
+  }
+
+  .weight-spotlight strong {
+    grid-row: auto;
+    font-size: 32px;
+  }
 
   .metric-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));

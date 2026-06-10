@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>memory</title>
-  <link rel="stylesheet" href="../../../../assets/commander.css?v=20260610-final5">
+  <link rel="stylesheet" href="../../../../assets/commander.css?v=20260610-todo1">
 </head>
 <body class="commander">
   <div class="command-shell">
@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">1004 B</span>
-            <span class="chip">2026-06-09 14:52:02</span>
+            <span class="chip">2 KB</span>
+            <span class="chip">2026-06-10 15:00:43</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>1004 B</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>2 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -94,8 +94,8 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>memory</h3>
-          <p>2026-06-09 22:51:40 CST</p>
-          <ul class="mini-list"><li>完成 2026-06-09 曹博士夜间岗位检索单轮收口，修复了 `岗位检索流程` 从写死示例数据改为真实候选映射与硬排重读取。</li><li>结果计数：新发布 0；今日新发现 44；A/B候选 1；待核验 8；排除 35。</li><li>站点已发布到 `https://schovayang-creator.github.io/cao-doctor-job-daily/archive/2026-06-09.html`，commit `1c11456`，HTTP 200 已验证。</li><li>微信通知先被 `openclaw` 的 Homebrew node 动态库问题阻塞，后用 `PATH=本地归档 手动补发成功，`deliverySucceeded: true`。</li><li>`state/latest.json` 已补回 `archive_url`、`commit_hash`、`verification`、`weixin_notice_succeeded=true`。</li></ul>
+          <p>2026-06-10 23:59 Asia/Shanghai</p>
+          <ul class="mini-list"><li>Read latest control context and nightly job-search state before acting.</li><li>Patched `本地归档 to default to live search instead of preferring old snapshots, and refreshed execution-log generation.</li><li>Patched `本地归档 to include the required 3-minute brief sections in Markdown and HTML outputs.</li><li>Ran syntax checks and unit tests for the nightly job-search code; tests passed.</li><li>The live automated search runner stalled on external search connectivity, so I switched to manual live official verification and fi…</li></ul>
         </article>
         <aside class="summary-side">
           <b>批阅路径</b>
@@ -107,15 +107,19 @@
       </div>
     </section>
   
-      <article class="panel doc"><div class="section-title"><h2>报告正文</h2><span>memory</span></div><p>2026-06-09 22:51:40 CST</p>
+      <article class="panel doc"><div class="section-title"><h2>报告正文</h2><span>memory</span></div><p>2026-06-10 23:59 Asia/Shanghai</p>
 <ul>
-<li>完成 2026-06-09 曹博士夜间岗位检索单轮收口，修复了 <code>run_nightly_job_search.py</code> 从写死示例数据改为真实候选映射与硬排重读取。</li>
-<li>运行策略改为当前手动执行使用 <code>NIGHTLY_MAX_ROUNDS=1</code>、快照优先发现、官方页实时核验、短超时抓取，避免 DuckDuckGo 联网卡死。</li>
-<li>当天产出已生成：长报告、简报、CSV、JSON、HTML、执行日志、history、state。</li>
-<li>结果计数：新发布 0；今日新发现 44；A/B候选 1；待核验 8；排除 35。</li>
-<li>站点已发布到 <code><a href="https://schovayang-creator.github.io/cao-doctor-job-daily/archive/2026-06-09.html">https://schovayang-creator.github.io/cao-doctor-job-daily/archive/2026-06-09.html</a></code>，commit <code>1c11456</code>，HTTP 200 已验证。</li>
-<li>微信通知先被 <code>openclaw</code> 的 Homebrew node 动态库问题阻塞，后用 <code>PATH=本地归档</code> 手动补发成功，<code>deliverySucceeded: true</code>。</li>
-<li><code>state/latest.json</code> 已补回 <code>archive_url</code>、<code>commit_hash</code>、<code>verification</code>、<code>weixin_notice_succeeded=true</code>。</li>
+<li>Read latest control context and nightly job-search state before acting.</li>
+<li>Patched <code>本地归档</code> to default to live search instead of preferring old snapshots, and refreshed execution-log generation.</li>
+<li>Patched <code>本地归档</code> to include the required 3-minute brief sections in Markdown and HTML outputs.</li>
+<li>Ran syntax checks and unit tests for the nightly job-search code; tests passed.</li>
+<li>The live automated search runner stalled on external search connectivity, so I switched to manual live official verification and finalized today from official Nantong sources.</li>
+<li>Generated 2026-06-10 outputs under <code>本地归档</code> with 2 new findings: 1 A/B candidate and 1 pending verification, both from the official Nantong health-system long-term recruitment notice and attachment.</li>
+<li>Updated <code>seen-jobs.csv</code>, <code>source-runs.csv</code>, <code>latest.json</code>, and history for 2026-06-10.</li>
+<li>Published the redacted job-daily site to <code>cao-doctor-job-daily</code>; commit <code>1ab2656</code> pushed successfully.</li>
+<li>Final public verification status: <code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-10/cron/automation-3/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-10/cron/automation-3/index.html</a></code> returned HTTP 200; <code><a href="https://schovayang-creator.github.io/cao-doctor-job-daily/archive/2026-06-10.html">https://schovayang-creator.github.io/cao-doctor-job-daily/archive/2026-06-10.html</a></code> was still 404 at final check, likely Pages cache delay.</li>
+<li>OpenClaw Weixin notification could not be proven successful because the verified command timed out repeatedly without returning <code>deliverySucceeded: true</code> JSON.</li>
+<li>Runtime: about 1h26m for this run including code repair, live verification, publishing, and notification retries.</li>
 </ul></article>
     </div>
   
@@ -123,6 +127,6 @@
       </div>
     </main>
   </div>
-  <script src="../../../../assets/commander.js"></script>
+  <script src="../../../../assets/commander.js?v=20260610-todo1"></script>
 </body>
 </html>
