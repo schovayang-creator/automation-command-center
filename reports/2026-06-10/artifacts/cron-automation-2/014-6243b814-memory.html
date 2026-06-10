@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">844 B</span>
-            <span class="chip">2026-06-09 11:04:30</span>
+            <span class="chip">2 KB</span>
+            <span class="chip">2026-06-10 11:26:53</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>844 B</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>2 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -117,6 +117,16 @@
 <li>已做一次安全修复：仅本次命令前置 PATH 到 本地归档 后重试。</li>
 <li>OpenClaw agent JSON 回执确认 deliverySucceeded: true，微信发送成功。</li>
 <li>运行时长：2m 33s。</li>
+</ul>
+<p>2026-06-10 运行摘要</p>
+<ul>
+<li>已在 本地归档 执行 ./scripts/run_daily_brief.sh，并生成运行日志、长版日报、3分钟简报、全局进展扫描、明日任务队列、日报站点、本地看板和总控台本地产物。</li>
+<li>根因1：主脚本在日报站点 commit 后未完成 push；根因2：3分钟简报仍是旧 bullet 格式，不符合“今天结论/今日重点/风险和缺口/下一步/公开入口”结构；根因3：GitHub HTTPS push 受 HTTP/2/443 网络异常影响。</li>
+<li>已做安全修复：为 generate_daily_brief.py 新增四段式简报生成逻辑和失败测试；为日报站点与自动化总控台发布脚本统一改用 git http.version=HTTP/1.1；run_daily_brief.sh 的待发送微信文案已补齐固定字段。</li>
+<li>已重新生成并发布：总经理日报站点最新提交 fdfb41a，自动化总控台公开树最新提交 34f1325；日报索引页、稳定长报告页、公开当天总看板页、公开 automation-2 详情页 curl 均返回 HTTP 200。</li>
+<li>OpenClaw 主日报通知已通过固定 agent 路由发送，JSON 回执确认 deliverySucceeded: true / deliveryStatus.succeeded: true；总控台补通知也已通过同一路由发送成功。</li>
+<li>备注：run_daily_brief.sh 仍可能在网络波动时先停在 commit 后阶段，但本次已通过最小补救完成发布闭环。</li>
+<li>运行时长：23m 18s。</li>
 </ul></article>
     </div>
   

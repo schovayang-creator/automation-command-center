@@ -1,6 +1,6 @@
 顺序,代码,日报,负责人,状态,XP,摘要,页面
 1,01,A股每日模拟盘研究与盈亏回放,交易研究官,已收录,16,今天只完成 A 股模拟盘回放，不涉及真实交易；模拟账户当日盈亏为 +869.73 CNY，当日收益率 +0.87%。,reports/2026-06-10/cron/a/index.html
-2,02,Hermes 每日任务,内容简报官,已收录,100,今天素材雷达跑出 2 条素材信号，其中 0 条可尝试、2 条先停放。,reports/2026-06-10/cron/hermes/index.html
+2,02,Hermes 每日任务,内容简报官,已收录,100,今天素材雷达跑出 8 条素材信号，其中 6 条可尝试、2 条先停放。,reports/2026-06-10/cron/hermes/index.html
 3,03,双创比赛今日任务发布到 Linux 桌面,机会雷达官,已收录,44,今天不建议新增申报，重点是收口已经处在官方窗口内的存量机会。,reports/2026-06-10/cron/automation/index.html
 4,04,Linux 工作日报验收并拉取到 Mac,Linux 验收官,已收录,40,Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。,reports/2026-06-10/cron/17-00-linux-mac/index.html
 5,05,总经理日报,总经理助理,已收录,125,总经理日报已生成，核心是经营判断、项目任务看板、董事长决策题和明日队列。,reports/2026-06-10/cron/automation-2/index.html

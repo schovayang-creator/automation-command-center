@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">8.0 MB</span>
-            <span class="chip">2026-06-10 11:20:02</span>
+            <span class="chip">8.2 MB</span>
+            <span class="chip">2026-06-10 11:27:16</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>195</b><span>评分</span></div><div class="metric"><b>8.0 MB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>180</b><span>评分</span></div><div class="metric"><b>8.2 MB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,14 +93,14 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>现在还存在一个问题 codex每次答复的内容太多了 信息太多我没法从里面挑出有用的信息，所以我需要AI帮我筛选一次，又希望Ai帮我将内容都落地…</h3>
-          <p>**Handoff Summary** **Current Progress** - User’s active goal: build a CEO/TODO workflow for solving “Codex replies are too verbose; need AI to filter for chat while preserving/landing full detail,” with stages 封测 -&gt; 内测 -&gt; 公测. - Location: 本地归档 - Current true status: - 封测: PASS, completed. - 内测: in progress. - 公测: not due. - 7-day beta record has only 2026-06-10 filled. 2026-06-11 through 2026-06-16 must stay 待记录 until real date/human-AI interaction. - final_acceptance_audit.py --today 2026-06-10 should FAIL. This is expected. - Main workflow now uses: - four-section final chat reply: 结论 / 需要你决定 / 已落地 / 已归档 - four-layer preservation: raw / filtered / landing / audit - Core scripts: - 本地归档 - run_beta_day.py - record_beta_day.py - validate_reply_format.py - validate</p>
-          <ul class="mini-list"><li>**Handoff Summary** **Current Progress** - User’s active goal: build a CEO/TODO workflow for solving “Codex replies are too verbose</li></ul>
+          <p>**结论** 办法已经落地：以后前台只给你看四段式短答复：结论 / 需要你决定 / 已落地 / 已归档；后台保留全量内容到 raw / filtered / landing / audit 四层，不丢细节。 **需要你决定** 是否把四段式短回复作为 Codex 默认答复格式。这个确认只代表“以后默认这么答”，不等于 CEO/TODO 内测公测确认。 **已落地** 我补强了 本地归档 --title / --slug 如果还是模板占位，比如 YYYY-MM-DD、第 N 天、第N天，会直接拒绝写入，避免假归档。 验证结果： - CEO/TODO 测试：53 passed - 总经理日报测试：33 passed - 内测完整性：PASS - 当前状态：BETA_IN_PROGRESS - 最终结案审计：FAIL，这是正确的，因为 7 天内测还没结束 **已归档** 已写入总经理沟通记录和状态文件。 本轮四层归档已生成到： - 本地归档 - 本地归档 - 本地归档 - 本地归档 没有创建 董事长确认.md，也没有写未来日期内测记录。</p>
+          <ul class="mini-list"><li>**结论** 办法已经落地：以后前台只给你看四段式短答复：结论 / 需要你决定 / 已落地 / 已归档</li><li>**需要你决定** 是否把四段式短回复作为 Codex 默认答复格式</li><li>这个确认只代表“以后默认这么答”，不等于 CEO/TODO 内测公测确认</li><li>**已落地** 我补强了 本地归档 --title / --slug 如果还是模板占位，比如 YYYY-MM-DD、第 N 天、第N天，会直接拒绝写入，避免假归档</li><li>本轮四层归档已生成到： - 本地归档 - 本地归档 - 本地归档 - 本地归档 没有创建 董事长确认.md，也没有写未来日期内测记录</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：现在还存在一个问题 codex每次答复的内容太多了 信息太多我没法从里面挑出有用的信息，所以我需要AI帮我…</span>
           <span>开始：2026-06-10 10:24:58</span>
-          <span>完成：1781090061</span>
+          <span>完成：1781090774</span>
           <span>HTML 成品：0</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
@@ -112,55 +112,31 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p><strong>Handoff Summary</strong> <strong>Current Progress</strong> - User’s active goal: build a CEO/TODO workflow for solving “Codex replies are too verbose; need AI to filter for chat while preserving/landing full detail,” with stages 封测 -&gt; 内测 -&gt; 公测. - Location: 本地归档 - Current true status: - 封测: PASS, completed. - 内测: in progress. - 公测: not due. - 7-day beta record has only 2026-06-10 filled. 2026-06-11 through 2026-06-16 must stay 待记录 until real date/human-AI interaction. - final_acceptance_audit.py --today 2026-06-10 should FAIL. This is expected. - Main workflow now uses: - four-section final chat reply: 结论 / 需要你决定 / 已落地 / 已归档 - four-layer preservation: raw / filtered / landing / audit - Core scripts: - 本地归档 - run_beta_day.py - record_beta_day.py - validate_reply_format.py - validate</p></article>
+      <article class="doc"><p><strong>结论</strong> 办法已经落地：以后前台只给你看四段式短答复：结论 / 需要你决定 / 已落地 / 已归档；后台保留全量内容到 raw / filtered / landing / audit 四层，不丢细节。 <strong>需要你决定</strong> 是否把四段式短回复作为 Codex 默认答复格式。这个确认只代表“以后默认这么答”，不等于 CEO/TODO 内测公测确认。 <strong>已落地</strong> 我补强了 本地归档 --title / --slug 如果还是模板占位，比如 YYYY-MM-DD、第 N 天、第N天，会直接拒绝写入，避免假归档。 验证结果： - CEO/TODO 测试：53 passed - 总经理日报测试：33 passed - 内测完整性：PASS - 当前状态：BETA_IN_PROGRESS - 最终结案审计：FAIL，这是正确的，因为 7 天内测还没结束 <strong>已归档</strong> 已写入总经理沟通记录和状态文件。 本轮四层归档已生成到： - 本地归档 - 本地归档 - 本地归档 - 本地归档 没有创建 董事长确认.md，也没有写未来日期内测记录。</p></article>
     </section>
     
     <section class="panel">
-      <div class="section-title"><h2>关联本地证据</h2><span>11 个文件路径</span></div>
+      <div class="section-title"><h2>关联本地证据</h2><span>5 个文件路径</span></div>
       <div class="compact-list">
         <a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">MD</span>
-          <div><h3>2026-06-10-CEO-TODO-最终审计覆盖保护补强-raw.md</h3><p>~/Desktop/Codex工作记录/脱敏证据</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">MD</span>
-          <div><h3>2026-06-10-CEO-TODO-最终审计覆盖保护补强-filtered.md</h3><p>~/Desktop/Codex工作记录/filtered/2026-06-10-CEO-TODO-最终审计覆盖保护补强-filtered.md</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">MD</span>
-          <div><h3>2026-06-10-CEO-TODO-最终审计覆盖保护补强-landing.md</h3><p>~/Desktop/Codex工作记录/landing/2026-06-10-CEO-TODO-最终审计覆盖保护补强-landing.md</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">MD</span>
-          <div><h3>2026-06-10-CEO-TODO-最终审计覆盖保护补强-audit.md</h3><p>~/Desktop/Codex工作记录/audit/2026-06-10-CEO-TODO-最终审计覆盖保护补强-audit.md</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
           <span class="nav-code">PY</span>
           <div><h3>create_worklog_bundle.py</h3><p>~/Desktop/CEO/TODO/内测/Codex输出二次筛选与落地闭环/scripts/create_worklog_bundle.py</p></div>
           <div class="row-actions"><span>证据</span></div>
         </a><a class="compact-row click-card" href="#" data-local-only="true">
           <span class="nav-code">MD</span>
-          <div><h3>任务总表.md</h3><p>~/Desktop/CEO/TODO/任务总表.md</p></div>
+          <div><h3>2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-raw.md</h3><p>~/Desktop/Codex工作记录/脱敏证据</p></div>
           <div class="row-actions"><span>证据</span></div>
         </a><a class="compact-row click-card" href="#" data-local-only="true">
           <span class="nav-code">MD</span>
-          <div><h3>完成审计.md</h3><p>~/Desktop/CEO/TODO/完成审计.md</p></div>
+          <div><h3>2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-filtered.md</h3><p>~/Desktop/Codex工作记录/filtered/2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-filtered.md</p></div>
           <div class="row-actions"><span>证据</span></div>
         </a><a class="compact-row click-card" href="#" data-local-only="true">
           <span class="nav-code">MD</span>
-          <div><h3>7天内测记录.md</h3><p>~/Desktop/CEO/TODO/内测/Codex输出二次筛选与落地闭环/7天内测记录.md</p></div>
+          <div><h3>2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-landing.md</h3><p>~/Desktop/Codex工作记录/landing/2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-landing.md</p></div>
           <div class="row-actions"><span>证据</span></div>
         </a><a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">PY</span>
-          <div><h3>validate_beta_integrity.py</h3><p>~/Desktop/CEO/TODO/内测/Codex输出二次筛选与落地闭环/scripts/validate_beta_integrity.py</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">PY</span>
-          <div><h3>check_beta_status.py</h3><p>~/Desktop/CEO/TODO/内测/Codex输出二次筛选与落地闭环/scripts/check_beta_status.py</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">PY</span>
-          <div><h3>final_acceptance_audit.py</h3><p>~/Desktop/CEO/TODO/内测/Codex输出二次筛选与落地闭环/scripts/final_acceptance_audit.py</p></div>
+          <span class="nav-code">MD</span>
+          <div><h3>2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-audit.md</h3><p>~/Desktop/Codex工作记录/audit/2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-audit.md</p></div>
           <div class="row-actions"><span>证据</span></div>
         </a>
       </div>
