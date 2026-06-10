@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-10T15:43:30.921Z",
-  "reportDate": "2026-06-10",
+  "generatedAt": "2026-06-10T16:28:35.939Z",
+  "reportDate": "2026-06-11",
   "tables": [
     {
       "id": "daily-task-ledger",
@@ -31,7 +31,7 @@
           "产物": 2,
           "XP": 16,
           "验收规则": "模拟盘日报、盈亏回放、持仓、skill 复盘和次日观察计划进入每日日报。",
-          "页面": "reports/2026-06-10/cron/a/index.html"
+          "页面": "reports/2026-06-11/cron/a/index.html"
         },
         {
           "顺序": 2,
@@ -41,10 +41,10 @@
           "来源工作区": "AI-IP-Studio",
           "角色": "内容简报官",
           "状态": "ACTIVE",
-          "产物": 12,
-          "XP": 100,
+          "产物": 1,
+          "XP": 14,
           "验收规则": "素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。",
-          "页面": "reports/2026-06-10/cron/hermes/index.html"
+          "页面": "reports/2026-06-11/cron/hermes/index.html"
         },
         {
           "顺序": 3,
@@ -54,10 +54,10 @@
           "来源工作区": "自动化工厂",
           "角色": "机会雷达官",
           "状态": "ACTIVE",
-          "产物": 4,
-          "XP": 44,
+          "产物": 2,
+          "XP": 28,
           "验收规则": "双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。",
-          "页面": "reports/2026-06-10/cron/automation/index.html"
+          "页面": "reports/2026-06-11/cron/automation/index.html"
         },
         {
           "顺序": 4,
@@ -67,10 +67,10 @@
           "来源工作区": "5月",
           "角色": "Linux 验收官",
           "状态": "ACTIVE",
-          "产物": 4,
-          "XP": 40,
+          "产物": 1,
+          "XP": 13,
           "验收规则": "Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。",
-          "页面": "reports/2026-06-10/cron/17-00-linux-mac/index.html"
+          "页面": "reports/2026-06-11/cron/17-00-linux-mac/index.html"
         },
         {
           "顺序": 5,
@@ -80,10 +80,10 @@
           "来源工作区": "5月",
           "角色": "总经理助理",
           "状态": "ACTIVE",
-          "产物": 18,
-          "XP": 125,
+          "产物": 5,
+          "XP": 78,
           "验收规则": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。",
-          "页面": "reports/2026-06-10/cron/automation-2/index.html"
+          "页面": "reports/2026-06-11/cron/automation-2/index.html"
         },
         {
           "顺序": 6,
@@ -93,10 +93,10 @@
           "来源工作区": "5月",
           "角色": "岗位情报官",
           "状态": "ACTIVE",
-          "产物": 13,
-          "XP": 115,
+          "产物": 2,
+          "XP": 28,
           "验收规则": "岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。",
-          "页面": "reports/2026-06-10/cron/automation-3/index.html"
+          "页面": "reports/2026-06-11/cron/automation-3/index.html"
         }
       ]
     },
@@ -131,15 +131,15 @@
           "频率": "每天 06:30",
           "角色": "内容简报官",
           "收录方式": "被内容日报收录",
-          "最新运行": "SUCCESS",
-          "Session": "019eae83-2094-7322-b59e-987a1cd82911",
+          "最新运行": "RECORDED",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "本地归档",
           "工作目录": "本地归档",
-          "产物": 12,
-          "XP": 100,
-          "治理分": 90,
-          "页面": "reports/2026-06-10/cron/hermes/index.html"
+          "产物": 1,
+          "XP": 14,
+          "治理分": 36,
+          "页面": "reports/2026-06-11/cron/hermes/index.html"
         },
         {
           "ID": "automation-3",
@@ -150,14 +150,14 @@
           "角色": "岗位情报官",
           "收录方式": "被每日岗位简报收录",
           "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019eb1f1-9e4d-7dc3-9749-0fb8268d3b4c",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "本地归档",
           "工作目录": "本地归档",
-          "产物": 13,
-          "XP": 115,
-          "治理分": 90,
-          "页面": "reports/2026-06-10/cron/automation-3/index.html"
+          "产物": 2,
+          "XP": 28,
+          "治理分": 47,
+          "页面": "reports/2026-06-11/cron/automation-3/index.html"
         },
         {
           "ID": "automation-2",
@@ -168,14 +168,14 @@
           "角色": "总经理助理",
           "收录方式": "被总经理日报收录",
           "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019eb132-43e3-7b80-bf83-c7c8017cc962",
-          "发布目标": "/home/wang/Desktop/今日任务.html",
+          "Session": "-",
+          "发布目标": "-",
           "Memory": "本地归档",
           "工作目录": "本地归档",
-          "产物": 18,
-          "XP": 125,
-          "治理分": 90,
-          "页面": "reports/2026-06-10/cron/automation-2/index.html"
+          "产物": 5,
+          "XP": 78,
+          "治理分": 80,
+          "页面": "reports/2026-06-11/cron/automation-2/index.html"
         },
         {
           "ID": "automation",
@@ -185,15 +185,15 @@
           "频率": "每天 07:00",
           "角色": "机会雷达官",
           "收录方式": "被每日机会简报收录",
-          "最新运行": "SUCCESS",
-          "Session": "019eae9e-9785-7e11-bf5e-e0d349deb369",
-          "发布目标": "${LINUX_USER}@${LINUX_HOST}:${REMOTE_TASK}\"",
+          "最新运行": "RECORDED",
+          "Session": "-",
+          "发布目标": "wang@192.168.3.32:22.",
           "Memory": "本地归档",
           "工作目录": "本地归档",
-          "产物": 4,
-          "XP": 44,
-          "治理分": 71,
-          "页面": "reports/2026-06-10/cron/automation/index.html"
+          "产物": 2,
+          "XP": 28,
+          "治理分": 52,
+          "页面": "reports/2026-06-11/cron/automation/index.html"
         },
         {
           "ID": "a",
@@ -203,15 +203,15 @@
           "频率": "A 股交易日 00:00",
           "角色": "交易研究官",
           "收录方式": "交易日被日报收录",
-          "最新运行": "RECORDED",
-          "Session": "019ead1d-2063-7252-abb7-843c96cda494",
+          "最新运行": "DELIVERY_SUCCESS",
+          "Session": "019eb244-f0a9-7892-8125-49c7035a32a0",
           "发布目标": "-",
           "Memory": "本地归档",
           "工作目录": "本地归档",
           "产物": 2,
           "XP": 16,
           "治理分": 44,
-          "页面": "reports/2026-06-10/cron/a/index.html"
+          "页面": "reports/2026-06-11/cron/a/index.html"
         },
         {
           "ID": "17-00-linux-mac",
@@ -222,14 +222,14 @@
           "角色": "Linux 验收官",
           "收录方式": "被每日验收记录收录",
           "最新运行": "HTTP_200",
-          "Session": "019eb0c4-6a59-73b2-8cd8-129a6e86e5b1",
+          "Session": "-",
           "发布目标": "/home/wang/Desktop/今日任务.html",
           "Memory": "本地归档",
           "工作目录": "本地归档",
-          "产物": 4,
-          "XP": 40,
-          "治理分": 66,
-          "页面": "reports/2026-06-10/cron/17-00-linux-mac/index.html"
+          "产物": 1,
+          "XP": 13,
+          "治理分": 36,
+          "页面": "reports/2026-06-11/cron/17-00-linux-mac/index.html"
         },
         {
           "ID": "24-6",
@@ -239,15 +239,15 @@
           "频率": "24 小时主控",
           "角色": "机会总控官",
           "收录方式": "作为公司机会总控类目被日报引用",
-          "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019ead22-4769-7361-9a99-7f28a22d0770",
+          "最新运行": "待归档",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "-",
           "工作目录": "本地归档",
-          "产物": 1,
-          "XP": 2,
-          "治理分": 26,
-          "页面": "reports/2026-06-10/cron/24-6/index.html"
+          "产物": 0,
+          "XP": 0,
+          "治理分": 18,
+          "页面": "reports/2026-06-11/cron/24-6/index.html"
         },
         {
           "ID": "24-2",
@@ -257,15 +257,15 @@
           "频率": "24 小时主控",
           "角色": "竞品情报官",
           "收录方式": "作为竞品类目被日报引用",
-          "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019ead22-4769-7361-9a99-7f28a22d0770",
+          "最新运行": "RECORDED",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "本地归档",
           "工作目录": "本地归档",
-          "产物": 2,
-          "XP": 14,
-          "治理分": 37,
-          "页面": "reports/2026-06-10/cron/24-2/index.html"
+          "产物": 1,
+          "XP": 12,
+          "治理分": 29,
+          "页面": "reports/2026-06-11/cron/24-2/index.html"
         },
         {
           "ID": "24",
@@ -275,15 +275,15 @@
           "频率": "24 小时主控",
           "角色": "销售转化官",
           "收录方式": "作为山西类目被日报引用",
-          "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019ead22-4769-7361-9a99-7f28a22d0770",
+          "最新运行": "RECORDED",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "本地归档",
           "工作目录": "本地归档",
-          "产物": 2,
-          "XP": 14,
-          "治理分": 37,
-          "页面": "reports/2026-06-10/cron/24/index.html"
+          "产物": 1,
+          "XP": 12,
+          "治理分": 29,
+          "页面": "reports/2026-06-11/cron/24/index.html"
         },
         {
           "ID": "automation-5",
@@ -293,15 +293,15 @@
           "频率": "24 小时主控",
           "角色": "销售转化官",
           "收录方式": "作为苏州类目被日报引用",
-          "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019ead22-4769-7361-9a99-7f28a22d0770",
+          "最新运行": "SUCCESS",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "本地归档",
           "工作目录": "本地归档",
-          "产物": 2,
-          "XP": 14,
-          "治理分": 37,
-          "页面": "reports/2026-06-10/cron/automation-5/index.html"
+          "产物": 1,
+          "XP": 12,
+          "治理分": 29,
+          "页面": "reports/2026-06-11/cron/automation-5/index.html"
         },
         {
           "ID": "automation-4",
@@ -311,15 +311,15 @@
           "频率": "24 小时主控",
           "角色": "客户转化官",
           "收录方式": "作为陶瓷膜类目被日报引用",
-          "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019ead22-4769-7361-9a99-7f28a22d0770",
+          "最新运行": "RECORDED",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "本地归档",
           "工作目录": "本地归档",
-          "产物": 2,
-          "XP": 14,
-          "治理分": 37,
-          "页面": "reports/2026-06-10/cron/automation-4/index.html"
+          "产物": 1,
+          "XP": 12,
+          "治理分": 29,
+          "页面": "reports/2026-06-11/cron/automation-4/index.html"
         },
         {
           "ID": "24-4",
@@ -329,15 +329,15 @@
           "频率": "24 小时主控",
           "角色": "意向信号官",
           "收录方式": "作为招投标类目被日报引用",
-          "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019ead22-4769-7361-9a99-7f28a22d0770",
+          "最新运行": "待归档",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "-",
           "工作目录": "本地归档",
-          "产物": 1,
-          "XP": 2,
-          "治理分": 26,
-          "页面": "reports/2026-06-10/cron/24-4/index.html"
+          "产物": 0,
+          "XP": 0,
+          "治理分": 18,
+          "页面": "reports/2026-06-11/cron/24-4/index.html"
         },
         {
           "ID": "24-3",
@@ -347,15 +347,15 @@
           "频率": "24 小时主控",
           "角色": "政策机会官",
           "收录方式": "作为政策类目被日报引用",
-          "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019ead22-4769-7361-9a99-7f28a22d0770",
+          "最新运行": "待归档",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "-",
           "工作目录": "本地归档",
-          "产物": 1,
-          "XP": 2,
-          "治理分": 26,
-          "页面": "reports/2026-06-10/cron/24-3/index.html"
+          "产物": 0,
+          "XP": 0,
+          "治理分": 18,
+          "页面": "reports/2026-06-11/cron/24-3/index.html"
         },
         {
           "ID": "24-5",
@@ -365,15 +365,15 @@
           "频率": "24 小时主控",
           "角色": "资源池官",
           "收录方式": "作为专家资源类目被日报引用",
-          "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019ead22-4769-7361-9a99-7f28a22d0770",
+          "最新运行": "待归档",
+          "Session": "-",
           "发布目标": "-",
           "Memory": "-",
           "工作目录": "本地归档",
-          "产物": 1,
-          "XP": 2,
-          "治理分": 26,
-          "页面": "reports/2026-06-10/cron/24-5/index.html"
+          "产物": 0,
+          "XP": 0,
+          "治理分": 18,
+          "页面": "reports/2026-06-11/cron/24-5/index.html"
         },
         {
           "ID": "skill",
@@ -384,14 +384,14 @@
           "角色": "研究验收官",
           "收录方式": "登记在自动化台账，不计入每日日报任务",
           "最新运行": "DELIVERY_SUCCESS",
-          "Session": "019ead22-4769-7361-9a99-7f28a22d0770",
+          "Session": "019eb244-f0a9-7892-8125-49c7035a32a0",
           "发布目标": "-",
           "Memory": "-",
           "工作目录": "-",
           "产物": 7,
           "XP": 53,
           "治理分": 76,
-          "页面": "reports/2026-06-10/cron/skill/index.html"
+          "页面": "reports/2026-06-11/cron/skill/index.html"
         }
       ]
     },
@@ -422,7 +422,7 @@
           "产物": 0,
           "关键报告": "待补",
           "说明": "苏州制造业线索池、Top20 外呼名单、直联缺口和环评触发新增统一归档；不是日报本身，由每日日报收录。",
-          "页面": "reports/2026-06-10/suzhou-customers/index.html"
+          "页面": "reports/2026-06-11/suzhou-customers/index.html"
         },
         {
           "ID": "shanxi-rd",
@@ -434,7 +434,7 @@
           "产物": 0,
           "关键报告": "待补",
           "说明": "山西研发、检测认证、实验室专项和持续拓展线索统一收口；不是日报本身，由每日日报收录。",
-          "页面": "reports/2026-06-10/shanxi-rd/index.html"
+          "页面": "reports/2026-06-11/shanxi-rd/index.html"
         },
         {
           "ID": "ceramic-membrane",
@@ -446,7 +446,7 @@
           "产物": 0,
           "关键报告": "待补",
           "说明": "陶瓷膜下游厂家研究转成采购入口、Top20 核验和可销售切入包。",
-          "页面": "reports/2026-06-10/ceramic-membrane/index.html"
+          "页面": "reports/2026-06-11/ceramic-membrane/index.html"
         },
         {
           "ID": "competitor-intel",
@@ -458,7 +458,7 @@
           "产物": 7,
           "关键报告": "Top 20 值得重点对标服务商 / 同行服务包拆解报告 / 本公司服务产品化建议",
           "说明": "同行服务包、证据对象、价格锚点、服务 SKU 和销售话术统一入库。",
-          "页面": "reports/2026-06-10/competitor-intel/index.html"
+          "页面": "reports/2026-06-11/competitor-intel/index.html"
         },
         {
           "ID": "competition-scout",
@@ -467,10 +467,10 @@
           "状态": "已发布",
           "类型": "业务类目",
           "节奏": "类目汇报",
-          "产物": 4,
-          "关键报告": "今日任务 - 双创比赛 / 双创比赛机会表_2026-05-27_更新版 / 全国人才政策创新创业大赛总表_含苏州专项_2026-05-27_阶段终版",
+          "产物": 3,
+          "关键报告": "双创比赛机会表_2026-05-27_更新版 / 全国人才政策创新创业大赛总表_含苏州专项_2026-05-27_阶段终版 / 各地人才政策创新创业大赛机会报告_2026-05-27",
           "说明": "双创比赛早间任务发布和历史机会总表并入每日机会入口。",
-          "页面": "reports/2026-06-10/competition-scout/index.html"
+          "页面": "reports/2026-06-11/competition-scout/index.html"
         },
         {
           "ID": "policy-subsidy",
@@ -482,7 +482,7 @@
           "产物": 0,
           "关键报告": "待补",
           "说明": "政策、补贴、项目申报机会与客户匹配建议进入日报体系；当前保留类目位，等待主控产物归档。",
-          "页面": "reports/2026-06-10/policy-subsidy/index.html"
+          "页面": "reports/2026-06-11/policy-subsidy/index.html"
         },
         {
           "ID": "bidding-signal",
@@ -494,7 +494,7 @@
           "产物": 0,
           "关键报告": "待补",
           "说明": "招投标、环评、备案、技改、设备更新等花钱信号进入日报体系；当前保留类目位。",
-          "页面": "reports/2026-06-10/bidding-signal/index.html"
+          "页面": "reports/2026-06-11/bidding-signal/index.html"
         },
         {
           "ID": "expert-pool",
@@ -506,7 +506,7 @@
           "产物": 0,
           "关键报告": "待补",
           "说明": "专家、高校、博士团队、技术转移与产学研资源进入日报体系；当前保留类目位。",
-          "页面": "reports/2026-06-10/expert-pool/index.html"
+          "页面": "reports/2026-06-11/expert-pool/index.html"
         },
         {
           "ID": "company-command",
@@ -518,7 +518,7 @@
           "产物": 0,
           "关键报告": "待补",
           "说明": "公司机会、销售触点、政策、客户和资源池的总控类目；作为跨类目汇总入口保留。",
-          "页面": "reports/2026-06-10/company-command/index.html"
+          "页面": "reports/2026-06-11/company-command/index.html"
         },
         {
           "ID": "codex-html",
@@ -527,10 +527,10 @@
           "状态": "自动收录",
           "类型": "交付件看板",
           "节奏": "按日归档",
-          "产物": 78,
-          "关键报告": "AUTO_INTAKE_FIXTURE_2026-06-10 / 曹博士夜间岗位检索看板 / 今日任务 - 双创比赛",
+          "产物": 3,
+          "关键报告": "A股每日模拟盘研究与盈亏回放 / 十路 A股 Workflow 预测实验 / A股每日模拟盘研究与盈亏回放",
           "说明": "当天 Codex 会话和本地看板提到的 HTML 成品统一进入这里：每个 HTML 都有总控台风格批阅页，说明做了什么、脱敏证据在哪里。",
-          "页面": "reports/2026-06-10/codex-html/index.html"
+          "页面": "reports/2026-06-11/codex-html/index.html"
         },
         {
           "ID": "codex-work",
@@ -539,10 +539,10 @@
           "状态": "自动收录",
           "类型": "交差看板",
           "节奏": "按会话归档",
-          "产物": 17,
-          "关键报告": "<name>startup-competition-scout</name> <path>本地归档 --- name: startup-com… / 你是并行后台审计 agent。任务：只读审计 `本地归档 的当天总日报体系，重点看 `reports/2026-06-10/daily-rep… / <name>openclaw-cron-weixin-notify</name> <path>本地归档 --- name: openclaw-…",
+          "产物": 1,
+          "关键报告": "自动化任务：A股每日模拟盘研究与盈亏回放",
           "说明": "本机 Codex 会话按日期自动生成交差页：每次工作都说明用户要什么、Codex 做了什么、结果和证据在哪里；HTML 成品另进入 Codex HTML 交付件看板。",
-          "页面": "reports/2026-06-10/codex-work/index.html"
+          "页面": "reports/2026-06-11/codex-work/index.html"
         }
       ]
     },
@@ -568,18 +568,18 @@
           "负责人": "交易研究官",
           "状态": "已收录",
           "XP": 16,
-          "摘要": "今天只完成 A 股模拟盘回放，不涉及真实交易；模拟账户当日盈亏为 +869.73 CNY，当日收益率 +0.87%。",
-          "页面": "reports/2026-06-10/cron/a/index.html"
+          "摘要": "今天只完成 A 股模拟盘回放，不涉及真实交易；模拟账户当日盈亏为 -790.96 CNY，当日收益率 -0.79%。",
+          "页面": "reports/2026-06-11/cron/a/index.html"
         },
         {
           "顺序": 2,
           "代码": "02",
           "日报": "Hermes 每日任务",
           "负责人": "内容简报官",
-          "状态": "已收录",
-          "XP": 100,
-          "摘要": "今天素材雷达跑出 8 条素材信号，其中 6 条可尝试、2 条先停放。",
-          "页面": "reports/2026-06-10/cron/hermes/index.html"
+          "状态": "今日待补",
+          "XP": 14,
+          "摘要": "今天 Hermes 产出的是素材雷达，不是直接发布稿；重点看可尝试选题和素材风险。",
+          "页面": "reports/2026-06-11/cron/hermes/index.html"
         },
         {
           "顺序": 3,
@@ -587,19 +587,19 @@
           "日报": "双创比赛今日任务发布到 Linux 桌面",
           "负责人": "机会雷达官",
           "状态": "已收录",
-          "XP": 44,
+          "XP": 28,
           "摘要": "今天不建议新增申报，重点是收口已经处在官方窗口内的存量机会。",
-          "页面": "reports/2026-06-10/cron/automation/index.html"
+          "页面": "reports/2026-06-11/cron/automation/index.html"
         },
         {
           "顺序": 4,
           "代码": "04",
           "日报": "Linux 工作日报验收并拉取到 Mac",
           "负责人": "Linux 验收官",
-          "状态": "已收录",
-          "XP": 40,
+          "状态": "今日待补",
+          "XP": 13,
           "摘要": "Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。",
-          "页面": "reports/2026-06-10/cron/17-00-linux-mac/index.html"
+          "页面": "reports/2026-06-11/cron/17-00-linux-mac/index.html"
         },
         {
           "顺序": 5,
@@ -607,19 +607,19 @@
           "日报": "总经理日报",
           "负责人": "总经理助理",
           "状态": "已收录",
-          "XP": 125,
+          "XP": 78,
           "摘要": "总经理日报已生成，核心是经营判断、项目任务看板、董事长决策题和明日队列。",
-          "页面": "reports/2026-06-10/cron/automation-2/index.html"
+          "页面": "reports/2026-06-11/cron/automation-2/index.html"
         },
         {
           "顺序": 6,
           "代码": "06",
           "日报": "曹博士岗位日报",
           "负责人": "岗位情报官",
-          "状态": "已收录",
-          "XP": 115,
-          "摘要": "曹博士岗位日报已进入总控台，重点看新增岗位、核验状态和投递优先级。",
-          "页面": "reports/2026-06-10/cron/automation-3/index.html"
+          "状态": "今日待补",
+          "XP": 28,
+          "摘要": "今天没有找到曹博士岗位日报成品，日报入口保留为待补。",
+          "页面": "reports/2026-06-11/cron/automation-3/index.html"
         }
       ]
     },
@@ -884,7 +884,7 @@
           "等级": "Lv.4",
           "奖励": "OKR 周期看板",
           "条件": "年度/季度/月度/周目标完成至少一层拆解。",
-          "当前状态": "已开启"
+          "当前状态": "未解锁"
         },
         {
           "等级": "Lv.5",
@@ -935,7 +935,7 @@
           "当前 XP": 260,
           "评分": 42,
           "状态": "待补 KR 数据",
-          "页面": "reports/2026-06-10/roles/index.html"
+          "页面": "reports/2026-06-11/roles/index.html"
         },
         {
           "代码": "CTD",
@@ -945,7 +945,7 @@
           "当前 XP": 360,
           "评分": 58,
           "状态": "P0 缺口已显式列出",
-          "页面": "reports/2026-06-10/daily-report/index.html"
+          "页面": "reports/2026-06-11/daily-report/index.html"
         },
         {
           "代码": "PTD",
@@ -972,20 +972,20 @@
           "轨道": "每日日报任务",
           "负责人": "自动化主管",
           "目标": "6 个固定每日任务进入每日日报；其他自动化继续登记在自动化台账。",
-          "当前 XP": 1037,
-          "评分": 100,
+          "当前 XP": 758,
+          "评分": 73,
           "状态": "15 个自动化",
-          "页面": "reports/2026-06-10/cron/index.html"
+          "页面": "reports/2026-06-11/cron/index.html"
         },
         {
           "代码": "RPT",
           "轨道": "日报复盘",
           "负责人": "总经理助理",
           "目标": "六个固定 cron 按序汇总，作为当天总账。",
-          "当前 XP": 720,
+          "当前 XP": 360,
           "评分": 80,
           "状态": "6 个每日 cron 日报",
-          "页面": "reports/2026-06-10/daily-report/index.html"
+          "页面": "reports/2026-06-11/daily-report/index.html"
         }
       ]
     },
@@ -1043,7 +1043,7 @@
           "数据来源": "growthSystem、dailyReports、todoItems、dailyTasks、health、modules、automations。",
           "阅读方式": "先看 P0/P1 待办，再看六个每日 cron 是否齐，再进入数据表格或体系详图查看底层口径。",
           "验收标准": "第一屏必须不空；六个每日 cron 必须顺序固定；每日任务必须按 00:00、06:30、07:00、17:00、19:00、22:30 展示。",
-          "详细入口": "reports/2026-06-10/system-detail/index.html"
+          "详细入口": "reports/2026-06-11/system-detail/index.html"
         },
         {
           "页面ID": "cron",
@@ -1053,7 +1053,7 @@
           "数据来源": "~/.codex/automations/*/automation.toml + 每个自动化本地产物目录。",
           "阅读方式": "每日任务进入每日日报；24 小时专项进入业务类目；一次性只作为台账登记，按需被日报引用。",
           "验收标准": "每条自动化必须显示状态、角色、频率、收录方式、产物数、积分、来源和关联页面。",
-          "详细入口": "reports/2026-06-10/data-tables/index.html#automation-ledger"
+          "详细入口": "reports/2026-06-11/data-tables/index.html#automation-ledger"
         },
         {
           "页面ID": "categories",
@@ -1063,7 +1063,7 @@
           "数据来源": "自动化工厂各业务目录的 24小时主控、手动 goal、主目录成果。",
           "阅读方式": "类目页看阶段成果，报告批阅页看具体 Markdown/CSV/HTML/JSON 证据。",
           "验收标准": "类目必须能说明产物归属、当前状态、关键报告和缺口；待归档类目必须显式保留位。",
-          "详细入口": "reports/2026-06-10/data-tables/index.html#module-ledger"
+          "详细入口": "reports/2026-06-11/data-tables/index.html#module-ledger"
         },
         {
           "页面ID": "daily-report",
@@ -1073,7 +1073,7 @@
           "数据来源": "dailyTasks、buildDailyReports、自动化 topArtifacts、业务类目 topArtifacts。",
           "阅读方式": "先看 6 条每日任务归类，再看 1 到 6 的日报汇总，最后看今日关键汇报和收录规则。",
           "验收标准": "A 股、Hermes、双创、Linux、总经理、曹博士必须是每日任务；苏州、山西、陶瓷膜等只能是业务类目引用对象。",
-          "详细入口": "reports/2026-06-10/system-detail/index.html#daily-report-detail"
+          "详细入口": "reports/2026-06-11/system-detail/index.html#daily-report-detail"
         },
         {
           "页面ID": "verification",
@@ -1083,7 +1083,7 @@
           "数据来源": "验证脚本、system-tables、响应式截图目录、核心页面和固定自动化详情页。",
           "阅读方式": "先看总结果，再看覆盖矩阵、验证命令、截图清单和人工复核项；失败项必须回到生成器修复。",
           "验收标准": "最终日报必须覆盖固定自动化、本地 Codex 项目、公司管理、体重管理、等级 XP 和批阅链接；核心验证脚本必须可重复运行。",
-          "详细入口": "reports/2026-06-10/verification/index.html"
+          "详细入口": "reports/2026-06-11/verification/index.html"
         },
         {
           "页面ID": "roles",
@@ -1093,7 +1093,7 @@
           "数据来源": "levelDefs、xpRules、rewardDefs、weightMilestones、trackDefs、xpAllocationDefs、roleDefs。",
           "阅读方式": "先看总等级和六条成长轨道，再看等级阶梯、奖励、XP 事件、扣分和复盘规则。",
           "验收标准": "每个 XP 来源必须有证据；奖励必须是权限或复盘能力，不做空洞游戏化装饰。",
-          "详细入口": "reports/2026-06-10/system-detail/index.html#level-detail"
+          "详细入口": "reports/2026-06-11/system-detail/index.html#level-detail"
         },
         {
           "页面ID": "calendar",
@@ -1103,7 +1103,7 @@
           "数据来源": "健康 CSV、当日日报、ACTIVE 自动化、成长轨道。",
           "阅读方式": "有内容日期可点击；体重记录和自动化/日报状态都在日历上形成连续性。",
           "验收标准": "不能只做日期归档；必须能说明每天哪些轨道入账、哪些轨道缺失。",
-          "详细入口": "reports/2026-06-10/system-detail/index.html#calendar-detail"
+          "详细入口": "reports/2026-06-11/system-detail/index.html#calendar-detail"
         },
         {
           "页面ID": "help",
@@ -1113,7 +1113,7 @@
           "数据来源": "系统定义、数据表、Codex 自动化配置、运行记录、用户需求台账和自评指标。",
           "阅读方式": "需要改规则、查配置、看证据、排查链接时进入；日常验收优先看总看板、日报、自动化简报和角色页。",
           "验收标准": "Help 可以出现配置、Session、memory、页面说明和验收口径；最终页不展示这些后台语言。",
-          "详细入口": "reports/2026-06-10/help/index.html"
+          "详细入口": "reports/2026-06-11/help/index.html"
         },
         {
           "页面ID": "data-tables",
@@ -1123,7 +1123,7 @@
           "数据来源": "本生成器构造的 systemTables，同时导出到 data/tables/*.csv 和 data/system-tables.json。",
           "阅读方式": "需要改规则时先看表；需要追踪数据时看 CSV；需要确认页面口径时看页面说明表。",
           "验收标准": "每个主数据域必须有可读表格和可下载 CSV，不只依赖页面卡片。",
-          "详细入口": "reports/2026-06-10/system-detail/index.html#data-detail"
+          "详细入口": "reports/2026-06-11/system-detail/index.html#data-detail"
         },
         {
           "页面ID": "system-detail",
@@ -1133,7 +1133,7 @@
           "数据来源": "所有核心定义和当日采集结果。",
           "阅读方式": "先读 3 分钟简报，再按章节进入数据表、等级、日报、页面说明和验收清单。",
           "验收标准": "详细页必须比简报页更厚，能作为后续手动修改规则的依据。",
-          "详细入口": "reports/2026-06-10/system-detail/index.html"
+          "详细入口": "reports/2026-06-11/system-detail/index.html"
         }
       ]
     },
@@ -1156,7 +1156,7 @@
           "执行项": "第一屏判定",
           "说明": "只看等级看板、当天待办和六个每日 cron 是否齐。这里不展开长文，负责总态势分流。",
           "负责人": "总指挥",
-          "入口": "reports/2026-06-10/index.html"
+          "入口": "reports/2026-06-11/index.html"
         },
         {
           "页面ID": "dashboard",
@@ -1164,7 +1164,7 @@
           "执行项": "待办验收",
           "说明": "P0/P1 必须能点到日报、自动化或类目页；不能验收的事项留在待补，不给 XP。",
           "负责人": "验收官",
-          "入口": "reports/2026-06-10/daily-report/index.html"
+          "入口": "reports/2026-06-11/daily-report/index.html"
         },
         {
           "页面ID": "dashboard",
@@ -1172,7 +1172,7 @@
           "执行项": "日报顺序",
           "说明": "六个每日 cron 固定按 A 股、Hermes、双创、Linux、总经理、曹博士排布，避免当天入口散掉。",
           "负责人": "日报复盘官",
-          "入口": "reports/2026-06-10/daily-report/index.html"
+          "入口": "reports/2026-06-11/daily-report/index.html"
         },
         {
           "页面ID": "dashboard",
@@ -1180,7 +1180,7 @@
           "执行项": "下钻方式",
           "说明": "简报看不够时先到体系详图，再到数据表格；所有卡片优先整块可点击。",
           "负责人": "系统司令",
-          "入口": "reports/2026-06-10/system-detail/index.html"
+          "入口": "reports/2026-06-11/system-detail/index.html"
         },
         {
           "页面ID": "cron",
@@ -1188,7 +1188,7 @@
           "执行项": "每日任务归类",
           "说明": "A 股、Hermes、双创、Linux、总经理、曹博士六条固定每日 cron 进入每日日报任务表。",
           "负责人": "自动化主管",
-          "入口": "reports/2026-06-10/data-tables/index.html#daily-task-ledger"
+          "入口": "reports/2026-06-11/data-tables/index.html#daily-task-ledger"
         },
         {
           "页面ID": "cron",
@@ -1196,7 +1196,7 @@
           "执行项": "专项 Cron",
           "说明": "苏州、山西、陶瓷膜、竞品、政策、招投标、专家资源等 24 小时主控只归入业务类目。",
           "负责人": "业务类目官",
-          "入口": "reports/2026-06-10/categories/index.html"
+          "入口": "reports/2026-06-11/categories/index.html"
         },
         {
           "页面ID": "cron",
@@ -1204,7 +1204,7 @@
           "执行项": "一次性唤醒",
           "说明": "一次性 / heartbeat 只登记在自动化台账，除非当天日报明确引用，不进入固定日报序列。",
           "负责人": "验收官",
-          "入口": "reports/2026-06-10/data-tables/index.html#automation-ledger"
+          "入口": "reports/2026-06-11/data-tables/index.html#automation-ledger"
         },
         {
           "页面ID": "cron",
@@ -1212,7 +1212,7 @@
           "执行项": "失败复盘",
           "说明": "PAUSED、无产物、缺工作目录都要显示，不用空白掩盖；下轮应进入 P1 巡检。",
           "负责人": "系统治理官",
-          "入口": "reports/2026-06-10/system-detail/index.html#data-detail"
+          "入口": "reports/2026-06-11/system-detail/index.html#data-detail"
         },
         {
           "页面ID": "categories",
@@ -1220,7 +1220,7 @@
           "执行项": "边界",
           "说明": "业务类目是项目资产池，不是每日报告；日报只引用它们的关键产物和阶段结论。",
           "负责人": "类目官",
-          "入口": "reports/2026-06-10/data-tables/index.html#module-ledger"
+          "入口": "reports/2026-06-11/data-tables/index.html#module-ledger"
         },
         {
           "页面ID": "categories",
@@ -1228,7 +1228,7 @@
           "执行项": "证据",
           "说明": "类目页只做摘要，真正证据在 Markdown、CSV、HTML、JSON 批阅页中预览。",
           "负责人": "归档官",
-          "入口": "reports/2026-06-10/categories/index.html"
+          "入口": "reports/2026-06-11/categories/index.html"
         },
         {
           "页面ID": "categories",
@@ -1236,7 +1236,7 @@
           "执行项": "保留位",
           "说明": "暂时无产物的类目保留在表里，显示待补，方便后续自动化接入。",
           "负责人": "系统司令",
-          "入口": "reports/2026-06-10/data-tables/index.html#module-ledger"
+          "入口": "reports/2026-06-11/data-tables/index.html#module-ledger"
         },
         {
           "页面ID": "categories",
@@ -1244,7 +1244,7 @@
           "执行项": "日报引用",
           "说明": "总经理日报或机会日报需要业务结论时，从类目页提取关键批阅页，不改变类目身份。",
           "负责人": "日报复盘官",
-          "入口": "reports/2026-06-10/daily-report/index.html"
+          "入口": "reports/2026-06-11/daily-report/index.html"
         },
         {
           "页面ID": "daily-report",
@@ -1252,7 +1252,7 @@
           "执行项": "六条每日任务",
           "说明": "每天按时间顺序看 00:00、06:30、07:00、17:00、19:00、22:30 六个来源。",
           "负责人": "日报复盘官",
-          "入口": "reports/2026-06-10/data-tables/index.html#daily-task-ledger"
+          "入口": "reports/2026-06-11/data-tables/index.html#daily-task-ledger"
         },
         {
           "页面ID": "daily-report",
@@ -1260,7 +1260,7 @@
           "执行项": "六个每日 cron",
           "说明": "首页和日报页都固定使用 1 到 6 的每日 cron 序列表；缺失就写缺口，不做替换。",
           "负责人": "总经理助理",
-          "入口": "reports/2026-06-10/data-tables/index.html#report-sequence"
+          "入口": "reports/2026-06-11/data-tables/index.html#report-sequence"
         },
         {
           "页面ID": "daily-report",
@@ -1268,7 +1268,7 @@
           "执行项": "关键汇报",
           "说明": "今日关键汇报要像总经理助理专属页一样密集：标题、来源、产物、状态和跳转都要有。",
           "负责人": "验收官",
-          "入口": "reports/2026-06-10/daily-report/index.html"
+          "入口": "reports/2026-06-11/daily-report/index.html"
         },
         {
           "页面ID": "daily-report",
@@ -1284,7 +1284,7 @@
           "执行项": "内容覆盖",
           "说明": "六类用户要求逐项确认：固定自动化、本地项目、公司管理、体重管理、等级 XP、批阅链接。",
           "负责人": "验收官",
-          "入口": "reports/2026-06-10/daily-report/index.html"
+          "入口": "reports/2026-06-11/daily-report/index.html"
         },
         {
           "页面ID": "verification",
@@ -1292,7 +1292,7 @@
           "执行项": "循环验证",
           "说明": "每次生成后跑 commander、linkage、daily-preview-loop、responsive 四个检查，失败即回改。",
           "负责人": "Codex",
-          "入口": "reports/2026-06-10/verification/index.html#verification-commands"
+          "入口": "reports/2026-06-11/verification/index.html#verification-commands"
         },
         {
           "页面ID": "verification",
@@ -1300,7 +1300,7 @@
           "执行项": "截图复核",
           "说明": "桌面、笔记本、平板和手机截图必须可追溯；移动首屏不能被侧栏挤掉。",
           "负责人": "视觉验收官",
-          "入口": "reports/2026-06-10/verification/index.html#screenshots"
+          "入口": "reports/2026-06-11/verification/index.html#screenshots"
         },
         {
           "页面ID": "verification",
@@ -1308,7 +1308,7 @@
           "执行项": "最终打开",
           "说明": "验收完成后直接打开当天最终日报预览页，供人工批阅通过或继续指出问题。",
           "负责人": "总指挥",
-          "入口": "reports/2026-06-10/daily-report/index.html"
+          "入口": "reports/2026-06-11/daily-report/index.html"
         },
         {
           "页面ID": "roles",
@@ -1316,7 +1316,7 @@
           "执行项": "等级阈值",
           "说明": "12 级从记录员到长期主义司令部，每一级都有 XP 下限、解锁、证据和复盘周期。",
           "负责人": "系统司令",
-          "入口": "reports/2026-06-10/data-tables/index.html#level-ladder"
+          "入口": "reports/2026-06-11/data-tables/index.html#level-ladder"
         },
         {
           "页面ID": "roles",
@@ -1324,7 +1324,7 @@
           "执行项": "XP 入账",
           "说明": "自动化、OKR、公司待办、个人待办、体重和日报分别计分；没有证据不入账。",
           "负责人": "积分官",
-          "入口": "reports/2026-06-10/data-tables/index.html#xp-events"
+          "入口": "reports/2026-06-11/data-tables/index.html#xp-events"
         },
         {
           "页面ID": "roles",
@@ -1332,7 +1332,7 @@
           "执行项": "奖励体系",
           "说明": "奖励不是皮肤，而是首页入口、异常复盘、OKR 看板、体重趋势、周复盘等操作能力。",
           "负责人": "总指挥",
-          "入口": "reports/2026-06-10/data-tables/index.html#reward-ledger"
+          "入口": "reports/2026-06-11/data-tables/index.html#reward-ledger"
         },
         {
           "页面ID": "roles",
@@ -1356,7 +1356,7 @@
           "执行项": "体重记录",
           "说明": "健康 CSV 是第一版事实源；后续可拆成体重、训练、饮食三张表。",
           "负责人": "体重管理官",
-          "入口": "reports/2026-06-10/data-tables/index.html#health-ledger"
+          "入口": "reports/2026-06-11/data-tables/index.html#health-ledger"
         },
         {
           "页面ID": "calendar",
@@ -1364,7 +1364,7 @@
           "执行项": "缺失处理",
           "说明": "没有日报、没有体重、没有待办时要显示待归档，不用空日期伪装完成。",
           "负责人": "验收官",
-          "入口": "reports/2026-06-10/system-detail/index.html#calendar-detail"
+          "入口": "reports/2026-06-11/system-detail/index.html#calendar-detail"
         },
         {
           "页面ID": "calendar",
@@ -1372,7 +1372,7 @@
           "执行项": "复盘节奏",
           "说明": "每日看当天，周末看连续性，月末看 OKR、体重和自动化失败率。",
           "负责人": "总经理助理",
-          "入口": "reports/2026-06-10/roles/index.html"
+          "入口": "reports/2026-06-11/roles/index.html"
         },
         {
           "页面ID": "data-tables",
@@ -1380,7 +1380,7 @@
           "执行项": "主数据",
           "说明": "每日任务、自动化、类目、日报、等级、XP、奖励、健康、页面说明都在这里有表。",
           "负责人": "数据台账",
-          "入口": "reports/2026-06-10/data-tables/index.html"
+          "入口": "reports/2026-06-11/data-tables/index.html"
         },
         {
           "页面ID": "data-tables",
@@ -1396,7 +1396,7 @@
           "执行项": "修改口径",
           "说明": "未来改权重、改奖励、改分类，优先修改表结构和生成器定义，再重新生成页面。",
           "负责人": "规则官",
-          "入口": "reports/2026-06-10/system-detail/index.html#data-detail"
+          "入口": "reports/2026-06-11/system-detail/index.html#data-detail"
         },
         {
           "页面ID": "data-tables",
@@ -1404,7 +1404,7 @@
           "执行项": "验收",
           "说明": "数据页验收不是看漂亮，而是看字段是否足够追责、CSV 是否可下载、链接是否能下钻。",
           "负责人": "验收官",
-          "入口": "reports/2026-06-10/data-tables/index.html#page-guide"
+          "入口": "reports/2026-06-11/data-tables/index.html#page-guide"
         },
         {
           "页面ID": "help",
@@ -1412,7 +1412,7 @@
           "执行项": "最终页边界",
           "说明": "最终页只放结论、摘要、建议和成品入口；后台配置、证据链、验收方法集中在 Help。",
           "负责人": "总控台",
-          "入口": "reports/2026-06-10/help/index.html"
+          "入口": "reports/2026-06-11/help/index.html"
         },
         {
           "页面ID": "help",
@@ -1420,7 +1420,7 @@
           "执行项": "数据表入口",
           "说明": "需要改积分、分类、页面说明、日报序列或自动化配置时，先看数据表。",
           "负责人": "数据台账",
-          "入口": "reports/2026-06-10/data-tables/index.html"
+          "入口": "reports/2026-06-11/data-tables/index.html"
         },
         {
           "页面ID": "help",
@@ -1428,7 +1428,7 @@
           "执行项": "脱敏证据",
           "说明": "Session、memory、发布输出和 automation.toml 只作为后台证据，不进入客户视图。",
           "负责人": "验收官",
-          "入口": "reports/2026-06-10/help/index.html#raw-evidence"
+          "入口": "reports/2026-06-11/help/index.html#raw-evidence"
         },
         {
           "页面ID": "help",
@@ -1436,7 +1436,7 @@
           "执行项": "需求台账",
           "说明": "用户要求和自评体系保存在后台，作为后续修改依据。",
           "负责人": "Codex",
-          "入口": "reports/2026-06-10/help/index.html#requirements"
+          "入口": "reports/2026-06-11/help/index.html#requirements"
         },
         {
           "页面ID": "system-detail",
@@ -1444,7 +1444,7 @@
           "执行项": "简报入口",
           "说明": "3 分钟简报先给结论，避免详细页一打开就失焦。",
           "负责人": "总指挥",
-          "入口": "reports/2026-06-10/system-detail/index.html"
+          "入口": "reports/2026-06-11/system-detail/index.html"
         },
         {
           "页面ID": "system-detail",
@@ -1452,7 +1452,7 @@
           "执行项": "规则展开",
           "说明": "等级、XP、日报、自动化、业务类目、日历、数据治理都要能从这里找到完整解释。",
           "负责人": "系统司令",
-          "入口": "reports/2026-06-10/system-detail/index.html#level-detail"
+          "入口": "reports/2026-06-11/system-detail/index.html#level-detail"
         },
         {
           "页面ID": "system-detail",
@@ -1460,7 +1460,7 @@
           "执行项": "表格下钻",
           "说明": "所有规则都要能回到数据表，方便后续直接修改优化。",
           "负责人": "数据台账",
-          "入口": "reports/2026-06-10/data-tables/index.html"
+          "入口": "reports/2026-06-11/data-tables/index.html"
         },
         {
           "页面ID": "system-detail",
@@ -1468,7 +1468,7 @@
           "执行项": "交卷清单",
           "说明": "架构、积分、首页、链接、数据、密度、验证七项自评指标都要留在详细页。",
           "负责人": "Codex",
-          "入口": "reports/2026-06-10/system-detail/index.html"
+          "入口": "reports/2026-06-11/system-detail/index.html"
         }
       ]
     },
@@ -1527,13 +1527,13 @@
       "rows": [
         {
           "指标": "总 XP",
-          "值": 2689,
+          "值": 1754,
           "说明": "由自动化、类目、ACTIVE、日报、体重记录合并计算。"
         },
         {
           "指标": "当前等级",
-          "值": "Lv.4 OKR 调度官",
-          "说明": "距离 经营参谋 进度 16%。"
+          "值": "Lv.3 自动化主管",
+          "说明": "距离 OKR 调度官 进度 46%。"
         },
         {
           "指标": "自动化数量",
@@ -1552,12 +1552,12 @@
         },
         {
           "指标": "类目产物",
-          "值": 106,
+          "值": 14,
           "说明": "业务类目归档文件总数。"
         },
         {
           "指标": "自动化产物",
-          "值": 72,
+          "值": 24,
           "说明": "自动化归档文件总数。"
         },
         {
