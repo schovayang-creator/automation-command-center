@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T23:30:27.663Z",
+  "generatedAt": "2026-06-10T23:33:54.776Z",
   "reportDate": "2026-06-11",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1501,9 +1501,9 @@
       "role": "机会雷达官",
       "latestRun": {
         "sessionId": "019eb3c4-1b14-7382-a51a-54df612855fb",
-        "status": "SUCCESS",
-        "completedAt": "automation memory",
-        "publishTarget": "${LINUX_USER}@${LINUX_HOST}:${REMOTE_TASK}\""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-11 07:18 CST",
+        "publishTarget": "wang@192.168.3.32:22."
       },
       "memoryPath": "本地归档",
       "dailyTask": {
