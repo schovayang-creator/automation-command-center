@@ -117,7 +117,7 @@
 <ul>
 <li>直接运行 <code>python3 scripts/daily_material_radar.py --out research/material-bank/runs/2026-06-10-v0 --run-id 2026-06-10-v0</code> 后，底层 <code>info_research_lab.py</code> 子进程长时间无返回。</li>
 <li>本轮中止挂起进程，没有读取或保存任何敏感信息。</li>
-<li>安全降级：automatic_public 工作流全部使用对应 fallback 方向卡；local_archive 和 manual_json 正常读取。</li>
+<li>安全降级：automatic_public 工作流全部使用对应 fallback 方向卡；本地归档 和 manual_json 正常读取。</li>
 </ul>
 <p>Automatic source fallback for workflow 1: youtube_search -&gt; research/info-research/manual-imports/tiktok-instagram-fallback.json</p>
 <p>Automatic source fallback for workflow 3: youtube_search -&gt; research/info-research/manual-imports/tiktok-instagram-fallback.json</p>
@@ -129,14 +129,14 @@
 <h2>素材雷达校验</h2>
 <ul>
 <li>Material cards: 8</li>
-<li>Source modes: local_archive, manual_import</li>
-<li>Collection statuses: collected, manual_fallback</li>
-<li>Source mode counts: {&quot;local_archive&quot;: 1, &quot;manual_import&quot;: 7}</li>
-<li>Collection status counts: {&quot;collected&quot;: 1, &quot;manual_fallback&quot;: 7}</li>
+<li>Source modes: 本地归档, 人工补采</li>
+<li>Collection statuses: collected, 人工补采</li>
+<li>Source mode counts: {&quot;本地归档&quot;: 1, &quot;人工补采&quot;: 7}</li>
+<li>Collection status counts: {&quot;collected&quot;: 1, &quot;人工补采&quot;: 7}</li>
 <li>Fit decisions: park, try</li>
 <li>Output files: manifest.json, materials.json, materials.md, daily-digest.md, dashboard.html, validation-log.md</li>
 <li>Safety: 未读取 cookie/token/session/localStorage；未下载 raw media；未保存用户名/头像/原始评论库。</li>
-<li>自动公共源覆盖弱：本次 automatic_public 未成功入库，已降级为 local_archive/manual_import；运行可用，但不能宣称自动公共来源覆盖充分。</li>
+<li>自动公共源覆盖弱：本次 automatic_public 未成功入库，已降级为 本地归档/人工补采；运行可用，但不能宣称自动公共来源覆盖充分。</li>
 </ul>
 <ul>
 <li>Finished: 2026-06-09T22:36:00Z</li>

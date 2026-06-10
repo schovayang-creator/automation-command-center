@@ -120,8 +120,8 @@
 <ul>
 <li>run_id: 2026-06-10-v0</li>
 <li>素材数: 8</li>
-<li>source_mode 分布: <code>{'manual_import': 7, 'local_archive': 1}</code></li>
-<li>collection_status 分布: <code>{'manual_fallback': 7, 'collected': 1}</code></li>
+<li>来源方式 分布: <code>{'人工补采': 7, '本地归档': 1}</code></li>
+<li>采集状态 分布: <code>{'人工补采': 7, 'collected': 1}</code></li>
 <li>creator_fit_decision 分布: <code>{'try': 6, 'park': 2}</code></li>
 <li>必要文件已生成: materials.json / materials.md / daily-digest.md / dashboard.html / validation-log.md</li>
 <li>运行说明: 直接运行 <code>scripts/daily_material_radar.py</code> 后，底层 <code>info_research_lab.py</code> 子进程长时间无返回。本轮中止挂起进程，使用安全降级方式生成素材卡: automatic_public 工作流载入对应 fallback 方向卡，本地归档正常读取，manual_json 正常载入。</li>
