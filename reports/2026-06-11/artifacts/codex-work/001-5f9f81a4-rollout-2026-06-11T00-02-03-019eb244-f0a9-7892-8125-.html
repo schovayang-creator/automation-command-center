@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">1.9 MB</span>
-            <span class="chip">2026-06-10 17:06:36</span>
+            <span class="chip">2.0 MB</span>
+            <span class="chip">2026-06-10 17:11:30</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>191</b><span>评分</span></div><div class="metric"><b>1.9 MB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>2.0 MB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,14 +93,14 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>这收益既然出现了亏损，那我肯定要你去把这个skill完全调整过啊，你要重新调整，重新选股，发现问题，然后确保明天至少能盈利5%，你要完全重新的…</h3>
-          <p>**3 分钟简报** 今天完成了 2026-06-11 的 A 股每日模拟盘回放、候选观察、账本更新、HTML 报告打开和总控台发布；没有登录券商、没有读取真实账户、没有真实交易动作。 今日是 A 股交易日候选日。昨日模拟盘回放交易日为 2026-06-10，模拟账户当日盈亏为 -790.96 CNY，当日收益率 -0.79%，累计收益率 -0.49%。今天没有调仓或新增模拟买入，原因是当前已有 3 只模拟持仓，达到上限。当前持仓是京东方A、工商银行、中国银行；今日观察候选是 TCL中环、国泰海通、兴业银行。最大风险仍是 Tushare token 缺失、东方财富实时全市场接口失败，行业、概念、财务、龙虎榜排雷不完整。明天先看京东方A是否继续跌破报告里的失效条件。 公开入口： 当天总看板 本自动化详情页 本地产物： Markdown 报告，HTML 报告，账本，持仓，PnL，skill review。 验证状态：本地报告和总控台自检通过；公开总看板和本自动化详情页均已 HTTP 200 验证；GitHub Pages 最终推送 commit 为 859753a；OpenClaw 微信通知已送达。发布过程中总控台生成器暴露了几个固定页自检缺口，已补齐后发布成功。</p>
-          <ul class="mini-list"><li>**3 分钟简报** 今天完成了 2026-06-11 的 A 股每日模拟盘回放、候选观察、账本更新、HTML 报告打开和总控台发布</li><li>没有登录券商、没有读取真实账户、没有真实交易动作</li><li>今日是 A 股交易日候选日</li><li>昨日模拟盘回放交易日为 2026-06-10，模拟账户当日盈亏为 -790.96 CNY，当日收益率 -0.79%，累计收益率 -0.49%</li><li>今天没有调仓或新增模拟买入，原因是当前已有 3 只模拟持仓，达到上限</li><li>当前持仓是京东方A、工商银行、中国银行</li></ul>
+          <p>已按模拟盘边界重做：我不能、也不会承诺明天盈利 5%，但已把策略改成 LOSS_REBALANCE_HIGH_ELASTIC：亏损后模拟清仓旧仓，重新选择高弹性组合去冲击 +5% paper gate。 **3 分钟简报** 今天结论：今天完成了 A 股模拟盘亏损复盘、项目本地 workflow 改写、模拟清仓计划和重新选股；没有任何真实交易动作。 今日重点： 1. 今天按项目口径是 A 股交易日候选日，报告已重新生成并打开。 2. 昨日模拟盈亏为 -790.96 CNY，模拟日收益率 -0.79%，累计模拟收益率 -0.49%。 3. 今日已调仓，但只是在模拟账本中调仓：模拟卖出京东方A、工商银行、中国银行，模拟买入沪硅产业、TCL中环、中兴通讯。 4. 新策略目标是冲击 +5% 模拟 gate，不是收益保证；三只新候选都写了观察价区间、不买条件、止损、止盈和次日退出点。 5. 最大风险是 Tushare token 缺失、东方财富实时全市场接口失败，以及高弹性组合主动承担更大的跳空和回撤风险。 风险和缺口：行业、概念、公告、财务和龙虎榜排雷仍不完整；本次候选主要依赖公开历史 K 线 fallback。 下一步：明天先看沪硅产业开盘后是否满足观察价区间、量能不萎缩、10 日均线不破；不满足就让模拟计划不触发或回放退出。 公开入口： - 当天总看板 - 本自动化详情页 本地关键产物： - Markdown 报告 - HTML 报告 - 模拟账本 - 持仓快照 - Skill 复盘 验证状态：python3 -m py_compile scripts/run-paper-trading-daily.py 通过；总控台发布成功，最终 commit 7fe1f57，公开总看板和自动化详情页 HTTP 200；页面洁净检查未发现 本地归档、本地归档、/脱敏证据 泄漏。</p>
+          <ul class="mini-list"><li>已按模拟盘边界重做：我不能、也不会承诺明天盈利 5%，但已把策略改成 LOSS_REBALANCE_HIGH_ELASTIC：亏损后模拟清仓旧仓，重新选择高弹性组合去冲击 +5% paper gate</li><li>**3 分钟简报** 今天结论：今天完成了 A 股模拟盘亏损复盘、项目本地 workflow 改写、模拟清仓计划和重新选股</li><li>没有任何真实交易动作</li><li>今日重点： 1. 今天按项目口径是 A 股交易日候选日，报告已重新生成并打开</li><li>2. 昨日模拟盈亏为 -790.96 CNY，模拟日收益率 -0.79%，累计模拟收益率 -0.49%</li><li>3. 今日已调仓，但只是在模拟账本中调仓：模拟卖出京东方A、工商银行、中国银行，模拟买入沪硅产业、TCL中环、中兴通讯</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：这收益既然出现了亏损，那我肯定要你去把这个skill完全调整过啊，你要重新调整，重新选股，发现问题，然后确…</span>
           <span>开始：2026-06-11 00:02:03</span>
-          <span>完成：1781109877</span>
+          <span>完成：1781111490</span>
           <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
@@ -112,7 +112,7 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p><strong>3 分钟简报</strong> 今天完成了 2026-06-11 的 A 股每日模拟盘回放、候选观察、账本更新、HTML 报告打开和总控台发布；没有登录券商、没有读取真实账户、没有真实交易动作。 今日是 A 股交易日候选日。昨日模拟盘回放交易日为 2026-06-10，模拟账户当日盈亏为 -790.96 CNY，当日收益率 -0.79%，累计收益率 -0.49%。今天没有调仓或新增模拟买入，原因是当前已有 3 只模拟持仓，达到上限。当前持仓是京东方A、工商银行、中国银行；今日观察候选是 TCL中环、国泰海通、兴业银行。最大风险仍是 Tushare token 缺失、东方财富实时全市场接口失败，行业、概念、财务、龙虎榜排雷不完整。明天先看京东方A是否继续跌破报告里的失效条件。 公开入口： 当天总看板 本自动化详情页 本地产物： Markdown 报告，HTML 报告，账本，持仓，PnL，skill review。 验证状态：本地报告和总控台自检通过；公开总看板和本自动化详情页均已 HTTP 200 验证；GitHub Pages 最终推送 commit 为 859753a；OpenClaw 微信通知已送达。发布过程中总控台生成器暴露了几个固定页自检缺口，已补齐后发布成功。</p></article>
+      <article class="doc"><p>已按模拟盘边界重做：我不能、也不会承诺明天盈利 5%，但已把策略改成 LOSS_REBALANCE_HIGH_ELASTIC：亏损后模拟清仓旧仓，重新选择高弹性组合去冲击 +5% paper gate。 <strong>3 分钟简报</strong> 今天结论：今天完成了 A 股模拟盘亏损复盘、项目本地 workflow 改写、模拟清仓计划和重新选股；没有任何真实交易动作。 今日重点： 1. 今天按项目口径是 A 股交易日候选日，报告已重新生成并打开。 2. 昨日模拟盈亏为 -790.96 CNY，模拟日收益率 -0.79%，累计模拟收益率 -0.49%。 3. 今日已调仓，但只是在模拟账本中调仓：模拟卖出京东方A、工商银行、中国银行，模拟买入沪硅产业、TCL中环、中兴通讯。 4. 新策略目标是冲击 +5% 模拟 gate，不是收益保证；三只新候选都写了观察价区间、不买条件、止损、止盈和次日退出点。 5. 最大风险是 Tushare token 缺失、东方财富实时全市场接口失败，以及高弹性组合主动承担更大的跳空和回撤风险。 风险和缺口：行业、概念、公告、财务和龙虎榜排雷仍不完整；本次候选主要依赖公开历史 K 线 fallback。 下一步：明天先看沪硅产业开盘后是否满足观察价区间、量能不萎缩、10 日均线不破；不满足就让模拟计划不触发或回放退出。 公开入口： - 当天总看板 - 本自动化详情页 本地关键产物： - Markdown 报告 - HTML 报告 - 模拟账本 - 持仓快照 - Skill 复盘 验证状态：python3 -m py_compile scripts/run-paper-trading-daily.py 通过；总控台发布成功，最终 commit 7fe1f57，公开总看板和自动化详情页 HTTP 200；页面洁净检查未发现 本地归档、本地归档、/脱敏证据 泄漏。</p></article>
     </section>
     <section class="panel">
       <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
@@ -125,7 +125,7 @@
       </div>
     </section>
     <section class="panel">
-      <div class="section-title"><h2>关联本地证据</h2><span>6 个文件路径</span></div>
+      <div class="section-title"><h2>关联本地证据</h2><span>5 个文件路径</span></div>
       <div class="compact-list">
         <a class="compact-row click-card" href="#" data-local-only="true">
           <span class="nav-code">MD</span>
@@ -142,10 +142,6 @@
         </a><a class="compact-row click-card" href="#" data-local-only="true">
           <span class="nav-code">CSV</span>
           <div><h3>20260611.csv</h3><p>~/Desktop/股票/trades/paper/positions/20260611.csv</p></div>
-          <div class="row-actions"><span>证据</span></div>
-        </a><a class="compact-row click-card" href="#" data-local-only="true">
-          <span class="nav-code">CSV</span>
-          <div><h3>20260611-pnl.csv</h3><p>~/Desktop/股票/trades/paper/pnl/20260611-pnl.csv</p></div>
           <div class="row-actions"><span>证据</span></div>
         </a><a class="compact-row click-card" href="#" data-local-only="true">
           <span class="nav-code">MD</span>
