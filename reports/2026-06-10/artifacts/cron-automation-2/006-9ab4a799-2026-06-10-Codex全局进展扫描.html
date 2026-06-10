@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSON</span>
-            <span class="chip">99 KB</span>
-            <span class="chip">2026-06-10 11:08:53</span>
+            <span class="chip">111 KB</span>
+            <span class="chip">2026-06-10 11:45:43</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSON</b><span>类型</span></div><div class="metric"><b>全局进展扫描</b><span>分组</span></div><div class="metric"><b>118</b><span>评分</span></div><div class="metric"><b>99 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSON</b><span>类型</span></div><div class="metric"><b>全局进展扫描</b><span>分组</span></div><div class="metric"><b>118</b><span>评分</span></div><div class="metric"><b>111 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -95,7 +95,7 @@
         <article class="summary-main">
           <h3>2026-06-10-Codex全局进展扫描</h3>
           <p>顶层字段：generated_at、roots、excludes、since_hours、max_seconds、count、warnings、hits</p>
-          <ul class="mini-list"><li>顶层字段：generated_at、roots、excludes、since_hours、max_seconds、count、warnings、hits</li><li>generated_at：2026-06-10T19:08:53</li><li>roots：12 条</li><li>excludes：3 条</li><li>since_hours：48</li></ul>
+          <ul class="mini-list"><li>顶层字段：generated_at、roots、excludes、since_hours、max_seconds、count、warnings、hits</li><li>generated_at：2026-06-10T19:45:43</li><li>roots：12 条</li><li>excludes：3 条</li><li>since_hours：48</li></ul>
         </article>
         <aside class="summary-side">
           <b>批阅路径</b>
@@ -107,8 +107,8 @@
       </div>
     </section>
   
-      <section class="panel"><div class="section-title"><h2>结构化证据</h2><span>99 KB</span></div><pre class="code-block">{
-  &quot;generated_at&quot;: &quot;2026-06-10T19:08:53&quot;,
+      <section class="panel"><div class="section-title"><h2>结构化证据</h2><span>111 KB</span></div><pre class="code-block">{
+  &quot;generated_at&quot;: &quot;2026-06-10T19:45:43&quot;,
   &quot;roots&quot;: [
     &quot;本地归档
     &quot;本地归档
@@ -130,7 +130,7 @@
   ],
   &quot;since_hours&quot;: 48,
   &quot;max_seconds&quot;: 120,
-  &quot;count&quot;: 95,
+  &quot;count&quot;: 111,
   &quot;warnings&quot;: [],
   &quot;hits&quot;: [
     {
@@ -145,8 +145,8 @@
     {
       &quot;path&quot;: &quot;本地归档
       &quot;name&quot;: &quot;2026-06-11-明日Codex任务队列.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T19:03:16&quot;,
-      &quot;size&quot;: 6615,
+      &quot;mtime&quot;: &quot;2026-06-10T19:37:08&quot;,
+      &quot;size&quot;: 4246,
       &quot;source_type&quot;: &quot;总经理任务队列&quot;,
       &quot;priority&quot;: 60,
       &quot;summary&quot;: &quot;# 2026-06-11 明日 Codex 任务队列\n状态：DRAFT / 等董事长查看日报后可继续修正\n## 总原则\n- 每个 Codex 必须写明输入路径、输出路径、验收标准、禁止事项。\n- 每个 Codex 完成后必须写工作记录到：`本地归档；长答复闭环同时使用 `raw/`、`filtered/`、`landing/`、`audit/`。\n- 若任务来自昨日队列，次日自动日报会审核它的输出路径和工作记录。\n- 若是临时 Codex，也必须写入桌面级工作记录入口，否则总经理只能标记为“状态未知”。\n- 招聘发布、候选人联系、预算合同、对外承诺不得自动执行。\n## 明日任务表\n| 任务ID | 优先级 | 任务名 | 输入路径 | 输出路径 | 验收标准 | 禁止事项 | 工作记录要求 |\n| CODEX-20260611-001 | P0 | 审核本日计划任务与临时 Codex 进展 | `06-AI组织与派工/昨日任务审核/2026-06-10-Codex全局进展扫描.md`、`本地归档、`本地归档 | `06-AI组织与派工/昨日任务审核/2026-06-11-昨日Codex任务审核.md` | 标出已完成、部分完成、阻塞、需董事长确认、需重跑任务，并逐项引用输出路径；检查 raw/filtered/landing/audit 是否闭环 | 不改正式库、不删除原始文件、不把临时扫描结果当事实 | 写入桌面工作记录 |\n| CODEX-20260611-002 | P0 | 提炼影响公司经营的新增项目进展 | 全局扫描结果、总经理日报、桌面工作记录、项目输出文件 | `02-精炼层/待吸收/2026-06-11-全局Codex进展精炼.md` | 只列公司需要的信息：方向、客户、现金、产品、招聘、风险；每条都带来源路径 | 旧流程不迁移，只索引；不编造客户、金额、进度 | 写入桌面工作记录 |\n| CODEX-20260611-003 | P1 | 补充真实经营缺口清单 | `09-决策与风险/待确认事项.md`、客户/市场/业务线文件、近期日报 | `09-决策与风险/2026-06-11-经营缺口追问清单.md` | 输出给董&quot;
@@ -162,21 +162,165 @@
     },
     {
       &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-Codex全局进展扫描.json&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T19:03:16&quot;,
-      &quot;size&quot;: 102870,
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-cron队列标题slug门禁接入-raw.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:31:16&quot;,
+      &quot;size&quot;: 1049,
       &quot;source_type&quot;: &quot;关键词命中文件&quot;,
       &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;\&quot;本地归档 \&quot;二进制/Office/PDF 文件，仅索引文件名、路径、修改时间；需要专项 Codex 抽取内容。\&quot;\n\&quot;summary\&quot;: \&quot;# Codex 自动日报失败记录\\n- 日期：2026-06-08\\n- 记录时间：2026-06-08 19:04:42 CST\\n- 自动化：总经理助理\\n- 结果：日报生成、HTML 发布、GitHub Pages 验证成功；微信通知失败\\n## 已完成\\n- 长版日报已生成：`本地归档 简报已生成：`本地归档 明日任务队列已生成：`本地归档 日报站点已发布并 push 到 GitHub：commit `43000a6`\\n- GitHub Pages 索引页与当日长报告页均返回 HTTP 200\\n## 失败点\\n## 最后可用链接\\n- 长报告：https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-08/index.html\\n- 索引页：https://schovayang-creator.github.io/gm-daily-brief/\\n- 本地看板：`本地归档 下一步\\n- 检查 OpenClaw 网关/会话权限，确认 `agent --deliver` 的当前 session 与回复通道仍有效。\\n- 修复本机 Homebrew `node` 与 `llhttp` 动态库匹配问题，避免 `openclaw` shebang 再次失效。\&quot;\n\&quot;path\&quot;: \&quot;本地归档 \&quot;2026-06-11-明日Codex任务队列.md\&quot;,\n\&quot;source_type\&quot;: \&quot;总经理任务队列\&quot;,\n\&quot;summary\&quot;: \&quot;# 2026-06-11 明日 Codex 任务队列\\n状态：DRAFT / 等董&quot;
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO cron队列标题slug门禁接入 raw\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n来源：`本地归档 内容\n# Raw：CEO/TODO cron 队列 title slug 门禁接入\n## 本轮继续目标\n## 发现的问题\n四层归档生成器已经拒绝 title 和 slug 中的模板占位，但总经理每日 Codex cron 生成的 CODEX-006 明日任务队列还没有明确提示 title/slug 也必须是真实主题。\n## 本轮处理\n- 给日报体系测试补充 title/slug 队列要求。\n- 修改每日任务队列生成模板。\n- 同步当前 2026-06-11 明日任务队列。&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-cron队列标题slug门禁接入-filtered.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:31:16&quot;,
+      &quot;size&quot;: 761,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO cron队列标题slug门禁接入 filtered\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n来源：`本地归档 内容\n# Filtered：CEO/TODO cron 队列 title slug 门禁接入\n## 筛选结论\n- 每日 cron 队列不能只写脚本名，还要写清楚关键参数约束。\n- CODEX-006 现在明确要求 create_worklog_bundle.py 使用真实 title/slug。\n- title/slug 带模板占位时，不得作为当天归档证据。\n- 当前仍是内测中，不能迁入公测。&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-cron队列标题slug门禁接入-landing.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:31:16&quot;,
+      &quot;size&quot;: 926,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO cron队列标题slug门禁接入 landing\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n来源：`本地归档 内容\n# Landing：CEO/TODO cron 队列 title slug 门禁接入\n## 已修改\n- `总经理/06-AI组织与派工/Codex自动日报/scripts/run_daily_brief.sh`\n- `总经理/06-AI组织与派工/Codex自动日报/tests/test_ceo_todo_beta_queue.py`\n- `总经理/06-AI组织与派工/明日任务队列/2026-06-11-明日Codex任务队列.md`\n- `总经理/00-总经理控制台/当前状态.md`\n## 未做\n- 未运行完整日报发布链路。\n- 未创建董事长确认文件。\n- 未记录未来内测日期。\n- 未迁入公测。&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-cron队列标题slug门禁接入-audit.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:31:16&quot;,
+      &quot;size&quot;: 833,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO cron队列标题slug门禁接入 audit\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n来源：`本地归档 内容\n# Audit：CEO/TODO cron 队列 title slug 门禁接入\n## 验证结果\n- CEO/TODO 内测包测试：53 条通过。\n- 总经理自动日报测试：33 条通过。\n- 内测完整性门禁：PASS。\n- 内测状态检查：BETA_IN_PROGRESS。\n- 最终结案审计：FAIL，符合当前仍在内测、不得结案的预期。\n## 结论\n每日 cron 队列已接入 title/slug 占位门禁口径。长期任务继续处于内测阶段。&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-raw.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:25:37&quot;,
+      &quot;size&quot;: 1019,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 标题slug占位拒绝门禁补强 raw\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n来源：`本地归档 内容\n# Raw：CEO/TODO title slug 占位拒绝门禁补强\n## 本轮问题\n## 发现的具体漏洞\n## 本轮目标&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-filtered.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:25:37&quot;,
+      &quot;size&quot;: 950,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 标题slug占位拒绝门禁补强 filtered\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n来源：`本地归档 内容\n# Filtered：CEO/TODO title slug 占位拒绝门禁补强\n## 筛选结论\n- 聊天窗口只承载决策摘要，不承载完整过程。\n- 完整过程继续进入 raw、filtered、landing、audit 四层。\n- 本轮新增硬门禁：归档生成器拒绝 title 和 slug 中的模板占位。\n- 公测迁移后也必须保留该门禁，最终结案审计会检查。\n## 对董事长的实际影响&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-landing.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:25:37&quot;,
+      &quot;size&quot;: 997,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 标题slug占位拒绝门禁补强 landing\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n来源：`本地归档 内容\n# Landing：CEO/TODO title slug 占位拒绝门禁补强\n## 已修改\n- `scripts/create_worklog_bundle.py`\n- `tests/test_create_worklog_bundle.py`\n- `scripts/final_acceptance_audit.py`\n- `tests/test_final_acceptance_audit.py`\n- 日执行模板文档\n- `内测工具说明.md`\n- `总经理/01-输入层/董事长沟通记录/2026-06-10-Codex短回复全量落地二次补强.md`\n- `总经理/00-总经理控制台/当前状态.md`\n- `总经理/09-决策与风险/待确认事项.md`\n## 未做\n- 未创建董事长确认文件。\n- 未记录未来内测日期。\n- 未迁入公测。&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-标题slug占位拒绝门禁补强-audit.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:25:37&quot;,
+      &quot;size&quot;: 866,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 标题slug占位拒绝门禁补强 audit\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n来源：`本地归档 内容\n# Audit：CEO/TODO title slug 占位拒绝门禁补强\n## 验证结果\n- CEO/TODO 内测包测试：53 条通过。\n- 总经理自动日报测试：33 条通过。\n- 内测完整性门禁：PASS。\n- 内测状态检查：BETA_IN_PROGRESS。\n- 最终结案审计：FAIL，符合当前仍在内测、不得结案的预期。\n## 当前结论\n本轮补强已落地并通过测试。长期任务仍处于内测阶段，后续必须按真实日期继续记录。&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-最终审计覆盖保护补强-raw.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:13:45&quot;,
+      &quot;size&quot;: 606,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 最终审计覆盖保护补强 raw\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n## 内容\n# raw&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-最终审计覆盖保护补强-filtered.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:13:45&quot;,
+      &quot;size&quot;: 534,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 最终审计覆盖保护补强 filtered\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n## 内容\n# filtered&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-最终审计覆盖保护补强-landing.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:13:45&quot;,
+      &quot;size&quot;: 461,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 最终审计覆盖保护补强 landing\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n## 内容\n# landing\n已更新内测工具说明和完成审计。&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-最终审计覆盖保护补强-audit.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:13:45&quot;,
+      &quot;size&quot;: 610,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 最终审计覆盖保护补强 audit\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n## 内容\n# audit&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-重复记录覆盖保护补强-raw.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:09:22&quot;,
+      &quot;size&quot;: 572,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 重复记录覆盖保护补强 raw\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n## 内容\n# raw&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-重复记录覆盖保护补强-filtered.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:09:22&quot;,
+      &quot;size&quot;: 515,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 重复记录覆盖保护补强 filtered\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n## 内容\n# filtered&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-重复记录覆盖保护补强-landing.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:09:22&quot;,
+      &quot;size&quot;: 507,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 重复记录覆盖保护补强 landing\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n## 内容\n# landing\n已更新内测工具说明、完成审计、总经理队列模板和 launchd runtime。&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-重复记录覆盖保护补强-audit.md&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:09:22&quot;,
+      &quot;size&quot;: 711,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;# 2026-06-10 CEO-TODO 重复记录覆盖保护补强 audit\n任务：CEO-TODO Codex 输出二次筛选与落地闭环\n## 内容\n# audit&quot;
+    },
+    {
+      &quot;path&quot;: &quot;本地归档
+      &quot;name&quot;: &quot;2026-06-10-Codex全局进展扫描.json&quot;,
+      &quot;mtime&quot;: &quot;2026-06-10T19:08:53&quot;,
+      &quot;size&quot;: 101303,
+      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
+      &quot;priority&quot;: 10,
+      &quot;summary&quot;: &quot;\&quot;本地归档 \&quot;二进制/Office/PDF 文件，仅索引文件名、路径、修改时间；需要专项 Codex 抽取内容。\&quot;\n\&quot;path\&quot;: \&quot;本地归档 \&quot;2026-06-11-明日Codex任务队列.md\&quot;,\n\&quot;source_type\&quot;: \&quot;总经理任务队列\&quot;,\n\&quot;summary\&quot;: \&quot;# 2026-06-11 明日 Codex 任务队列\\n状态：DRAFT / 等董事长查看日报后可继续修正\\n## 总原则\\n- 每个 Codex 必须写明输入路径、输出路径、验收标准、禁止事项。\\n- 每个 Codex 完成后必须写工作记录到：`本地归档；长答复闭环同时使用 `raw/`、`filtered/`、`landing/`、`audit/`。\\n- 若任务来自昨日队列，次日自动日报会审核它的输出路径和工作记录。\\n- 若是临时 Codex，也必须写入桌面级工作记录入口，否则总经理只能标记为“状态未知”。\\n- 招聘发布、候选人联系、预算合同、对外承诺不得自动执行。\\n## 明日任务表\\n| 任务ID | 优先级 | 任务名 | 输入路径 | 输出路径 | 验收标准 | 禁止事项 | 工作记录要求 |\\n| CODEX-20260611-001 | P0 | 审核本日计划任务与临时 Codex 进展 | `06-AI组织与派工/昨日任务审核/2026-06-10-Codex全局进展扫描.md`、`本地归档、`本地归档 | `06-AI组织与派工/昨日任务审核/2026-06-11-昨日Codex任务审核.md` | 标出已完成、部分完成、阻塞、需董事长确认、需重跑任务，并逐项引用输出路径；检查 raw/filtered/landin&quot;
     },
     {
       &quot;path&quot;: &quot;本地归档
       &quot;name&quot;: &quot;2026-06-10-Codex全局进展扫描.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T19:03:16&quot;,
-      &quot;size&quot;: 95535,
+      &quot;mtime&quot;: &quot;2026-06-10T19:08:53&quot;,
+      &quot;size&quot;: 94051,
       &quot;source_type&quot;: &quot;关键词命中文件&quot;,
       &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Codex 全局进展扫描\n## 扫描根目录\n- `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 排除目录\n- `本地归档 `本地归档 `本地归档 命中文件\n### 1. 制造业项目-创业团队项目申报书（2026）.docx\n- 类型：微信文件目录新增文件\n- 路径：`本地归档）.docx`\n- 修改时间：2026-06-09T14:00:39\n- 大小：3837675 bytes\n二进制/Office/PDF 文件，仅索引文件名、路径、修改时间；需要专项 Codex 抽取内容。\n### 2. Codex自动日报失败记录.md\n- 类型：总经理库工作记录\n- 路径：`本地归档 修改时间：2026-06-08T19:05:50\n- 大小：1553 bytes\n# Codex 自动&quot;
+      &quot;summary&quot;: &quot;# Codex 全局进展扫描\n## 扫描根目录\n- `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 `本地归档 排除目录\n- `本地归档 `本地归档 `本地归档 命中文件\n### 1. 制造业项目-创业团队项目申报书（2026）.docx\n- 类型：微信文件目录新增文件\n- 路径：`本地归档）.docx`\n- 修改时间：2026-06-09T14:00:39\n- 大小：3837675 bytes\n二进制/Office/PDF 文件，仅索引文件名、路径、修改时间；需要专项 Codex 抽取内容。\n### 2. 2026-06-11-明日Codex任务队列.md\n- 类型：总经理任务队列\n- 路径：`本地归档 修改时间：2026-06-10T19:03:16\n- 大小：6615 bytes\n# &quot;
     },
     {
       &quot;path&quot;: &quot;本地归档
@@ -752,142 +896,7 @@
       &quot;size&quot;: 920,
       &quot;source_type&quot;: &quot;关键词命中文件&quot;,
       &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# 审计记录：CEO/TODO 短回复确认项与测试入口\n## 检查结果\n| CEO/TODO 内测状态 | PASS | `check_beta_status.py --today 2026-06-10` 输出 `BETA_IN_PROGRESS`，符合未满七天预期 |\n| 四层归档完整性 | PASS | `validate_beta_integrity.py --today 2026-06-10` 输出 `PASS` |\n| 最终结案审计 | PASS | `final_acceptance_audit.py --today 2026-06-10` 输出 `FAIL`，符合当前不得结案预期 |\n## 当前状态\n目标继续 active。下一步只能在真实日期继续记录内测；2026-06-17 之后且全部门禁通过，才允许迁入公测并做最终结案审计。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-final-acceptance-audit-raw.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:36:47&quot;,
-      &quot;size&quot;: 532,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Raw：CEO/TODO 最终结案审计\n## 本轮继续目标\n长期目标要求最终结案必须证明：写入 CEO/TODO、封测通过、进入内测、内测执行一周、无问题后进入公测。当前尚未完成 7 天内测，不能结案。\n## 发现的问题\n已有 `完成审计.md` 是人工审计记录，但缺少可重复运行的最终结案审计脚本。若 2026-06-17 后要判断是否能把 goal 标记完成，需要一个逐条验证原始目标的脚本。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-final-acceptance-audit-filtered.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:36:47&quot;,
-      &quot;size&quot;: 417,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Filtered：CEO/TODO 最终结案审计\n## 筛选结论\n- 需要新增 `final_acceptance_audit.py`。\n- 最终审计必须检查公测包、任务总表阶段、公测状态、董事长确认、READY_FOR_PUBLIC、封测证据。\n- 当前真实环境应输出 `FAIL`，这是正确状态。\n- 公测迁移脚本也必须要求 `董事长确认.md`，否则最终审计会在迁移后失败。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-final-acceptance-audit-landing.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:36:47&quot;,
-      &quot;size&quot;: 588,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Landing：CEO/TODO 最终结案审计\n## 已落地\n- 新增 `scripts/final_acceptance_audit.py`。\n- 新增 `tests/test_final_acceptance_audit.py`。\n- `promote_to_public.py` 新增 `董事长确认.md` 门禁。\n- `公测迁移清单.md`、`内测工具说明.md`、`完成审计.md`、`任务总表.md` 已同步更新。\n- 真实环境运行最终结案审计输出 `FAIL`，符合当前未完成状态。\n## 关键证据\n- CEO/TODO 测试：11 条通过。\n- 总经理日报测试：31 条通过。\n- 公测目录仍只有 `README.md`，未提前迁移。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-final-acceptance-audit-audit.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:36:47&quot;,
-      &quot;size&quot;: 571,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Audit：CEO/TODO 最终结案审计\n## 验证\n- `python3 -m unittest discover -s .../tests -p 'test_*.py' -v`：CEO/TODO 11 条通过。\n- `python3 -m unittest discover -s .../Codex自动日报/tests -p 'test_*.py' -v`：总经理日报 31 条通过。\n- `python3 final_acceptance_audit.py --today 2026-06-10`：输出 `FAIL`。\n- `find CEO/TODO/公测 -maxdepth 2 -type f`：仅 `README.md`，没有提前迁移包。\n## 当前状态\n- 封测：PASS。\n- 内测：继续进行。\n- 公测：未到期，不迁移。\n- goal：保持 active。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-record-beta-date-gate-raw.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:27:42&quot;,
-      &quot;size&quot;: 471,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Raw：CEO/TODO record_beta_day 日期门禁\n## 本轮继续目标\n继续推进 CEO/TODO 内测到公测的长期目标。当前仍不能结案，因为 7 天人机互动内测未完成。\n## 发现的问题\n文档和明日任务队列都写了“不伪造未来日期内测记录”，但 `record_beta_day.py` 脚本本身没有日期门禁，理论上可以误填未来日期或 7 天内测窗口之外的日期。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-record-beta-date-gate-filtered.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:27:42&quot;,
-      &quot;size&quot;: 354,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Filtered：CEO/TODO record_beta_day 日期门禁\n## 筛选结论\n- 内测记录必须由脚本层防止误填未来日期。\n- 允许记录的日期范围只能是 2026-06-10 至 2026-06-16。\n- 2026-06-17 是公测判断日，不是内测记录日。\n- 每日任务队列调用应显式带 `--today`，方便审计和复现。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-record-beta-date-gate-landing.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:27:42&quot;,
-      &quot;size&quot;: 585,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Landing：CEO/TODO record_beta_day 日期门禁\n## 已落地\n- `record_beta_day.py` 新增 `--today` 参数。\n- `record_beta_day.py` 新增 2026-06-10 至 2026-06-16 内测窗口校验。\n- `record_beta_day.py` 拒绝晚于 `--today` 的未来内测日期。\n- 新增 `test_record_beta_day.py`，覆盖未来日期、窗口外日期、窗口内当天记录。\n- 明日任务队列模板改为 `record_beta_day.py --date $TOMORROW --today $TOMORROW`。\n- 内测工具说明、每日任务接入记录、完成审计已更新。\n- launchd runtime 已同步。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-record-beta-date-gate-audit.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:27:42&quot;,
-      &quot;size&quot;: 779,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Audit：CEO/TODO record_beta_day 日期门禁\n## 验证\n- CEO/TODO 测试：8 条通过。\n- 总经理日报测试：31 条通过。\n- `record_beta_day.py` 语法检查：通过。\n- 临时复制包验证：\n- `--date 2026-06-11 --today 2026-06-10` 返回 `future beta date`。\n- `--date 2026-06-09 --today 2026-06-10` 返回 `outside beta window`。\n- `--date 2026-06-10 --today 2026-06-10` 可正常记录。\n- `run_daily_brief.sh --date 2026-06-10 --dry-run`：通过。\n- 2026-06-11 明日任务队列已包含 `record_beta_day.py --date 2026-06-11 --today 2026-06-11`。\n- 公开站点脱敏扫描：无 `本地归档 或 `本地` 命中。\n## 当前状态\n- 封测：PASS。\n- 内测：继续进行。\n- 公测：未到期，不迁移。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-日报摘要接入完整性门禁-raw.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:22:27&quot;,
-      &quot;size&quot;: 536,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Raw：CEO/TODO 日报摘要接入完整性门禁\n## 本轮继续目标\n## 发现的问题\n`check_beta_status.py` 已经接入 raw/filtered/landing/audit 四层完整性门禁，但总经理日报的 `CEO/TODO 内测状态` 摘要仍只看 `7天内测记录.md` 表格。若表格填满但缺少四层归档，日报可能错误显示 `READY_FOR_PUBLIC`。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-日报摘要接入完整性门禁-filtered.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:22:27&quot;,
-      &quot;size&quot;: 423,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Filtered：CEO/TODO 日报摘要接入完整性门禁\n## 筛选结论\n- 总经理日报必须和真实公测门禁共用同一套判断。\n- 表格填满不是公测充分条件。\n- 日报摘要必须显示完整性门禁状态、缺失归档层数量和记录违规数量。\n- 若完整性门禁失败，日报下一步应优先提示补齐四层证据，而不是等待日期或准备公测。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-日报摘要接入完整性门禁-landing.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:22:27&quot;,
-      &quot;size&quot;: 608,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Landing：CEO/TODO 日报摘要接入完整性门禁\n## 已落地\n- `generate_daily_brief.py` 的 `ceo_todo_beta_summary()` 已调用 `validate_beta_integrity.py`。\n- 日报元数据 `ceo_todo_beta` 已新增 `integrity_status`、`missing_layers`、`record_violations`。\n- 日报正文 `CEO/TODO 内测状态` 已显示完整性门禁。\n- 新增测试覆盖：表格 7 天填满但缺 `audit` 时，日报仍必须显示 `BETA_IN_PROGRESS`。\n- OpenClaw 相对命令路径测试已更新为当前 runtime 架构下的 `$SCRIPT_DIR` 解析方式。\n- launchd runtime 已同步。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-日报摘要接入完整性门禁-audit.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:22:27&quot;,
-      &quot;size&quot;: 617,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Audit：CEO/TODO 日报摘要接入完整性门禁\n## 验证\n- 总经理日报测试：31 条通过。\n- CEO/TODO 内测脚本测试：5 条通过。\n- `generate_daily_brief.py` 语法检查：通过。\n- `run_daily_brief.sh --date 2026-06-10 --dry-run`：通过。\n- 2026-06-10 总经理日报显示：`BETA_IN_PROGRESS`、完整性门禁 `PASS`、缺失归档层 0、记录违规 0。\n- 公开站点脱敏扫描：无 `本地归档 或 `本地` 命中。\n- launchd runtime：已同步。\n## 当前状态\n- 封测：PASS。\n- 内测：继续进行。\n- 公测：未到期，不迁移。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-内测完整性门禁补强-raw.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:15:26&quot;,
-      &quot;size&quot;: 627,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Raw：CEO/TODO 内测完整性门禁补强\n## 原始目标延续\n长期目标仍是：CEO/TODO 任务先封测、再内测 7 天、无问题后公测。当前不能提前公测，需要继续让内测过程更可靠。\n## 本轮发现\n- 现有 `check_beta_status.py` 能判断日期和表格状态。\n- 但缺少四层归档证据门禁，可能出现“表格写了已归档，但 raw/filtered/landing/audit 实际缺失”的风险。\n- 临时环境测试发现脚本内写死绝对路径，复制任务包后仍会读真实桌面记录，导致隔离测试不可信。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-内测完整性门禁补强-filtered.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:15:26&quot;,
-      &quot;size&quot;: 457,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summary&quot;: &quot;# Filtered：CEO/TODO 内测完整性门禁补强\n## 筛选结论\n- 内测不能只依赖人工填写表格。\n- 已记录日期必须真实存在 `raw/filtered/landing/audit` 四层文件。\n- 公测迁移必须同时满足：7 天记录完成、无 P0/P1、无信息丢失、无聊天过量、四层归档完整、日期到 2026-06-17。\n- 脚本不能写死真实桌面路径，否则临时测试和未来迁移环境不可信。&quot;
-    },
-    {
-      &quot;path&quot;: &quot;本地归档
-      &quot;name&quot;: &quot;2026-06-10-CEO-TODO-内测完整性门禁补强-landing.md&quot;,
-      &quot;mtime&quot;: &quot;2026-06-10T15:15:26&quot;,
-      &quot;size&quot;: 755,
-      &quot;source_type&quot;: &quot;关键词命中文件&quot;,
-      &quot;priority&quot;: 10,
-      &quot;summa</pre></section>
+      &quot;summary&quot;: &quot;# 审计记录：CEO/TODO 短回复确认项与测试入口</pre></section>
     </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>

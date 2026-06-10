@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T11:33:11.885Z",
+  "generatedAt": "2026-06-10T12:16:17.763Z",
   "reportDate": "2026-06-10",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1335,7 +1335,7 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "ACTIVE",
-      "artifacts": 15,
+      "artifacts": 18,
       "points": 125,
       "href": "reports/2026-06-10/cron/automation-2/index.html"
     },
@@ -1388,7 +1388,7 @@
       "role": "岗位情报官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-09 22:51:40 CST",
         "publishTarget": ""
       },
@@ -1414,7 +1414,7 @@
         "sessionId": "019eb132-43e3-7b80-bf83-c7c8017cc962",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-09 运行摘要",
-        "publishTarget": ""
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
       "dailyTask": {
@@ -1424,7 +1424,7 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 15,
+      "artifacts": 18,
       "points": 125,
       "href": "reports/2026-06-10/cron/automation-2/index.html"
     },
@@ -1508,7 +1508,7 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1526,7 +1526,7 @@
       "role": "竞品情报官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "Automation 24-2 Memory",
         "publishTarget": ""
       },
@@ -1544,7 +1544,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "Automation 24 Memory",
         "publishTarget": ""
       },
@@ -1562,7 +1562,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
@@ -1580,7 +1580,7 @@
       "role": "客户转化官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
@@ -1598,7 +1598,7 @@
       "role": "意向信号官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1616,7 +1616,7 @@
       "role": "政策机会官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1634,7 +1634,7 @@
       "role": "资源池官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1652,7 +1652,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-10 00:06:05",
         "publishTarget": ""
       },
@@ -1751,7 +1751,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 47,
+      "artifacts": 49,
       "href": "reports/2026-06-10/codex-html/index.html"
     },
     {
