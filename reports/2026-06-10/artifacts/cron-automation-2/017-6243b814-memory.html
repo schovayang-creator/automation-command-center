@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">2 KB</span>
-            <span class="chip">2026-06-10 11:26:53</span>
+            <span class="chip">4 KB</span>
+            <span class="chip">2026-06-10 12:28:44</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>2 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>4 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -94,7 +94,7 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>memory</h3>
-          <p>已在 本地归档 执行 ./scripts/run_daily_brief.sh。</p>
+          <p>2026-06-10 晚间专项补充摘要</p>
           <ul class="mini-list"><li>已在 本地归档 执行 ./scripts/run_daily_brief.sh。</li><li>latest.json 最新 URL 为 https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-09/index.html。</li><li>首次 OpenClaw 微信发送失败，原因为 /opt/homebrew/bin/node 依赖 llhttp 9.3 动态库缺失。</li><li>已做一次安全修复：仅本次命令前置 PATH 到 本地归档 后重试。</li><li>OpenClaw agent JSON 回执确认 deliverySucceeded: true，微信发送成功。</li></ul>
         </article>
         <aside class="summary-side">
@@ -127,6 +127,17 @@
 <li>OpenClaw 主日报通知已通过固定 agent 路由发送，JSON 回执确认 deliverySucceeded: true / deliveryStatus.succeeded: true；总控台补通知也已通过同一路由发送成功。</li>
 <li>备注：run_daily_brief.sh 仍可能在网络波动时先停在 commit 后阶段，但本次已通过最小补救完成发布闭环。</li>
 <li>运行时长：23m 18s。</li>
+</ul>
+<p>2026-06-10 晚间专项补充摘要</p>
+<ul>
+<li>根据董事长要求，已核实 本地归档 日报 HTML 已回流到 Mac，但 2026-06-08/09/10 验收均显示日报仍是测试链路模板，不能作为业务任务完成证据。</li>
+<li>已创建并补齐 本地归档 2026-06-10-公司总进度与Linux日报归集人工审核大报告.md，共 477 行；同时保留 Linux 专项审计、人工审核索引与拍板清单、README。</li>
+<li>已把董事长本轮要求留档到 本地归档。</li>
+<li>已修改自动化总控台 build-commander-site.mjs，让 automation-2 收录 CEO 进度大报告、Linux 专项审计和人工审核清单；已运行 publish-local-daily-index.mjs --date 2026-06-10 --automation automation-2 --publish --notify。</li>
+<li>自动化总控台公开发布成功，.public-site 最新提交 20a39e7；公开当天总看板、automation-2 详情页和 CEO 进度大报告 artifact 页均 curl 返回 HTTP 200；公开树安全检查未发现 本地、本地归档、/脱敏证据</li>
+<li>额外发现 本地归档 存在本地提交 55a985b（修正 CEO/TODO 状态为 WAITING_MANUAL_START、0/7 天），三次 GitHub HTTPS push 均卡住或 60 秒超时；仓库当前仍 ahead 1，需下次网络恢复后补推，不得 reset。</li>
+<li>本次没有重新发送独立微信；总控台发布脚本返回 openclawStatus=already-delivered，沿用当天主日报微信闭环。</li>
+<li>运行时间：2026-06-10 20:18 CST。</li>
 </ul></article>
     </div>
   

@@ -1,6 +1,6 @@
 ID,名称,分层,状态,频率,角色,收录方式,最新运行,Session,发布目标,Memory,工作目录,产物,XP,治理分,页面
 hermes,Hermes 每日任务,每日日报任务,ACTIVE,每天 06:30,内容简报官,被内容日报收录,SUCCESS,019eae83-2094-7322-b59e-987a1cd82911,-,本地归档,本地归档,12,100,90,reports/2026-06-10/cron/hermes/index.html
-automation-3,曹博士岗位更新,每日日报任务,ACTIVE,每天 22:30,岗位情报官,被每日岗位简报收录,PUBLISH_SUCCESS,019ead22-4769-7361-9a99-7f28a22d0770,-,本地归档,本地归档,3,30,55,reports/2026-06-10/cron/automation-3/index.html
+automation-3,曹博士岗位更新,每日日报任务,ACTIVE,每天 22:30,岗位情报官,被每日岗位简报收录,DELIVERY_SUCCESS,019eb1f1-9e4d-7dc3-9749-0fb8268d3b4c,-,本地归档,本地归档,13,115,90,reports/2026-06-10/cron/automation-3/index.html
 automation-2,总经理助理,每日日报任务,ACTIVE,每天 19:00,总经理助理,被总经理日报收录,DELIVERY_SUCCESS,019eb132-43e3-7b80-bf83-c7c8017cc962,/home/wang/Desktop/今日任务.html,本地归档,本地归档,18,125,90,reports/2026-06-10/cron/automation-2/index.html
 automation,每天 07:00 双创比赛今日任务发布到 Linux 桌面,每日日报任务,ACTIVE,每天 07:00,机会雷达官,被每日机会简报收录,SUCCESS,019eae9e-9785-7e11-bf5e-e0d349deb369,"${LINUX_USER}@${LINUX_HOST}:${REMOTE_TASK}""",本地归档,本地归档,4,44,71,reports/2026-06-10/cron/automation/index.html
 a,A股每日模拟盘研究与盈亏回放,每日日报任务,ACTIVE,A 股交易日 00:00,交易研究官,交易日被日报收录,RECORDED,019ead1d-2063-7252-abb7-843c96cda494,-,本地归档,本地归档,2,16,44,reports/2026-06-10/cron/a/index.html

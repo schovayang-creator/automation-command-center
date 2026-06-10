@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T12:16:17.763Z",
+  "generatedAt": "2026-06-10T14:56:52.182Z",
   "reportDate": "2026-06-10",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1350,8 +1350,8 @@
       "name": "曹博士岗位更新",
       "role": "岗位情报官",
       "status": "ACTIVE",
-      "artifacts": 3,
-      "points": 30,
+      "artifacts": 13,
+      "points": 115,
       "href": "reports/2026-06-10/cron/automation-3/index.html"
     }
   ],
@@ -1387,8 +1387,8 @@
       "lane": "每日日报任务",
       "role": "岗位情报官",
       "latestRun": {
-        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
-        "status": "PUBLISH_SUCCESS",
+        "sessionId": "019eb1f1-9e4d-7dc3-9749-0fb8268d3b4c",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-09 22:51:40 CST",
         "publishTarget": ""
       },
@@ -1400,8 +1400,8 @@
         "dailyReport": "曹博士岗位日报",
         "acceptance": "岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。"
       },
-      "artifacts": 3,
-      "points": 30,
+      "artifacts": 13,
+      "points": 115,
       "href": "reports/2026-06-10/cron/automation-3/index.html"
     },
     {
@@ -1751,7 +1751,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 49,
+      "artifacts": 77,
       "href": "reports/2026-06-10/codex-html/index.html"
     },
     {
@@ -1760,7 +1760,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 16,
+      "artifacts": 17,
       "href": "reports/2026-06-10/codex-work/index.html"
     }
   ]
