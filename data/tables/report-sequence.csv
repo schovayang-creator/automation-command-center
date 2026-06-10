@@ -1,0 +1,5 @@
+顺序,代码,日报,负责人,状态,XP,摘要,页面
+1,01,总经理日报,总经理助理,已收录,180,经营结论、董事长决策题、项目/任务看板、明日队列。,reports/2026-06-10/cron/automation-2/index.html
+2,02,内容 / Hermes 日报,内容简报官,已收录,140,素材雷达、主推选题、Hermes 交接稿、自动化质量风险。,reports/2026-06-10/cron/hermes/index.html
+3,03,曹博士岗位日报,岗位情报官,已收录,150,岗位检索长报告、简报、结果表和夜间检索记录。,reports/2026-06-10/cron/automation-3/index.html
+4,04,自动化 / 机会日报,机会雷达官 / 验收官,已收录,130,双创任务、Linux 验收、A 股模拟盘和一次性研究验收进入总控台。,reports/2026-06-10/cron/automation/index.html

@@ -1,0 +1,12 @@
+{
+  "status": "public-tree-ready",
+  "date": "2026-06-10",
+  "automation": "automation",
+  "generatedAt": "2026-06-10T07:41:46.471Z",
+  "publicDashboardUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-10/index.html",
+  "publicDailyReportUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-10/daily-report/index.html",
+  "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-10/cron/index.html",
+  "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-10/cron/automation/index.html",
+  "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
+}

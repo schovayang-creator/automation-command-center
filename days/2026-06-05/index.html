@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-06-05 自动化日主页</title>
+  <link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body data-page="day" data-data-path="../../data/hub.json">
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="sigil">D</div>
+        <div>
+          <h1 data-day-title>今日自动化主页</h1>
+          <p>当天所有自动化报告、健康状态、公司执行仪表盘和任务奖励都汇总在这里。</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="../../index.html">总首页</a>
+        <a href="../../calendar.html">日历</a>
+        <a class="active" href="index.html">今日</a>
+      </nav>
+    </header>
+
+    <section class="grid">
+      <section class="panel span-8">
+        <div class="section-title">
+          <h2>今日报告大厅</h2>
+          <span>当天所有自动化产出</span>
+        </div>
+        <div class="report-list" data-day-reports></div>
+      </section>
+
+      <aside class="panel span-4">
+        <div class="section-title">
+          <h2>今日评分</h2>
+          <span>副本结算</span>
+        </div>
+        <div class="level-number"><span data-day-score>--</span></div>
+        <p>分数由报告完成度、发布状态、健康记录、公司执行状态共同计算。</p>
+      </aside>
+
+      <section class="panel span-6">
+        <div class="section-title">
+          <h2>今日任务</h2>
+          <span>完成得经验</span>
+        </div>
+        <div class="quest-list" data-day-quests></div>
+      </section>
+
+      <section class="panel span-6">
+        <div class="section-title">
+          <h2>状态追踪</h2>
+          <span>健康 + 公司</span>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>健身运动</h3>
+            <p data-health-suggestion>加载中</p>
+          </div>
+          <div class="timeline-item">
+            <h3>企业健康风险</h3>
+            <p data-company-risk>加载中</p>
+          </div>
+          <div class="timeline-item">
+            <h3>执行优化建议</h3>
+            <p data-company-optimization>加载中</p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <script src="../../assets/app.js"></script>
+</body>
+</html>

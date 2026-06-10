@@ -1,0 +1,1767 @@
+{
+  "generatedAt": "2026-06-10T07:50:06.278Z",
+  "reportDate": "2026-06-10",
+  "previousDate": "2026-06-06",
+  "architecture": {
+    "parent": "reports/2026-06-10/index.html",
+    "children": [
+      "reports/2026-06-10/system-detail/index.html",
+      "reports/2026-06-10/data-tables/index.html",
+      "reports/2026-06-10/help/index.html",
+      "reports/2026-06-10/cron/index.html",
+      "reports/2026-06-10/categories/index.html",
+      "reports/2026-06-10/codex-work/index.html",
+      "reports/2026-06-10/codex-html/index.html",
+      "reports/2026-06-10/daily-report/index.html",
+      "reports/2026-06-10/verification/index.html",
+      "reports/2026-06-10/roles/index.html",
+      "calendar.html"
+    ],
+    "grandchildren": "reports/<date>/artifacts/<owner>/<artifact>.html"
+  },
+  "userRequestLog": [
+    "正式底座选定为 1 号指挥官控制台：克制、固定宽度、成熟操作系统感。",
+    "自动化包括 Codex app 全部配置：总经理助理、炒股、曹博士、Hermes、Linux、双创、24h 专项等。",
+    "山西、苏州、陶瓷膜等不是每日报告，而是业务类目；A 股、Hermes、双创、Linux、总经理、曹博士这 6 个固定自动化是每日日报任务。",
+    "首页左上角必须是等级看板，右上角必须是当天待办任务看板。",
+    "首页下方必须按 1、2、3、4 顺序排布完整日报汇总。",
+    "等级页面要有总积分体系、奖励体系、角色体系、经验来源和后台分配规则。",
+    "体系覆盖公司 OKR、公司待办、个人待办、体重管理、每日日报任务管理。",
+    "日历页要成为日历主页面，能按天追踪 OKR、体重、待办、自动化和日报。",
+    "大部分方块必须能直接点击；有对应页面时必须连接到对应页面。",
+    "Codex 需要建立自己的交卷评价体系，反复雕琢和复盘，直到可以交卷。",
+    "体系必须有一个或多个专门信息表格记录数据；页面要区分简报入口和详细页面。",
+    "等级体系要详尽写清楚；每个页面都要说明清楚，详细页要达到总经理助理专属页的信息密度。"
+  ],
+  "growthSystem": {
+    "levels": [
+      {
+        "level": 1,
+        "title": "记录员",
+        "minXp": 0,
+        "unlock": "开始记录：日报、体重、任务、自动化统一入账。"
+      },
+      {
+        "level": 2,
+        "title": "执行员",
+        "minXp": 500,
+        "unlock": "解锁每日待办 XP，任务完成进入日历。"
+      },
+      {
+        "level": 3,
+        "title": "自动化主管",
+        "minXp": 1200,
+        "unlock": "解锁每日日报任务评分和失败复盘。"
+      },
+      {
+        "level": 4,
+        "title": "OKR 调度官",
+        "minXp": 2400,
+        "unlock": "解锁公司 OKR / 个人 OKR 周期看板。"
+      },
+      {
+        "level": 5,
+        "title": "经营参谋",
+        "minXp": 4200,
+        "unlock": "解锁经营日报 1/2/3/4 汇总和董事长决策题。"
+      },
+      {
+        "level": 6,
+        "title": "增长指挥官",
+        "minXp": 6600,
+        "unlock": "解锁客户类目、转化类目和机会雷达联动。"
+      },
+      {
+        "level": 7,
+        "title": "系统司令",
+        "minXp": 9600,
+        "unlock": "解锁角色积分、奖励池和治理均分。"
+      },
+      {
+        "level": 8,
+        "title": "公司操作系统架构师",
+        "minXp": 13200,
+        "unlock": "解锁跨月日历、体重里程碑和复盘模板。"
+      },
+      {
+        "level": 9,
+        "title": "复利经营者",
+        "minXp": 18000,
+        "unlock": "解锁长期趋势：OKR、体重、客户、自动化连续性。"
+      },
+      {
+        "level": 10,
+        "title": "总控台大师",
+        "minXp": 24000,
+        "unlock": "解锁人工规则优化：每周复盘后改积分权重。"
+      },
+      {
+        "level": 11,
+        "title": "自运行公司",
+        "minXp": 32000,
+        "unlock": "解锁低人工巡检：自动化异常优先推送。"
+      },
+      {
+        "level": 12,
+        "title": "长期主义司令部",
+        "minXp": 42000,
+        "unlock": "解锁年度总账：公司目标、身体目标、个人目标统一回看。"
+      }
+    ],
+    "xpRules": [
+      {
+        "track": "每日日报任务",
+        "code": "AUTO",
+        "points": "每个有效产物 4-12 XP，ACTIVE +20 治理分",
+        "detail": "参考 Habitica 的即时反馈，但不做花哨角色皮肤；用于衡量自动化是否真的产出。"
+      },
+      {
+        "track": "公司 OKR",
+        "code": "OKR",
+        "points": "每个可检查 KR 80 XP，周复盘 120 XP",
+        "detail": "参考 Leantime 的目标优先结构：目标 -> KR -> 今日动作 -> 验收证据。"
+      },
+      {
+        "track": "公司待办",
+        "code": "CTD",
+        "points": "P0 完成 160 XP，P1 完成 100 XP，P2 完成 50 XP",
+        "detail": "参考 Plane 的任务/周期结构：待办要有负责人、状态、截止和归属目标。"
+      },
+      {
+        "track": "个人待办",
+        "code": "PTD",
+        "points": "每日完成 30-80 XP，连续记录加 20 XP",
+        "detail": "个人任务不抢公司 P0，但进入同一日历方便复盘精力分配。"
+      },
+      {
+        "track": "体重管理",
+        "code": "WGT",
+        "points": "体重记录 30 XP，训练 60 XP，阶段下降额外 100-600 XP",
+        "detail": "参考 wger 的长期记录思路：看趋势，不用单日体重做情绪判断。"
+      },
+      {
+        "track": "日报复盘",
+        "code": "RPT",
+        "points": "每篇完整日报 120 XP，关键决策题闭环 80 XP",
+        "detail": "日报是当天总账；1/2/3/4 篇按固定顺序进入首页。"
+      }
+    ],
+    "rewards": [
+      {
+        "level": 2,
+        "reward": "每日待办进入首页右上角",
+        "condition": "当天至少有 1 个可检查任务。"
+      },
+      {
+        "level": 3,
+        "reward": "自动化异常进入复盘清单",
+        "condition": "Cron 失败或无产物时显示缺口。"
+      },
+      {
+        "level": 4,
+        "reward": "OKR 周期看板",
+        "condition": "年度/季度/月度/周目标完成至少一层拆解。"
+      },
+      {
+        "level": 5,
+        "reward": "日报 1/2/3/4 固定序列",
+        "condition": "当天四类日报都有入口或明确缺口。"
+      },
+      {
+        "level": 6,
+        "reward": "业务类目进入增长地图",
+        "condition": "客户、政策、竞品、资源池类目至少有一个有效产物。"
+      },
+      {
+        "level": 8,
+        "reward": "体重趋势和训练里程碑",
+        "condition": "体重记录累计 7 天或训练累计 4 次。"
+      },
+      {
+        "level": 10,
+        "reward": "每周人工改权重权限",
+        "condition": "连续 7 天日报 / 待办 / 体重至少两条轨道有记录。"
+      }
+    ],
+    "weightMilestones": [
+      {
+        "lossKg": 0,
+        "title": "记录期",
+        "reward": "先建立记录，不急着判定结果。"
+      },
+      {
+        "lossKg": 2,
+        "title": "轻装启动",
+        "reward": "解锁 100 XP 体重阶段奖励。"
+      },
+      {
+        "lossKg": 5,
+        "title": "体重管理者",
+        "reward": "解锁 300 XP 和周复盘提醒。"
+      },
+      {
+        "lossKg": 8,
+        "title": "代谢重建",
+        "reward": "解锁 500 XP 和训练周期复盘。"
+      },
+      {
+        "lossKg": 12,
+        "title": "体型重塑",
+        "reward": "解锁 800 XP 和季度健康总结。"
+      },
+      {
+        "lossKg": 16,
+        "title": "长期稳定",
+        "reward": "解锁 1200 XP 和维护期规则。"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "company-okr",
+        "code": "OKR",
+        "title": "公司 OKR",
+        "owner": "总经理助理",
+        "href": "reports/{date}/roles/index.html",
+        "goal": "目标、KR、每日动作和验收证据统一。"
+      },
+      {
+        "id": "company-todo",
+        "code": "CTD",
+        "title": "公司待办",
+        "owner": "总指挥",
+        "href": "reports/{date}/daily-report/index.html",
+        "goal": "P0/P1/P2 公司任务进入右上角待办看板。"
+      },
+      {
+        "id": "personal-todo",
+        "code": "PTD",
+        "title": "个人待办",
+        "owner": "个人执行官",
+        "href": "calendar.html",
+        "goal": "个人事项纳入日历，不和公司 P0 混账。"
+      },
+      {
+        "id": "weight",
+        "code": "WGT",
+        "title": "体重管理",
+        "owner": "体重管理官",
+        "href": "calendar.html",
+        "goal": "体重、训练、有氧和里程碑统一追踪。"
+      },
+      {
+        "id": "automation",
+        "code": "AUTO",
+        "title": "每日日报任务",
+        "owner": "自动化主管",
+        "href": "reports/{date}/cron/index.html",
+        "goal": "6 个固定每日任务进入每日日报；其他自动化继续登记在自动化台账。"
+      },
+      {
+        "id": "reports",
+        "code": "RPT",
+        "title": "日报复盘",
+        "owner": "总经理助理",
+        "href": "reports/{date}/daily-report/index.html",
+        "goal": "1/2/3/4 篇日报按序汇总，作为当天总账。"
+      }
+    ],
+    "architectureBlueprint": [
+      {
+        "code": "HOME",
+        "layer": "母页",
+        "title": "当天总看板",
+        "href": "reports/{date}/index.html",
+        "rule": "左上等级、右上待办、下方 1/2/3/4 日报，负责当天总态势和入口分流。",
+        "evidence": "总 XP、待办、日报序列、自动化态势"
+      },
+      {
+        "code": "SYS",
+        "layer": "详细页",
+        "title": "体系详图",
+        "href": "reports/{date}/system-detail/index.html",
+        "rule": "承接首页简报背后的完整解释：页面母子关系、数据表、等级、日报、自动化、日历和验收标准。",
+        "evidence": "3 分钟简报、董事长决策题、页面说明、验收清单"
+      },
+      {
+        "code": "DATA",
+        "layer": "数据页",
+        "title": "数据表格",
+        "href": "reports/{date}/data-tables/index.html",
+        "rule": "专门记录后台信息表格，后续改规则、改权重、补数据都应先看这里。",
+        "evidence": "CSV、system-tables.json、12 张体系表"
+      },
+      {
+        "code": "LV",
+        "layer": "角色页",
+        "title": "等级体系",
+        "href": "reports/{date}/roles/index.html",
+        "rule": "承载积分、奖励、角色、后台权重、自评体系和参考模型，作为长期规则配置页。",
+        "evidence": "等级阶梯、奖励池、经验来源、自评硬门槛"
+      },
+      {
+        "code": "CAL",
+        "layer": "日历页",
+        "title": "日历追踪",
+        "href": "calendar.html",
+        "rule": "按天追踪 OKR、公司待办、个人待办、体重训练、自动化和日报是否入账。",
+        "evidence": "日期入口、健康记录、每日轨道规则"
+      },
+      {
+        "code": "RPT",
+        "layer": "日报页",
+        "title": "日报收录",
+        "href": "reports/{date}/daily-report/index.html",
+        "rule": "每日日报任务是日报来源；业务类目是日报引用对象；关键报告进入批阅页验收。",
+        "evidence": "四篇日报、每日任务、关键汇报、收录规则"
+      },
+      {
+        "code": "CR",
+        "layer": "自动化页",
+        "title": "自动化登记簿",
+        "href": "reports/{date}/cron/index.html",
+        "rule": "Codex app 全部 cron / heartbeat 自动化都登记，按每日、专项、一次性分层。",
+        "evidence": "automation.toml、状态、产物、稳定度"
+      },
+      {
+        "code": "CAT",
+        "layer": "类目页",
+        "title": "业务类目",
+        "href": "reports/{date}/categories/index.html",
+        "rule": "苏州、山西、陶瓷膜、竞品等是业务类目，不再被误当作每日报告。",
+        "evidence": "类目详情、报告批阅页、阶段结论"
+      }
+    ],
+    "xpAllocation": [
+      {
+        "code": "OKR",
+        "title": "公司 OKR 分配",
+        "source": "年度 / 季度 / 月度 / 周目标",
+        "weight": "20%",
+        "rule": "KR 可检查才给分；没有数值的目标只进入待补清单。",
+        "proof": "目标页、总经理日报、周复盘"
+      },
+      {
+        "code": "CTD",
+        "title": "公司待办分配",
+        "source": "P0 / P1 / P2 当天任务",
+        "weight": "18%",
+        "rule": "P0 完成 160 XP，P1 完成 100 XP，P2 完成 50 XP。",
+        "proof": "首页右上待办、日报关键决策题"
+      },
+      {
+        "code": "PTD",
+        "title": "个人待办分配",
+        "source": "个人每日事项",
+        "weight": "8%",
+        "rule": "不和公司任务混账；以日历记录和连续性加分。",
+        "proof": "日历页、个人轨道"
+      },
+      {
+        "code": "WGT",
+        "title": "体重管理分配",
+        "source": "体重 / 力量 / 有氧 / 饮食记录",
+        "weight": "12%",
+        "rule": "记录、训练和阶段下降分别计分；只看趋势，不做医疗判断。",
+        "proof": "健康 CSV、日历健康块"
+      },
+      {
+        "code": "AUTO",
+        "title": "每日日报任务分配",
+        "source": "Codex app cron / heartbeat",
+        "weight": "24%",
+        "rule": "A 股、Hermes、双创、Linux、总经理、曹博士按每日任务入账；ACTIVE、有效产物、稳定度、异常复盘一起计分。",
+        "proof": "automation.toml、当日产物、自动化详情页"
+      },
+      {
+        "code": "RPT",
+        "title": "日报复盘分配",
+        "source": "1 / 2 / 3 / 4 日报",
+        "weight": "18%",
+        "rule": "四篇日报按顺序收录；缺口要显式显示，不静默。",
+        "proof": "日报收录页、总经理日报、Hermes、曹博士、机会日报"
+      }
+    ],
+    "operatingLoops": [
+      {
+        "code": "AM",
+        "title": "早间入账",
+        "time": "06:30-09:30",
+        "rule": "Hermes、双创、机会类产物先进入日报收录页，形成当天第一批待办。"
+      },
+      {
+        "code": "PM",
+        "title": "下午验收",
+        "time": "17:00",
+        "rule": "Linux 验收和跨设备收件进入自动化成果入账，失败要进入 P1 巡检。"
+      },
+      {
+        "code": "EV",
+        "title": "晚间总账",
+        "time": "19:00-22:30",
+        "rule": "总经理日报与曹博士日报收口，首页待办和等级经验刷新。"
+      },
+      {
+        "code": "WK",
+        "title": "周复盘",
+        "time": "每周",
+        "rule": "检查 OKR、体重趋势、自动化失败率和业务类目转化，必要时调整 XP 权重。"
+      }
+    ],
+    "selfReviewRubric": [
+      {
+        "code": "ARCH",
+        "name": "架构完整性",
+        "target": 100,
+        "rule": "母页、详情页、报告批阅页关系清楚；日报、类目、自动化边界不混。"
+      },
+      {
+        "code": "XP",
+        "name": "等级积分闭环",
+        "target": 100,
+        "rule": "经验来源、等级阈值、奖励、角色责任和体重里程碑都能解释。"
+      },
+      {
+        "code": "HOME",
+        "name": "首页信息密度",
+        "target": 95,
+        "rule": "第一屏左等级、右待办，下方日报顺序清楚，无大面积空白。"
+      },
+      {
+        "code": "LINK",
+        "name": "可点击率",
+        "target": 95,
+        "rule": "大部分方块整块可点；有对应页面就落到对应详情页或报告批阅页。"
+      },
+      {
+        "code": "DATA",
+        "name": "真实数据接入",
+        "target": 90,
+        "rule": "优先读取本地真实 Cron、日报、任务、体重记录；缺失则明确显示缺口。"
+      },
+      {
+        "code": "DENSE",
+        "name": "克制与密集",
+        "target": 90,
+        "rule": "不做花哨游戏皮肤，保持指挥官控制台风格和紧凑排版。"
+      },
+      {
+        "code": "VERIFY",
+        "name": "验证证据",
+        "target": 90,
+        "rule": "生成、语法、HTTP、链接和视觉截图至少覆盖核心页面。"
+      }
+    ],
+    "referenceSystems": [
+      {
+        "name": "Habitica",
+        "url": "https://github.com/HabitRPG/habitica",
+        "lesson": "把任务、习惯、奖励和等级连成一条反馈链：完成加 XP，失败扣状态，奖励可解锁。"
+      },
+      {
+        "name": "Plane",
+        "url": "https://github.com/makeplane/plane",
+        "lesson": "用项目、周期、模块、任务拆分工作，适合公司待办和自动化任务排期。"
+      },
+      {
+        "name": "Leantime",
+        "url": "https://github.com/Leantime/leantime",
+        "lesson": "目标优先，先明确目标和里程碑，再把执行任务挂到目标下面。"
+      },
+      {
+        "name": "wger",
+        "url": "https://github.com/wger-project/wger",
+        "lesson": "体重、训练和营养应作为长期记录轨道，用趋势和里程碑管理，不做短期情绪判断。"
+      }
+    ],
+    "xpEvents": [
+      {
+        "code": "AUTO-ACTIVE",
+        "track": "每日日报任务",
+        "event": "每日自动化保持 ACTIVE 并按时触发",
+        "baseXp": 20,
+        "cap": 120,
+        "evidence": "automation.toml 状态 + 当日 cron 详情页",
+        "rule": "ACTIVE 给稳定度；PAUSED 不给每日触发评分，但保留台账。"
+      },
+      {
+        "code": "AUTO-ARTIFACT",
+        "track": "每日日报任务",
+        "event": "产出 Markdown / HTML / CSV / JSON",
+        "baseXp": "4-12/件",
+        "cap": 160,
+        "evidence": "报告批阅页 + 脱敏证据",
+        "rule": "报告类权重最高，数据表其次，日志只作辅助证据。"
+      },
+      {
+        "code": "RPT-COMPLETE",
+        "track": "日报复盘",
+        "event": "1/2/3/4 日报入口齐全",
+        "baseXp": 120,
+        "cap": 480,
+        "evidence": "日报收录页四张日报卡",
+        "rule": "缺日报不静默，必须显示缺口或落到自动化/机会日报。"
+      },
+      {
+        "code": "TODO-P0",
+        "track": "公司待办",
+        "event": "P0 公司待办完成",
+        "baseXp": 160,
+        "cap": 480,
+        "evidence": "首页右上待办 + 对应日报/产物",
+        "rule": "P0 必须可验收；没有输出路径不入账。"
+      },
+      {
+        "code": "TODO-P1",
+        "track": "公司待办",
+        "event": "P1 公司待办完成",
+        "baseXp": 100,
+        "cap": 400,
+        "evidence": "待办卡片 + 详情记录",
+        "rule": "P1 用于推进本周节奏，不能抢 P0 权重。"
+      },
+      {
+        "code": "OKR-KR",
+        "track": "公司 OKR",
+        "event": "补齐一个可检查 KR",
+        "baseXp": 80,
+        "cap": 400,
+        "evidence": "目标页 / 总经理日报 / 周复盘",
+        "rule": "没有数值、期限、负责人或验收证据的目标不加分。"
+      },
+      {
+        "code": "WGT-LOG",
+        "track": "体重管理",
+        "event": "记录体重或训练",
+        "baseXp": "30/60",
+        "cap": 180,
+        "evidence": "健康 CSV + 日历健康块",
+        "rule": "单日波动不评价好坏，只看趋势和记录连续性。"
+      },
+      {
+        "code": "WGT-MILESTONE",
+        "track": "体重管理",
+        "event": "达到阶段下降里程碑",
+        "baseXp": "100-1200",
+        "cap": 1200,
+        "evidence": "基线、当前值、连续记录",
+        "rule": "阶段奖励只在趋势可信时发放，不做医疗判断。"
+      },
+      {
+        "code": "LINK-CLEAN",
+        "track": "系统治理",
+        "event": "核心页面链接扫描无缺失",
+        "baseXp": 90,
+        "cap": 90,
+        "evidence": "链接扫描输出",
+        "rule": "缺失链接必须修复后才可声明交卷。"
+      }
+    ],
+    "levelDetails": [
+      {
+        "level": 1,
+        "title": "记录员",
+        "minXp": 0,
+        "unlock": "开始记录：日报、体重、任务、自动化统一入账。",
+        "maxXp": 499,
+        "requiredTracks": "日报 / 待办",
+        "evidence": "有页面、有记录、有产物",
+        "review": "每日"
+      },
+      {
+        "level": 2,
+        "title": "执行员",
+        "minXp": 500,
+        "unlock": "解锁每日待办 XP，任务完成进入日历。",
+        "maxXp": 1199,
+        "requiredTracks": "日报 / 待办",
+        "evidence": "有页面、有记录、有产物",
+        "review": "每日"
+      },
+      {
+        "level": 3,
+        "title": "自动化主管",
+        "minXp": 1200,
+        "unlock": "解锁每日日报任务评分和失败复盘。",
+        "maxXp": 2399,
+        "requiredTracks": "日报 / 自动化 / OKR",
+        "evidence": "有页面、有记录、有产物",
+        "review": "每日"
+      },
+      {
+        "level": 4,
+        "title": "OKR 调度官",
+        "minXp": 2400,
+        "unlock": "解锁公司 OKR / 个人 OKR 周期看板。",
+        "maxXp": 4199,
+        "requiredTracks": "日报 / 自动化 / OKR",
+        "evidence": "有周复盘、有任务闭环、有数据表",
+        "review": "每日"
+      },
+      {
+        "level": 5,
+        "title": "经营参谋",
+        "minXp": 4200,
+        "unlock": "解锁经营日报 1/2/3/4 汇总和董事长决策题。",
+        "maxXp": 6599,
+        "requiredTracks": "日报 / 自动化 / OKR",
+        "evidence": "有周复盘、有任务闭环、有数据表",
+        "review": "每周"
+      },
+      {
+        "level": 6,
+        "title": "增长指挥官",
+        "minXp": 6600,
+        "unlock": "解锁客户类目、转化类目和机会雷达联动。",
+        "maxXp": 9599,
+        "requiredTracks": "OKR / 业务类目 / 体重",
+        "evidence": "有周复盘、有任务闭环、有数据表",
+        "review": "每周"
+      },
+      {
+        "level": 7,
+        "title": "系统司令",
+        "minXp": 9600,
+        "unlock": "解锁角色积分、奖励池和治理均分。",
+        "maxXp": 13199,
+        "requiredTracks": "OKR / 业务类目 / 体重",
+        "evidence": "有周复盘、有任务闭环、有数据表",
+        "review": "每周"
+      },
+      {
+        "level": 8,
+        "title": "公司操作系统架构师",
+        "minXp": 13200,
+        "unlock": "解锁跨月日历、体重里程碑和复盘模板。",
+        "maxXp": 17999,
+        "requiredTracks": "OKR / 业务类目 / 体重",
+        "evidence": "有跨月趋势、有人工权重调整、有年度总账",
+        "review": "每周"
+      },
+      {
+        "level": 9,
+        "title": "复利经营者",
+        "minXp": 18000,
+        "unlock": "解锁长期趋势：OKR、体重、客户、自动化连续性。",
+        "maxXp": 23999,
+        "requiredTracks": "年度目标 / 自运行 / 长期趋势",
+        "evidence": "有跨月趋势、有人工权重调整、有年度总账",
+        "review": "每月 / 每季度"
+      },
+      {
+        "level": 10,
+        "title": "总控台大师",
+        "minXp": 24000,
+        "unlock": "解锁人工规则优化：每周复盘后改积分权重。",
+        "maxXp": 31999,
+        "requiredTracks": "年度目标 / 自运行 / 长期趋势",
+        "evidence": "有跨月趋势、有人工权重调整、有年度总账",
+        "review": "每月 / 每季度"
+      },
+      {
+        "level": 11,
+        "title": "自运行公司",
+        "minXp": 32000,
+        "unlock": "解锁低人工巡检：自动化异常优先推送。",
+        "maxXp": 41999,
+        "requiredTracks": "年度目标 / 自运行 / 长期趋势",
+        "evidence": "有跨月趋势、有人工权重调整、有年度总账",
+        "review": "每月 / 每季度"
+      },
+      {
+        "level": 12,
+        "title": "长期主义司令部",
+        "minXp": 42000,
+        "unlock": "解锁年度总账：公司目标、身体目标、个人目标统一回看。",
+        "maxXp": "∞",
+        "requiredTracks": "年度目标 / 自运行 / 长期趋势",
+        "evidence": "有跨月趋势、有人工权重调整、有年度总账",
+        "review": "每月 / 每季度"
+      }
+    ],
+    "pageGuides": [
+      {
+        "页面ID": "dashboard",
+        "页面": "当天总看板",
+        "层级/模式": "简报入口",
+        "用途": "给当天只看 3 分钟的人使用：左上等级、右上待办、下方 1/2/3/4 日报，再把所有详细页分流出去。",
+        "数据来源": "growthSystem、dailyReports、todoItems、dailyTasks、health、modules、automations。",
+        "阅读方式": "先看 P0/P1 待办，再看日报 1/2/3/4 是否齐，再进入数据表格或体系详图查看底层口径。",
+        "验收标准": "第一屏必须不空；四篇日报必须顺序固定；每日任务必须按 00:00、06:30、07:00、17:00、19:00、22:30 展示。",
+        "详细入口": "reports/2026-06-10/system-detail/index.html"
+      },
+      {
+        "页面ID": "cron",
+        "页面": "自动化登记簿",
+        "层级/模式": "配置台账",
+        "用途": "记录 Codex app 全部 cron / heartbeat：每日任务、专项主控、一次性线程唤醒都在这里入账。",
+        "数据来源": "~/.codex/automations/*/automation.toml + 每个自动化本地产物目录。",
+        "阅读方式": "每日任务进入每日日报；24 小时专项进入业务类目；一次性只作为台账登记，按需被日报引用。",
+        "验收标准": "每条自动化必须显示状态、角色、频率、收录方式、产物数、积分、来源和关联页面。",
+        "详细入口": "reports/2026-06-10/data-tables/index.html#automation-ledger"
+      },
+      {
+        "页面ID": "categories",
+        "页面": "业务类目",
+        "层级/模式": "专项成果入口",
+        "用途": "承载苏州、山西、陶瓷膜、竞品、政策、招投标、专家资源等业务类目，避免它们被误当成每日报告。",
+        "数据来源": "自动化工厂各业务目录的 24小时主控、手动 goal、主目录成果。",
+        "阅读方式": "类目页看阶段成果，报告批阅页看具体 Markdown/CSV/HTML/JSON 证据。",
+        "验收标准": "类目必须能说明产物归属、当前状态、关键报告和缺口；待归档类目必须显式保留位。",
+        "详细入口": "reports/2026-06-10/data-tables/index.html#module-ledger"
+      },
+      {
+        "页面ID": "daily-report",
+        "页面": "日报收录",
+        "层级/模式": "每日总账",
+        "用途": "把 6 条每日日报任务和业务类目关键产物收进同一个日报体系。",
+        "数据来源": "dailyTasks、buildDailyReports、自动化 topArtifacts、业务类目 topArtifacts。",
+        "阅读方式": "先看 6 条每日任务归类，再看 1/2/3/4 日报序列，最后看今日关键汇报和收录规则。",
+        "验收标准": "A 股、Hermes、双创、Linux、总经理、曹博士必须是每日任务；苏州、山西、陶瓷膜等只能是业务类目引用对象。",
+        "详细入口": "reports/2026-06-10/system-detail/index.html#daily-report-detail"
+      },
+      {
+        "页面ID": "verification",
+        "页面": "验收报告",
+        "层级/模式": "交卷证据",
+        "用途": "把当天最终页、详情页、链接、内容覆盖、移动端和截图证据集中成一个可批阅页面。",
+        "数据来源": "验证脚本、system-tables、响应式截图目录、核心页面和固定自动化详情页。",
+        "阅读方式": "先看总结果，再看覆盖矩阵、验证命令、截图清单和人工复核项；失败项必须回到生成器修复。",
+        "验收标准": "最终日报必须覆盖固定自动化、本地 Codex 项目、公司管理、体重管理、等级 XP 和批阅链接；核心验证脚本必须可重复运行。",
+        "详细入口": "reports/2026-06-10/verification/index.html"
+      },
+      {
+        "页面ID": "roles",
+        "页面": "等级体系",
+        "层级/模式": "规则后台",
+        "用途": "承载总等级、角色职责、XP 入账、奖励解锁、体重里程碑、后台权重和自评门槛。",
+        "数据来源": "levelDefs、xpRules、rewardDefs、weightMilestones、trackDefs、xpAllocationDefs、roleDefs。",
+        "阅读方式": "先看总等级和六条成长轨道，再看等级阶梯、奖励、XP 事件、扣分和复盘规则。",
+        "验收标准": "每个 XP 来源必须有证据；奖励必须是权限或复盘能力，不做空洞游戏化装饰。",
+        "详细入口": "reports/2026-06-10/system-detail/index.html#level-detail"
+      },
+      {
+        "页面ID": "calendar",
+        "页面": "日历追踪",
+        "层级/模式": "按日账本",
+        "用途": "把 OKR、公司待办、个人待办、体重训练、自动化、日报按天归档。",
+        "数据来源": "健康 CSV、当日日报、ACTIVE 自动化、成长轨道。",
+        "阅读方式": "有内容日期可点击；体重记录和自动化/日报状态都在日历上形成连续性。",
+        "验收标准": "不能只做日期归档；必须能说明每天哪些轨道入账、哪些轨道缺失。",
+        "详细入口": "reports/2026-06-10/system-detail/index.html#calendar-detail"
+      },
+      {
+        "页面ID": "help",
+        "页面": "后台说明",
+        "层级/模式": "规则与数据后台",
+        "用途": "集中保存最终页不该出现的体系规划、数据表、页面口径、执行说明、自动化配置和脱敏证据入口。",
+        "数据来源": "系统定义、数据表、Codex 自动化配置、运行记录、用户需求台账和自评指标。",
+        "阅读方式": "需要改规则、查配置、看证据、排查链接时进入；日常验收优先看总看板、日报、自动化简报和角色页。",
+        "验收标准": "Help 可以出现配置、Session、memory、页面说明和验收口径；最终页不展示这些后台语言。",
+        "详细入口": "reports/2026-06-10/help/index.html"
+      },
+      {
+        "页面ID": "data-tables",
+        "页面": "数据表格",
+        "层级/模式": "底层数据页",
+        "用途": "专门用表格记录自动化、每日任务、类目、日报、等级、XP、奖励、健康、页面说明等数据。",
+        "数据来源": "本生成器构造的 systemTables，同时导出到 data/tables/*.csv 和 data/system-tables.json。",
+        "阅读方式": "需要改规则时先看表；需要追踪数据时看 CSV；需要确认页面口径时看页面说明表。",
+        "验收标准": "每个主数据域必须有可读表格和可下载 CSV，不只依赖页面卡片。",
+        "详细入口": "reports/2026-06-10/system-detail/index.html#data-detail"
+      },
+      {
+        "页面ID": "system-detail",
+        "页面": "体系详图",
+        "层级/模式": "详细页面",
+        "用途": "像总经理助理专属页一样，把体系架构、规则、数据表、等级、日报、自动化、验收全部展开。",
+        "数据来源": "所有核心定义和当日采集结果。",
+        "阅读方式": "先读 3 分钟简报，再按章节进入数据表、等级、日报、页面说明和验收清单。",
+        "验收标准": "详细页必须比简报页更厚，能作为后续手动修改规则的依据。",
+        "详细入口": "reports/2026-06-10/system-detail/index.html"
+      }
+    ],
+    "pageOperations": [
+      {
+        "页面ID": "dashboard",
+        "代码": "FIRST",
+        "执行项": "第一屏判定",
+        "说明": "只看等级看板、当天待办和 1/2/3/4 日报是否齐。这里不展开长文，负责总态势分流。",
+        "负责人": "总指挥",
+        "入口": "reports/2026-06-10/index.html"
+      },
+      {
+        "页面ID": "dashboard",
+        "代码": "TODO",
+        "执行项": "待办验收",
+        "说明": "P0/P1 必须能点到日报、自动化或类目页；不能验收的事项留在待补，不给 XP。",
+        "负责人": "验收官",
+        "入口": "reports/2026-06-10/daily-report/index.html"
+      },
+      {
+        "页面ID": "dashboard",
+        "代码": "RPT",
+        "执行项": "日报顺序",
+        "说明": "四篇日报固定按总经理、Hermes、曹博士、自动化/机会排布，避免当天入口散掉。",
+        "负责人": "日报复盘官",
+        "入口": "reports/2026-06-10/daily-report/index.html"
+      },
+      {
+        "页面ID": "dashboard",
+        "代码": "DRILL",
+        "执行项": "下钻方式",
+        "说明": "简报看不够时先到体系详图，再到数据表格；所有卡片优先整块可点击。",
+        "负责人": "系统司令",
+        "入口": "reports/2026-06-10/system-detail/index.html"
+      },
+      {
+        "页面ID": "cron",
+        "代码": "DAILY",
+        "执行项": "每日任务归类",
+        "说明": "A 股、Hermes、双创、Linux、总经理、曹博士六条固定每日 cron 进入每日日报任务表。",
+        "负责人": "自动化主管",
+        "入口": "reports/2026-06-10/data-tables/index.html#daily-task-ledger"
+      },
+      {
+        "页面ID": "cron",
+        "代码": "SPEC",
+        "执行项": "专项 Cron",
+        "说明": "苏州、山西、陶瓷膜、竞品、政策、招投标、专家资源等 24 小时主控只归入业务类目。",
+        "负责人": "业务类目官",
+        "入口": "reports/2026-06-10/categories/index.html"
+      },
+      {
+        "页面ID": "cron",
+        "代码": "ONE",
+        "执行项": "一次性唤醒",
+        "说明": "一次性 / heartbeat 只登记在自动化台账，除非当天日报明确引用，不进入固定日报序列。",
+        "负责人": "验收官",
+        "入口": "reports/2026-06-10/data-tables/index.html#automation-ledger"
+      },
+      {
+        "页面ID": "cron",
+        "代码": "FAIL",
+        "执行项": "失败复盘",
+        "说明": "PAUSED、无产物、缺工作目录都要显示，不用空白掩盖；下轮应进入 P1 巡检。",
+        "负责人": "系统治理官",
+        "入口": "reports/2026-06-10/system-detail/index.html#data-detail"
+      },
+      {
+        "页面ID": "categories",
+        "代码": "BOUND",
+        "执行项": "边界",
+        "说明": "业务类目是项目资产池，不是每日报告；日报只引用它们的关键产物和阶段结论。",
+        "负责人": "类目官",
+        "入口": "reports/2026-06-10/data-tables/index.html#module-ledger"
+      },
+      {
+        "页面ID": "categories",
+        "代码": "PROOF",
+        "执行项": "证据",
+        "说明": "类目页只做摘要，真正证据在 Markdown、CSV、HTML、JSON 批阅页中预览。",
+        "负责人": "归档官",
+        "入口": "reports/2026-06-10/categories/index.html"
+      },
+      {
+        "页面ID": "categories",
+        "代码": "GAP",
+        "执行项": "保留位",
+        "说明": "暂时无产物的类目保留在表里，显示待补，方便后续自动化接入。",
+        "负责人": "系统司令",
+        "入口": "reports/2026-06-10/data-tables/index.html#module-ledger"
+      },
+      {
+        "页面ID": "categories",
+        "代码": "USE",
+        "执行项": "日报引用",
+        "说明": "总经理日报或机会日报需要业务结论时，从类目页提取关键批阅页，不改变类目身份。",
+        "负责人": "日报复盘官",
+        "入口": "reports/2026-06-10/daily-report/index.html"
+      },
+      {
+        "页面ID": "daily-report",
+        "代码": "TASK",
+        "执行项": "六条每日任务",
+        "说明": "每天按时间顺序看 00:00、06:30、07:00、17:00、19:00、22:30 六个来源。",
+        "负责人": "日报复盘官",
+        "入口": "reports/2026-06-10/data-tables/index.html#daily-task-ledger"
+      },
+      {
+        "页面ID": "daily-report",
+        "代码": "SEQ",
+        "执行项": "四篇日报",
+        "说明": "首页和日报页都固定使用 1/2/3/4 序列表；缺失就写缺口，不做替换。",
+        "负责人": "总经理助理",
+        "入口": "reports/2026-06-10/data-tables/index.html#report-sequence"
+      },
+      {
+        "页面ID": "daily-report",
+        "代码": "DENSE",
+        "执行项": "关键汇报",
+        "说明": "今日关键汇报要像总经理助理专属页一样密集：标题、来源、产物、状态和跳转都要有。",
+        "负责人": "验收官",
+        "入口": "reports/2026-06-10/daily-report/index.html"
+      },
+      {
+        "页面ID": "daily-report",
+        "代码": "NEXT",
+        "执行项": "明日队列",
+        "说明": "日报里没有完成的事项不消失，进入明日待办或自动化失败复盘。",
+        "负责人": "日历官",
+        "入口": "calendar.html"
+      },
+      {
+        "页面ID": "verification",
+        "代码": "COV",
+        "执行项": "内容覆盖",
+        "说明": "六类用户要求逐项确认：固定自动化、本地项目、公司管理、体重管理、等级 XP、批阅链接。",
+        "负责人": "验收官",
+        "入口": "reports/2026-06-10/daily-report/index.html"
+      },
+      {
+        "页面ID": "verification",
+        "代码": "LOOP",
+        "执行项": "循环验证",
+        "说明": "每次生成后跑 commander、linkage、daily-preview-loop、responsive 四个检查，失败即回改。",
+        "负责人": "Codex",
+        "入口": "reports/2026-06-10/verification/index.html#verification-commands"
+      },
+      {
+        "页面ID": "verification",
+        "代码": "SHOT",
+        "执行项": "截图复核",
+        "说明": "桌面、笔记本、平板和手机截图必须可追溯；移动首屏不能被侧栏挤掉。",
+        "负责人": "视觉验收官",
+        "入口": "reports/2026-06-10/verification/index.html#screenshots"
+      },
+      {
+        "页面ID": "verification",
+        "代码": "OPEN",
+        "执行项": "最终打开",
+        "说明": "验收完成后直接打开当天最终日报预览页，供人工批阅通过或继续指出问题。",
+        "负责人": "总指挥",
+        "入口": "reports/2026-06-10/daily-report/index.html"
+      },
+      {
+        "页面ID": "roles",
+        "代码": "LV",
+        "执行项": "等级阈值",
+        "说明": "12 级从记录员到长期主义司令部，每一级都有 XP 下限、解锁、证据和复盘周期。",
+        "负责人": "系统司令",
+        "入口": "reports/2026-06-10/data-tables/index.html#level-ladder"
+      },
+      {
+        "页面ID": "roles",
+        "代码": "XP",
+        "执行项": "XP 入账",
+        "说明": "自动化、OKR、公司待办、个人待办、体重和日报分别计分；没有证据不入账。",
+        "负责人": "积分官",
+        "入口": "reports/2026-06-10/data-tables/index.html#xp-events"
+      },
+      {
+        "页面ID": "roles",
+        "代码": "REW",
+        "执行项": "奖励体系",
+        "说明": "奖励不是皮肤，而是首页入口、异常复盘、OKR 看板、体重趋势、周复盘等操作能力。",
+        "负责人": "总指挥",
+        "入口": "reports/2026-06-10/data-tables/index.html#reward-ledger"
+      },
+      {
+        "页面ID": "roles",
+        "代码": "WGT",
+        "执行项": "体重轨道",
+        "说明": "体重下降、训练、有氧和连续记录都计入体系；只看趋势，不做医疗判断。",
+        "负责人": "体重管理官",
+        "入口": "calendar.html"
+      },
+      {
+        "页面ID": "calendar",
+        "代码": "DAY",
+        "执行项": "按日入账",
+        "说明": "每一天都应该能解释 OKR、公司待办、个人待办、体重、自动化、日报哪些入账。",
+        "负责人": "日历官",
+        "入口": "calendar.html"
+      },
+      {
+        "页面ID": "calendar",
+        "代码": "WGT",
+        "执行项": "体重记录",
+        "说明": "健康 CSV 是第一版事实源；后续可拆成体重、训练、饮食三张表。",
+        "负责人": "体重管理官",
+        "入口": "reports/2026-06-10/data-tables/index.html#health-ledger"
+      },
+      {
+        "页面ID": "calendar",
+        "代码": "MISS",
+        "执行项": "缺失处理",
+        "说明": "没有日报、没有体重、没有待办时要显示待归档，不用空日期伪装完成。",
+        "负责人": "验收官",
+        "入口": "reports/2026-06-10/system-detail/index.html#calendar-detail"
+      },
+      {
+        "页面ID": "calendar",
+        "代码": "REVIEW",
+        "执行项": "复盘节奏",
+        "说明": "每日看当天，周末看连续性，月末看 OKR、体重和自动化失败率。",
+        "负责人": "总经理助理",
+        "入口": "reports/2026-06-10/roles/index.html"
+      },
+      {
+        "页面ID": "data-tables",
+        "代码": "SRC",
+        "执行项": "主数据",
+        "说明": "每日任务、自动化、类目、日报、等级、XP、奖励、健康、页面说明都在这里有表。",
+        "负责人": "数据台账",
+        "入口": "reports/2026-06-10/data-tables/index.html"
+      },
+      {
+        "页面ID": "data-tables",
+        "代码": "CSV",
+        "执行项": "导出",
+        "说明": "每张表都有 CSV，完整结构写入 system-tables.json，方便后续人工和脚本继续改。",
+        "负责人": "系统司令",
+        "入口": "data/system-tables.json"
+      },
+      {
+        "页面ID": "data-tables",
+        "代码": "EDIT",
+        "执行项": "修改口径",
+        "说明": "未来改权重、改奖励、改分类，优先修改表结构和生成器定义，再重新生成页面。",
+        "负责人": "规则官",
+        "入口": "reports/2026-06-10/system-detail/index.html#data-detail"
+      },
+      {
+        "页面ID": "data-tables",
+        "代码": "QA",
+        "执行项": "验收",
+        "说明": "数据页验收不是看漂亮，而是看字段是否足够追责、CSV 是否可下载、链接是否能下钻。",
+        "负责人": "验收官",
+        "入口": "reports/2026-06-10/data-tables/index.html#page-guide"
+      },
+      {
+        "页面ID": "help",
+        "代码": "FINAL",
+        "执行项": "最终页边界",
+        "说明": "最终页只放结论、摘要、建议和成品入口；后台配置、证据链、验收方法集中在 Help。",
+        "负责人": "总控台",
+        "入口": "reports/2026-06-10/help/index.html"
+      },
+      {
+        "页面ID": "help",
+        "代码": "DATA",
+        "执行项": "数据表入口",
+        "说明": "需要改积分、分类、页面说明、日报序列或自动化配置时，先看数据表。",
+        "负责人": "数据台账",
+        "入口": "reports/2026-06-10/data-tables/index.html"
+      },
+      {
+        "页面ID": "help",
+        "代码": "RAW",
+        "执行项": "脱敏证据",
+        "说明": "Session、memory、发布输出和 automation.toml 只作为后台证据，不进入客户视图。",
+        "负责人": "验收官",
+        "入口": "reports/2026-06-10/help/index.html#raw-evidence"
+      },
+      {
+        "页面ID": "help",
+        "代码": "REQ",
+        "执行项": "需求台账",
+        "说明": "用户要求和自评体系保存在后台，作为后续修改依据。",
+        "负责人": "Codex",
+        "入口": "reports/2026-06-10/help/index.html#requirements"
+      },
+      {
+        "页面ID": "system-detail",
+        "代码": "BRIEF",
+        "执行项": "简报入口",
+        "说明": "3 分钟简报先给结论，避免详细页一打开就失焦。",
+        "负责人": "总指挥",
+        "入口": "reports/2026-06-10/system-detail/index.html"
+      },
+      {
+        "页面ID": "system-detail",
+        "代码": "RULE",
+        "执行项": "规则展开",
+        "说明": "等级、XP、日报、自动化、业务类目、日历、数据治理都要能从这里找到完整解释。",
+        "负责人": "系统司令",
+        "入口": "reports/2026-06-10/system-detail/index.html#level-detail"
+      },
+      {
+        "页面ID": "system-detail",
+        "代码": "TABLE",
+        "执行项": "表格下钻",
+        "说明": "所有规则都要能回到数据表，方便后续直接修改优化。",
+        "负责人": "数据台账",
+        "入口": "reports/2026-06-10/data-tables/index.html"
+      },
+      {
+        "页面ID": "system-detail",
+        "代码": "CHECK",
+        "执行项": "交卷清单",
+        "说明": "架构、积分、首页、链接、数据、密度、验证七项自评指标都要留在详细页。",
+        "负责人": "Codex",
+        "入口": "reports/2026-06-10/system-detail/index.html"
+      }
+    ],
+    "dataPolicies": [
+      {
+        "code": "SOURCE",
+        "title": "数据来源优先级",
+        "rule": "真实本地文件 > automation.toml > 当日产物目录 > 手工规则占位。",
+        "owner": "数据台账"
+      },
+      {
+        "code": "MISSING",
+        "title": "缺失显示规则",
+        "rule": "缺产物、缺 KR、缺体重、缺日报必须显式展示，不能用 0 或空白掩盖。",
+        "owner": "验收官"
+      },
+      {
+        "code": "CSV",
+        "title": "表格导出规则",
+        "rule": "核心表同时写入网页表格、CSV 和 system-tables.json，便于后续人工改权重。",
+        "owner": "系统司令"
+      },
+      {
+        "code": "LINK",
+        "title": "可点击规则",
+        "rule": "有对应页面的方块必须整块可点；没有页面时只能显示为记录或保留位。",
+        "owner": "总控台"
+      },
+      {
+        "code": "BOUNDARY",
+        "title": "日报/类目边界",
+        "rule": "6 条固定自动化是每日日报任务；山西、苏州、陶瓷膜等是业务类目。",
+        "owner": "日报复盘官"
+      }
+    ],
+    "systemTables": [
+      {
+        "id": "daily-task-ledger",
+        "title": "每日日报任务表",
+        "subtitle": "6 条固定每日任务的唯一归属表",
+        "headers": 11,
+        "rows": 6,
+        "csv": "data/tables/daily-task-ledger.csv"
+      },
+      {
+        "id": "automation-ledger",
+        "title": "Codex 自动化登记表",
+        "subtitle": "Codex app 全部 cron / heartbeat 配置",
+        "headers": 16,
+        "rows": 15,
+        "csv": "data/tables/automation-ledger.csv"
+      },
+      {
+        "id": "module-ledger",
+        "title": "业务类目表",
+        "subtitle": "业务类目不是每日报告，而是日报引用对象",
+        "headers": 10,
+        "rows": 11,
+        "csv": "data/tables/module-ledger.csv"
+      },
+      {
+        "id": "report-sequence",
+        "title": "1/2/3/4 日报序列表",
+        "subtitle": "首页和日报页固定使用这张顺序表",
+        "headers": 8,
+        "rows": 4,
+        "csv": "data/tables/report-sequence.csv"
+      },
+      {
+        "id": "level-ladder",
+        "title": "等级阶梯详表",
+        "subtitle": "12 级阈值、解锁、证据和复盘周期",
+        "headers": 8,
+        "rows": 12,
+        "csv": "data/tables/level-ladder.csv"
+      },
+      {
+        "id": "xp-events",
+        "title": "XP 入账事件表",
+        "subtitle": "做完什么、加多少经验、凭什么加",
+        "headers": 7,
+        "rows": 9,
+        "csv": "data/tables/xp-events.csv"
+      },
+      {
+        "id": "reward-ledger",
+        "title": "奖励解锁表",
+        "subtitle": "奖励不是皮肤，而是权限、提醒和复盘能力",
+        "headers": 4,
+        "rows": 7,
+        "csv": "data/tables/reward-ledger.csv"
+      },
+      {
+        "id": "track-ledger",
+        "title": "六条成长轨道表",
+        "subtitle": "公司 OKR、待办、体重、自动化和日报的统一账本",
+        "headers": 8,
+        "rows": 6,
+        "csv": "data/tables/track-ledger.csv"
+      },
+      {
+        "id": "health-ledger",
+        "title": "体重训练记录表",
+        "subtitle": "来自本地健康 CSV 的长期趋势记录",
+        "headers": 6,
+        "rows": 2,
+        "csv": "data/tables/health-ledger.csv"
+      },
+      {
+        "id": "page-guide",
+        "title": "页面说明表",
+        "subtitle": "每个页面为什么存在、看什么、怎样验收",
+        "headers": 8,
+        "rows": 10,
+        "csv": "data/tables/page-guide.csv"
+      },
+      {
+        "id": "page-operations",
+        "title": "页面执行说明表",
+        "subtitle": "每个核心页面打开后怎么判断、怎么下钻、怎么验收",
+        "headers": 6,
+        "rows": 40,
+        "csv": "data/tables/page-operations.csv"
+      },
+      {
+        "id": "data-policy",
+        "title": "数据治理规则表",
+        "subtitle": "缺失、来源、导出、边界和点击规则",
+        "headers": 4,
+        "rows": 5,
+        "csv": "data/tables/data-policy.csv"
+      },
+      {
+        "id": "system-summary",
+        "title": "总控台系统摘要表",
+        "subtitle": "当日核心数字",
+        "headers": 3,
+        "rows": 8,
+        "csv": "data/tables/system-summary.csv"
+      }
+    ]
+  },
+  "health": {
+    "exists": true,
+    "latest": {
+      "date": "2026-06-03",
+      "weight": 92.7,
+      "cardio": 45,
+      "strength": "力量训练1次",
+      "note": "已记录：3号一次力量训练+45min有氧"
+    },
+    "baseline": {
+      "date": "2026-06-01",
+      "weight": 92.4,
+      "cardio": 0,
+      "strength": "全身力量1次",
+      "note": "已记录：1号一次力量训练（全身）"
+    },
+    "lossKg": -0.3,
+    "records": 2,
+    "trainingCount": 2,
+    "cardioMinutes": 45,
+    "xp": 180
+  },
+  "dailyTasks": [
+    {
+      "group": "每日日报",
+      "workspace": "股票",
+      "schedule": "工作日 00:00",
+      "dailyReport": "A股每日模拟盘研究与盈亏回放",
+      "acceptance": "模拟盘日报、盈亏回放、持仓、skill 复盘和次日观察计划进入每日日报。",
+      "id": "a",
+      "code": "ST",
+      "name": "A股每日模拟盘研究与盈亏回放",
+      "role": "交易研究官",
+      "status": "ACTIVE",
+      "artifacts": 2,
+      "points": 16,
+      "href": "reports/2026-06-10/cron/a/index.html"
+    },
+    {
+      "group": "每日日报",
+      "workspace": "AI-IP-Studio",
+      "schedule": "每天 06:30",
+      "dailyReport": "Hermes 每日任务",
+      "acceptance": "素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。",
+      "id": "hermes",
+      "code": "HM",
+      "name": "Hermes 每日任务",
+      "role": "内容简报官",
+      "status": "ACTIVE",
+      "artifacts": 12,
+      "points": 100,
+      "href": "reports/2026-06-10/cron/hermes/index.html"
+    },
+    {
+      "group": "每日日报",
+      "workspace": "自动化工厂",
+      "schedule": "每天 07:00",
+      "dailyReport": "双创比赛今日任务发布到 Linux 桌面",
+      "acceptance": "双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。",
+      "id": "automation",
+      "code": "DS",
+      "name": "每天 07:00 双创比赛今日任务发布到 Linux 桌面",
+      "role": "机会雷达官",
+      "status": "ACTIVE",
+      "artifacts": 4,
+      "points": 44,
+      "href": "reports/2026-06-10/cron/automation/index.html"
+    },
+    {
+      "group": "每日日报",
+      "workspace": "5月",
+      "schedule": "每天 17:00",
+      "dailyReport": "Linux 工作日报验收并拉取到 Mac",
+      "acceptance": "Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。",
+      "id": "17-00-linux-mac",
+      "code": "LX",
+      "name": "每天 17:00 Linux 工作日报验收并拉取到 Mac",
+      "role": "Linux 验收官",
+      "status": "ACTIVE",
+      "artifacts": 2,
+      "points": 14,
+      "href": "reports/2026-06-10/cron/17-00-linux-mac/index.html"
+    },
+    {
+      "group": "每日日报",
+      "workspace": "5月",
+      "schedule": "每天 19:00",
+      "dailyReport": "总经理日报",
+      "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。",
+      "id": "automation-2",
+      "code": "GM",
+      "name": "总经理助理",
+      "role": "总经理助理",
+      "status": "ACTIVE",
+      "artifacts": 15,
+      "points": 125,
+      "href": "reports/2026-06-10/cron/automation-2/index.html"
+    },
+    {
+      "group": "每日日报",
+      "workspace": "5月",
+      "schedule": "每天 22:30",
+      "dailyReport": "曹博士岗位日报",
+      "acceptance": "岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。",
+      "id": "automation-3",
+      "code": "CA",
+      "name": "曹博士岗位更新",
+      "role": "岗位情报官",
+      "status": "ACTIVE",
+      "artifacts": 3,
+      "points": 30,
+      "href": "reports/2026-06-10/cron/automation-3/index.html"
+    }
+  ],
+  "automations": [
+    {
+      "id": "hermes",
+      "name": "Hermes 每日任务",
+      "status": "ACTIVE",
+      "lane": "每日日报任务",
+      "role": "内容简报官",
+      "latestRun": {
+        "sessionId": "019eae83-2094-7322-b59e-987a1cd82911",
+        "status": "SUCCESS",
+        "completedAt": "2026-05-31 06:45:23 CST",
+        "publishTarget": ""
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": {
+        "group": "每日日报",
+        "workspace": "AI-IP-Studio",
+        "schedule": "每天 06:30",
+        "dailyReport": "Hermes 每日任务",
+        "acceptance": "素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。"
+      },
+      "artifacts": 12,
+      "points": 100,
+      "href": "reports/2026-06-10/cron/hermes/index.html"
+    },
+    {
+      "id": "automation-3",
+      "name": "曹博士岗位更新",
+      "status": "ACTIVE",
+      "lane": "每日日报任务",
+      "role": "岗位情报官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-06-09 22:51:40 CST",
+        "publishTarget": ""
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": {
+        "group": "每日日报",
+        "workspace": "5月",
+        "schedule": "每天 22:30",
+        "dailyReport": "曹博士岗位日报",
+        "acceptance": "岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。"
+      },
+      "artifacts": 3,
+      "points": 30,
+      "href": "reports/2026-06-10/cron/automation-3/index.html"
+    },
+    {
+      "id": "automation-2",
+      "name": "总经理助理",
+      "status": "ACTIVE",
+      "lane": "每日日报任务",
+      "role": "总经理助理",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-06-09 运行摘要",
+        "publishTarget": ""
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": {
+        "group": "每日日报",
+        "workspace": "5月",
+        "schedule": "每天 19:00",
+        "dailyReport": "总经理日报",
+        "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
+      },
+      "artifacts": 15,
+      "points": 125,
+      "href": "reports/2026-06-10/cron/automation-2/index.html"
+    },
+    {
+      "id": "automation",
+      "name": "每天 07:00 双创比赛今日任务发布到 Linux 桌面",
+      "status": "ACTIVE",
+      "lane": "每日日报任务",
+      "role": "机会雷达官",
+      "latestRun": {
+        "sessionId": "019eae9e-9785-7e11-bf5e-e0d349deb369",
+        "status": "SUCCESS",
+        "completedAt": "automation memory",
+        "publishTarget": "${LINUX_USER}@${LINUX_HOST}:${REMOTE_TASK}\""
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": {
+        "group": "每日日报",
+        "workspace": "自动化工厂",
+        "schedule": "每天 07:00",
+        "dailyReport": "双创比赛今日任务发布到 Linux 桌面",
+        "acceptance": "双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。"
+      },
+      "artifacts": 4,
+      "points": 44,
+      "href": "reports/2026-06-10/cron/automation/index.html"
+    },
+    {
+      "id": "a",
+      "name": "A股每日模拟盘研究与盈亏回放",
+      "status": "ACTIVE",
+      "lane": "每日日报任务",
+      "role": "交易研究官",
+      "latestRun": {
+        "sessionId": "019ead1d-2063-7252-abb7-843c96cda494",
+        "status": "RECORDED",
+        "completedAt": "Automation a Memory",
+        "publishTarget": ""
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": {
+        "group": "每日日报",
+        "workspace": "股票",
+        "schedule": "工作日 00:00",
+        "dailyReport": "A股每日模拟盘研究与盈亏回放",
+        "acceptance": "模拟盘日报、盈亏回放、持仓、skill 复盘和次日观察计划进入每日日报。"
+      },
+      "artifacts": 2,
+      "points": 16,
+      "href": "reports/2026-06-10/cron/a/index.html"
+    },
+    {
+      "id": "17-00-linux-mac",
+      "name": "每天 17:00 Linux 工作日报验收并拉取到 Mac",
+      "status": "ACTIVE",
+      "lane": "每日日报任务",
+      "role": "Linux 验收官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-06-09 18:21 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": {
+        "group": "每日日报",
+        "workspace": "5月",
+        "schedule": "每天 17:00",
+        "dailyReport": "Linux 工作日报验收并拉取到 Mac",
+        "acceptance": "Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。"
+      },
+      "artifacts": 2,
+      "points": 14,
+      "href": "reports/2026-06-10/cron/17-00-linux-mac/index.html"
+    },
+    {
+      "id": "24-6",
+      "name": "公司机会总控中台24小时主控",
+      "status": "PAUSED",
+      "lane": "专项主控 Cron",
+      "role": "机会总控官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-06-10 00:06:05",
+        "publishTarget": ""
+      },
+      "memoryPath": "",
+      "dailyTask": null,
+      "artifacts": 1,
+      "points": 2,
+      "href": "reports/2026-06-10/cron/24-6/index.html"
+    },
+    {
+      "id": "24-2",
+      "name": "竞品同行服务商情报24小时主控",
+      "status": "PAUSED",
+      "lane": "专项主控 Cron",
+      "role": "竞品情报官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "Automation 24-2 Memory",
+        "publishTarget": ""
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": null,
+      "artifacts": 2,
+      "points": 14,
+      "href": "reports/2026-06-10/cron/24-2/index.html"
+    },
+    {
+      "id": "24",
+      "name": "山西研发客户转化24小时主控",
+      "status": "PAUSED",
+      "lane": "专项主控 Cron",
+      "role": "销售转化官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "Automation 24 Memory",
+        "publishTarget": ""
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": null,
+      "artifacts": 2,
+      "points": 14,
+      "href": "reports/2026-06-10/cron/24/index.html"
+    },
+    {
+      "id": "automation-5",
+      "name": "苏州客户转化24小时主控",
+      "status": "PAUSED",
+      "lane": "专项主控 Cron",
+      "role": "销售转化官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "automation-5 memory",
+        "publishTarget": ""
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": null,
+      "artifacts": 2,
+      "points": 14,
+      "href": "reports/2026-06-10/cron/automation-5/index.html"
+    },
+    {
+      "id": "automation-4",
+      "name": "陶瓷膜客户转化24小时主控",
+      "status": "PAUSED",
+      "lane": "专项主控 Cron",
+      "role": "客户转化官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "automation-4 memory",
+        "publishTarget": ""
+      },
+      "memoryPath": "本地归档",
+      "dailyTask": null,
+      "artifacts": 2,
+      "points": 14,
+      "href": "reports/2026-06-10/cron/automation-4/index.html"
+    },
+    {
+      "id": "24-4",
+      "name": "招投标环评技改意向雷达24小时主控",
+      "status": "PAUSED",
+      "lane": "专项主控 Cron",
+      "role": "意向信号官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-06-10 00:06:05",
+        "publishTarget": ""
+      },
+      "memoryPath": "",
+      "dailyTask": null,
+      "artifacts": 1,
+      "points": 2,
+      "href": "reports/2026-06-10/cron/24-4/index.html"
+    },
+    {
+      "id": "24-3",
+      "name": "政策补贴项目申报雷达24小时主控",
+      "status": "PAUSED",
+      "lane": "专项主控 Cron",
+      "role": "政策机会官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-06-10 00:06:05",
+        "publishTarget": ""
+      },
+      "memoryPath": "",
+      "dailyTask": null,
+      "artifacts": 1,
+      "points": 2,
+      "href": "reports/2026-06-10/cron/24-3/index.html"
+    },
+    {
+      "id": "24-5",
+      "name": "专家高校博士资源池24小时主控",
+      "status": "PAUSED",
+      "lane": "专项主控 Cron",
+      "role": "资源池官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-06-10 00:06:05",
+        "publishTarget": ""
+      },
+      "memoryPath": "",
+      "dailyTask": null,
+      "artifacts": 1,
+      "points": 2,
+      "href": "reports/2026-06-10/cron/24-5/index.html"
+    },
+    {
+      "id": "skill",
+      "name": "8小时后验收隔日预测 skill 重做优化",
+      "status": "PAUSED",
+      "lane": "一次性 / 线程唤醒",
+      "role": "研究验收官",
+      "latestRun": {
+        "sessionId": "019ead22-4769-7361-9a99-7f28a22d0770",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-06-10 00:06:05",
+        "publishTarget": ""
+      },
+      "memoryPath": "",
+      "dailyTask": null,
+      "artifacts": 7,
+      "points": 53,
+      "href": "reports/2026-06-10/cron/skill/index.html"
+    }
+  ],
+  "modules": [
+    {
+      "id": "suzhou-customers",
+      "name": "苏州客户挖掘",
+      "status": "已收口",
+      "type": "业务类目",
+      "cadence": "类目汇报",
+      "artifacts": 0,
+      "href": "reports/2026-06-10/suzhou-customers/index.html"
+    },
+    {
+      "id": "shanxi-rd",
+      "name": "山西研发客户挖掘",
+      "status": "持续拓展",
+      "type": "业务类目",
+      "cadence": "类目汇报",
+      "artifacts": 0,
+      "href": "reports/2026-06-10/shanxi-rd/index.html"
+    },
+    {
+      "id": "ceramic-membrane",
+      "name": "陶瓷膜客户转化",
+      "status": "v1.7",
+      "type": "业务类目",
+      "cadence": "类目汇报",
+      "artifacts": 0,
+      "href": "reports/2026-06-10/ceramic-membrane/index.html"
+    },
+    {
+      "id": "competitor-intel",
+      "name": "竞品同行服务商情报",
+      "status": "已交接",
+      "type": "业务类目",
+      "cadence": "类目汇报",
+      "artifacts": 7,
+      "href": "reports/2026-06-10/competitor-intel/index.html"
+    },
+    {
+      "id": "competition-scout",
+      "name": "双创比赛机会雷达",
+      "status": "已发布",
+      "type": "业务类目",
+      "cadence": "类目汇报",
+      "artifacts": 4,
+      "href": "reports/2026-06-10/competition-scout/index.html"
+    },
+    {
+      "id": "policy-subsidy",
+      "name": "政策补贴项目申报雷达",
+      "status": "待归档",
+      "type": "业务类目",
+      "cadence": "类目汇报",
+      "artifacts": 0,
+      "href": "reports/2026-06-10/policy-subsidy/index.html"
+    },
+    {
+      "id": "bidding-signal",
+      "name": "招投标环评技改意向雷达",
+      "status": "待归档",
+      "type": "业务类目",
+      "cadence": "类目汇报",
+      "artifacts": 0,
+      "href": "reports/2026-06-10/bidding-signal/index.html"
+    },
+    {
+      "id": "expert-pool",
+      "name": "专家高校博士资源池",
+      "status": "待归档",
+      "type": "业务类目",
+      "cadence": "类目汇报",
+      "artifacts": 0,
+      "href": "reports/2026-06-10/expert-pool/index.html"
+    },
+    {
+      "id": "company-command",
+      "name": "公司机会总控中台",
+      "status": "待启动",
+      "type": "业务类目",
+      "cadence": "类目汇报",
+      "artifacts": 0,
+      "href": "reports/2026-06-10/company-command/index.html"
+    },
+    {
+      "id": "codex-html",
+      "name": "Codex HTML 交付件",
+      "status": "自动收录",
+      "type": "交付件看板",
+      "cadence": "按日归档",
+      "artifacts": 44,
+      "href": "reports/2026-06-10/codex-html/index.html"
+    },
+    {
+      "id": "codex-work",
+      "name": "Codex 工作交差",
+      "status": "自动收录",
+      "type": "交差看板",
+      "cadence": "按会话归档",
+      "artifacts": 12,
+      "href": "reports/2026-06-10/codex-work/index.html"
+    }
+  ]
+}
