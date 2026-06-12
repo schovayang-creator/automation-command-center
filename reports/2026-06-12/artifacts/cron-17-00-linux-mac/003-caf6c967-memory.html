@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">5 KB</span>
-            <span class="chip">2026-06-10 10:18:28</span>
+            <span class="chip">6 KB</span>
+            <span class="chip">2026-06-12 09:36:06</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>5 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>6 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -152,6 +152,16 @@
 <li>发布结果：总控台发布第一次因 <code>scripts/verification/check-daily-preview-loop.mjs</code> 未把 <code>17-00-linux-mac</code> 视为原生任务页而失败；已修复该校验脚本后重发成功。公开总看板与本自动化详情页均已返回 <code>HTTP 200</code>。</li>
 <li>GitHub：发布脚本返回 <code>published</code>，commit <code>b0453d7</code>；随后 GitHub API 复核仓库最新提交已前进到 <code>d9d5f4d</code>（同日后续提交）。</li>
 <li>本次运行时长：约 76 分钟。</li>
+</ul>
+<ul>
+<li>2026-06-12：17:02-17:33 CST 执行 Linux 工作日报验收。</li>
+<li>结果：成功连接 Linux，读取桌面任务页，检查运行中进程，并生成后拉回 <code>2026-06-12-Linux工作日报.html</code>。<code>/home/wang/Desktop/今日任务.html</code> 存在，但页内日期仍是 <code>2026-06-09</code>；口头指定的直观日报目录在当前 Linux 上不存在。</li>
+<li>验收结论：今天确认了 SSH、Linux 端 HTML 生成和回传到 Mac 收件箱链路正常，也确认 Linux 仍有 <code>openclaw-gateway</code>、多组 <code>codex</code>、<code>node</code>、<code>python/sshd</code> 等任务运行；但拉回日报仍是测试链路版，无法证明今天业务任务实际完成度。</li>
+<li>已落地文件：<code>本地归档</code>、<code>本地归档</code>。</li>
+<li>发布结果：总控台重建、验证和公开发布均成功；公开总看板与本自动化详情页返回 <code>HTTP 200</code>。为避免公开页脱敏后句子失真，二次改写验收正文并重发。</li>
+<li>GitHub：第一次发布 content commit <code>a38e236</code>、final commit <code>346b2b1</code>；最终修正版发布 content commit <code>9c76cd8</code>、final commit <code>ca91d61</code>。</li>
+<li>下次注意：优先把 Linux 桌面今日任务页更新到当天日期，并把 Linux 日报内容源从测试模板切到真实 Codex/OpenClaw 工作进展，否则晚间只能验链路，不能验结果。</li>
+<li>本次运行时长：约 31 分钟。</li>
 </ul></article>
     </div>
   
