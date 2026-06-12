@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T11:14:14.906Z",
+  "generatedAt": "2026-06-12T14:52:06.409Z",
   "reportDate": "2026-06-12",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1278,10 +1278,10 @@
         "project": "P02",
         "task": "T02",
         "priority": "P1",
-        "title": "补齐 1 篇日报入口",
+        "title": "六个每日 cron 入口已排布",
         "owner": "日报复盘官",
-        "status": "待补",
-        "xp": 100,
+        "status": "可复盘",
+        "xp": 40,
         "href": "reports/2026-06-12/daily-report/index.html"
       },
       {
@@ -1415,8 +1415,8 @@
       "name": "曹博士岗位更新",
       "role": "岗位情报官",
       "status": "ACTIVE",
-      "artifacts": 3,
-      "points": 30,
+      "artifacts": 13,
+      "points": 115,
       "href": "reports/2026-06-12/cron/automation-3/index.html"
     }
   ],
@@ -1452,7 +1452,7 @@
       "lane": "每日日报任务",
       "role": "岗位情报官",
       "latestRun": {
-        "sessionId": "019ebb0f-e4f5-7130-8bcf-7a74b338eeb5",
+        "sessionId": "019ebc3e-7e4c-7cd3-9324-28bf3b486b8f",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-10 23:59 Asia/Shanghai",
         "publishTarget": ""
@@ -1465,8 +1465,8 @@
         "dailyReport": "曹博士岗位日报",
         "acceptance": "岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。"
       },
-      "artifacts": 3,
-      "points": 30,
+      "artifacts": 13,
+      "points": 115,
       "href": "reports/2026-06-12/cron/automation-3/index.html"
     },
     {
@@ -1478,7 +1478,7 @@
       "latestRun": {
         "sessionId": "019ebb7e-38bb-7f81-ba85-48ca7c6955b0",
         "status": "DELIVERY_SUCCESS",
-        "completedAt": "2026-06-09 运行摘要",
+        "completedAt": "2026-06-12 19:17:48 CST",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1816,7 +1816,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 35,
+      "artifacts": 45,
       "href": "reports/2026-06-12/codex-html/index.html"
     },
     {
@@ -1825,7 +1825,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 7,
+      "artifacts": 8,
       "href": "reports/2026-06-12/codex-work/index.html"
     }
   ]

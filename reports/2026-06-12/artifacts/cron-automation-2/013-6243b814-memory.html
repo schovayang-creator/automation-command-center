@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">4 KB</span>
-            <span class="chip">2026-06-10 12:28:44</span>
+            <span class="chip">2 KB</span>
+            <span class="chip">2026-06-12 11:18:44</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>4 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>2 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,9 +93,9 @@
       <div class="section-title"><h2>报告摘要</h2><span>先看结论，再看完整正文</span></div>
       <div class="summary-layout">
         <article class="summary-main">
-          <h3>memory</h3>
-          <p>2026-06-10 晚间专项补充摘要</p>
-          <ul class="mini-list"><li>已在 本地归档 执行 ./scripts/run_daily_brief.sh。</li><li>latest.json 最新 URL 为 https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-09/index.html。</li><li>首次 OpenClaw 微信发送失败，原因为 /opt/homebrew/bin/node 依赖 llhttp 9.3 动态库缺失。</li><li>已做一次安全修复：仅本次命令前置 PATH 到 本地归档 后重试。</li><li>OpenClaw agent JSON 回执确认 deliverySucceeded: true，微信发送成功。</li></ul>
+          <h3>automation-2 memory</h3>
+          <p>2026-06-12 19:17:48 CST: 手动补跑 `./scripts/run_daily_brief.sh --date 2026-06-12` 成功。修复了公开稳定页泄露本地路径的问题：`scripts/generate_daily_brief.py` 现在会在公开 HTML 渲染时隐藏 `本地归档` 和 `本地归档；`scripts/bui…</p>
+          <ul class="mini-list"><li>2026-06-12 19:17:48 CST: 手动补跑 `./scripts/run_daily_brief.sh --date 2026-06-12` 成功。修复了公开稳定页泄露本地路径的问题：`scripts/generate_daily_brief.p…</li><li>本次还把自动化总控台发布接入了主流程：`scripts/run_daily_brief.sh` 现在会调用 `本地归档 --date YYYY-MM-DD --automation automation-2 --publish --notify`，并在日报微信 …</li><li>测试已补齐并通过：`tests/test_generate_daily_brief_artifacts.py`、`tests/test_build_daily_site_links.py` 共 8 个测试通过。</li><li>日报站点 GitHub Pages 最新提交为 `8bc2189`，`https://schovayang-creator.github.io/gm-daily-brief/` 与 `https://schovayang-creator.github.io/gm…</li><li>自动化总控台公开提交最终为 `5351f5b`，`https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/index.html` 与 `https://s…</li></ul>
         </article>
         <aside class="summary-side">
           <b>批阅路径</b>
@@ -107,37 +107,15 @@
       </div>
     </section>
   
-      <article class="panel doc"><div class="section-title"><h2>报告正文</h2><span>memory</span></div><p>2026-06-09 运行摘要</p>
+      <article class="panel doc"><div class="section-title"><h2>报告正文</h2><span>memory</span></div><h1>automation-2 memory</h1>
 <ul>
-<li>已在 本地归档 执行 ./scripts/run_daily_brief.sh。</li>
-<li>已生成并验证：运行日志、长版日报、3分钟简报、全局进展扫描、明日任务队列、日报站点、看板文件。</li>
-<li>GitHub Pages 站点已提交并 push，最新提交 e500533，索引页和日报页 curl 均返回 HTTP 200。</li>
-<li>latest.json 最新 URL 为 <a href="https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-09/index.html">https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-09/index.html</a>。</li>
-<li>首次 OpenClaw 微信发送失败，原因为 /opt/homebrew/bin/node 依赖 llhttp 9.3 动态库缺失。</li>
-<li>已做一次安全修复：仅本次命令前置 PATH 到 本地归档 后重试。</li>
-<li>OpenClaw agent JSON 回执确认 deliverySucceeded: true，微信发送成功。</li>
-<li>运行时长：2m 33s。</li>
-</ul>
-<p>2026-06-10 运行摘要</p>
-<ul>
-<li>已在 本地归档 执行 ./scripts/run_daily_brief.sh，并生成运行日志、长版日报、3分钟简报、全局进展扫描、明日任务队列、日报站点、本地看板和总控台本地产物。</li>
-<li>根因1：主脚本在日报站点 commit 后未完成 push；根因2：3分钟简报仍是旧 bullet 格式，不符合“今天结论/今日重点/风险和缺口/下一步/公开入口”结构；根因3：GitHub HTTPS push 受 HTTP/2/443 网络异常影响。</li>
-<li>已做安全修复：为 generate_daily_brief.py 新增四段式简报生成逻辑和失败测试；为日报站点与自动化总控台发布脚本统一改用 git http.version=HTTP/1.1；run_daily_brief.sh 的待发送微信文案已补齐固定字段。</li>
-<li>已重新生成并发布：总经理日报站点最新提交 fdfb41a，自动化总控台公开树最新提交 34f1325；日报索引页、稳定长报告页、公开当天总看板页、公开 automation-2 详情页 curl 均返回 HTTP 200。</li>
-<li>OpenClaw 主日报通知已通过固定 agent 路由发送，JSON 回执确认 deliverySucceeded: true / deliveryStatus.succeeded: true；总控台补通知也已通过同一路由发送成功。</li>
-<li>备注：run_daily_brief.sh 仍可能在网络波动时先停在 commit 后阶段，但本次已通过最小补救完成发布闭环。</li>
-<li>运行时长：23m 18s。</li>
-</ul>
-<p>2026-06-10 晚间专项补充摘要</p>
-<ul>
-<li>根据董事长要求，已核实 本地归档 日报 HTML 已回流到 Mac，但 2026-06-08/09/10 验收均显示日报仍是测试链路模板，不能作为业务任务完成证据。</li>
-<li>已创建并补齐 本地归档 2026-06-10-公司总进度与Linux日报归集人工审核大报告.md，共 477 行；同时保留 Linux 专项审计、人工审核索引与拍板清单、README。</li>
-<li>已把董事长本轮要求留档到 本地归档。</li>
-<li>已修改自动化总控台 build-commander-site.mjs，让 automation-2 收录 CEO 进度大报告、Linux 专项审计和人工审核清单；已运行 publish-local-daily-index.mjs --date 2026-06-10 --automation automation-2 --publish --notify。</li>
-<li>自动化总控台公开发布成功，.public-site 最新提交 20a39e7；公开当天总看板、automation-2 详情页和 CEO 进度大报告 artifact 页均 curl 返回 HTTP 200；公开树安全检查未发现 本地、本地归档、/脱敏证据</li>
-<li>额外发现 本地归档 存在本地提交 55a985b（修正 CEO/TODO 状态为 WAITING_MANUAL_START、0/7 天），三次 GitHub HTTPS push 均卡住或 60 秒超时；仓库当前仍 ahead 1，需下次网络恢复后补推，不得 reset。</li>
-<li>本次没有重新发送独立微信；总控台发布脚本返回 openclawStatus=already-delivered，沿用当天主日报微信闭环。</li>
-<li>运行时间：2026-06-10 20:18 CST。</li>
+<li>2026-06-12 19:17:48 CST: 手动补跑 <code>./scripts/run_daily_brief.sh --date 2026-06-12</code> 成功。修复了公开稳定页泄露本地路径的问题：<code>scripts/generate_daily_brief.py</code> 现在会在公开 HTML 渲染时隐藏 <code>本地</code> 和 <code>本地归档</code>；<code>scripts/build_daily_site.py</code> 现在为每个日期重建稳定页 <code>daily/YYYY-MM-DD/index.html</code>，避免旧历史页继续拖垮脱敏校验。</li>
+<li>本次还把自动化总控台发布接入了主流程：<code>scripts/run_daily_brief.sh</code> 现在会调用 <code>本地归档 --date YYYY-MM-DD --automation automation-2 --publish --notify</code>，并在日报微信 outbox 中只写公开链接，不再写本地绝对路径。</li>
+<li>测试已补齐并通过：<code>tests/test_generate_daily_brief_artifacts.py</code>、<code>tests/test_build_daily_site_links.py</code> 共 8 个测试通过。</li>
+<li>日报站点 GitHub Pages 最新提交为 <code>8bc2189</code>，<code><a href="https://schovayang-creator.github.io/gm-daily-brief/">https://schovayang-creator.github.io/gm-daily-brief/</a></code> 与 <code><a href="https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-12/index.html">https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-12/index.html</a></code> 均返回 HTTP 200。</li>
+<li>自动化总控台公开提交最终为 <code>5351f5b</code>，<code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/index.html</a></code> 与 <code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/cron/automation-2/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/cron/automation-2/index.html</a></code> 均返回 HTTP 200。</li>
+<li>日报 OpenClaw 微信通知已真实送达：<code>logs/2026-06-12-openclaw-result.json</code> 显示 <code>deliveryStatus.succeeded: true</code>。</li>
+<li>仍需记住的剩余问题：<code>doctor_daily_brief.py</code> 总状态仍是 <code>BLOCKED</code>，唯一阻塞项是 launchd 后台任务缺少 macOS Desktop/Full Disk Access 权限；手动运行不受影响，但 07:00 定时运行仍可能失败，后续需修系统权限或迁移输出目录。</li>
 </ul></article>
     </div>
   

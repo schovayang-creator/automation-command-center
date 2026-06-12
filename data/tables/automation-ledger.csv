@@ -1,6 +1,6 @@
 ID,名称,分层,状态,频率,角色,收录方式,最新运行,Session,发布目标,Memory,工作目录,产物,XP,治理分,页面
 hermes,Hermes 每日任务,每日日报任务,ACTIVE,每天 06:30,内容简报官,被内容日报收录,PUBLISH_SUCCESS,019eb8cf-142d-7c53-b977-f0770f8810be,-,本地归档,本地归档,3,30,55,reports/2026-06-12/cron/hermes/index.html
-automation-3,曹博士岗位更新,每日日报任务,ACTIVE,每天 22:30,岗位情报官,被每日岗位简报收录,DELIVERY_SUCCESS,019ebb0f-e4f5-7130-8bcf-7a74b338eeb5,-,本地归档,本地归档,3,30,55,reports/2026-06-12/cron/automation-3/index.html
+automation-3,曹博士岗位更新,每日日报任务,ACTIVE,每天 22:30,岗位情报官,被每日岗位简报收录,DELIVERY_SUCCESS,019ebc3e-7e4c-7cd3-9324-28bf3b486b8f,-,本地归档,本地归档,13,115,90,reports/2026-06-12/cron/automation-3/index.html
 automation-2,总经理助理,每日日报任务,ACTIVE,每天 19:00,总经理助理,被总经理日报收录,DELIVERY_SUCCESS,019ebb7e-38bb-7f81-ba85-48ca7c6955b0,-,本地归档,本地归档,14,125,90,reports/2026-06-12/cron/automation-2/index.html
 automation,每天 07:00 双创比赛今日任务发布到 Linux 桌面,每日日报任务,ACTIVE,每天 07:00,机会雷达官,被每日机会简报收录,PUBLISH_SUCCESS,019eb8eb-010e-73b2-a7aa-eedb5fc030d4,-,本地归档,本地归档,3,30,60,reports/2026-06-12/cron/automation/index.html
 a,A股每日模拟盘研究与盈亏回放,每日日报任务,ACTIVE,A 股交易日 00:00,交易研究官,交易日被日报收录,DELIVERY_SUCCESS,019eb76a-755e-7180-ac58-fdf2057d5218,-,本地归档,本地归档,2,16,44,reports/2026-06-12/cron/a/index.html
