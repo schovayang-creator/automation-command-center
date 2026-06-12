@@ -113,14 +113,14 @@
             <h3>3 分钟简报</h3>
             <span class="status info">任务页</span>
           </div>
-          <ul class="mini-list native-html-list"><li>今天结论 已成功连接 Linux 并把 <code>2026-06-12</code> 日报拉回 Mac，但 Linux 桌面的今日任务页仍是 <code>2026-06-09</code> 旧页，且拉回日报仍是链路测试版，所以今天只能确认拉取成功，不能确认业务任务完成度。</li><li>Linux 的 <code>Linux 桌面 确实存在，但标题和正文日期仍停留在 </code>2026-06-09`，说明今天没有新的桌面任务页可供对照验收。</li><li>Mac 端已收到 <code>2026-06-12-Linux工作日报.html</code>，证明 SSH 登录、Linux 端生成 HTML、以及回传到 Mac 收件箱这条链路今天是通的。</li><li>拉回的日报正文只说明“验证 HTML 生成和 SSH/SCP 传输”，没有写出今天具体完成了哪些业务事项，也没有覆盖早上任务页里的赛事推进结果。</li><li>Linux 上仍有 <code>openclaw-gateway</code>、多组 <code>codex</code>、<code>node</code>、<code>python/sshd</code> 等任务运行，因此今天结论只能写“仍有任务运行”，不会关机，也不会终止进程。</li><li>用户口头指定的直观日报目录 <code>Linux 桌面 在当前 Linux 上不存在，当前能拉到的正式文件仍来自 </code>Linux 桌面。</li><li>风险和缺口 今天缺的是“当天任务页”和“真实工作内容日报”这两类证据，不缺 SSH 或传输权限。只要日报内容源继续停留在测试模板，晚上的验收就仍然只能验链路，不能验结果。</li><li>下一步 明天先把 Linux 桌面的今日任务页更新到当天日期，再把 Linux 日报内容切到真实 Codex/OpenClaw 工作进展，然后再按同一流程收取和验收。</li></ul>
+          <ul class="mini-list native-html-list"><li>今天结论 已成功连接 Linux 并把 <code>2026-06-12</code> 日报拉回 Mac，但 Linux 桌面的今日任务页仍是 <code>2026-06-09</code> 旧页，且拉回日报仍是链路测试版，所以今天只能确认拉取成功，不能确认业务任务完成度。</li><li>Linux 的桌面今日任务页确实存在，但标题和正文日期仍停留在 <code>2026-06-09</code>，说明今天没有新的桌面任务页可供对照验收。</li><li>Mac 端已收到 <code>2026-06-12-Linux工作日报.html</code>，证明 SSH 登录、Linux 端生成 HTML、以及回传到 Mac 收件箱这条链路今天是通的。</li><li>拉回的日报正文只说明“验证 HTML 生成和 SSH/SCP 传输”，没有写出今天具体完成了哪些业务事项，也没有覆盖早上任务页里的赛事推进结果。</li><li>Linux 上仍有 <code>openclaw-gateway</code>、多组 <code>codex</code>、<code>node</code>、<code>python/sshd</code> 等任务运行，因此今天结论只能写“仍有任务运行”，不会关机，也不会终止进程。</li><li>用户口头指定的直观日报目录在当前 Linux 上不存在，当前能拉到的正式文件仍来自 Linux 现有的测试日报目录。</li><li>风险和缺口 今天缺的是“当天任务页”和“真实工作内容日报”这两类证据，不缺 SSH 或传输权限。只要日报内容源继续停留在测试模板，晚上的验收就仍然只能验链路，不能验结果。</li><li>下一步 明天先把 Linux 桌面的今日任务页更新到当天日期，再把 Linux 日报内容切到真实 Codex/OpenClaw 工作进展，然后再按同一流程收取和验收。</li></ul>
           
         </article><article class="native-html-section">
           <div class="module-head">
             <h3>验收结论</h3>
             <span class="status info">任务页</span>
           </div>
-          <ul class="mini-list native-html-list"><li>今日任务是否存在：存在，但页内日期仍是 <code>2026-06-09</code>，不是今天。</li><li>完成了什么：已通过 SSH 登录 Linux，读取任务页，检查运行中进程，并拉回 <code>2026-06-12-Linux工作日报.html</code> 到 Mac 收件箱。</li><li>没完成什么：没有从日报里验收到今天具体业务完成项，也没有从任务页里拿到 <code>2026-06-12</code> 的当日目标。</li><li>卡在哪里：`Linux 桌面 不存在，现有日报内容源仍是测试链路模板，无法直接证明业务进展。</li><li>是否仍有任务运行：仍有任务运行。</li><li>明天继续什么：优先补当天任务页和真实日报内容，再做晚间验收。</li><li>任务页旧 今日任务文件没有更新到今天。</li><li>日报已拉回 Mac 收件箱已经有今天的 HTML 日报。</li></ul>
+          <ul class="mini-list native-html-list"><li>今日任务是否存在：存在，但页内日期仍是 <code>2026-06-09</code>，不是今天。</li><li>完成了什么：已通过 SSH 登录 Linux，读取任务页，检查运行中进程，并拉回 <code>2026-06-12-Linux工作日报.html</code> 到 Mac 收件箱。</li><li>没完成什么：没有从日报里验收到今天具体业务完成项，也没有从任务页里拿到 <code>2026-06-12</code> 的当日目标。</li><li>卡在哪里：Linux 上没有找到口头指定的直观日报目录，现有日报内容源仍是测试链路模板，无法直接证明业务进展。</li><li>是否仍有任务运行：仍有任务运行。</li><li>明天继续什么：优先补当天任务页和真实日报内容，再做晚间验收。</li><li>任务页旧 今日任务文件没有更新到今天。</li><li>日报已拉回 Mac 收件箱已经有今天的 HTML 日报。</li></ul>
           
         </article><article class="native-html-section">
           <div class="module-head">
