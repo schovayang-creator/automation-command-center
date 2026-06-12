@@ -1,19 +1,12 @@
 {
-  "status": "published-http-pending",
+  "status": "pending-publish",
   "date": "2026-06-12",
-  "automation": "a",
-  "generatedAt": "2026-06-12T08:45:02.383Z",
+  "automation": "17-00-linux-mac",
+  "generatedAt": "2026-06-12T09:27:09.691Z",
   "publicDashboardUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/index.html",
   "publicDailyReportUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/daily-report/index.html",
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/cron/index.html",
-  "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/cron/a/index.html",
+  "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/cron/17-00-linux-mac/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
-  "remote": "https://github.com/schovayang-creator/automation-command-center.git",
-  "contentCommit": "83ca0c9",
-  "commit": "83ca0c9",
-  "http": {
-    "ok": false,
-    "attempts": 5,
-    "output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0  9379    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0  9379    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\nHTTP/2 404 \r\nserver: GitHub.com\r\ncontent-type: text/html; charset=utf-8\r\naccess-control-allow-origin: *\r\nstrict-transport-security: max-age=31556952\r\netag: \"64d39a40-24a3\"\r\ncontent-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\r\nx-proxy-cache: MISS\r\nx-github-request-id: B2E8:153B49:2F4207:31113A:6A2BC712\r\naccept-ranges: bytes\r\ndate: Fri, 12 Jun 2026 08:45:31 GMT\r\nvia: 1.1 varnish\r\nage: 25\r\nx-served-by: cache-nrt-rjtf7700023-NRT\r\nx-cache: HIT\r\nx-cache-hits: 1\r\nx-timer: S1781253932.836883,VS0,VE1\r\nvary: Accept-Encoding\r\nx-fastly-request-id: 76995117d9f3b2d3f6abf5ae2a42edca28e980b2\r\ncontent-length: 9379\r\n\r\n"
-  }
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
 }
