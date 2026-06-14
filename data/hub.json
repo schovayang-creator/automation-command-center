@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:02:26.872Z",
+  "generatedAt": "2026-06-14T15:44:48.275Z",
   "reportDate": "2026-06-14",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1278,7 +1278,7 @@
         "project": "P02",
         "task": "T02",
         "priority": "P1",
-        "title": "补齐 3 篇日报入口",
+        "title": "补齐 2 篇日报入口",
         "owner": "日报复盘官",
         "status": "待补",
         "xp": 100,
@@ -1415,8 +1415,8 @@
       "name": "曹博士岗位更新",
       "role": "岗位情报官",
       "status": "ACTIVE",
-      "artifacts": 2,
-      "points": 28,
+      "artifacts": 13,
+      "points": 115,
       "href": "reports/2026-06-14/cron/automation-3/index.html"
     }
   ],
@@ -1452,7 +1452,7 @@
       "lane": "每日日报任务",
       "role": "岗位情报官",
       "latestRun": {
-        "sessionId": "",
+        "sessionId": "019ec68b-d541-7812-8e7b-c13cbbdf0934",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-12 22:53 Asia/Shanghai",
         "publishTarget": ""
@@ -1465,8 +1465,8 @@
         "dailyReport": "曹博士岗位日报",
         "acceptance": "岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。"
       },
-      "artifacts": 2,
-      "points": 28,
+      "artifacts": 13,
+      "points": 115,
       "href": "reports/2026-06-14/cron/automation-3/index.html"
     },
     {
@@ -1477,7 +1477,7 @@
       "role": "总经理助理",
       "latestRun": {
         "sessionId": "019ec5ca-2fa8-78f3-bd5d-ebef0a688c67",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-12 19:17:48 CST",
         "publishTarget": ""
       },
@@ -1811,7 +1811,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 38,
+      "artifacts": 53,
       "href": "reports/2026-06-14/codex-html/index.html"
     },
     {
@@ -1820,7 +1820,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 4,
+      "artifacts": 5,
       "href": "reports/2026-06-14/codex-work/index.html"
     }
   ]

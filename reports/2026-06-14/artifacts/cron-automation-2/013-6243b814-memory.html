@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">2 KB</span>
-            <span class="chip">2026-06-12 11:18:44</span>
+            <span class="chip">3 KB</span>
+            <span class="chip">2026-06-14 11:15:59</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>2 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>3 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -116,6 +116,10 @@
 <li>自动化总控台公开提交最终为 <code>5351f5b</code>，<code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/index.html</a></code> 与 <code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/cron/automation-2/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-12/cron/automation-2/index.html</a></code> 均返回 HTTP 200。</li>
 <li>日报 OpenClaw 微信通知已真实送达：<code>logs/2026-06-12-openclaw-result.json</code> 显示 <code>deliveryStatus.succeeded: true</code>。</li>
 <li>仍需记住的剩余问题：<code>doctor_daily_brief.py</code> 总状态仍是 <code>BLOCKED</code>，唯一阻塞项是 launchd 后台任务缺少 macOS Desktop/Full Disk Access 权限；手动运行不受影响，但 07:00 定时运行仍可能失败，后续需修系统权限或迁移输出目录。</li>
+<li>2026-06-14 19:15:39 CST: 直接运行 <code>./scripts/run_daily_brief.sh</code> 成功，已生成 <code>2026-06-14</code> 长日报、3 分钟简报、<code>2026-06-15</code> 明日任务队列、本地看板、日报站点，并发布到 GitHub Pages。日报站点提交 <code>5ebd68d</code> 已 push，<code><a href="https://schovayang-creator.github.io/gm-daily-brief/">https://schovayang-creator.github.io/gm-daily-brief/</a></code> 与 <code><a href="https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-14/index.html">https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-14/index.html</a></code> 返回 HTTP 200。</li>
+<li>自动化总控台也已发布：公开总看板 <code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-14/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-14/index.html</a></code>、自动化详情页 <code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-14/cron/automation-2/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-14/cron/automation-2/index.html</a></code> 返回 HTTP 200；总控台最终提交 <code>ffb7a91</code>，内容提交 <code>db38b3c</code>。</li>
+<li>OpenClaw 微信回执满足成功条件：<code>logs/2026-06-14-openclaw-result.json</code> 中 <code>deliveryStatus.succeeded: true</code>。发现原通知助手缺少“本地看板”字段后，已修正 <code>scripts/run_daily_brief.sh</code> 和 <code>scripts/openclaw_weixin_notify.sh</code>，后续消息正文会包含本地看板路径并按标签解析。</li>
+<li>残留风险未变：<code>doctor_daily_brief.py</code> 仍因 launchd 缺少 macOS Desktop/Full Disk Access 权限而给出 <code>BLOCKED</code>，这不影响本次手动跑通，但会继续影响早上 07:00 的后台定时运行。当前轮耗时约 <code>14m10s</code>。</li>
 </ul></article>
     </div>
   
