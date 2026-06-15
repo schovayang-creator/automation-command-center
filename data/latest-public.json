@@ -1,5 +1,5 @@
 {
-  "status": "pending-publish",
+  "status": "published-http-pending",
   "date": "2026-06-16",
   "automation": "hermes",
   "generatedAt": "2026-06-15T23:05:08.360Z",
@@ -8,5 +8,12 @@
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-16/cron/index.html",
   "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-16/cron/hermes/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
-  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git",
+  "contentCommit": "5f18439",
+  "commit": "5f18439",
+  "http": {
+    "ok": false,
+    "attempts": 5,
+    "output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0\r  0  9379    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0\nHTTP/2 404 \r\nserver: GitHub.com\r\ncontent-type: text/html; charset=utf-8\r\naccess-control-allow-origin: *\r\nstrict-transport-security: max-age=31556952\r\netag: \"69a01f78-24a3\"\r\ncontent-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\r\nx-proxy-cache: MISS\r\nx-github-request-id: FA74:33C69E:4BEA:5098:6A308528\r\naccept-ranges: bytes\r\ndate: Mon, 15 Jun 2026 23:05:43 GMT\r\nvia: 1.1 varnish\r\nage: 30\r\nx-served-by: cache-nrt-rjaa8190074-NRT\r\nx-cache: HIT\r\nx-cache-hits: 1\r\nx-timer: S1781564743.321544,VS0,VE1\r\nvary: Accept-Encoding\r\nx-fastly-request-id: 27d873f20bc8b54f250d034218d60bc798f0d65c\r\ncontent-length: 9379\r\n\r\n"
+  }
 }
