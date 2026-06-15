@@ -1,5 +1,5 @@
 {
-  "status": "pending-publish",
+  "status": "published",
   "date": "2026-06-15",
   "automation": "a",
   "generatedAt": "2026-06-15T13:02:00.146Z",
@@ -8,5 +8,12 @@
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-15/cron/index.html",
   "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-15/cron/a/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
-  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git",
+  "contentCommit": "d9055a3",
+  "commit": "d9055a3",
+  "http": {
+    "ok": true,
+    "attempts": 1,
+    "output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0 23809    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0 23809    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\nHTTP/2 200 \r\nserver: GitHub.com\r\ncontent-type: text/html; charset=utf-8\r\nlast-modified: Mon, 15 Jun 2026 11:04:02 GMT\r\naccess-control-allow-origin: *\r\nstrict-transport-security: max-age=31556952\r\netag: \"6a2fdc22-5d01\"\r\nexpires: Mon, 15 Jun 2026 11:19:10 GMT\r\ncache-control: max-age=600\r\nx-proxy-cache: MISS\r\nx-github-request-id: 266A:2EB5AB:14B53B7:1560E5E:6A2FDD55\r\naccept-ranges: bytes\r\nage: 0\r\ndate: Mon, 15 Jun 2026 13:02:05 GMT\r\nvia: 1.1 varnish\r\nx-served-by: cache-nrt-rjtf7700082-NRT\r\nx-cache: HIT\r\nx-cache-hits: 0\r\nx-timer: S1781528525.278881,VS0,VE301\r\nvary: Accept-Encoding\r\nx-fastly-request-id: a862273b6201a17e7265d4371c6f32563a89c07d\r\ncontent-length: 23809\r\n\r\n"
+  }
 }
