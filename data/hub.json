@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T11:03:19.533Z",
+  "generatedAt": "2026-06-15T13:02:00.013Z",
   "reportDate": "2026-06-15",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1477,7 +1477,7 @@
       "role": "总经理助理",
       "latestRun": {
         "sessionId": "019ecaf1-155a-7093-9b71-5d1727c173d3",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-12 19:17:48 CST",
         "publishTarget": ""
       },
@@ -1524,9 +1524,9 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "019ec6dd-51ca-79c1-b791-98fe5f243ae0",
-        "status": "HTTP_200",
-        "completedAt": "2026-06-12 16:40:03 CST",
+        "sessionId": "019ecb43-7c07-7ea1-882a-0a4bbf2ab7b4",
+        "status": "RECORDED",
+        "completedAt": "Automation a Memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1550,7 +1550,7 @@
       "latestRun": {
         "sessionId": "019eca83-aba8-7340-a82d-109a587a5a9e",
         "status": "HTTP_200",
-        "completedAt": "2026-06-15 17:30 CST",
+        "completedAt": "2026-06-09 17:03:08 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
@@ -1825,7 +1825,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 7,
+      "artifacts": 8,
       "href": "reports/2026-06-15/codex-work/index.html"
     }
   ]
