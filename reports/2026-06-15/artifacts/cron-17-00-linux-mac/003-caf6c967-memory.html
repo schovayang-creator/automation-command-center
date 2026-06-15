@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">6 KB</span>
-            <span class="chip">2026-06-12 09:36:06</span>
+            <span class="chip">8 KB</span>
+            <span class="chip">2026-06-15 09:36:21</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>6 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>8 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -162,6 +162,16 @@
 <li>GitHub：第一次发布 content commit <code>a38e236</code>、final commit <code>346b2b1</code>；最终修正版发布 content commit <code>9c76cd8</code>、final commit <code>ca91d61</code>。</li>
 <li>下次注意：优先把 Linux 桌面今日任务页更新到当天日期，并把 Linux 日报内容源从测试模板切到真实 Codex/OpenClaw 工作进展，否则晚间只能验链路，不能验结果。</li>
 <li>本次运行时长：约 31 分钟。</li>
+</ul>
+<ul>
+<li>2026-06-15：17:03-17:35 CST 执行 Linux 工作日报验收。</li>
+<li>结果：失败。<code>wang@192.168.3.32</code> 在 <code>17:04</code>、<code>17:09</code>、<code>17:14</code>、<code>17:20</code>、<code>17:25</code>、<code>17:30</code> 六次 SSH 探测中持续超时；<code>ping 192.168.3.32</code> 也 100% 丢包。</li>
+<li>验收结论：今天未能读取 <code>/home/wang/Desktop/今日任务.html</code>、<code>/home/wang/Desktop/inbox</code> 或 Linux 运行中任务状态，因此没有拉回来自 Linux 的原始日报文件；已按失败分支在 Mac 端生成失败版 HTML 日报和验收记录，供总控台收录和人工补跑。</li>
+<li>已落地文件：<code>本地归档</code>、<code>本地归档</code>。</li>
+<li>发布结果：总控台重建、校验、公开发布和自动化详情页正文验证全部成功；公开总看板与本自动化详情页返回 <code>HTTP 200</code>，公开页正文已包含“SSH 不通”和 17:30 截止失败说明。</li>
+<li>GitHub：本次发布 content commit <code>d4fe3d2</code>、final commit <code>d91f783</code>；发布脚本状态 <code>published</code>，<code>openclawStatus=already-delivered</code>。</li>
+<li>下次注意：先人工确认 Linux 已开机、同网段在线且 22 端口可达，再重跑 <code>本地归档</code> 补拉真实日报。</li>
+<li>本次运行时长：约 32 分钟。</li>
 </ul></article>
     </div>
   
