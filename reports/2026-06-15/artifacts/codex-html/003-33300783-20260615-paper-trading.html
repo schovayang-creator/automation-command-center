@@ -77,7 +77,7 @@
           <div class="chip-row hero-chip-row">
             <span class="chip">HTML</span>
             <span class="chip">20 KB</span>
-            <span class="chip">2026-06-14 16:16:36</span>
+            <span class="chip">2026-06-15 05:55:53</span>
           </div>
         </div>
       </div>
@@ -116,14 +116,14 @@
             <h3>A股每日模拟盘研究与盈亏回放 1</h3>
             <span class="status info">任务页</span>
           </div>
-          <ul class="mini-list native-html-list"><li>模拟盈亏回放缺少必要行情数据；Tushare token 缺失；东方财富实时全市场接口失败；数据模式为 seed_universe_kline_fallback；K 线失败 1 个</li><li>用于计算本次当日盈亏和模拟成交数</li><li>账户权益 99,487.06 -&gt; 80,794.46 CNY</li><li>累计收益率 -19.21%</li><li>按回放/估值交易日的 OPEN 买入统计</li><li>按回放/估值交易日的 CLOSED/FILLED 卖出统计</li><li>亏损轮动触发时写入，等待下一轮真实行情回放</li><li>写入账本、等待下一轮真实行情回放</li></ul>
+          <ul class="mini-list native-html-list"><li>模拟盈亏回放缺少必要行情数据；Tushare token 缺失；东方财富实时全市场接口失败；数据模式为 seed_universe_kline_fallback；K 线失败 1 个</li><li>用于计算本次当日盈亏和模拟成交数</li><li>目标交易日 2026-06-15 的真实 K 线不完整，账户权益保持 99,487.06 CNY 待回放</li><li>待真实行情回放后计算</li><li>按回放/估值交易日的 OPEN 买入统计</li><li>按回放/估值交易日的 CLOSED/FILLED 卖出统计</li><li>亏损轮动触发时写入，等待下一轮真实行情回放</li><li>写入账本、等待下一轮真实行情回放</li></ul>
           
         </article><article class="native-html-section">
           <div class="module-head">
             <h3>A股每日模拟盘研究与盈亏回放 2</h3>
             <span class="status info">任务页</span>
           </div>
-          <ul class="mini-list native-html-list"><li>## 0A. 3 分钟简报</li><li><strong>今天结论：</strong> 今天完成了 2026-06-15 的 A 股模拟盘亏损复盘、策略重写、模拟清仓和重新选股；本次运行结论为未跑完，没有触碰真实账户或真实交易。</li><li>1. 今天按项目本地日历判断为交易日候选日，启动检查说明为：2026-06-15 为周一；项目无本地临时休市配置，按工作日处理，并留痕上交所 2026 休市公告：<a href="https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml">https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml</a></li><li>2. 昨日模拟盈亏为 -18,692.60 CNY，昨日模拟日收益率为 -18.79%，累计模拟收益率为 -19.21%。</li><li>3. 今日写入 3 条新增模拟买入计划。 当前模拟持仓为 没有模拟持仓，所有金额和收益都只按模拟盘口径计算。</li><li>4. 今日观察候选为 中国人寿（601628.SH）、中国巨石（600176.SH）、国泰海通（601211.SH），这些候选是模型推断的观察名单，不是收益承诺或真实买卖建议。</li><li>5. 连续收益 gate 仍为 PAPER_GATE_PENDING_DATA，目前连续超过 5% 的完整交易日数量是 0/3。</li><li><strong>风险和缺口：</strong> 最大风险是Tushare token 缺失，行业、概念、公告、财务和龙虎榜排雷不完整；东方财富实时全市场接口失败，今日研究依赖历史 K 线 fallback；如果这些缺口继续存在，候选评分只能视为公开行情和历史 K 线层面的实验。</li></ul>
+          <ul class="mini-list native-html-list"><li>## 0A. 3 分钟简报</li><li><strong>今天结论：</strong> 今天完成了 2026-06-15 的 A 股模拟盘启动检查、上一轮待回放标记和新候选观察；本次运行结论为未跑完，没有触碰真实账户或真实交易。</li><li>1. 今天按项目本地日历判断为交易日候选日，启动检查说明为：2026-06-15 为周一；项目无本地临时休市配置，按工作日处理，并留痕上交所 2026 休市公告：<a href="https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml">https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml</a></li><li>2. 昨日模拟盈亏暂时不能计算，因为 2026-06-15 的真实 K 线尚未取到；本次已标记为 PENDING_DATA，等待下一次回放。</li><li>3. 今日只输出观察候选，没有新增模拟买入或卖出计划；上一轮真实行情尚未回放完成，账户状态需要等待数据确认。 当前模拟持仓为 没有模拟持仓，所有金额和收益都只按模拟盘口径计算。</li><li>4. 今日观察候选为 中国人寿（601628.SH）、中国巨石（600176.SH）、国泰海通（601211.SH），这些候选是模型推断的观察名单，不是收益承诺或真实买卖建议。</li><li>5. 连续收益 gate 仍为 PAPER_GATE_PENDING_DATA，目前连续超过 5% 的完整交易日数量是 0/3。</li><li><strong>风险和缺口：</strong> 最大风险是Tushare token 缺失，行业、概念、公告、财务和龙虎榜排雷不完整；东方财富实时全市场接口失败，今日研究依赖历史 K 线 fallback；如果这些缺口继续存在，候选评分只能视为公开行情和历史 K 线层面的实验。</li></ul>
           
         </article>
       </div>
