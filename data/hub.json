@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T09:09:18.365Z",
+  "generatedAt": "2026-06-17T09:12:30.907Z",
   "reportDate": "2026-06-17",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1573,7 +1573,7 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019ed4d0-04be-78f3-8383-421a57395957",
-        "status": "SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-17 17:02:58 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
@@ -1687,11 +1687,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "资源池官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019ed4d0-04be-78f3-8383-421a57395957",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-17 17:02:58 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-06-17/cron/24-5/index.html"
     },
     {
@@ -1702,7 +1707,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019ed4d0-04be-78f3-8383-421a57395957",
-        "status": "SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-17 17:02:58 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
