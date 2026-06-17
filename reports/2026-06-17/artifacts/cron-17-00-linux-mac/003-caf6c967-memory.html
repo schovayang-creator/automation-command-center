@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">9 KB</span>
-            <span class="chip">2026-06-15 12:03:27</span>
+            <span class="chip">11 KB</span>
+            <span class="chip">2026-06-17 09:14:10</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>9 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>11 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -190,6 +190,15 @@
 <li>当前最近的可行路径：让用户在 Safari 的系统弹窗里输入 Mac 密码解锁已保存的路由器密码，然后我继续自动填充路由器管理密码，进入后台确认 Linux 是否已在线；若在线则继续执行远程关机，若离线则可把“已离线/大概率已关机”作为最终状态。</li>
 <li>当前 blocker：需要用户本机授权一次，或直接提供路由器管理密码；在此之前我无法再跨过路由器登录这一步。</li>
 <li>本次运行时长：约 23 分钟。</li>
+</ul>
+<ul>
+<li>2026-06-17：17:01-17:13 CST 执行 Linux 工作日报验收。</li>
+<li>结果：成功连接 Linux，读取桌面任务页与运行中进程，并拉回 <code>2026-06-17-Linux工作日报.html</code>。<code>/home/wang/Desktop/今日任务.html</code> 存在，但标题和页内日期仍是 <code>2026-06-16</code>；用户口头指定的 <code>/home/wang/Desktop/inbox</code> 当前不存在。</li>
+<li>验收结论：今天只确认了 SSH 登录、远端生成和回传链路正常，也确认 Linux 上仍有 <code>openclaw-gateway</code>、<code>codex</code>、<code>node</code>、<code>chrome</code>、<code>sshd</code> 等任务运行；拉回的日报正文仍是测试链路模板，不能证明双创比赛业务主线今天的实际完成度。</li>
+<li>已落地文件：<code>本地归档</code>、<code>本地归档</code>。</li>
+<li>发布结果：总控台重建、校验、公开发布与自动化详情页验证成功。第二轮发布后状态为 <code>published</code>，公开总看板与本自动化详情页均返回 <code>HTTP 200</code>，最终 GitHub commit 为 <code>e0faee2</code>，<code>openclawStatus=delivered</code>。</li>
+<li>下次注意：先把 Linux 桌面今日任务页更新到当天日期，再把真实工作进展接入 Linux 日报或恢复 <code>/home/wang/Desktop/inbox</code> 作为直观日报入口，否则晚间仍只能验链路、不能验结果。</li>
+<li>本次运行时长：约 13 分钟。</li>
 </ul></article>
     </div>
   
