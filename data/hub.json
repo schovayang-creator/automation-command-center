@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T00:32:44.902Z",
+  "generatedAt": "2026-06-18T00:44:09.358Z",
   "reportDate": "2026-06-18",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1571,11 +1571,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "机会总控官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019ed7d1-1a7a-7ca1-9cf8-8ab17e290df4",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-18 07:01:05",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-06-18/cron/24-6/index.html"
     },
     {
@@ -1585,15 +1590,15 @@
       "lane": "专项主控 Cron",
       "role": "竞品情报官",
       "latestRun": {
-        "sessionId": "",
-        "status": "RECORDED",
+        "sessionId": "019ed7d1-1a7a-7ca1-9cf8-8ab17e290df4",
+        "status": "HTTP_200",
         "completedAt": "Automation 24-2 Memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-06-18/cron/24-2/index.html"
     },
     {
@@ -1669,11 +1674,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "政策机会官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019ed7d1-1a7a-7ca1-9cf8-8ab17e290df4",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-18 07:01:05",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-06-18/cron/24-3/index.html"
     },
     {
@@ -1682,11 +1692,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "资源池官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019ed7d1-1a7a-7ca1-9cf8-8ab17e290df4",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-18 07:01:05",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-06-18/cron/24-5/index.html"
     },
     {
