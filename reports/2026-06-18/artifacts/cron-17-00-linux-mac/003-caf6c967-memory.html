@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">11 KB</span>
-            <span class="chip">2026-06-17 09:14:10</span>
+            <span class="chip">12 KB</span>
+            <span class="chip">2026-06-18 09:36:08</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>11 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>12 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -199,6 +199,17 @@
 <li>发布结果：总控台重建、校验、公开发布与自动化详情页验证成功。第二轮发布后状态为 <code>published</code>，公开总看板与本自动化详情页均返回 <code>HTTP 200</code>，最终 GitHub commit 为 <code>e0faee2</code>，<code>openclawStatus=delivered</code>。</li>
 <li>下次注意：先把 Linux 桌面今日任务页更新到当天日期，再把真实工作进展接入 Linux 日报或恢复 <code>/home/wang/Desktop/inbox</code> 作为直观日报入口，否则晚间仍只能验链路、不能验结果。</li>
 <li>本次运行时长：约 13 分钟。</li>
+</ul>
+<ul>
+<li>2026-06-18：17:01-17:35 CST 执行 Linux 工作日报验收。</li>
+<li>结果：失败。<code>192.168.3.32</code> 在 17:02-17:30 的验收窗口内持续不可达；<code>ping</code> 显示主机离线，<code>wang@192.168.3.32:22</code> 到 17:30 最后一次探测仍超时。</li>
+<li>验收结论：今天未能读取 <code>/home/wang/Desktop/今日任务.html</code>，未能检查 Linux 运行中任务，也未能拉回 Linux 原始日报；已按失败分支在 Mac 端生成失败版 HTML 日报和验收记录，不关机、不改 Linux 配置。</li>
+<li>已落地文件：<code>本地归档</code>、<code>本地归档</code>。</li>
+<li>发布结果：总控台重建、校验、公开发布与自动化详情页验证全部成功；公开总看板与本自动化详情页均返回 <code>HTTP 200</code>，发布脚本状态为 <code>published</code>。</li>
+<li>GitHub：本次发布 content commit <code>348f2fa</code>、final commit <code>16890f8</code>，<code>openclawStatus=already-delivered</code>。</li>
+<li>下次注意：先人工确认 Linux 已开机、接入当前局域网且 SSH 恢复，再重跑 <code>本地归档</code> 补拉真实日报。</li>
+<li>本次摘要：按自动化要求重试到 17:30 截止，Linux 仍未上线；已将失败结论、3 分钟简报和公开入口写入当天 HTML/Markdown，并完成公开发布。</li>
+<li>本次运行时长：约 34 分钟。</li>
 </ul></article>
     </div>
   

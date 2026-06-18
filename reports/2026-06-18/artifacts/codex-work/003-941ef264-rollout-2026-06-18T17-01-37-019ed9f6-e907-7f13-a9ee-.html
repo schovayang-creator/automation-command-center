@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">354 KB</span>
-            <span class="chip">2026-06-18 09:33:17</span>
+            <span class="chip">431 KB</span>
+            <span class="chip">2026-06-18 09:36:49</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>354 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>179</b><span>评分</span></div><div class="metric"><b>431 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</h3>
-          <p>失败版产物已经落盘。接下来我会用 2026-06-18 的参数跑总控台发布脚本，并立刻检查本地页面和公开页的 HTTP 状态，确保今天能收口到可发布状态。</p>
-          <ul class="mini-list"><li>失败版产物已经落盘</li></ul>
+          <p>**3 分钟简报** 今天结论：今天没有从 Linux 拉回正式日报，因为 192.168.3.32 在 2026-06-18 17:02-17:30 CST 的验收窗口内持续不可达，SSH 到截止时间仍超时。 今日重点： 1. 我按要求每 5 分钟重试到 17:30，ping 与 22 端口探测都指向同一个结论：Linux 主机当时离线或未入网，不是 Mac 端脚本路径或口令配置错误。 2. Linux 桌面 今天未能读取，所以“今日任务是否存在”只能记为未确认。 3. Linux 原始 HTML 日报今天没有拉回 Mac，因此也无法核对“完成了什么、没完成什么、卡在哪里”这些业务结果。 4. Linux 是否仍有 codex、openclaw、python、node 等任务运行今天同样未能确认，因为整段窗口内都没有登录进去。 5. 我已在 Mac 收件箱补生成失败版 HTML 日报和验收记录，并已发布到公开总控台，保证今天这条自动化有正式可看的结果页。 风险和缺口：当前缺的是 Linux 主机在线状态、SSH 连通性和当天原始日报内容；在主机恢复前，今天的业务完成度无法自动验收。 下一步：先人工确认 Linux 已开机并重新接入当前局域网，恢复 SSH 后重跑日报拉取脚本补回真实日报。 公开入口：当天总看板；本自动化详情页。 本地已落盘的文件是 2026-06-18-Linux工作日报.html 和 2026-06-18-验收记录.md。今天没有对 Linux 执行关机，也没有修改 Linux 配置。 发布状态：GitHub content commit 348f2fa，final commit 16890f8。HTTP 校验通过，公开当天总看板和自动化详情页均返回 HTTP 200。</p>
+          <ul class="mini-list"><li>**3 分钟简报** 今天结论：今天没有从 Linux 拉回正式日报，因为 192.168.3.32 在 2026-06-18 17:02-17:30 CST 的验收窗口内持续不可达，SSH 到截止时间仍超时</li><li>2. Linux 桌面 今天未能读取，所以“今日任务是否存在”只能记为未确认</li><li>3. Linux 原始 HTML 日报今天没有拉回 Mac，因此也无法核对“完成了什么、没完成什么、卡在哪里”这些业务结果</li><li>4. Linux 是否仍有 codex、openclaw、python、node 等任务运行今天同样未能确认，因为整段窗口内都没有登录进去</li><li>5. 我已在 Mac 收件箱补生成失败版 HTML 日报和验收记录，并已发布到公开总控台，保证今天这条自动化有正式可看的结果页</li><li>风险和缺口：当前缺的是 Linux 主机在线状态、SSH 连通性和当天原始日报内容</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</span>
           <span>开始：2026-06-18 17:01:37</span>
-          <span>完成：2026-06-18 17:01:37</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1781775409</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,32 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>失败版产物已经落盘。接下来我会用 2026-06-18 的参数跑总控台发布脚本，并立刻检查本地页面和公开页的 HTTP 状态，确保今天能收口到可发布状态。</p></article>
+      <article class="doc"><p><strong>3 分钟简报</strong> 今天结论：今天没有从 Linux 拉回正式日报，因为 192.168.3.32 在 2026-06-18 17:02-17:30 CST 的验收窗口内持续不可达，SSH 到截止时间仍超时。 今日重点： 1. 我按要求每 5 分钟重试到 17:30，ping 与 22 端口探测都指向同一个结论：Linux 主机当时离线或未入网，不是 Mac 端脚本路径或口令配置错误。 2. Linux 桌面 今天未能读取，所以“今日任务是否存在”只能记为未确认。 3. Linux 原始 HTML 日报今天没有拉回 Mac，因此也无法核对“完成了什么、没完成什么、卡在哪里”这些业务结果。 4. Linux 是否仍有 codex、openclaw、python、node 等任务运行今天同样未能确认，因为整段窗口内都没有登录进去。 5. 我已在 Mac 收件箱补生成失败版 HTML 日报和验收记录，并已发布到公开总控台，保证今天这条自动化有正式可看的结果页。 风险和缺口：当前缺的是 Linux 主机在线状态、SSH 连通性和当天原始日报内容；在主机恢复前，今天的业务完成度无法自动验收。 下一步：先人工确认 Linux 已开机并重新接入当前局域网，恢复 SSH 后重跑日报拉取脚本补回真实日报。 公开入口：当天总看板；本自动化详情页。 本地已落盘的文件是 2026-06-18-Linux工作日报.html 和 2026-06-18-验收记录.md。今天没有对 Linux 执行关机，也没有修改 Linux 配置。 发布状态：GitHub content commit 348f2fa，final commit 16890f8。HTTP 校验通过，公开当天总看板和自动化详情页均返回 HTTP 200。</p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-18-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-18-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>2 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-18-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-18-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>2026-06-18-验收记录.md</h3><p>~/Desktop/Linux日报收件箱/2026-06-18-验收记录.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>
