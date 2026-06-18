@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">2 KB</span>
-            <span class="chip">2026-06-13 00:32:22</span>
+            <span class="chip">3 KB</span>
+            <span class="chip">2026-06-18 00:50:53</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>2 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>3 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -116,6 +116,16 @@
 <li>Fix applied: 修复了 <code>本地归档</code>，让 automation 的 3 分钟简报优先解析当天任务页 <code>&lt;div class=&quot;brief&quot;&gt;</code> 内容，不再回退成旧的硬编码摘要。</li>
 <li>Linux publish result: 08:00、08:05、08:10、08:15、08:20、08:25、08:30 共 7 次 SSH 推送全部超时，错误为 <code>ssh: connect to host 192.168.3.32 port 22: Operation timed out</code>。结论：公开总控台已发布成功，但 Linux 桌面未更新。</li>
 <li>Current judgment: 今天不建议新增申报；下周主线仍是创客中国先进材料。创业江苏今天首页仍显示距报名截止 17 天，但是否接受江苏注册或赛后 6 个月内注册仍需老板确认。无锡太湖杯保留为后手，不在周末新开重材料。</li>
+</ul>
+<ul>
+<li>Date: 2026-06-18 08:49 CST</li>
+<li>Task: 双创比赛今日任务发布到 Linux 桌面</li>
+<li>Summary: 今天完成了工作日官方复核、HTML 任务页生成与归档，新增核实了 <code>SCIP+</code> 和 <code>创客上海2026</code> 两条官方信号，并确认今天仍不建议新增申报；唯一主线继续锁定创客中国先进材料，创业江苏、无锡太湖杯、浙江赛区继续只保留后手。</li>
+<li>Output files: 生成了 <code>本地归档</code>、历史归档 <code>本地归档</code>，并写入失败记录 <code>本地归档</code>。</li>
+<li>Infra fixes: 创建了 <code>本地归档 -&gt; 本地归档 2/自动化总控台站点</code> 的软链接；补了任务页里的标准 <code>&lt;div class=&quot;brief&quot;&gt;</code> 结构；更新了 <code>scripts/verification/check-automation-linkage.mjs</code> 对 <code>automation</code> 的校验词，从过期的“江苏未来产业/苏州国际精英创业周”切到当前真实内容。</li>
+<li>Linux publish result: 07:17 首次尝试即超时，08:00、08:05、08:10、08:15、08:20、08:25、08:30 共 7 次正式重试全部超时，错误为 <code>ssh: connect to host 192.168.3.32 port 22: Operation timed out</code>。结论：Mac 本地与公开总控台都已更新，但 Linux 桌面未更新。</li>
+<li>Public publish: 总控台最终发布成功；正式脚本先因 GitHub <code>Empty reply from server</code> / <code>HTTP2 framing layer</code> 失败，后以保守参数手动推送恢复，再补跑脚本完成通知。当前 publish metadata 显示 status=published，content commit <code>f71d897</code>，final commit <code>e029025</code>，GitHub Pages 对当天总看板和自动化详情页均返回 HTTP 200。</li>
+<li>Runtime: 本轮从约 07:00 到 08:49 完成，约 1 小时 49 分钟。</li>
 </ul></article>
     </div>
   
