@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">1.8 MB</span>
-            <span class="chip">2026-06-18 13:24:43</span>
+            <span class="chip">1.9 MB</span>
+            <span class="chip">2026-06-18 13:35:56</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>1.8 MB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>179</b><span>评分</span></div><div class="metric"><b>1.9 MB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：A股每日模拟盘研究与盈亏回放</h3>
-          <p>本地报告和账本已经一致。现在我会执行总控台发布脚本，之后用公开 URL 做 HTTP 验证并记录 commit 状态。</p>
-          <ul class="mini-list"><li>本地报告和账本已经一致</li></ul>
+          <p>完成了 2026-06-18 的 A 股每日模拟盘研究与盈亏回放。HTML 报告已生成并打开，本地报告在 20260618-paper-trading.md，HTML 在 20260618-paper-trading.html。 **3 分钟简报** 今天结论：今天是按项目日历处理的 A 股交易日，完成了模拟盘回放、候选硬过滤、策略覆盖更新和公开总控台发布；没有任何真实交易动作。 今日重点： 1. 今日模拟账户盈亏为 +354.22 CNY，日收益率 +0.36%，累计收益率 -0.47%。 2. 今日到期卖出不是完整十只批次，而是 3 条计划：中国巨石 按预设价 HIT_TARGET，东方财富 按收盘价 FORCE_CLOSE_EOD，三环集团 因 0 股不可执行未触发。 3. 下一批硬过滤后只有 8 只可执行候选，不足 10 只，所以按规则标记 PARTIAL_UNIVERSE_BLOCKED，没有写入部分或凑数买入批次。 4. 观察候选为：中国巨石、中航光电、亿纬锂能、海康威视、招商证券、北方稀土、龙佰集团、恒瑞医药。 5. 连续收益 gate 仍为 继续模拟观察，当前 0/3，没有达到连续 3 个完整交易日超过 5%。 风险和缺口：Tushare token 仍缺失，东方财富实时全市场接口失败，行业、概念、公告、财务和龙虎榜排雷不完整。最大执行风险是候选池不足 10 只，不能生成正式下一批十股模拟买入计划。 下一步：明天先看 中国巨石 是否继续满足观察价区间、量能不萎缩和 10 日均线不破；否则保持不触发或按回放退出。 公开入口： - 当天总看板：https://schovayang-creator.github.io/automation-command-center/reports/2026-06-18/index.html - 本自动化详情页：https://schovayang-creator.github.io/automation-command-center/reports/2026-06-18/cron/a/</p>
+          <ul class="mini-list"><li>完成了 2026-06-18 的 A 股每日模拟盘研究与盈亏回放</li><li>HTML 报告已生成并打开，本地报告在 20260618-paper-trading.md，HTML 在 20260618-paper-trading.html</li><li>**3 分钟简报** 今天结论：今天是按项目日历处理的 A 股交易日，完成了模拟盘回放、候选硬过滤、策略覆盖更新和公开总控台发布</li><li>没有任何真实交易动作</li><li>今日重点： 1. 今日模拟账户盈亏为 +354.22 CNY，日收益率 +0.36%，累计收益率 -0.47%</li><li>2. 今日到期卖出不是完整十只批次，而是 3 条计划：中国巨石 按预设价 HIT_TARGET，东方财富 按收盘价 FORCE_CLOSE_EOD，三环集团 因 0 股不可执行未触发</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：A股每日模拟盘研究与盈亏回放</span>
           <span>开始：2026-06-18 20:31:08</span>
-          <span>完成：2026-06-18 20:31:08</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1781789756</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,32 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>本地报告和账本已经一致。现在我会执行总控台发布脚本，之后用公开 URL 做 HTTP 验证并记录 commit 状态。</p></article>
+      <article class="doc"><p>完成了 2026-06-18 的 A 股每日模拟盘研究与盈亏回放。HTML 报告已生成并打开，本地报告在 20260618-paper-trading.md，HTML 在 20260618-paper-trading.html。 <strong>3 分钟简报</strong> 今天结论：今天是按项目日历处理的 A 股交易日，完成了模拟盘回放、候选硬过滤、策略覆盖更新和公开总控台发布；没有任何真实交易动作。 今日重点： 1. 今日模拟账户盈亏为 +354.22 CNY，日收益率 +0.36%，累计收益率 -0.47%。 2. 今日到期卖出不是完整十只批次，而是 3 条计划：中国巨石 按预设价 HIT_TARGET，东方财富 按收盘价 FORCE_CLOSE_EOD，三环集团 因 0 股不可执行未触发。 3. 下一批硬过滤后只有 8 只可执行候选，不足 10 只，所以按规则标记 PARTIAL_UNIVERSE_BLOCKED，没有写入部分或凑数买入批次。 4. 观察候选为：中国巨石、中航光电、亿纬锂能、海康威视、招商证券、北方稀土、龙佰集团、恒瑞医药。 5. 连续收益 gate 仍为 继续模拟观察，当前 0/3，没有达到连续 3 个完整交易日超过 5%。 风险和缺口：Tushare token 仍缺失，东方财富实时全市场接口失败，行业、概念、公告、财务和龙虎榜排雷不完整。最大执行风险是候选池不足 10 只，不能生成正式下一批十股模拟买入计划。 下一步：明天先看 中国巨石 是否继续满足观察价区间、量能不萎缩和 10 日均线不破；否则保持不触发或按回放退出。 公开入口： - 当天总看板：<a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-18/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-18/index.html</a> - 本自动化详情页：<a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-18/cron/a/">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-18/cron/a/</a></p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>20260618-paper-trading.html</h3><p>~/Desktop/股票/reports/html/20260618-paper-trading.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>2 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>20260618-paper-trading.md</h3><p>~/Desktop/股票/reports/daily/20260618-paper-trading.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>20260618-paper-trading.html</h3><p>~/Desktop/股票/reports/html/20260618-paper-trading.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>

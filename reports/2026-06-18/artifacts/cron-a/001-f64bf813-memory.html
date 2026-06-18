@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">839 B</span>
-            <span class="chip">2026-06-18 13:24:05</span>
+            <span class="chip">2 KB</span>
+            <span class="chip">2026-06-18 13:35:27</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>839 B</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>2 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -101,7 +101,7 @@
           <b>批阅路径</b>
           <span>上方报告摘要</span>
           <span>下方完整正文</span>
-          
+          <span>2026-06-18 21:35:09 CST final publish note</span>
           <a href="#" data-local-only="true">查看脱敏详情</a>
         </aside>
       </div>
@@ -119,6 +119,15 @@
 <li>Gate state: PAPER_GATE_CONTINUE, consecutive count 0/3.</li>
 <li>Report: 本地归档</li>
 <li>HTML: 本地归档</li>
+</ul>
+<h2>2026-06-18 21:35:09 CST final publish note</h2>
+<ul>
+<li>Fixed same-day rerun PnL handling in <code>本地归档</code>; reruns now reuse already executed current-day T+1 sell rows instead of resetting PnL to zero.</li>
+<li>Final paper-trading report status: REPLAYED, day PnL +354.22 CNY, day return +0.36%, cumulative return -0.47%.</li>
+<li>Due 2026-06-18 sell rows: 中国巨石 HIT_TARGET via PRESET_TARGET_PRICE; 东方财富 FORCE_CLOSE_EOD via ACTUAL_CLOSE_OR_TAIL_PRICE; 三环集团 NOT_TRIGGERED because planned shares were zero.</li>
+<li>Next ten-stock buy batch is blocked as PARTIAL_UNIVERSE_BLOCKED: hard filters left 8/10 executable candidates, so no partial or padded batch was written.</li>
+<li>Local outputs: <code>本地归档</code>, <code>本地归档</code>, <code>本地归档</code>, <code>本地归档</code>.</li>
+<li>Commander publish: public pages returned HTTP 200 for daily index, daily report, and cron/a detail page. Remote commit <code>0b7eed2</code> is pushed; notification commit <code>ce04c43</code> remains local in <code>.public-site</code> because the second GitHub push timed out.</li>
 </ul></article>
     </div>
   
