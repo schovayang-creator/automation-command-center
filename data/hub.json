@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T11:07:26.442Z",
+  "generatedAt": "2026-06-18T13:26:13.283Z",
   "reportDate": "2026-06-18",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1278,7 +1278,7 @@
         "project": "P02",
         "task": "T02",
         "priority": "P1",
-        "title": "补齐 2 篇日报入口",
+        "title": "补齐 1 篇日报入口",
         "owner": "日报复盘官",
         "status": "待补",
         "xp": 100,
@@ -1400,7 +1400,7 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "ACTIVE",
-      "artifacts": 10,
+      "artifacts": 11,
       "points": 125,
       "href": "reports/2026-06-18/cron/automation-2/index.html"
     },
@@ -1489,7 +1489,7 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 10,
+      "artifacts": 11,
       "points": 125,
       "href": "reports/2026-06-18/cron/automation-2/index.html"
     },
@@ -1524,8 +1524,8 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "019eda64-5172-7f40-9382-4ddc986289c2",
-        "status": "HTTP_200",
+        "sessionId": "019edab6-b84f-7b23-8134-5c89ab95fe0b",
+        "status": "RECORDED",
         "completedAt": "Automation a Memory",
         "publishTarget": ""
       },
@@ -1816,7 +1816,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 16,
+      "artifacts": 23,
       "href": "reports/2026-06-18/codex-html/index.html"
     },
     {
@@ -1825,7 +1825,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 4,
+      "artifacts": 6,
       "href": "reports/2026-06-18/codex-work/index.html"
     }
   ]
