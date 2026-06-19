@@ -1,12 +1,12 @@
 {
   "status": "pending-publish",
   "date": "2026-06-19",
-  "automation": "17-00-linux-mac",
-  "generatedAt": "2026-06-19T09:36:00.654Z",
+  "automation": "automation-2",
+  "generatedAt": "2026-06-19T11:20:11.271Z",
   "publicDashboardUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-19/index.html",
   "publicDailyReportUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-19/daily-report/index.html",
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-19/cron/index.html",
-  "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-19/cron/17-00-linux-mac/index.html",
+  "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-19/cron/automation-2/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
   "remote": "https://github.com/schovayang-creator/automation-command-center.git"
 }

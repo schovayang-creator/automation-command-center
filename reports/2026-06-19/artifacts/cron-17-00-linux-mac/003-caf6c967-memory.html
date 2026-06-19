@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">12 KB</span>
-            <span class="chip">2026-06-18 09:36:08</span>
+            <span class="chip">14 KB</span>
+            <span class="chip">2026-06-19 09:45:23</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>12 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>14 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -210,6 +210,18 @@
 <li>下次注意：先人工确认 Linux 已开机、接入当前局域网且 SSH 恢复，再重跑 <code>本地归档</code> 补拉真实日报。</li>
 <li>本次摘要：按自动化要求重试到 17:30 截止，Linux 仍未上线；已将失败结论、3 分钟简报和公开入口写入当天 HTML/Markdown，并完成公开发布。</li>
 <li>本次运行时长：约 34 分钟。</li>
+</ul>
+<ul>
+<li>2026-06-19：17:02-17:44 CST 执行 Linux 工作日报验收。</li>
+<li>结果：失败。<code>192.168.3.32</code> 在 17:02-17:30 的验收窗口内持续不可达；<code>ping</code> 100% 丢包，22 端口探测超时，SSH 返回 <code>Host is down</code>，到截止时间仍未恢复。</li>
+<li>验收结论：今天未能读取 <code>/home/wang/Desktop/今日任务.html</code>，未能检查 Linux 运行中任务，也未能拉回 Linux 原始日报；已按失败分支在 Mac 端生成失败版 HTML 日报和验收记录，不关机、不改 Linux 配置。</li>
+<li>已落地文件：<code>本地归档</code>、<code>本地归档</code>。</li>
+<li>本地总控台：已生成 <code>本地归档</code>、<code>本地归档</code>、<code>本地归档</code>，站点构建与自动化链接校验通过。</li>
+<li>发布结果：公开发布失败。<code>publish-local-daily-index.mjs --publish --notify</code> 在 <code>.public-site</code> 推送到 <code><a href="https://github.com/schovayang-creator/automation-command-center.git">https://github.com/schovayang-creator/automation-command-center.git</a></code> 时连续返回 <code>Empty reply from server</code>；本地 <code>publish.json</code> 仍是 <code>pending-publish</code>，公开总看板与本自动化详情页当前都是 <code>HTTP 404</code>。</li>
+<li>GitHub：<code>.public-site</code> 当前 <code>HEAD</code> 为本地提交 <code>ae5266c</code>，分支状态是 <code>main...origin/main [ahead 2]</code>，说明公开树内容已准备好但尚未推到远端。</li>
+<li>下次注意：先人工确认 Linux 已开机并恢复 SSH，再补拉真实日报；同时需要在网络稳定时进入 <code>.public-site</code> 重试 <code>git push -u origin HEAD:main</code>，把今天本地总控台真正发布出去。</li>
+<li>本次摘要：按自动化要求重试到 17:30 截止，Linux 仍未上线；失败版 HTML、验收记录和本地总控台都已生成，但 GitHub Pages 推送链路失败，公开 URL 还不可用。</li>
+<li>本次运行时长：约 42 分钟。</li>
 </ul></article>
     </div>
   

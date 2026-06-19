@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">420 KB</span>
-            <span class="chip">2026-06-19 09:34:29</span>
+            <span class="chip">647 KB</span>
+            <span class="chip">2026-06-19 09:47:19</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>420 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>185</b><span>评分</span></div><div class="metric"><b>647 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</h3>
-          <p>正式产物已经写盘。我先做两步验证：一是本地检查今天两个文件确实存在且没有把 Mac 本地路径写进公开正文；二是执行总控台发布脚本并拿到公开 URL、GitHub commit 和 HTTP 状态。</p>
-          <ul class="mini-list"><li>正式产物已经写盘</li><li>我先做两步验证：一是本地检查今天两个文件确实存在且没有把 Mac 本地路径写进公开正文</li></ul>
+          <p>Linux 今日验收已按 17:02-17:30 CST 窗口执行完成。192.168.3.32 全程 ping 丢包、22 端口超时、SSH 返回 Host is down，所以没能读取 Linux 桌面，也没能拉回正式日报；Linux 未关机。正式产物已写到 2026-06-19-Linux工作日报.html 和 2026-06-19-验收记录.md。 **3 分钟简报** - 今天结论：今天没有从 Linux 拉回正式日报，因为 Linux 在 2026-06-19 17:30 CST 截止前一直不可达。 - 今日重点：今日任务是否存在未能确认，因为 SSH 一直未建立。今天完成的是从 17:02 开始到 17:30 截止的重试取证，以及 Mac 端失败版日报和验收记录落地。今天没完成的是 Linux 原始日报拉回、任务页核对和运行中任务状态检查。Linux 是否仍有 codex、openclaw、python、node 任务运行未能确认，所以只记录失败状态，不关机。 - 风险和缺口：当前缺 Linux 在线状态、SSH 连通性和原始日报内容。总控台本地构建通过，但公开发布卡在 .public-site 对 GitHub 的 push，连续返回 Empty reply from server。 - 下一步：先人工确认 Linux 已开机并恢复 SSH，再补拉真实日报；随后在 .public-site 重试 git push -u origin HEAD:main。 - 公开入口：当天总看板 和 本自动化详情页 当前都还是 HTTP 404，尚未发布成功。 本地总控台页面已经生成在 当天总看板 和 自动化详情页。GitHub 提交状态是 .public-site 本地 HEAD 为 ae5266c，main...origin/main [ahead 2]；HTTP 验证状态是总看板 404、自动化详情页 404。</p>
+          <ul class="mini-list"><li>Linux 今日验收已按 17:02-17:30 CST 窗口执行完成</li><li>192.168.3.32 全程 ping 丢包、22 端口超时、SSH 返回 Host is down，所以没能读取 Linux 桌面，也没能拉回正式日报</li><li>Linux 未关机</li><li>正式产物已写到 2026-06-19-Linux工作日报.html 和 2026-06-19-验收记录.md</li><li>**3 分钟简报** - 今天结论：今天没有从 Linux 拉回正式日报，因为 Linux 在 2026-06-19 17:30 CST 截止前一直不可达</li><li>- 今日重点：今日任务是否存在未能确认，因为 SSH 一直未建立</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</span>
           <span>开始：2026-06-19 17:01:42</span>
-          <span>完成：2026-06-19 17:01:42</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1781862439</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,40 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>正式产物已经写盘。我先做两步验证：一是本地检查今天两个文件确实存在且没有把 Mac 本地路径写进公开正文；二是执行总控台发布脚本并拿到公开 URL、GitHub commit 和 HTTP 状态。</p></article>
+      <article class="doc"><p>Linux 今日验收已按 17:02-17:30 CST 窗口执行完成。192.168.3.32 全程 ping 丢包、22 端口超时、SSH 返回 Host is down，所以没能读取 Linux 桌面，也没能拉回正式日报；Linux 未关机。正式产物已写到 2026-06-19-Linux工作日报.html 和 2026-06-19-验收记录.md。 <strong>3 分钟简报</strong> - 今天结论：今天没有从 Linux 拉回正式日报，因为 Linux 在 2026-06-19 17:30 CST 截止前一直不可达。 - 今日重点：今日任务是否存在未能确认，因为 SSH 一直未建立。今天完成的是从 17:02 开始到 17:30 截止的重试取证，以及 Mac 端失败版日报和验收记录落地。今天没完成的是 Linux 原始日报拉回、任务页核对和运行中任务状态检查。Linux 是否仍有 codex、openclaw、python、node 任务运行未能确认，所以只记录失败状态，不关机。 - 风险和缺口：当前缺 Linux 在线状态、SSH 连通性和原始日报内容。总控台本地构建通过，但公开发布卡在 .public-site 对 GitHub 的 push，连续返回 Empty reply from server。 - 下一步：先人工确认 Linux 已开机并恢复 SSH，再补拉真实日报；随后在 .public-site 重试 git push -u origin HEAD:main。 - 公开入口：当天总看板 和 本自动化详情页 当前都还是 HTTP 404，尚未发布成功。 本地总控台页面已经生成在 当天总看板 和 自动化详情页。GitHub 提交状态是 .public-site 本地 HEAD 为 ae5266c，main...origin/main [ahead 2]；HTTP 验证状态是总看板 404、自动化详情页 404。</p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-19-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-19-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>4 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-19-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-19-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>2026-06-19-验收记录.md</h3><p>~/Desktop/Linux日报收件箱/2026-06-19-验收记录.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>index.html</h3><p>~/Desktop/自动化总控台站点/reports/2026-06-19/index.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>index.html</h3><p>~/Desktop/自动化总控台站点/reports/2026-06-19/cron/17-00-linux-mac/index.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>
