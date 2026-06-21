@@ -1,41 +1,41 @@
 页面ID,代码,执行项,说明,负责人,入口
-dashboard,FIRST,第一屏判定,只看等级看板、当天待办和六个每日 cron 是否齐。这里不展开长文，负责总态势分流。,总指挥,reports/2026-06-19/index.html
-dashboard,TODO,待办验收,P0/P1 必须能点到日报、自动化或类目页；不能验收的事项留在待补，不给 XP。,验收官,reports/2026-06-19/daily-report/index.html
-dashboard,RPT,日报顺序,六个每日 cron 固定按 A 股、Hermes、双创、Linux、总经理、曹博士排布，避免当天入口散掉。,日报复盘官,reports/2026-06-19/daily-report/index.html
-dashboard,DRILL,下钻方式,简报看不够时先到体系详图，再到数据表格；所有卡片优先整块可点击。,系统司令,reports/2026-06-19/system-detail/index.html
-cron,DAILY,每日任务归类,A 股、Hermes、双创、Linux、总经理、曹博士六条固定每日 cron 进入每日日报任务表。,自动化主管,reports/2026-06-19/data-tables/index.html#daily-task-ledger
-cron,SPEC,专项 Cron,苏州、山西、陶瓷膜、竞品、政策、招投标、专家资源等 24 小时主控只归入业务类目。,业务类目官,reports/2026-06-19/categories/index.html
-cron,ONE,一次性唤醒,一次性 / heartbeat 只登记在自动化台账，除非当天日报明确引用，不进入固定日报序列。,验收官,reports/2026-06-19/data-tables/index.html#automation-ledger
-cron,FAIL,失败复盘,PAUSED、无产物、缺工作目录都要显示，不用空白掩盖；下轮应进入 P1 巡检。,系统治理官,reports/2026-06-19/system-detail/index.html#data-detail
-categories,BOUND,边界,业务类目是项目资产池，不是每日报告；日报只引用它们的关键产物和阶段结论。,类目官,reports/2026-06-19/data-tables/index.html#module-ledger
-categories,PROOF,证据,类目页只做摘要，真正证据在 Markdown、CSV、HTML、JSON 批阅页中预览。,归档官,reports/2026-06-19/categories/index.html
-categories,GAP,保留位,暂时无产物的类目保留在表里，显示待补，方便后续自动化接入。,系统司令,reports/2026-06-19/data-tables/index.html#module-ledger
-categories,USE,日报引用,总经理日报或机会日报需要业务结论时，从类目页提取关键批阅页，不改变类目身份。,日报复盘官,reports/2026-06-19/daily-report/index.html
-daily-report,TASK,六条每日任务,每天按时间顺序看 00:00、06:30、07:00、17:00、19:00、22:30 六个来源。,日报复盘官,reports/2026-06-19/data-tables/index.html#daily-task-ledger
-daily-report,SEQ,六个每日 cron,首页和日报页都固定使用 1 到 6 的每日 cron 序列表；缺失就写缺口，不做替换。,总经理助理,reports/2026-06-19/data-tables/index.html#report-sequence
-daily-report,DENSE,关键汇报,今日关键汇报要像总经理助理专属页一样密集：标题、来源、产物、状态和跳转都要有。,验收官,reports/2026-06-19/daily-report/index.html
+dashboard,FIRST,第一屏判定,只看等级看板、当天待办和六个每日 cron 是否齐。这里不展开长文，负责总态势分流。,总指挥,reports/2026-06-22/index.html
+dashboard,TODO,待办验收,P0/P1 必须能点到日报、自动化或类目页；不能验收的事项留在待补，不给 XP。,验收官,reports/2026-06-22/daily-report/index.html
+dashboard,RPT,日报顺序,六个每日 cron 固定按 A 股、Hermes、双创、Linux、总经理、曹博士排布，避免当天入口散掉。,日报复盘官,reports/2026-06-22/daily-report/index.html
+dashboard,DRILL,下钻方式,简报看不够时先到体系详图，再到数据表格；所有卡片优先整块可点击。,系统司令,reports/2026-06-22/system-detail/index.html
+cron,DAILY,每日任务归类,A 股、Hermes、双创、Linux、总经理、曹博士六条固定每日 cron 进入每日日报任务表。,自动化主管,reports/2026-06-22/data-tables/index.html#daily-task-ledger
+cron,SPEC,专项 Cron,苏州、山西、陶瓷膜、竞品、政策、招投标、专家资源等 24 小时主控只归入业务类目。,业务类目官,reports/2026-06-22/categories/index.html
+cron,ONE,一次性唤醒,一次性 / heartbeat 只登记在自动化台账，除非当天日报明确引用，不进入固定日报序列。,验收官,reports/2026-06-22/data-tables/index.html#automation-ledger
+cron,FAIL,失败复盘,PAUSED、无产物、缺工作目录都要显示，不用空白掩盖；下轮应进入 P1 巡检。,系统治理官,reports/2026-06-22/system-detail/index.html#data-detail
+categories,BOUND,边界,业务类目是项目资产池，不是每日报告；日报只引用它们的关键产物和阶段结论。,类目官,reports/2026-06-22/data-tables/index.html#module-ledger
+categories,PROOF,证据,类目页只做摘要，真正证据在 Markdown、CSV、HTML、JSON 批阅页中预览。,归档官,reports/2026-06-22/categories/index.html
+categories,GAP,保留位,暂时无产物的类目保留在表里，显示待补，方便后续自动化接入。,系统司令,reports/2026-06-22/data-tables/index.html#module-ledger
+categories,USE,日报引用,总经理日报或机会日报需要业务结论时，从类目页提取关键批阅页，不改变类目身份。,日报复盘官,reports/2026-06-22/daily-report/index.html
+daily-report,TASK,六条每日任务,每天按时间顺序看 00:00、06:30、07:00、17:00、19:00、22:30 六个来源。,日报复盘官,reports/2026-06-22/data-tables/index.html#daily-task-ledger
+daily-report,SEQ,六个每日 cron,首页和日报页都固定使用 1 到 6 的每日 cron 序列表；缺失就写缺口，不做替换。,总经理助理,reports/2026-06-22/data-tables/index.html#report-sequence
+daily-report,DENSE,关键汇报,今日关键汇报要像总经理助理专属页一样密集：标题、来源、产物、状态和跳转都要有。,验收官,reports/2026-06-22/daily-report/index.html
 daily-report,NEXT,明日队列,日报里没有完成的事项不消失，进入明日待办或自动化失败复盘。,日历官,calendar.html
-verification,COV,内容覆盖,六类用户要求逐项确认：固定自动化、本地项目、公司管理、体重管理、等级 XP、批阅链接。,验收官,reports/2026-06-19/daily-report/index.html
-verification,LOOP,循环验证,每次生成后跑 commander、linkage、daily-preview-loop、responsive 四个检查，失败即回改。,Codex,reports/2026-06-19/verification/index.html#verification-commands
-verification,SHOT,截图复核,桌面、笔记本、平板和手机截图必须可追溯；移动首屏不能被侧栏挤掉。,视觉验收官,reports/2026-06-19/verification/index.html#screenshots
-verification,OPEN,最终打开,验收完成后直接打开当天最终日报预览页，供人工批阅通过或继续指出问题。,总指挥,reports/2026-06-19/daily-report/index.html
-roles,LV,等级阈值,12 级从记录员到长期主义司令部，每一级都有 XP 下限、解锁、证据和复盘周期。,系统司令,reports/2026-06-19/data-tables/index.html#level-ladder
-roles,XP,XP 入账,自动化、OKR、公司待办、个人待办、体重和日报分别计分；没有证据不入账。,积分官,reports/2026-06-19/data-tables/index.html#xp-events
-roles,REW,奖励体系,奖励不是皮肤，而是首页入口、异常复盘、OKR 看板、体重趋势、周复盘等操作能力。,总指挥,reports/2026-06-19/data-tables/index.html#reward-ledger
+verification,COV,内容覆盖,六类用户要求逐项确认：固定自动化、本地项目、公司管理、体重管理、等级 XP、批阅链接。,验收官,reports/2026-06-22/daily-report/index.html
+verification,LOOP,循环验证,每次生成后跑 commander、linkage、daily-preview-loop、responsive 四个检查，失败即回改。,Codex,reports/2026-06-22/verification/index.html#verification-commands
+verification,SHOT,截图复核,桌面、笔记本、平板和手机截图必须可追溯；移动首屏不能被侧栏挤掉。,视觉验收官,reports/2026-06-22/verification/index.html#screenshots
+verification,OPEN,最终打开,验收完成后直接打开当天最终日报预览页，供人工批阅通过或继续指出问题。,总指挥,reports/2026-06-22/daily-report/index.html
+roles,LV,等级阈值,12 级从记录员到长期主义司令部，每一级都有 XP 下限、解锁、证据和复盘周期。,系统司令,reports/2026-06-22/data-tables/index.html#level-ladder
+roles,XP,XP 入账,自动化、OKR、公司待办、个人待办、体重和日报分别计分；没有证据不入账。,积分官,reports/2026-06-22/data-tables/index.html#xp-events
+roles,REW,奖励体系,奖励不是皮肤，而是首页入口、异常复盘、OKR 看板、体重趋势、周复盘等操作能力。,总指挥,reports/2026-06-22/data-tables/index.html#reward-ledger
 roles,WGT,体重轨道,体重下降、训练、有氧和连续记录都计入体系；只看趋势，不做医疗判断。,体重管理官,calendar.html
 calendar,DAY,按日入账,每一天都应该能解释 OKR、公司待办、个人待办、体重、自动化、日报哪些入账。,日历官,calendar.html
-calendar,WGT,体重记录,健康 CSV 是第一版事实源；后续可拆成体重、训练、饮食三张表。,体重管理官,reports/2026-06-19/data-tables/index.html#health-ledger
-calendar,MISS,缺失处理,没有日报、没有体重、没有待办时要显示待归档，不用空日期伪装完成。,验收官,reports/2026-06-19/system-detail/index.html#calendar-detail
-calendar,REVIEW,复盘节奏,每日看当天，周末看连续性，月末看 OKR、体重和自动化失败率。,总经理助理,reports/2026-06-19/roles/index.html
-data-tables,SRC,主数据,每日任务、自动化、类目、日报、等级、XP、奖励、健康、页面说明都在这里有表。,数据台账,reports/2026-06-19/data-tables/index.html
+calendar,WGT,体重记录,健康 CSV 是第一版事实源；后续可拆成体重、训练、饮食三张表。,体重管理官,reports/2026-06-22/data-tables/index.html#health-ledger
+calendar,MISS,缺失处理,没有日报、没有体重、没有待办时要显示待归档，不用空日期伪装完成。,验收官,reports/2026-06-22/system-detail/index.html#calendar-detail
+calendar,REVIEW,复盘节奏,每日看当天，周末看连续性，月末看 OKR、体重和自动化失败率。,总经理助理,reports/2026-06-22/roles/index.html
+data-tables,SRC,主数据,每日任务、自动化、类目、日报、等级、XP、奖励、健康、页面说明都在这里有表。,数据台账,reports/2026-06-22/data-tables/index.html
 data-tables,CSV,导出,每张表都有 CSV，完整结构写入 system-tables.json，方便后续人工和脚本继续改。,系统司令,data/system-tables.json
-data-tables,EDIT,修改口径,未来改权重、改奖励、改分类，优先修改表结构和生成器定义，再重新生成页面。,规则官,reports/2026-06-19/system-detail/index.html#data-detail
-data-tables,QA,验收,数据页验收不是看漂亮，而是看字段是否足够追责、CSV 是否可下载、链接是否能下钻。,验收官,reports/2026-06-19/data-tables/index.html#page-guide
-help,FINAL,最终页边界,最终页只放结论、摘要、建议和成品入口；后台配置、证据链、验收方法集中在 Help。,总控台,reports/2026-06-19/help/index.html
-help,DATA,数据表入口,需要改积分、分类、页面说明、日报序列或自动化配置时，先看数据表。,数据台账,reports/2026-06-19/data-tables/index.html
-help,RAW,脱敏证据,Session、memory、发布输出和 automation.toml 只作为后台证据，不进入客户视图。,验收官,reports/2026-06-19/help/index.html#raw-evidence
-help,REQ,需求台账,用户要求和自评体系保存在后台，作为后续修改依据。,Codex,reports/2026-06-19/help/index.html#requirements
-system-detail,BRIEF,简报入口,3 分钟简报先给结论，避免详细页一打开就失焦。,总指挥,reports/2026-06-19/system-detail/index.html
-system-detail,RULE,规则展开,等级、XP、日报、自动化、业务类目、日历、数据治理都要能从这里找到完整解释。,系统司令,reports/2026-06-19/system-detail/index.html#level-detail
-system-detail,TABLE,表格下钻,所有规则都要能回到数据表，方便后续直接修改优化。,数据台账,reports/2026-06-19/data-tables/index.html
-system-detail,CHECK,交卷清单,架构、积分、首页、链接、数据、密度、验证七项自评指标都要留在详细页。,Codex,reports/2026-06-19/system-detail/index.html
+data-tables,EDIT,修改口径,未来改权重、改奖励、改分类，优先修改表结构和生成器定义，再重新生成页面。,规则官,reports/2026-06-22/system-detail/index.html#data-detail
+data-tables,QA,验收,数据页验收不是看漂亮，而是看字段是否足够追责、CSV 是否可下载、链接是否能下钻。,验收官,reports/2026-06-22/data-tables/index.html#page-guide
+help,FINAL,最终页边界,最终页只放结论、摘要、建议和成品入口；后台配置、证据链、验收方法集中在 Help。,总控台,reports/2026-06-22/help/index.html
+help,DATA,数据表入口,需要改积分、分类、页面说明、日报序列或自动化配置时，先看数据表。,数据台账,reports/2026-06-22/data-tables/index.html
+help,RAW,脱敏证据,Session、memory、发布输出和 automation.toml 只作为后台证据，不进入客户视图。,验收官,reports/2026-06-22/help/index.html#raw-evidence
+help,REQ,需求台账,用户要求和自评体系保存在后台，作为后续修改依据。,Codex,reports/2026-06-22/help/index.html#requirements
+system-detail,BRIEF,简报入口,3 分钟简报先给结论，避免详细页一打开就失焦。,总指挥,reports/2026-06-22/system-detail/index.html
+system-detail,RULE,规则展开,等级、XP、日报、自动化、业务类目、日历、数据治理都要能从这里找到完整解释。,系统司令,reports/2026-06-22/system-detail/index.html#level-detail
+system-detail,TABLE,表格下钻,所有规则都要能回到数据表，方便后续直接修改优化。,数据台账,reports/2026-06-22/data-tables/index.html
+system-detail,CHECK,交卷清单,架构、积分、首页、链接、数据、密度、验证七项自评指标都要留在详细页。,Codex,reports/2026-06-22/system-detail/index.html
