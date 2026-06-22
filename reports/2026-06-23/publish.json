@@ -1,19 +1,12 @@
 {
-  "status": "published",
+  "status": "pending-publish",
   "date": "2026-06-23",
   "automation": "hermes",
-  "generatedAt": "2026-06-22T22:56:37.969Z",
+  "generatedAt": "2026-06-22T23:00:01.820Z",
   "publicDashboardUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-23/index.html",
   "publicDailyReportUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-23/daily-report/index.html",
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-23/cron/index.html",
   "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-23/cron/hermes/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
-  "remote": "https://github.com/schovayang-creator/automation-command-center.git",
-  "contentCommit": "803feac",
-  "commit": "803feac",
-  "http": {
-    "ok": true,
-    "attempts": 1,
-    "output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0 18519    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\nHTTP/2 200 \r\nserver: GitHub.com\r\ncontent-type: text/html; charset=utf-8\r\nlast-modified: Mon, 22 Jun 2026 22:53:19 GMT\r\naccess-control-allow-origin: *\r\nstrict-transport-security: max-age=31556952\r\netag: \"6a39bcdf-4857\"\r\nexpires: Mon, 22 Jun 2026 23:06:41 GMT\r\ncache-control: max-age=600\r\nx-proxy-cache: MISS\r\nx-github-request-id: 8608:8CE6A:29A093:2B3303:6A39BDA9\r\naccept-ranges: bytes\r\nage: 0\r\ndate: Mon, 22 Jun 2026 22:56:41 GMT\r\nvia: 1.1 varnish\r\nx-served-by: cache-bur-kbur8200109-BUR\r\nx-cache: MISS\r\nx-cache-hits: 0\r\nx-timer: S1782169002.668870,VS0,VE127\r\nvary: Accept-Encoding\r\nx-fastly-request-id: 0275dc704631d376a72e0bad9fc92b5290989b83\r\ncontent-length: 18519\r\n\r\n"
-  }
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
 }
