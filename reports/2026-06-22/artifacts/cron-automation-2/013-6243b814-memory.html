@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">1 KB</span>
-            <span class="chip">2026-06-19 11:59:58</span>
+            <span class="chip">3 KB</span>
+            <span class="chip">2026-06-22 11:21:15</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>1 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>3 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -95,7 +95,7 @@
         <article class="summary-main">
           <h3>automation-2 memory</h3>
           <p>2026-06-19 19:58:44 CST</p>
-          <ul class="mini-list"><li>Ran the 2026-06-19 GM daily brief from `本地归档 2/总经理/06-AI组织与派工/Codex自动日报` because the fixed `本地归档 directory only contained mirrored …</li><li>Generated and published the GM daily brief at `https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-19/index.html`; re…</li><li>Rebuilt and published the automation command center for 2026-06-19; the script's internal `--notify` path hit transient OpenClaw/ne…</li><li>Final verified Weixin delivery succeeded through the required OpenClaw route with a redacted summary saved to `本地归档</li><li>2026-06-19 19:58:44 CST</li></ul>
+          <ul class="mini-list"><li>Ran the 2026-06-19 GM daily brief from `本地归档 2/总经理/06-AI组织与派工/Codex自动日报` because the fixed `本地归档 directory only contained mirrored …</li><li>Generated and published the GM daily brief at `https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-19/index.html`; re…</li><li>Rebuilt and published the automation command center for 2026-06-19; the script's internal `--notify` path hit transient OpenClaw/ne…</li><li>Final verified Weixin delivery succeeded through the required OpenClaw route with a redacted summary saved to `本地归档</li><li>Root cause today was entrypoint drift: the fixed directory `本地归档 only contained `logs/`, while the real project with `scripts/run_d…</li></ul>
         </article>
         <aside class="summary-side">
           <b>批阅路径</b>
@@ -114,6 +114,16 @@
 <li>Generated and published the GM daily brief at <code><a href="https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-19/index.html">https://schovayang-creator.github.io/gm-daily-brief/daily/2026-06-19/index.html</a></code>; report-site head is <code>372d196</code> and both the site index and latest report returned HTTP 200.</li>
 <li>Rebuilt and published the automation command center for 2026-06-19; the script's internal <code>--notify</code> path hit transient OpenClaw/network failures, so recovery finished by manually pushing <code>.public-site</code> head <code>8bb28e5</code> after it was left <code>ahead 1</code>.</li>
 <li>Final verified Weixin delivery succeeded through the required OpenClaw route with a redacted summary saved to <code>本地归档</code>.</li>
+</ul>
+<p>2026-06-22 19:19:54 CST</p>
+<ul>
+<li>Root cause today was entrypoint drift: the fixed directory <code>本地归档</code> only contained <code>logs/</code>, while the real project with <code>scripts/run_daily_brief.sh</code> lived at <code>/Volumes/DISK/Desktop归档/未命名文件夹 2/总经理/06-AI组织与派工/Codex自动日报</code>.</li>
+<li>Restored the fixed entrypoint by linking <code>scripts/</code>, <code>config.env</code>, and <code>config.example.env</code> back to the archive-backed source, then reran the exact required command from the fixed directory with <code>GM_DAILY_BRIEF_BASE_DIR</code> pinned to the fixed path so logs still land in <code>本地归档</code>.</li>
+<li>The 2026-06-22 rerun generated the missing <code>logs/2026-06-22-run.log</code>, the long report, the short brief, and <code>本地归档</code>; it also refreshed <code>latest.json</code> to <code>2026-06-22</code> and published report-site head <code>543cfb3</code> with GitHub Pages HTTP 200 on both index and stable daily URLs.</li>
+<li>Rebuilt and published the automation command center for <code>2026-06-22</code>; public dashboard <code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-22/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-22/index.html</a></code> and automation detail <code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-22/cron/automation-2/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-22/cron/automation-2/index.html</a></code> both returned HTTP 200, with public head <code>fab1e94</code>.</li>
+<li>Verified Weixin delivery succeeded through the required OpenClaw route; success evidence is in <code>本地归档</code> and includes <code>deliverySucceeded: true</code> plus <code>deliveryStatus.succeeded: true</code>.</li>
+<li>Residual risk is unchanged launchd permission drift: doctor still reports <code>BLOCKED_BY_PERMISSION</code> for the 07:00 scheduled runner because the macOS job runner lacks Desktop/Full Disk Access. Manual rerun succeeded, but unattended runs can fail again until launchd permissions or output paths are fixed.</li>
+<li>Current run time: 4m28s.</li>
 </ul></article>
     </div>
   

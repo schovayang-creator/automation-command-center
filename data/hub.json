@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T11:16:54.384Z",
+  "generatedAt": "2026-06-22T13:03:41.977Z",
   "reportDate": "2026-06-22",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1278,7 +1278,7 @@
         "project": "P02",
         "task": "T02",
         "priority": "P1",
-        "title": "补齐 3 篇日报入口",
+        "title": "补齐 2 篇日报入口",
         "owner": "日报复盘官",
         "status": "待补",
         "xp": 100,
@@ -1465,7 +1465,7 @@
       "role": "总经理助理",
       "latestRun": {
         "sessionId": "019eeefe-f8f4-7f53-b87e-00283e268811",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-19 19:58:44 CST",
         "publishTarget": ""
       },
@@ -1512,8 +1512,8 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "019eeefe-f8f4-7f53-b87e-00283e268811",
-        "status": "HTTP_200",
+        "sessionId": "019eef4f-8ab0-7792-a06b-c4cf38fa822a",
+        "status": "RECORDED",
         "completedAt": "Automation a Memory",
         "publishTarget": ""
       },
@@ -1705,8 +1705,8 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019eeefe-f8f4-7f53-b87e-00283e268811",
-        "status": "HTTP_200",
-        "completedAt": "2026-06-22 19:02:27",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-06-19 19:58:44 CST",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1804,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 73,
+      "artifacts": 76,
       "href": "reports/2026-06-22/codex-html/index.html"
     },
     {
@@ -1813,7 +1813,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 32,
+      "artifacts": 40,
       "href": "reports/2026-06-22/codex-work/index.html"
     }
   ]
