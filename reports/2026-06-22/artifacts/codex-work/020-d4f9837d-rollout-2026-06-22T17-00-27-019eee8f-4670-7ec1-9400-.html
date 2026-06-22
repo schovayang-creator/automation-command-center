@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">623 KB</span>
-            <span class="chip">2026-06-22 09:32:54</span>
+            <span class="chip">670 KB</span>
+            <span class="chip">2026-06-22 09:36:04</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>623 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>182</b><span>评分</span></div><div class="metric"><b>670 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</h3>
-          <p>正式产物已写好，接下来执行总控台发布脚本。这个步骤会重建当天看板、发布 GitHub Pages，并返回 commit 与 HTTP 验证状态；完成后我再补写自动化记忆。</p>
-          <ul class="mini-list"><li>完成后我再补写自动化记忆</li></ul>
+          <p>今天的 Linux 验收已完成。SSH 连接过 Linux，确认 Linux 桌面 存在，但内容和时间都还停在 2026-06-16；Linux 桌面 为空，Linux 桌面 最新只到 2026-06-17，所以今天没有从 Linux 拉回原始 2026-06-22 日报。检查时仍有任务运行，因此没有关机，也没有终止进程。用户指定的本地脚本目录 本地归档 当前不存在，所以今天改成直接 SSH 取证，并在 Mac 侧补生成正式验收页。 Mac 收件箱产物已落地到 2026-06-22-Linux工作日报.html 和 2026-06-22-验收记录.md。总控台已重建并推送到 GitHub，最终推送 commit 是 6a46763，内容页 commit 是 4c8c40b。发布脚本首轮 HTTP 校验因为 GitHub Pages 刷新延迟拿到 404，但我随后手动复查两个公开入口都已返回 HTTP 200： 当天总看板 本自动化详情页 现在最该关注的是明天先把 Linux 桌面的今日任务页更新到当天日期，并让 Linux 自己产出当天原始日报；否则晚间自动化仍然只能做“验收补档”，不能做“原始日报回收成功”。自动化记忆也已更新到 运行记录。</p>
+          <ul class="mini-list"><li>今天的 Linux 验收已完成</li><li>SSH 连接过 Linux，确认 Linux 桌面 存在，但内容和时间都还停在 2026-06-16</li><li>Linux 桌面 为空，Linux 桌面 最新只到 2026-06-17，所以今天没有从 Linux 拉回原始 2026-06-22 日报</li><li>检查时仍有任务运行，因此没有关机，也没有终止进程</li><li>Mac 收件箱产物已落地到 2026-06-22-Linux工作日报.html 和 2026-06-22-验收记录.md</li><li>否则晚间自动化仍然只能做“验收补档”，不能做“原始日报回收成功”</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</span>
           <span>开始：2026-06-22 17:00:27</span>
-          <span>完成：2026-06-22 17:00:27</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1782120964</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,36 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>正式产物已写好，接下来执行总控台发布脚本。这个步骤会重建当天看板、发布 GitHub Pages，并返回 commit 与 HTTP 验证状态；完成后我再补写自动化记忆。</p></article>
+      <article class="doc"><p>今天的 Linux 验收已完成。SSH 连接过 Linux，确认 Linux 桌面 存在，但内容和时间都还停在 2026-06-16；Linux 桌面 为空，Linux 桌面 最新只到 2026-06-17，所以今天没有从 Linux 拉回原始 2026-06-22 日报。检查时仍有任务运行，因此没有关机，也没有终止进程。用户指定的本地脚本目录 本地归档 当前不存在，所以今天改成直接 SSH 取证，并在 Mac 侧补生成正式验收页。 Mac 收件箱产物已落地到 2026-06-22-Linux工作日报.html 和 2026-06-22-验收记录.md。总控台已重建并推送到 GitHub，最终推送 commit 是 6a46763，内容页 commit 是 4c8c40b。发布脚本首轮 HTTP 校验因为 GitHub Pages 刷新延迟拿到 404，但我随后手动复查两个公开入口都已返回 HTTP 200： 当天总看板 本自动化详情页 现在最该关注的是明天先把 Linux 桌面的今日任务页更新到当天日期，并让 Linux 自己产出当天原始日报；否则晚间自动化仍然只能做“验收补档”，不能做“原始日报回收成功”。自动化记忆也已更新到 运行记录。</p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-22-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-22-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>3 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-22-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-22-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>2026-06-22-验收记录.md</h3><p>~/Desktop/Linux日报收件箱/2026-06-22-验收记录.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>memory.md</h3><p>~/.codex/automations/17-00-linux-mac/memory.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>
