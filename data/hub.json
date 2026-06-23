@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T23:37:03.192Z",
+  "generatedAt": "2026-06-23T00:36:26.608Z",
   "reportDate": "2026-06-23",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1489,8 +1489,8 @@
       "role": "机会雷达官",
       "latestRun": {
         "sessionId": "019ef191-b9d5-77c0-9eb5-5840318e6cd9",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "2026-06-22 07:47 CST",
+        "status": "HTTP_200",
+        "completedAt": "Last run: 2026-06-23T08:11:58+08:00",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1513,7 +1513,7 @@
       "role": "交易研究官",
       "latestRun": {
         "sessionId": "019ef191-b9d5-77c0-9eb5-5840318e6cd9",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "Automation a Memory",
         "publishTarget": ""
       },
@@ -1579,7 +1579,7 @@
       "role": "竞品情报官",
       "latestRun": {
         "sessionId": "019ef191-b9d5-77c0-9eb5-5840318e6cd9",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "Automation 24-2 Memory",
         "publishTarget": ""
       },
@@ -1615,7 +1615,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019ef191-b9d5-77c0-9eb5-5840318e6cd9",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
@@ -1633,7 +1633,7 @@
       "role": "客户转化官",
       "latestRun": {
         "sessionId": "019ef191-b9d5-77c0-9eb5-5840318e6cd9",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
@@ -1651,7 +1651,7 @@
       "role": "意向信号官",
       "latestRun": {
         "sessionId": "019ef191-b9d5-77c0-9eb5-5840318e6cd9",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-23 07:01:59",
         "publishTarget": ""
       },
