@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:30:10.170Z",
+  "generatedAt": "2026-06-25T00:41:15.611Z",
   "reportDate": "2026-06-25",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1358,8 +1358,8 @@
       "name": "每天 07:00 双创比赛今日任务发布到 Linux 桌面",
       "role": "机会雷达官",
       "status": "ACTIVE",
-      "artifacts": 4,
-      "points": 44,
+      "artifacts": 6,
+      "points": 64,
       "href": "reports/2026-06-25/cron/automation/index.html"
     },
     {
@@ -1501,8 +1501,8 @@
         "dailyReport": "双创比赛今日任务发布到 Linux 桌面",
         "acceptance": "双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。"
       },
-      "artifacts": 4,
-      "points": 44,
+      "artifacts": 6,
+      "points": 64,
       "href": "reports/2026-06-25/cron/automation/index.html"
     },
     {
@@ -1749,7 +1749,7 @@
       "status": "已发布",
       "type": "业务类目",
       "cadence": "类目汇报",
-      "artifacts": 4,
+      "artifacts": 6,
       "href": "reports/2026-06-25/competition-scout/index.html"
     },
     {
@@ -1794,7 +1794,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 16,
+      "artifacts": 19,
       "href": "reports/2026-06-25/codex-html/index.html"
     },
     {
@@ -1803,7 +1803,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 3,
+      "artifacts": 5,
       "href": "reports/2026-06-25/codex-work/index.html"
     }
   ]
