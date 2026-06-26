@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-26T15:00:46.873Z",
-  "reportDate": "2026-06-26",
+  "generatedAt": "2026-06-26T23:05:44.136Z",
+  "reportDate": "2026-06-27",
   "previousDate": "2026-06-06",
   "architecture": {
-    "parent": "reports/2026-06-26/index.html",
+    "parent": "reports/2026-06-27/index.html",
     "children": [
-      "reports/2026-06-26/system-detail/index.html",
-      "reports/2026-06-26/data-tables/index.html",
-      "reports/2026-06-26/help/index.html",
-      "reports/2026-06-26/cron/index.html",
-      "reports/2026-06-26/categories/index.html",
-      "reports/2026-06-26/codex-work/index.html",
-      "reports/2026-06-26/codex-html/index.html",
-      "reports/2026-06-26/daily-report/index.html",
-      "reports/2026-06-26/verification/index.html",
-      "reports/2026-06-26/roles/index.html",
+      "reports/2026-06-27/system-detail/index.html",
+      "reports/2026-06-27/data-tables/index.html",
+      "reports/2026-06-27/help/index.html",
+      "reports/2026-06-27/cron/index.html",
+      "reports/2026-06-27/categories/index.html",
+      "reports/2026-06-27/codex-work/index.html",
+      "reports/2026-06-27/codex-html/index.html",
+      "reports/2026-06-27/daily-report/index.html",
+      "reports/2026-06-27/verification/index.html",
+      "reports/2026-06-27/roles/index.html",
       "calendar.html"
     ],
     "grandchildren": "reports/<date>/artifacts/<owner>/<artifact>.html"
@@ -687,7 +687,7 @@
         "数据来源": "growthSystem、dailyReports、todoItems、dailyTasks、health、modules、automations。",
         "阅读方式": "先看 P0/P1 待办，再看六个每日 cron 是否齐，再进入数据表格或体系详图查看底层口径。",
         "验收标准": "第一屏必须不空；六个每日 cron 必须顺序固定；每日任务必须按 00:00、06:30、07:00、17:00、19:00、22:30 展示。",
-        "详细入口": "reports/2026-06-26/system-detail/index.html"
+        "详细入口": "reports/2026-06-27/system-detail/index.html"
       },
       {
         "页面ID": "cron",
@@ -697,7 +697,7 @@
         "数据来源": "~/.codex/automations/*/automation.toml + 每个自动化本地产物目录。",
         "阅读方式": "每日任务进入每日日报；24 小时专项进入业务类目；一次性只作为台账登记，按需被日报引用。",
         "验收标准": "每条自动化必须显示状态、角色、频率、收录方式、产物数、积分、来源和关联页面。",
-        "详细入口": "reports/2026-06-26/data-tables/index.html#automation-ledger"
+        "详细入口": "reports/2026-06-27/data-tables/index.html#automation-ledger"
       },
       {
         "页面ID": "categories",
@@ -707,7 +707,7 @@
         "数据来源": "自动化工厂各业务目录的 24小时主控、手动 goal、主目录成果。",
         "阅读方式": "类目页看阶段成果，报告批阅页看具体 Markdown/CSV/HTML/JSON 证据。",
         "验收标准": "类目必须能说明产物归属、当前状态、关键报告和缺口；待归档类目必须显式保留位。",
-        "详细入口": "reports/2026-06-26/data-tables/index.html#module-ledger"
+        "详细入口": "reports/2026-06-27/data-tables/index.html#module-ledger"
       },
       {
         "页面ID": "daily-report",
@@ -717,7 +717,7 @@
         "数据来源": "dailyTasks、buildDailyReports、自动化 topArtifacts、业务类目 topArtifacts。",
         "阅读方式": "先看 6 条每日任务归类，再看 1 到 6 的日报汇总，最后看今日关键汇报和收录规则。",
         "验收标准": "A 股、Hermes、双创、Linux、总经理、曹博士必须是每日任务；苏州、山西、陶瓷膜等只能是业务类目引用对象。",
-        "详细入口": "reports/2026-06-26/system-detail/index.html#daily-report-detail"
+        "详细入口": "reports/2026-06-27/system-detail/index.html#daily-report-detail"
       },
       {
         "页面ID": "verification",
@@ -727,7 +727,7 @@
         "数据来源": "验证脚本、system-tables、响应式截图目录、核心页面和固定自动化详情页。",
         "阅读方式": "先看总结果，再看覆盖矩阵、验证命令、截图清单和人工复核项；失败项必须回到生成器修复。",
         "验收标准": "最终日报必须覆盖固定自动化、本地 Codex 项目、公司管理、体重管理、等级 XP 和批阅链接；核心验证脚本必须可重复运行。",
-        "详细入口": "reports/2026-06-26/verification/index.html"
+        "详细入口": "reports/2026-06-27/verification/index.html"
       },
       {
         "页面ID": "roles",
@@ -737,7 +737,7 @@
         "数据来源": "levelDefs、xpRules、rewardDefs、weightMilestones、trackDefs、xpAllocationDefs、roleDefs。",
         "阅读方式": "先看总等级和六条成长轨道，再看等级阶梯、奖励、XP 事件、扣分和复盘规则。",
         "验收标准": "每个 XP 来源必须有证据；奖励必须是权限或复盘能力，不做空洞游戏化装饰。",
-        "详细入口": "reports/2026-06-26/system-detail/index.html#level-detail"
+        "详细入口": "reports/2026-06-27/system-detail/index.html#level-detail"
       },
       {
         "页面ID": "calendar",
@@ -747,7 +747,7 @@
         "数据来源": "健康 CSV、当日日报、ACTIVE 自动化、成长轨道。",
         "阅读方式": "有内容日期可点击；体重记录和自动化/日报状态都在日历上形成连续性。",
         "验收标准": "不能只做日期归档；必须能说明每天哪些轨道入账、哪些轨道缺失。",
-        "详细入口": "reports/2026-06-26/system-detail/index.html#calendar-detail"
+        "详细入口": "reports/2026-06-27/system-detail/index.html#calendar-detail"
       },
       {
         "页面ID": "help",
@@ -757,7 +757,7 @@
         "数据来源": "系统定义、数据表、Codex 自动化配置、运行记录、用户需求台账和自评指标。",
         "阅读方式": "需要改规则、查配置、看证据、排查链接时进入；日常验收优先看总看板、日报、自动化简报和角色页。",
         "验收标准": "Help 可以出现配置、Session、memory、页面说明和验收口径；最终页不展示这些后台语言。",
-        "详细入口": "reports/2026-06-26/help/index.html"
+        "详细入口": "reports/2026-06-27/help/index.html"
       },
       {
         "页面ID": "data-tables",
@@ -767,7 +767,7 @@
         "数据来源": "本生成器构造的 systemTables，同时导出到 data/tables/*.csv 和 data/system-tables.json。",
         "阅读方式": "需要改规则时先看表；需要追踪数据时看 CSV；需要确认页面口径时看页面说明表。",
         "验收标准": "每个主数据域必须有可读表格和可下载 CSV，不只依赖页面卡片。",
-        "详细入口": "reports/2026-06-26/system-detail/index.html#data-detail"
+        "详细入口": "reports/2026-06-27/system-detail/index.html#data-detail"
       },
       {
         "页面ID": "system-detail",
@@ -777,7 +777,7 @@
         "数据来源": "所有核心定义和当日采集结果。",
         "阅读方式": "先读 3 分钟简报，再按章节进入数据表、等级、日报、页面说明和验收清单。",
         "验收标准": "详细页必须比简报页更厚，能作为后续手动修改规则的依据。",
-        "详细入口": "reports/2026-06-26/system-detail/index.html"
+        "详细入口": "reports/2026-06-27/system-detail/index.html"
       }
     ],
     "pageOperations": [
@@ -787,7 +787,7 @@
         "执行项": "第一屏判定",
         "说明": "只看等级看板、当天待办和六个每日 cron 是否齐。这里不展开长文，负责总态势分流。",
         "负责人": "总指挥",
-        "入口": "reports/2026-06-26/index.html"
+        "入口": "reports/2026-06-27/index.html"
       },
       {
         "页面ID": "dashboard",
@@ -795,7 +795,7 @@
         "执行项": "待办验收",
         "说明": "P0/P1 必须能点到日报、自动化或类目页；不能验收的事项留在待补，不给 XP。",
         "负责人": "验收官",
-        "入口": "reports/2026-06-26/daily-report/index.html"
+        "入口": "reports/2026-06-27/daily-report/index.html"
       },
       {
         "页面ID": "dashboard",
@@ -803,7 +803,7 @@
         "执行项": "日报顺序",
         "说明": "六个每日 cron 固定按 A 股、Hermes、双创、Linux、总经理、曹博士排布，避免当天入口散掉。",
         "负责人": "日报复盘官",
-        "入口": "reports/2026-06-26/daily-report/index.html"
+        "入口": "reports/2026-06-27/daily-report/index.html"
       },
       {
         "页面ID": "dashboard",
@@ -811,7 +811,7 @@
         "执行项": "下钻方式",
         "说明": "简报看不够时先到体系详图，再到数据表格；所有卡片优先整块可点击。",
         "负责人": "系统司令",
-        "入口": "reports/2026-06-26/system-detail/index.html"
+        "入口": "reports/2026-06-27/system-detail/index.html"
       },
       {
         "页面ID": "cron",
@@ -819,7 +819,7 @@
         "执行项": "每日任务归类",
         "说明": "A 股、Hermes、双创、Linux、总经理、曹博士六条固定每日 cron 进入每日日报任务表。",
         "负责人": "自动化主管",
-        "入口": "reports/2026-06-26/data-tables/index.html#daily-task-ledger"
+        "入口": "reports/2026-06-27/data-tables/index.html#daily-task-ledger"
       },
       {
         "页面ID": "cron",
@@ -827,7 +827,7 @@
         "执行项": "专项 Cron",
         "说明": "苏州、山西、陶瓷膜、竞品、政策、招投标、专家资源等 24 小时主控只归入业务类目。",
         "负责人": "业务类目官",
-        "入口": "reports/2026-06-26/categories/index.html"
+        "入口": "reports/2026-06-27/categories/index.html"
       },
       {
         "页面ID": "cron",
@@ -835,7 +835,7 @@
         "执行项": "一次性唤醒",
         "说明": "一次性 / heartbeat 只登记在自动化台账，除非当天日报明确引用，不进入固定日报序列。",
         "负责人": "验收官",
-        "入口": "reports/2026-06-26/data-tables/index.html#automation-ledger"
+        "入口": "reports/2026-06-27/data-tables/index.html#automation-ledger"
       },
       {
         "页面ID": "cron",
@@ -843,7 +843,7 @@
         "执行项": "失败复盘",
         "说明": "PAUSED、无产物、缺工作目录都要显示，不用空白掩盖；下轮应进入 P1 巡检。",
         "负责人": "系统治理官",
-        "入口": "reports/2026-06-26/system-detail/index.html#data-detail"
+        "入口": "reports/2026-06-27/system-detail/index.html#data-detail"
       },
       {
         "页面ID": "categories",
@@ -851,7 +851,7 @@
         "执行项": "边界",
         "说明": "业务类目是项目资产池，不是每日报告；日报只引用它们的关键产物和阶段结论。",
         "负责人": "类目官",
-        "入口": "reports/2026-06-26/data-tables/index.html#module-ledger"
+        "入口": "reports/2026-06-27/data-tables/index.html#module-ledger"
       },
       {
         "页面ID": "categories",
@@ -859,7 +859,7 @@
         "执行项": "证据",
         "说明": "类目页只做摘要，真正证据在 Markdown、CSV、HTML、JSON 批阅页中预览。",
         "负责人": "归档官",
-        "入口": "reports/2026-06-26/categories/index.html"
+        "入口": "reports/2026-06-27/categories/index.html"
       },
       {
         "页面ID": "categories",
@@ -867,7 +867,7 @@
         "执行项": "保留位",
         "说明": "暂时无产物的类目保留在表里，显示待补，方便后续自动化接入。",
         "负责人": "系统司令",
-        "入口": "reports/2026-06-26/data-tables/index.html#module-ledger"
+        "入口": "reports/2026-06-27/data-tables/index.html#module-ledger"
       },
       {
         "页面ID": "categories",
@@ -875,7 +875,7 @@
         "执行项": "日报引用",
         "说明": "总经理日报或机会日报需要业务结论时，从类目页提取关键批阅页，不改变类目身份。",
         "负责人": "日报复盘官",
-        "入口": "reports/2026-06-26/daily-report/index.html"
+        "入口": "reports/2026-06-27/daily-report/index.html"
       },
       {
         "页面ID": "daily-report",
@@ -883,7 +883,7 @@
         "执行项": "六条每日任务",
         "说明": "每天按时间顺序看 00:00、06:30、07:00、17:00、19:00、22:30 六个来源。",
         "负责人": "日报复盘官",
-        "入口": "reports/2026-06-26/data-tables/index.html#daily-task-ledger"
+        "入口": "reports/2026-06-27/data-tables/index.html#daily-task-ledger"
       },
       {
         "页面ID": "daily-report",
@@ -891,7 +891,7 @@
         "执行项": "六个每日 cron",
         "说明": "首页和日报页都固定使用 1 到 6 的每日 cron 序列表；缺失就写缺口，不做替换。",
         "负责人": "总经理助理",
-        "入口": "reports/2026-06-26/data-tables/index.html#report-sequence"
+        "入口": "reports/2026-06-27/data-tables/index.html#report-sequence"
       },
       {
         "页面ID": "daily-report",
@@ -899,7 +899,7 @@
         "执行项": "关键汇报",
         "说明": "今日关键汇报要像总经理助理专属页一样密集：标题、来源、产物、状态和跳转都要有。",
         "负责人": "验收官",
-        "入口": "reports/2026-06-26/daily-report/index.html"
+        "入口": "reports/2026-06-27/daily-report/index.html"
       },
       {
         "页面ID": "daily-report",
@@ -915,7 +915,7 @@
         "执行项": "内容覆盖",
         "说明": "六类用户要求逐项确认：固定自动化、本地项目、公司管理、体重管理、等级 XP、批阅链接。",
         "负责人": "验收官",
-        "入口": "reports/2026-06-26/daily-report/index.html"
+        "入口": "reports/2026-06-27/daily-report/index.html"
       },
       {
         "页面ID": "verification",
@@ -923,7 +923,7 @@
         "执行项": "循环验证",
         "说明": "每次生成后跑 commander、linkage、daily-preview-loop、responsive 四个检查，失败即回改。",
         "负责人": "Codex",
-        "入口": "reports/2026-06-26/verification/index.html#verification-commands"
+        "入口": "reports/2026-06-27/verification/index.html#verification-commands"
       },
       {
         "页面ID": "verification",
@@ -931,7 +931,7 @@
         "执行项": "截图复核",
         "说明": "桌面、笔记本、平板和手机截图必须可追溯；移动首屏不能被侧栏挤掉。",
         "负责人": "视觉验收官",
-        "入口": "reports/2026-06-26/verification/index.html#screenshots"
+        "入口": "reports/2026-06-27/verification/index.html#screenshots"
       },
       {
         "页面ID": "verification",
@@ -939,7 +939,7 @@
         "执行项": "最终打开",
         "说明": "验收完成后直接打开当天最终日报预览页，供人工批阅通过或继续指出问题。",
         "负责人": "总指挥",
-        "入口": "reports/2026-06-26/daily-report/index.html"
+        "入口": "reports/2026-06-27/daily-report/index.html"
       },
       {
         "页面ID": "roles",
@@ -947,7 +947,7 @@
         "执行项": "等级阈值",
         "说明": "12 级从记录员到长期主义司令部，每一级都有 XP 下限、解锁、证据和复盘周期。",
         "负责人": "系统司令",
-        "入口": "reports/2026-06-26/data-tables/index.html#level-ladder"
+        "入口": "reports/2026-06-27/data-tables/index.html#level-ladder"
       },
       {
         "页面ID": "roles",
@@ -955,7 +955,7 @@
         "执行项": "XP 入账",
         "说明": "自动化、OKR、公司待办、个人待办、体重和日报分别计分；没有证据不入账。",
         "负责人": "积分官",
-        "入口": "reports/2026-06-26/data-tables/index.html#xp-events"
+        "入口": "reports/2026-06-27/data-tables/index.html#xp-events"
       },
       {
         "页面ID": "roles",
@@ -963,7 +963,7 @@
         "执行项": "奖励体系",
         "说明": "奖励不是皮肤，而是首页入口、异常复盘、OKR 看板、体重趋势、周复盘等操作能力。",
         "负责人": "总指挥",
-        "入口": "reports/2026-06-26/data-tables/index.html#reward-ledger"
+        "入口": "reports/2026-06-27/data-tables/index.html#reward-ledger"
       },
       {
         "页面ID": "roles",
@@ -987,7 +987,7 @@
         "执行项": "体重记录",
         "说明": "健康 CSV 是第一版事实源；后续可拆成体重、训练、饮食三张表。",
         "负责人": "体重管理官",
-        "入口": "reports/2026-06-26/data-tables/index.html#health-ledger"
+        "入口": "reports/2026-06-27/data-tables/index.html#health-ledger"
       },
       {
         "页面ID": "calendar",
@@ -995,7 +995,7 @@
         "执行项": "缺失处理",
         "说明": "没有日报、没有体重、没有待办时要显示待归档，不用空日期伪装完成。",
         "负责人": "验收官",
-        "入口": "reports/2026-06-26/system-detail/index.html#calendar-detail"
+        "入口": "reports/2026-06-27/system-detail/index.html#calendar-detail"
       },
       {
         "页面ID": "calendar",
@@ -1003,7 +1003,7 @@
         "执行项": "复盘节奏",
         "说明": "每日看当天，周末看连续性，月末看 OKR、体重和自动化失败率。",
         "负责人": "总经理助理",
-        "入口": "reports/2026-06-26/roles/index.html"
+        "入口": "reports/2026-06-27/roles/index.html"
       },
       {
         "页面ID": "data-tables",
@@ -1011,7 +1011,7 @@
         "执行项": "主数据",
         "说明": "每日任务、自动化、类目、日报、等级、XP、奖励、健康、页面说明都在这里有表。",
         "负责人": "数据台账",
-        "入口": "reports/2026-06-26/data-tables/index.html"
+        "入口": "reports/2026-06-27/data-tables/index.html"
       },
       {
         "页面ID": "data-tables",
@@ -1027,7 +1027,7 @@
         "执行项": "修改口径",
         "说明": "未来改权重、改奖励、改分类，优先修改表结构和生成器定义，再重新生成页面。",
         "负责人": "规则官",
-        "入口": "reports/2026-06-26/system-detail/index.html#data-detail"
+        "入口": "reports/2026-06-27/system-detail/index.html#data-detail"
       },
       {
         "页面ID": "data-tables",
@@ -1035,7 +1035,7 @@
         "执行项": "验收",
         "说明": "数据页验收不是看漂亮，而是看字段是否足够追责、CSV 是否可下载、链接是否能下钻。",
         "负责人": "验收官",
-        "入口": "reports/2026-06-26/data-tables/index.html#page-guide"
+        "入口": "reports/2026-06-27/data-tables/index.html#page-guide"
       },
       {
         "页面ID": "help",
@@ -1043,7 +1043,7 @@
         "执行项": "最终页边界",
         "说明": "最终页只放结论、摘要、建议和成品入口；后台配置、证据链、验收方法集中在 Help。",
         "负责人": "总控台",
-        "入口": "reports/2026-06-26/help/index.html"
+        "入口": "reports/2026-06-27/help/index.html"
       },
       {
         "页面ID": "help",
@@ -1051,7 +1051,7 @@
         "执行项": "数据表入口",
         "说明": "需要改积分、分类、页面说明、日报序列或自动化配置时，先看数据表。",
         "负责人": "数据台账",
-        "入口": "reports/2026-06-26/data-tables/index.html"
+        "入口": "reports/2026-06-27/data-tables/index.html"
       },
       {
         "页面ID": "help",
@@ -1059,7 +1059,7 @@
         "执行项": "脱敏证据",
         "说明": "Session、memory、发布输出和 automation.toml 只作为后台证据，不进入客户视图。",
         "负责人": "验收官",
-        "入口": "reports/2026-06-26/help/index.html#raw-evidence"
+        "入口": "reports/2026-06-27/help/index.html#raw-evidence"
       },
       {
         "页面ID": "help",
@@ -1067,7 +1067,7 @@
         "执行项": "需求台账",
         "说明": "用户要求和自评体系保存在后台，作为后续修改依据。",
         "负责人": "Codex",
-        "入口": "reports/2026-06-26/help/index.html#requirements"
+        "入口": "reports/2026-06-27/help/index.html#requirements"
       },
       {
         "页面ID": "system-detail",
@@ -1075,7 +1075,7 @@
         "执行项": "简报入口",
         "说明": "3 分钟简报先给结论，避免详细页一打开就失焦。",
         "负责人": "总指挥",
-        "入口": "reports/2026-06-26/system-detail/index.html"
+        "入口": "reports/2026-06-27/system-detail/index.html"
       },
       {
         "页面ID": "system-detail",
@@ -1083,7 +1083,7 @@
         "执行项": "规则展开",
         "说明": "等级、XP、日报、自动化、业务类目、日历、数据治理都要能从这里找到完整解释。",
         "负责人": "系统司令",
-        "入口": "reports/2026-06-26/system-detail/index.html#level-detail"
+        "入口": "reports/2026-06-27/system-detail/index.html#level-detail"
       },
       {
         "页面ID": "system-detail",
@@ -1091,7 +1091,7 @@
         "执行项": "表格下钻",
         "说明": "所有规则都要能回到数据表，方便后续直接修改优化。",
         "负责人": "数据台账",
-        "入口": "reports/2026-06-26/data-tables/index.html"
+        "入口": "reports/2026-06-27/data-tables/index.html"
       },
       {
         "页面ID": "system-detail",
@@ -1099,7 +1099,7 @@
         "执行项": "交卷清单",
         "说明": "架构、积分、首页、链接、数据、密度、验证七项自评指标都要留在详细页。",
         "负责人": "Codex",
-        "入口": "reports/2026-06-26/system-detail/index.html"
+        "入口": "reports/2026-06-27/system-detail/index.html"
       }
     ],
     "dataPolicies": [
@@ -1242,7 +1242,7 @@
     ]
   },
   "todoBoard": {
-    "storageKey": "commander:2026-06-26:todo-board",
+    "storageKey": "commander:2026-06-27:todo-board",
     "rows": [
       {
         "project": "P01",
@@ -1252,7 +1252,7 @@
         "owner": "总指挥",
         "status": "待确认",
         "xp": 160,
-        "href": "reports/2026-06-26/cron/a/index.html"
+        "href": "reports/2026-06-27/cron/a/index.html"
       },
       {
         "project": "P01",
@@ -1262,7 +1262,7 @@
         "owner": "OKR 管理官",
         "status": "经营缺口",
         "xp": 160,
-        "href": "reports/2026-06-26/daily-report/index.html"
+        "href": "reports/2026-06-27/daily-report/index.html"
       },
       {
         "project": "P02",
@@ -1272,17 +1272,17 @@
         "owner": "自动化主管",
         "status": "今日巡检",
         "xp": 100,
-        "href": "reports/2026-06-26/cron/index.html"
+        "href": "reports/2026-06-27/cron/index.html"
       },
       {
         "project": "P02",
         "task": "T02",
         "priority": "P1",
-        "title": "补齐 1 篇日报入口",
+        "title": "补齐 3 篇日报入口",
         "owner": "日报复盘官",
         "status": "待补",
         "xp": 100,
-        "href": "reports/2026-06-26/daily-report/index.html"
+        "href": "reports/2026-06-27/daily-report/index.html"
       },
       {
         "project": "P03",
@@ -1302,7 +1302,7 @@
         "owner": "业务类目负责人",
         "status": "待归档",
         "xp": 50,
-        "href": "reports/2026-06-26/categories/index.html"
+        "href": "reports/2026-06-27/categories/index.html"
       }
     ]
   },
@@ -1330,7 +1330,7 @@
       "status": "ACTIVE",
       "artifacts": 2,
       "points": 16,
-      "href": "reports/2026-06-26/cron/a/index.html"
+      "href": "reports/2026-06-27/cron/a/index.html"
     },
     {
       "group": "每日日报",
@@ -1343,9 +1343,9 @@
       "name": "Hermes 每日任务",
       "role": "内容简报官",
       "status": "ACTIVE",
-      "artifacts": 2,
-      "points": 16,
-      "href": "reports/2026-06-26/cron/hermes/index.html"
+      "artifacts": 11,
+      "points": 100,
+      "href": "reports/2026-06-27/cron/hermes/index.html"
     },
     {
       "group": "每日日报",
@@ -1360,7 +1360,7 @@
       "status": "ACTIVE",
       "artifacts": 3,
       "points": 30,
-      "href": "reports/2026-06-26/cron/automation/index.html"
+      "href": "reports/2026-06-27/cron/automation/index.html"
     },
     {
       "group": "每日日报",
@@ -1373,9 +1373,9 @@
       "name": "每天 17:00 Linux 工作日报验收并拉取到 Mac",
       "role": "Linux 验收官",
       "status": "ACTIVE",
-      "artifacts": 4,
-      "points": 40,
-      "href": "reports/2026-06-26/cron/17-00-linux-mac/index.html"
+      "artifacts": 1,
+      "points": 13,
+      "href": "reports/2026-06-27/cron/17-00-linux-mac/index.html"
     },
     {
       "group": "每日日报",
@@ -1388,9 +1388,9 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "ACTIVE",
-      "artifacts": 14,
+      "artifacts": 9,
       "points": 125,
-      "href": "reports/2026-06-26/cron/automation-2/index.html"
+      "href": "reports/2026-06-27/cron/automation-2/index.html"
     },
     {
       "group": "每日日报",
@@ -1403,9 +1403,9 @@
       "name": "曹博士岗位更新",
       "role": "岗位情报官",
       "status": "ACTIVE",
-      "artifacts": 13,
-      "points": 115,
-      "href": "reports/2026-06-26/cron/automation-3/index.html"
+      "artifacts": 2,
+      "points": 28,
+      "href": "reports/2026-06-27/cron/automation-3/index.html"
     }
   ],
   "automations": [
@@ -1416,8 +1416,8 @@
       "lane": "每日日报任务",
       "role": "内容简报官",
       "latestRun": {
-        "sessionId": "019f00e8-97c6-78d3-b787-b9dbc8623b21",
-        "status": "PUBLISH_SUCCESS",
+        "sessionId": "019f060e-913c-7691-8356-98f8a325443e",
+        "status": "HTTP_200",
         "completedAt": "2026-06-16 07:10 CST",
         "publishTarget": ""
       },
@@ -1429,9 +1429,9 @@
         "dailyReport": "Hermes 每日任务",
         "acceptance": "素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。"
       },
-      "artifacts": 2,
-      "points": 16,
-      "href": "reports/2026-06-26/cron/hermes/index.html"
+      "artifacts": 11,
+      "points": 100,
+      "href": "reports/2026-06-27/cron/hermes/index.html"
     },
     {
       "id": "automation-3",
@@ -1440,7 +1440,7 @@
       "lane": "每日日报任务",
       "role": "岗位情报官",
       "latestRun": {
-        "sessionId": "019f0458-00f2-7623-bcc5-21788b85e5b8",
+        "sessionId": "",
         "status": "HTTP_200",
         "completedAt": "2026-06-18 22:58 Asia/Shanghai",
         "publishTarget": ""
@@ -1453,9 +1453,9 @@
         "dailyReport": "曹博士岗位日报",
         "acceptance": "岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。"
       },
-      "artifacts": 13,
-      "points": 115,
-      "href": "reports/2026-06-26/cron/automation-3/index.html"
+      "artifacts": 2,
+      "points": 28,
+      "href": "reports/2026-06-27/cron/automation-3/index.html"
     },
     {
       "id": "automation-2",
@@ -1464,7 +1464,7 @@
       "lane": "每日日报任务",
       "role": "总经理助理",
       "latestRun": {
-        "sessionId": "019f0397-bba9-71c1-b240-a524c3652434",
+        "sessionId": "",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-26 19:30:52 CST",
         "publishTarget": ""
@@ -1477,9 +1477,9 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 14,
+      "artifacts": 9,
       "points": 125,
-      "href": "reports/2026-06-26/cron/automation-2/index.html"
+      "href": "reports/2026-06-27/cron/automation-2/index.html"
     },
     {
       "id": "automation",
@@ -1488,8 +1488,8 @@
       "lane": "每日日报任务",
       "role": "机会雷达官",
       "latestRun": {
-        "sessionId": "019f0103-9a3e-76e3-846d-48532696d31c",
-        "status": "PUBLISH_SUCCESS",
+        "sessionId": "019f062a-7de7-74c3-a4d5-4036e01a8955",
+        "status": "HTTP_200",
         "completedAt": "Last run: 2026-06-25T08:42:11+08:00",
         "publishTarget": ""
       },
@@ -1503,7 +1503,7 @@
       },
       "artifacts": 3,
       "points": 30,
-      "href": "reports/2026-06-26/cron/automation/index.html"
+      "href": "reports/2026-06-27/cron/automation/index.html"
     },
     {
       "id": "a",
@@ -1512,8 +1512,8 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "019f03e9-3809-7281-87ef-e84f1060bd7e",
-        "status": "SUCCESS",
+        "sessionId": "019f062a-7de7-74c3-a4d5-4036e01a8955",
+        "status": "HTTP_200",
         "completedAt": "Automation a Memory",
         "publishTarget": ""
       },
@@ -1527,7 +1527,7 @@
       },
       "artifacts": 2,
       "points": 16,
-      "href": "reports/2026-06-26/cron/a/index.html"
+      "href": "reports/2026-06-27/cron/a/index.html"
     },
     {
       "id": "17-00-linux-mac",
@@ -1536,9 +1536,9 @@
       "lane": "每日日报任务",
       "role": "Linux 验收官",
       "latestRun": {
-        "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
+        "sessionId": "",
         "status": "HTTP_200",
-        "completedAt": "2026-06-24 17:40 CST",
+        "completedAt": "2026-06-22 17:35 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
@@ -1549,9 +1549,9 @@
         "dailyReport": "Linux 工作日报验收并拉取到 Mac",
         "acceptance": "Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。"
       },
-      "artifacts": 4,
-      "points": 40,
-      "href": "reports/2026-06-26/cron/17-00-linux-mac/index.html"
+      "artifacts": 1,
+      "points": 13,
+      "href": "reports/2026-06-27/cron/17-00-linux-mac/index.html"
     },
     {
       "id": "24-6",
@@ -1559,17 +1559,12 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "机会总控官",
-      "latestRun": {
-        "sessionId": "019f0397-bba9-71c1-b240-a524c3652434",
-        "status": "DELIVERY_SUCCESS",
-        "completedAt": "2026-06-26 19:01:43",
-        "publishTarget": ""
-      },
+      "latestRun": null,
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 2,
-      "href": "reports/2026-06-26/cron/24-6/index.html"
+      "artifacts": 0,
+      "points": 0,
+      "href": "reports/2026-06-27/cron/24-6/index.html"
     },
     {
       "id": "24-2",
@@ -1578,16 +1573,16 @@
       "lane": "专项主控 Cron",
       "role": "竞品情报官",
       "latestRun": {
-        "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "HTTP_200",
-        "completedAt": "2026-06-24 17:40 CST",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
+        "sessionId": "",
+        "status": "RECORDED",
+        "completedAt": "Automation 24-2 Memory",
+        "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 2,
-      "points": 14,
-      "href": "reports/2026-06-26/cron/24-2/index.html"
+      "artifacts": 1,
+      "points": 12,
+      "href": "reports/2026-06-27/cron/24-2/index.html"
     },
     {
       "id": "24",
@@ -1596,16 +1591,16 @@
       "lane": "专项主控 Cron",
       "role": "销售转化官",
       "latestRun": {
-        "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "HTTP_200",
-        "completedAt": "2026-06-24 17:40 CST",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
+        "sessionId": "",
+        "status": "RECORDED",
+        "completedAt": "Automation 24 Memory",
+        "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 2,
-      "points": 14,
-      "href": "reports/2026-06-26/cron/24/index.html"
+      "artifacts": 1,
+      "points": 12,
+      "href": "reports/2026-06-27/cron/24/index.html"
     },
     {
       "id": "automation-5",
@@ -1614,16 +1609,16 @@
       "lane": "专项主控 Cron",
       "role": "销售转化官",
       "latestRun": {
-        "sessionId": "019f0397-bba9-71c1-b240-a524c3652434",
-        "status": "DELIVERY_SUCCESS",
+        "sessionId": "",
+        "status": "SUCCESS",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 2,
-      "points": 14,
-      "href": "reports/2026-06-26/cron/automation-5/index.html"
+      "artifacts": 1,
+      "points": 12,
+      "href": "reports/2026-06-27/cron/automation-5/index.html"
     },
     {
       "id": "automation-4",
@@ -1632,16 +1627,16 @@
       "lane": "专项主控 Cron",
       "role": "客户转化官",
       "latestRun": {
-        "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "HTTP_200",
-        "completedAt": "2026-06-24 17:40 CST",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
+        "sessionId": "",
+        "status": "RECORDED",
+        "completedAt": "automation-4 memory",
+        "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 2,
-      "points": 14,
-      "href": "reports/2026-06-26/cron/automation-4/index.html"
+      "artifacts": 1,
+      "points": 12,
+      "href": "reports/2026-06-27/cron/automation-4/index.html"
     },
     {
       "id": "24-4",
@@ -1649,17 +1644,12 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "意向信号官",
-      "latestRun": {
-        "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "HTTP_200",
-        "completedAt": "2026-06-24 17:40 CST",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
-      },
+      "latestRun": null,
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 2,
-      "href": "reports/2026-06-26/cron/24-4/index.html"
+      "artifacts": 0,
+      "points": 0,
+      "href": "reports/2026-06-27/cron/24-4/index.html"
     },
     {
       "id": "24-3",
@@ -1667,17 +1657,12 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "政策机会官",
-      "latestRun": {
-        "sessionId": "019f0397-bba9-71c1-b240-a524c3652434",
-        "status": "DELIVERY_SUCCESS",
-        "completedAt": "2026-06-26 19:01:43",
-        "publishTarget": ""
-      },
+      "latestRun": null,
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 2,
-      "href": "reports/2026-06-26/cron/24-3/index.html"
+      "artifacts": 0,
+      "points": 0,
+      "href": "reports/2026-06-27/cron/24-3/index.html"
     },
     {
       "id": "24-5",
@@ -1685,17 +1670,12 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "资源池官",
-      "latestRun": {
-        "sessionId": "019f0397-bba9-71c1-b240-a524c3652434",
-        "status": "DELIVERY_SUCCESS",
-        "completedAt": "2026-06-26 19:01:43",
-        "publishTarget": ""
-      },
+      "latestRun": null,
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 2,
-      "href": "reports/2026-06-26/cron/24-5/index.html"
+      "artifacts": 0,
+      "points": 0,
+      "href": "reports/2026-06-27/cron/24-5/index.html"
     },
     {
       "id": "skill",
@@ -1704,16 +1684,16 @@
       "lane": "一次性 / 线程唤醒",
       "role": "研究验收官",
       "latestRun": {
-        "sessionId": "019f0397-bba9-71c1-b240-a524c3652434",
-        "status": "DELIVERY_SUCCESS",
-        "completedAt": "2026-06-26 19:01:43",
+        "sessionId": "019f060e-913c-7691-8356-98f8a325443e",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-16 07:10 CST",
         "publishTarget": ""
       },
       "memoryPath": "",
       "dailyTask": null,
       "artifacts": 7,
       "points": 53,
-      "href": "reports/2026-06-26/cron/skill/index.html"
+      "href": "reports/2026-06-27/cron/skill/index.html"
     }
   ],
   "modules": [
@@ -1724,7 +1704,7 @@
       "type": "业务类目",
       "cadence": "类目汇报",
       "artifacts": 0,
-      "href": "reports/2026-06-26/suzhou-customers/index.html"
+      "href": "reports/2026-06-27/suzhou-customers/index.html"
     },
     {
       "id": "shanxi-rd",
@@ -1733,7 +1713,7 @@
       "type": "业务类目",
       "cadence": "类目汇报",
       "artifacts": 0,
-      "href": "reports/2026-06-26/shanxi-rd/index.html"
+      "href": "reports/2026-06-27/shanxi-rd/index.html"
     },
     {
       "id": "ceramic-membrane",
@@ -1742,7 +1722,7 @@
       "type": "业务类目",
       "cadence": "类目汇报",
       "artifacts": 0,
-      "href": "reports/2026-06-26/ceramic-membrane/index.html"
+      "href": "reports/2026-06-27/ceramic-membrane/index.html"
     },
     {
       "id": "competitor-intel",
@@ -1751,7 +1731,7 @@
       "type": "业务类目",
       "cadence": "类目汇报",
       "artifacts": 7,
-      "href": "reports/2026-06-26/competitor-intel/index.html"
+      "href": "reports/2026-06-27/competitor-intel/index.html"
     },
     {
       "id": "competition-scout",
@@ -1760,7 +1740,7 @@
       "type": "业务类目",
       "cadence": "类目汇报",
       "artifacts": 3,
-      "href": "reports/2026-06-26/competition-scout/index.html"
+      "href": "reports/2026-06-27/competition-scout/index.html"
     },
     {
       "id": "policy-subsidy",
@@ -1769,7 +1749,7 @@
       "type": "业务类目",
       "cadence": "类目汇报",
       "artifacts": 0,
-      "href": "reports/2026-06-26/policy-subsidy/index.html"
+      "href": "reports/2026-06-27/policy-subsidy/index.html"
     },
     {
       "id": "bidding-signal",
@@ -1778,7 +1758,7 @@
       "type": "业务类目",
       "cadence": "类目汇报",
       "artifacts": 0,
-      "href": "reports/2026-06-26/bidding-signal/index.html"
+      "href": "reports/2026-06-27/bidding-signal/index.html"
     },
     {
       "id": "expert-pool",
@@ -1787,7 +1767,7 @@
       "type": "业务类目",
       "cadence": "类目汇报",
       "artifacts": 0,
-      "href": "reports/2026-06-26/expert-pool/index.html"
+      "href": "reports/2026-06-27/expert-pool/index.html"
     },
     {
       "id": "company-command",
@@ -1796,7 +1776,7 @@
       "type": "业务类目",
       "cadence": "类目汇报",
       "artifacts": 0,
-      "href": "reports/2026-06-26/company-command/index.html"
+      "href": "reports/2026-06-27/company-command/index.html"
     },
     {
       "id": "codex-html",
@@ -1804,8 +1784,8 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 71,
-      "href": "reports/2026-06-26/codex-html/index.html"
+      "artifacts": 18,
+      "href": "reports/2026-06-27/codex-html/index.html"
     },
     {
       "id": "codex-work",
@@ -1813,8 +1793,8 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 10,
-      "href": "reports/2026-06-26/codex-work/index.html"
+      "artifacts": 2,
+      "href": "reports/2026-06-27/codex-work/index.html"
     }
   ]
 }
