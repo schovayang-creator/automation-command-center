@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T09:24:26.059Z",
+  "generatedAt": "2026-06-26T11:07:16.283Z",
   "reportDate": "2026-06-26",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1388,7 +1388,7 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "ACTIVE",
-      "artifacts": 8,
+      "artifacts": 14,
       "points": 125,
       "href": "reports/2026-06-26/cron/automation-2/index.html"
     },
@@ -1464,7 +1464,7 @@
       "lane": "每日日报任务",
       "role": "总经理助理",
       "latestRun": {
-        "sessionId": "",
+        "sessionId": "019f0397-bba9-71c1-b240-a524c3652434",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-24 19:15:43 CST",
         "publishTarget": ""
@@ -1477,7 +1477,7 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 8,
+      "artifacts": 14,
       "points": 125,
       "href": "reports/2026-06-26/cron/automation-2/index.html"
     },
@@ -1512,8 +1512,8 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "019f0103-9a3e-76e3-846d-48532696d31c",
-        "status": "PUBLISH_SUCCESS",
+        "sessionId": "019f0397-bba9-71c1-b240-a524c3652434",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Automation a Memory",
         "publishTarget": ""
       },
@@ -1537,8 +1537,8 @@
       "role": "Linux 验收官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "2026-06-22 17:35 CST",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
@@ -1561,9 +1561,9 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "2026-06-26 17:00:43",
-        "publishTarget": ""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "",
       "dailyTask": null,
@@ -1579,9 +1579,9 @@
       "role": "竞品情报官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "Automation 24-2 Memory",
-        "publishTarget": ""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1597,9 +1597,9 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "Automation 24 Memory",
-        "publishTarget": ""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1615,9 +1615,9 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "automation-5 memory",
-        "publishTarget": ""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1633,9 +1633,9 @@
       "role": "客户转化官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "automation-4 memory",
-        "publishTarget": ""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1651,9 +1651,9 @@
       "role": "意向信号官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "2026-06-26 17:00:43",
-        "publishTarget": ""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "",
       "dailyTask": null,
@@ -1669,9 +1669,9 @@
       "role": "政策机会官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "2026-06-26 17:00:43",
-        "publishTarget": ""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "",
       "dailyTask": null,
@@ -1687,9 +1687,9 @@
       "role": "资源池官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "2026-06-26 17:00:43",
-        "publishTarget": ""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "",
       "dailyTask": null,
@@ -1705,9 +1705,9 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019f0328-f2a2-77a3-abb5-a837474bba5a",
-        "status": "PUBLISH_SUCCESS",
-        "completedAt": "2026-06-26 17:00:43",
-        "publishTarget": ""
+        "status": "HTTP_200",
+        "completedAt": "2026-06-24 17:40 CST",
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "",
       "dailyTask": null,
@@ -1804,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 15,
+      "artifacts": 36,
       "href": "reports/2026-06-26/codex-html/index.html"
     },
     {
@@ -1813,7 +1813,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 6,
+      "artifacts": 8,
       "href": "reports/2026-06-26/codex-work/index.html"
     }
   ]
