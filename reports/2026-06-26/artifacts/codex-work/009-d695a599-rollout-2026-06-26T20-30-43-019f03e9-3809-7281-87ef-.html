@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">817 KB</span>
-            <span class="chip">2026-06-26 12:59:42</span>
+            <span class="chip">845 KB</span>
+            <span class="chip">2026-06-26 13:04:28</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>817 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>191</b><span>评分</span></div><div class="metric"><b>845 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：A股每日模拟盘研究与盈亏回放</h3>
-          <p>本地自检通过，HTML 再次打开。现在我重新执行总控台发布，让公开页和 GitHub Pages 提交包含 2026-06-26 的最终策略覆盖。</p>
-          <ul class="mini-list"><li>本地自检通过，HTML 再次打开</li><li>现在我重新执行总控台发布，让公开页和 GitHub Pages 提交包含 2026-06-26 的最终策略覆盖</li></ul>
+          <p>已完成 2026-06-26 的 A 股每日模拟盘研究与盈亏回放。边界保持为模拟盘：没有登录券商、没有读取真实账户、没有真实买卖动作。HTML 报告已打开。 生成/更新的主要产物： - 日报 Markdown：20260626-paper-trading.md - 日报 HTML：20260626-paper-trading.html - Skill 复盘：20260626-skill-review.md - 策略覆盖：current.md - Cron patch 提案：cron-update-proposal.md - 模拟 PnL：20260626-pnl.csv **3 分钟简报** 今天结论：今天完成了 2026-06-26 的 A 股模拟盘回放、候选硬过滤、策略复盘和总控台发布；本次为“部分跑完”，因为候选池不足 10 只，不能写入正式十股模拟买入批次。 今日重点： 1. 今天按项目本地日历视为周五交易日候选日，但 Tushare token 缺失，东方财富实时全市场接口返回 HTTP 502，只能使用公开历史 K 线和 seed universe fallback。 2. 到期十只没有全部卖出，因为本轮没有上一批正式十股持仓到期；今日模拟卖出成交 0 只，按预设价成交 0 只，按收盘/尾盘强平 0 只。 3. 今日模拟盈亏为 +0.00 CNY，当日模拟收益率为 +0.00%，累计模拟收益率为 -0.47%，连续超过 5% 的完整交易日仍是 0/3。 4. 下一批观察候选只有 4 只满足硬过滤：中科曙光、招商证券、泰格医药、广发证券；因不足 10 只，全部仅保留为观察，不写入正式模拟买入计划。 5. 已落地新策略覆盖 DEGRADED_SOURCE_SEED_EXPANSION_REQUIRED：下次在同样降级数据源下，必须先扩展或刷新项目本地可审计种子池，不能继续重排同一个浅候选池来凑数。 风险和缺口：最大风险是数据源降级导致行业、概念、公告、财务、龙虎榜排雷都不完整；硬过滤后只有 4/10 只可执行候选，不能为了完成形式而放松 round-lo</p>
+          <ul class="mini-list"><li>已完成 2026-06-26 的 A 股每日模拟盘研究与盈亏回放</li><li>边界保持为模拟盘：没有登录券商、没有读取真实账户、没有真实买卖动作</li><li>HTML 报告已打开</li><li>生成/更新的主要产物： - 日报 Markdown：20260626-paper-trading.md - 日报 HTML：20260626-paper-trading.html - Skill 复盘：20260626-skill-review.md - 策略覆盖：current.md - Cron patch 提案：cron-update-proposal.md - 模拟 PnL：20260626-pnl.csv **3 分钟简报** 今天结论：今天完成了 2026-06-26 的 A 股模拟盘回放、候选硬过滤、策略复盘和总控台发布</li><li>本次为“部分跑完”，因为候选池不足 10 只，不能写入正式十股模拟买入批次</li><li>今日重点： 1. 今天按项目本地日历视为周五交易日候选日，但 Tushare token 缺失，东方财富实时全市场接口返回 HTTP 502，只能使用公开历史 K 线和 seed universe fallback</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：A股每日模拟盘研究与盈亏回放</span>
           <span>开始：2026-06-26 20:30:43</span>
-          <span>完成：2026-06-26 20:30:43</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1782479068</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,48 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>本地自检通过，HTML 再次打开。现在我重新执行总控台发布，让公开页和 GitHub Pages 提交包含 2026-06-26 的最终策略覆盖。</p></article>
+      <article class="doc"><p>已完成 2026-06-26 的 A 股每日模拟盘研究与盈亏回放。边界保持为模拟盘：没有登录券商、没有读取真实账户、没有真实买卖动作。HTML 报告已打开。 生成/更新的主要产物： - 日报 Markdown：20260626-paper-trading.md - 日报 HTML：20260626-paper-trading.html - Skill 复盘：20260626-skill-review.md - 策略覆盖：current.md - Cron patch 提案：cron-update-proposal.md - 模拟 PnL：20260626-pnl.csv <strong>3 分钟简报</strong> 今天结论：今天完成了 2026-06-26 的 A 股模拟盘回放、候选硬过滤、策略复盘和总控台发布；本次为“部分跑完”，因为候选池不足 10 只，不能写入正式十股模拟买入批次。 今日重点： 1. 今天按项目本地日历视为周五交易日候选日，但 Tushare token 缺失，东方财富实时全市场接口返回 HTTP 502，只能使用公开历史 K 线和 seed universe fallback。 2. 到期十只没有全部卖出，因为本轮没有上一批正式十股持仓到期；今日模拟卖出成交 0 只，按预设价成交 0 只，按收盘/尾盘强平 0 只。 3. 今日模拟盈亏为 +0.00 CNY，当日模拟收益率为 +0.00%，累计模拟收益率为 -0.47%，连续超过 5% 的完整交易日仍是 0/3。 4. 下一批观察候选只有 4 只满足硬过滤：中科曙光、招商证券、泰格医药、广发证券；因不足 10 只，全部仅保留为观察，不写入正式模拟买入计划。 5. 已落地新策略覆盖 DEGRADED_SOURCE_SEED_EXPANSION_REQUIRED：下次在同样降级数据源下，必须先扩展或刷新项目本地可审计种子池，不能继续重排同一个浅候选池来凑数。 风险和缺口：最大风险是数据源降级导致行业、概念、公告、财务、龙虎榜排雷都不完整；硬过滤后只有 4/10 只可执行候选，不能为了完成形式而放松 round-lo</p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>20260626-paper-trading.html</h3><p>~/Desktop/股票/reports/html/20260626-paper-trading.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>6 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>20260626-paper-trading.md</h3><p>~/Desktop/股票/reports/daily/20260626-paper-trading.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>20260626-paper-trading.html</h3><p>~/Desktop/股票/reports/html/20260626-paper-trading.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>20260626-skill-review.md</h3><p>~/Desktop/股票/working/skill-reviews/20260626-skill-review.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>current.md</h3><p>~/Desktop/股票/working/strategy-overlays/current.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>cron-update-proposal.md</h3><p>~/Desktop/股票/progress/cron-update-proposal.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">CSV</span>
+          <div><h3>20260626-pnl.csv</h3><p>~/Desktop/股票/trades/paper/pnl/20260626-pnl.csv</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>

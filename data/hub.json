@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T13:01:39.680Z",
+  "generatedAt": "2026-06-26T15:00:46.873Z",
   "reportDate": "2026-06-26",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1278,7 +1278,7 @@
         "project": "P02",
         "task": "T02",
         "priority": "P1",
-        "title": "补齐 2 篇日报入口",
+        "title": "补齐 1 篇日报入口",
         "owner": "日报复盘官",
         "status": "待补",
         "xp": 100,
@@ -1403,8 +1403,8 @@
       "name": "曹博士岗位更新",
       "role": "岗位情报官",
       "status": "ACTIVE",
-      "artifacts": 3,
-      "points": 30,
+      "artifacts": 13,
+      "points": 115,
       "href": "reports/2026-06-26/cron/automation-3/index.html"
     }
   ],
@@ -1440,8 +1440,8 @@
       "lane": "每日日报任务",
       "role": "岗位情报官",
       "latestRun": {
-        "sessionId": "019f0397-bba9-71c1-b240-a524c3652434",
-        "status": "DELIVERY_SUCCESS",
+        "sessionId": "019f0458-00f2-7623-bcc5-21788b85e5b8",
+        "status": "HTTP_200",
         "completedAt": "2026-06-18 22:58 Asia/Shanghai",
         "publishTarget": ""
       },
@@ -1453,8 +1453,8 @@
         "dailyReport": "曹博士岗位日报",
         "acceptance": "岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。"
       },
-      "artifacts": 3,
-      "points": 30,
+      "artifacts": 13,
+      "points": 115,
       "href": "reports/2026-06-26/cron/automation-3/index.html"
     },
     {
@@ -1513,7 +1513,7 @@
       "role": "交易研究官",
       "latestRun": {
         "sessionId": "019f03e9-3809-7281-87ef-e84f1060bd7e",
-        "status": "RECORDED",
+        "status": "SUCCESS",
         "completedAt": "Automation a Memory",
         "publishTarget": ""
       },
@@ -1804,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 51,
+      "artifacts": 71,
       "href": "reports/2026-06-26/codex-html/index.html"
     },
     {
@@ -1813,7 +1813,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 9,
+      "artifacts": 10,
       "href": "reports/2026-06-26/codex-work/index.html"
     }
   ]
