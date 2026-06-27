@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T09:42:54.005Z",
+  "generatedAt": "2026-06-27T09:47:22.082Z",
   "reportDate": "2026-06-27",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1537,7 +1537,7 @@
       "role": "Linux 验收官",
       "latestRun": {
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
-        "status": "PUBLISH_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-22 17:35 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
@@ -1597,7 +1597,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
-        "status": "PUBLISH_SUCCESS",
+        "status": "SUCCESS",
         "completedAt": "Automation 24 Memory",
         "publishTarget": ""
       },
@@ -1615,7 +1615,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
-        "status": "PUBLISH_SUCCESS",
+        "status": "SUCCESS",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
@@ -1633,7 +1633,7 @@
       "role": "客户转化官",
       "latestRun": {
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
-        "status": "PUBLISH_SUCCESS",
+        "status": "SUCCESS",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
@@ -1651,7 +1651,7 @@
       "role": "意向信号官",
       "latestRun": {
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
-        "status": "PUBLISH_SUCCESS",
+        "status": "SUCCESS",
         "completedAt": "2026-06-27 17:01:17",
         "publishTarget": ""
       },
