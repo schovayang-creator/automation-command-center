@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T11:10:37.673Z",
+  "generatedAt": "2026-06-27T11:13:28.182Z",
   "reportDate": "2026-06-27",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1465,7 +1465,7 @@
       "role": "总经理助理",
       "latestRun": {
         "sessionId": "019f08bd-4031-7232-8172-736fbd5fee63",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-26 19:30:52 CST",
         "publishTarget": ""
       },
@@ -1513,7 +1513,7 @@
       "role": "交易研究官",
       "latestRun": {
         "sessionId": "019f08bd-4031-7232-8172-736fbd5fee63",
-        "status": "HTTP_200",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "Automation a Memory",
         "publishTarget": ""
       },
