@@ -7,10 +7,10 @@ a,A股每日模拟盘研究与盈亏回放,每日日报任务,ACTIVE,A 股交易
 17-00-linux-mac,每天 17:00 Linux 工作日报验收并拉取到 Mac,每日日报任务,ACTIVE,每天 17:00,Linux 验收官,被每日验收记录收录,PUBLISH_SUCCESS,019f084f-d6f9-7e60-b05d-205067318bc2,/home/wang/Desktop/今日任务.html,本地归档,本地归档,4,40,66,reports/2026-06-27/cron/17-00-linux-mac/index.html
 24-6,公司机会总控中台24小时主控,专项主控 Cron,PAUSED,24 小时主控,机会总控官,作为公司机会总控类目被日报引用,HTTP_200,019f060e-913c-7691-8356-98f8a325443e,-,-,本地归档,1,2,26,reports/2026-06-27/cron/24-6/index.html
 24-2,竞品同行服务商情报24小时主控,专项主控 Cron,PAUSED,24 小时主控,竞品情报官,作为竞品类目被日报引用,RECORDED,-,-,本地归档,本地归档,1,12,29,reports/2026-06-27/cron/24-2/index.html
-24,山西研发客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为山西类目被日报引用,PUBLISH_SUCCESS,019f084f-d6f9-7e60-b05d-205067318bc2,/home/wang/Desktop/今日任务.html,本地归档,本地归档,2,14,37,reports/2026-06-27/cron/24/index.html
-automation-5,苏州客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为苏州类目被日报引用,PUBLISH_SUCCESS,019f084f-d6f9-7e60-b05d-205067318bc2,/home/wang/Desktop/今日任务.html,本地归档,本地归档,2,14,37,reports/2026-06-27/cron/automation-5/index.html
-automation-4,陶瓷膜客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,客户转化官,作为陶瓷膜类目被日报引用,PUBLISH_SUCCESS,019f084f-d6f9-7e60-b05d-205067318bc2,/home/wang/Desktop/今日任务.html,本地归档,本地归档,2,14,37,reports/2026-06-27/cron/automation-4/index.html
-24-4,招投标环评技改意向雷达24小时主控,专项主控 Cron,PAUSED,24 小时主控,意向信号官,作为招投标类目被日报引用,PUBLISH_SUCCESS,019f084f-d6f9-7e60-b05d-205067318bc2,/home/wang/Desktop/今日任务.html,-,本地归档,1,2,26,reports/2026-06-27/cron/24-4/index.html
+24,山西研发客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为山西类目被日报引用,PUBLISH_SUCCESS,019f084f-d6f9-7e60-b05d-205067318bc2,-,本地归档,本地归档,2,14,37,reports/2026-06-27/cron/24/index.html
+automation-5,苏州客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为苏州类目被日报引用,PUBLISH_SUCCESS,019f084f-d6f9-7e60-b05d-205067318bc2,-,本地归档,本地归档,2,14,37,reports/2026-06-27/cron/automation-5/index.html
+automation-4,陶瓷膜客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,客户转化官,作为陶瓷膜类目被日报引用,PUBLISH_SUCCESS,019f084f-d6f9-7e60-b05d-205067318bc2,-,本地归档,本地归档,2,14,37,reports/2026-06-27/cron/automation-4/index.html
+24-4,招投标环评技改意向雷达24小时主控,专项主控 Cron,PAUSED,24 小时主控,意向信号官,作为招投标类目被日报引用,PUBLISH_SUCCESS,019f084f-d6f9-7e60-b05d-205067318bc2,-,-,本地归档,1,2,26,reports/2026-06-27/cron/24-4/index.html
 24-3,政策补贴项目申报雷达24小时主控,专项主控 Cron,PAUSED,24 小时主控,政策机会官,作为政策类目被日报引用,HTTP_200,019f062a-7de7-74c3-a4d5-4036e01a8955,-,-,本地归档,1,2,26,reports/2026-06-27/cron/24-3/index.html
 24-5,专家高校博士资源池24小时主控,专项主控 Cron,PAUSED,24 小时主控,资源池官,作为专家资源类目被日报引用,HTTP_200,019f060e-913c-7691-8356-98f8a325443e,-,-,本地归档,1,2,26,reports/2026-06-27/cron/24-5/index.html
 skill,8小时后验收隔日预测 skill 重做优化,一次性 / 线程唤醒,PAUSED,一次性 8 小时后验收,研究验收官,登记在自动化台账，不计入每日日报任务,HTTP_200,019f060e-913c-7691-8356-98f8a325443e,-,-,-,7,53,76,reports/2026-06-27/cron/skill/index.html

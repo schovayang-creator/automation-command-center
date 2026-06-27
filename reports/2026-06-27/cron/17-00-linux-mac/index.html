@@ -92,13 +92,13 @@
         <div class="summary-layout">
           <article class="summary-main">
             <h3>Linux 工作日报验收</h3>
-            <p>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</p>
-            <ul class="mini-list summary-points"><li>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</li><li>今天报告内容仍是测试链路，业务日志和任务识别规则还没有完全接入。</li><li>Linux 端检测到仍有后台进程运行，页面只记录状态，不做终止。</li><li>下一轮要确认日报内容源、任务状态识别规则和传输稳定性。</li><li>今日产物已完成生成，关键交付入口已更新。</li></ul>
+            <p>今天按 17:00 到 17:30 的规则持续重试连接 192.168.3.32，但 Linux 主机仍不可达，无法重新读取今日任务，也没有拉回 Linux 原始日报；Mac 侧已补写今天的失败验收页和验收记录。</p>
+            <ul class="mini-list summary-points"><li>今天无法重新确认；上次 2026-06-26 成功连机时，Linux 桌面 文件存在，但内容停留在 2026-06-16。</li><li>没有，因为 17:30 前 SSH 一直超时，今天无法再次读取 Linux 桌面 和 Linux 日报目录。</li><li>已完成 17:07、17:12、17:17、17:22 和 17:30 的连通性重试，并保留了 ping 100% 丢包、22 端口超时和 ARP incomplete 的证据。</li><li>没有重新读取任务页，没有检查 Linux 进程状态，也没有拉回 Linux 自己生成的 2026-06-27 原始 HTML 日报。</li><li>今天无法确认，因为没有成功进入 Linux；本次没有关机，也没有终止任何进程。</li></ul>
           </article>
           <aside class="summary-side">
             <b>今天怎么读</b>
-            <span>下一步把真实 Codex/OpenClaw 日志接入日报内容源，再复核跨设备拉取是否稳定。</span>
-            <span>当前报告能证明链路跑通，但不能证明 Linux 当天所有业务任务已经被完整汇总。</span>
+            <span>先人工确认 192.168.3.32 已开机并回到当前局域网，再重新跑 SSH 验收和日报拉回。</span>
+            <span>当前缺的是可用 SSH 通道、当天任务页确认、Linux 原始日报和运行状态快照；如果明天仍然不可达，需要人工检查 Linux 电源、网络、IP 所在网段和开机状态。</span>
             <span>下方保留原 cron 网页内容，但已经拆成总控台原生板块。</span>
             <a href="../../daily-report/index.html">返回当天最终日报</a>
           </aside>

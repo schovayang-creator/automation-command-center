@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T09:36:06.026Z",
+  "generatedAt": "2026-06-27T09:42:54.005Z",
   "reportDate": "2026-06-27",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1599,7 +1599,7 @@
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
         "status": "PUBLISH_SUCCESS",
         "completedAt": "Automation 24 Memory",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
+        "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1617,7 +1617,7 @@
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
         "status": "PUBLISH_SUCCESS",
         "completedAt": "automation-5 memory",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
+        "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1635,7 +1635,7 @@
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
         "status": "PUBLISH_SUCCESS",
         "completedAt": "automation-4 memory",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
+        "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1653,7 +1653,7 @@
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
         "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-06-27 17:01:17",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
+        "publishTarget": ""
       },
       "memoryPath": "",
       "dailyTask": null,
@@ -1804,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 23,
+      "artifacts": 26,
       "href": "reports/2026-06-27/codex-html/index.html"
     },
     {
