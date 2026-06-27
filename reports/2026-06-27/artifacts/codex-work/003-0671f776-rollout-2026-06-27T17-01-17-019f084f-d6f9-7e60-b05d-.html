@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">585 KB</span>
-            <span class="chip">2026-06-27 09:44:11</span>
+            <span class="chip">663 KB</span>
+            <span class="chip">2026-06-27 09:50:27</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>585 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>179</b><span>评分</span></div><div class="metric"><b>663 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</h3>
-          <p>公开站当前还在旧摘要，这和我刚才中断发布一致。我现在完整重跑发布，并且会等到公开 HTML grep 出“Linux 主机仍不可达”为止。</p>
-          <ul class="mini-list"><li>公开站当前还在旧摘要，这和我刚才中断发布一致</li><li>我现在完整重跑发布，并且会等到公开 HTML grep 出“Linux 主机仍不可达”为止</li></ul>
+          <p>今天的 Linux 验收按失败分支收口了。192.168.3.32 从 17:00 到 17:30 持续不可达，最终证据是 ping 100% 丢包、22 端口超时、ARP incomplete、SSH 超时，所以今天没有重新读到 Linux 桌面，也没有从 Linux 拉回原始日报。我已在 Mac 收件箱落好正式产物：2026-06-27-Linux工作日报.html 和 2026-06-27-验收记录.md。今天没有关机，也没有终止任何 Linux 进程。 3 分钟简报如下。今天结论：Linux 到 17:30 仍不可达，所以今天完成的是失败验收和 Mac 侧补档，不是原始日报回收成功。今日重点：今天无法重新确认 Linux 今日任务是否存在；上次成功连机时任务页仍停在 2026-06-16。今天没有把日报拉回 Mac，因为 SSH 持续失败，Linux 桌面 和 Linux 日报目录都无法再读。今天完成了多轮连通性重试，并保留了网络不可达证据。今天没完成的是任务页复核、进程状态检查和原始 HTML 日报拉回。风险和缺口：当前缺的是可用 SSH 通道、当天任务页确认、Linux 原始日报和运行状态快照；如果明天仍不可达，需要人工检查 Linux 电源、网络和是否回到当前局域网。下一步：先人工确认 192.168.3.32 开机且回网，再重新跑 SSH 验收和日报拉回。 总控台也已发布完成。公开当天总看板是 https://schovayang-creator.github.io/automation-command-center/reports/2026-06-27/index.html，公开本自动化详情页是 https://schovayang-creator.github.io/automation-command-center/reports/2026-06-27/cron/17-00-linux-mac/index.html。HTTP 校验是 200。发布过程中我顺手修了总控台一个误</p>
+          <ul class="mini-list"><li>今天的 Linux 验收按失败分支收口了</li><li>192.168.3.32 从 17:00 到 17:30 持续不可达，最终证据是 ping 100% 丢包、22 端口超时、ARP incomplete、SSH 超时，所以今天没有重新读到 Linux 桌面，也没有从 Linux 拉回原始日报</li><li>我已在 Mac 收件箱落好正式产物：2026-06-27-Linux工作日报.html 和 2026-06-27-验收记录.md</li><li>今天没有关机，也没有终止任何 Linux 进程</li><li>3 分钟简报如下</li><li>今天结论：Linux 到 17:30 仍不可达，所以今天完成的是失败验收和 Mac 侧补档，不是原始日报回收成功</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</span>
           <span>开始：2026-06-27 17:01:17</span>
-          <span>完成：2026-06-27 17:01:17</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1782553827</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,32 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>公开站当前还在旧摘要，这和我刚才中断发布一致。我现在完整重跑发布，并且会等到公开 HTML grep 出“Linux 主机仍不可达”为止。</p></article>
+      <article class="doc"><p>今天的 Linux 验收按失败分支收口了。192.168.3.32 从 17:00 到 17:30 持续不可达，最终证据是 ping 100% 丢包、22 端口超时、ARP incomplete、SSH 超时，所以今天没有重新读到 Linux 桌面，也没有从 Linux 拉回原始日报。我已在 Mac 收件箱落好正式产物：2026-06-27-Linux工作日报.html 和 2026-06-27-验收记录.md。今天没有关机，也没有终止任何 Linux 进程。 3 分钟简报如下。今天结论：Linux 到 17:30 仍不可达，所以今天完成的是失败验收和 Mac 侧补档，不是原始日报回收成功。今日重点：今天无法重新确认 Linux 今日任务是否存在；上次成功连机时任务页仍停在 2026-06-16。今天没有把日报拉回 Mac，因为 SSH 持续失败，Linux 桌面 和 Linux 日报目录都无法再读。今天完成了多轮连通性重试，并保留了网络不可达证据。今天没完成的是任务页复核、进程状态检查和原始 HTML 日报拉回。风险和缺口：当前缺的是可用 SSH 通道、当天任务页确认、Linux 原始日报和运行状态快照；如果明天仍不可达，需要人工检查 Linux 电源、网络和是否回到当前局域网。下一步：先人工确认 192.168.3.32 开机且回网，再重新跑 SSH 验收和日报拉回。 总控台也已发布完成。公开当天总看板是 <a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-27/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-27/index.html</a>，公开本自动化详情页是 <a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-27/cron/17-00-linux-mac/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-27/cron/17-00-linux-mac/index.html</a>。HTTP 校验是 200。发布过程中我顺手修了总控台一个误</p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-27-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-27-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>2 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-27-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-27-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>2026-06-27-验收记录.md</h3><p>~/Desktop/Linux日报收件箱/2026-06-27-验收记录.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>

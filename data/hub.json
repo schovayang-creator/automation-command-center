@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T09:47:22.082Z",
+  "generatedAt": "2026-06-27T11:10:37.673Z",
   "reportDate": "2026-06-27",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1388,7 +1388,7 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "ACTIVE",
-      "artifacts": 9,
+      "artifacts": 15,
       "points": 125,
       "href": "reports/2026-06-27/cron/automation-2/index.html"
     },
@@ -1464,7 +1464,7 @@
       "lane": "每日日报任务",
       "role": "总经理助理",
       "latestRun": {
-        "sessionId": "",
+        "sessionId": "019f08bd-4031-7232-8172-736fbd5fee63",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-26 19:30:52 CST",
         "publishTarget": ""
@@ -1477,7 +1477,7 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 9,
+      "artifacts": 15,
       "points": 125,
       "href": "reports/2026-06-27/cron/automation-2/index.html"
     },
@@ -1512,7 +1512,7 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "019f062a-7de7-74c3-a4d5-4036e01a8955",
+        "sessionId": "019f08bd-4031-7232-8172-736fbd5fee63",
         "status": "HTTP_200",
         "completedAt": "Automation a Memory",
         "publishTarget": ""
@@ -1599,7 +1599,7 @@
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
         "status": "SUCCESS",
         "completedAt": "Automation 24 Memory",
-        "publishTarget": ""
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1617,7 +1617,7 @@
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
         "status": "SUCCESS",
         "completedAt": "automation-5 memory",
-        "publishTarget": ""
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1635,7 +1635,7 @@
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
         "status": "SUCCESS",
         "completedAt": "automation-4 memory",
-        "publishTarget": ""
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
@@ -1653,7 +1653,7 @@
         "sessionId": "019f084f-d6f9-7e60-b05d-205067318bc2",
         "status": "SUCCESS",
         "completedAt": "2026-06-27 17:01:17",
-        "publishTarget": ""
+        "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "",
       "dailyTask": null,
@@ -1804,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 26,
+      "artifacts": 51,
       "href": "reports/2026-06-27/codex-html/index.html"
     },
     {
@@ -1813,7 +1813,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 3,
+      "artifacts": 4,
       "href": "reports/2026-06-27/codex-work/index.html"
     }
   ]
