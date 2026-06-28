@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T22:56:31.405Z",
+  "generatedAt": "2026-06-28T23:17:09.936Z",
   "reportDate": "2026-06-29",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1358,8 +1358,8 @@
       "name": "每天 07:00 双创比赛今日任务发布到 Linux 桌面",
       "role": "机会雷达官",
       "status": "ACTIVE",
-      "artifacts": 3,
-      "points": 30,
+      "artifacts": 4,
+      "points": 44,
       "href": "reports/2026-06-29/cron/automation/index.html"
     },
     {
@@ -1388,8 +1388,8 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "ACTIVE",
-      "artifacts": 6,
-      "points": 80,
+      "artifacts": 10,
+      "points": 125,
       "href": "reports/2026-06-29/cron/automation-2/index.html"
     },
     {
@@ -1417,7 +1417,7 @@
       "role": "内容简报官",
       "latestRun": {
         "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-16 07:10 CST",
         "publishTarget": ""
       },
@@ -1440,7 +1440,7 @@
       "lane": "每日日报任务",
       "role": "岗位情报官",
       "latestRun": {
-        "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
+        "sessionId": "019f1076-e6ed-77f3-87ea-c19f2a4b02b0",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-27",
         "publishTarget": ""
@@ -1465,7 +1465,7 @@
       "role": "总经理助理",
       "latestRun": {
         "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "automation-2 memory",
         "publishTarget": ""
       },
@@ -1477,8 +1477,8 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 6,
-      "points": 80,
+      "artifacts": 10,
+      "points": 125,
       "href": "reports/2026-06-29/cron/automation-2/index.html"
     },
     {
@@ -1488,8 +1488,8 @@
       "lane": "每日日报任务",
       "role": "机会雷达官",
       "latestRun": {
-        "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "sessionId": "019f1076-e6ed-77f3-87ea-c19f2a4b02b0",
+        "status": "HTTP_200",
         "completedAt": "Last run: 2026-06-28T08:32:39+08:00",
         "publishTarget": ""
       },
@@ -1501,8 +1501,8 @@
         "dailyReport": "双创比赛今日任务发布到 Linux 桌面",
         "acceptance": "双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。"
       },
-      "artifacts": 3,
-      "points": 30,
+      "artifacts": 4,
+      "points": 44,
       "href": "reports/2026-06-29/cron/automation/index.html"
     },
     {
@@ -1512,8 +1512,8 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "sessionId": "019f1076-e6ed-77f3-87ea-c19f2a4b02b0",
+        "status": "HTTP_200",
         "completedAt": "Automation a Memory",
         "publishTarget": ""
       },
@@ -1536,8 +1536,8 @@
       "lane": "每日日报任务",
       "role": "Linux 验收官",
       "latestRun": {
-        "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "sessionId": "019f1076-e6ed-77f3-87ea-c19f2a4b02b0",
+        "status": "HTTP_200",
         "completedAt": "2026-06-22 17:35 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
@@ -1561,7 +1561,7 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-29 06:31:55",
         "publishTarget": ""
       },
@@ -1615,7 +1615,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
@@ -1633,7 +1633,7 @@
       "role": "客户转化官",
       "latestRun": {
         "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
@@ -1651,7 +1651,7 @@
       "role": "意向信号官",
       "latestRun": {
         "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-29 06:31:55",
         "publishTarget": ""
       },
@@ -1669,7 +1669,7 @@
       "role": "政策机会官",
       "latestRun": {
         "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-29 06:31:55",
         "publishTarget": ""
       },
@@ -1687,7 +1687,7 @@
       "role": "资源池官",
       "latestRun": {
         "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-29 06:31:55",
         "publishTarget": ""
       },
@@ -1705,7 +1705,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019f105c-59bd-76d0-a590-9d6c11b11d4e",
-        "status": "DELIVERY_SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-06-29 06:31:55",
         "publishTarget": ""
       },
@@ -1759,7 +1759,7 @@
       "status": "已发布",
       "type": "业务类目",
       "cadence": "类目汇报",
-      "artifacts": 3,
+      "artifacts": 4,
       "href": "reports/2026-06-29/competition-scout/index.html"
     },
     {
@@ -1804,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 0,
+      "artifacts": 12,
       "href": "reports/2026-06-29/codex-html/index.html"
     },
     {
@@ -1813,7 +1813,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 1,
+      "artifacts": 2,
       "href": "reports/2026-06-29/codex-work/index.html"
     }
   ]

@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">13 KB</span>
-            <span class="chip">2026-06-27 22:53:19</span>
+            <span class="chip">15 KB</span>
+            <span class="chip">2026-06-28 23:01:08</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>13 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>15 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -206,6 +206,19 @@
 <li>OpenClaw notification failed after publish with <code>GatewayClientRequestError: FailoverError: LLM request failed: network connection error</code>; report records pages as live and notification as failed.</li>
 <li>Public URLs: dashboard <code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-28/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-28/index.html</a></code>; Hermes detail <code><a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-28/cron/hermes/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-28/cron/hermes/index.html</a></code>.</li>
 <li>Current run time recorded around 2026-06-28 06:50 CST.</li>
+</ul>
+<h2>2026-06-29 run</h2>
+<ul>
+<li>Ran Hermes 每日任务 in <code>本地归档</code>; startup check showed the workspace already had many pre-existing dirty/untracked files, which were preserved.</li>
+<li>Read required project rules: AGENTS.md, docs/content-ethics.md, scale.md, docs/content-scale.md, profile/creator-positioning.md, profile/style-guide.md, profile/do-not-say.md, profile/experience-bank.md, research/topic-library.md, skills/content-scale-operator.md, and research/material-bank/README.md.</li>
+<li>Daily material radar completed successfully for <code>2026-06-29-v0</code>; material stats were 8 cards, 来源方式 <code>automatic_public: 4</code>, <code>本地归档: 1</code>, <code>人工补采: 3</code>; 采集状态 <code>collected: 5</code>, <code>人工补采: 3</code>; creator_fit_decision <code>keep: 4</code>, <code>try: 3</code>, <code>park: 1</code>.</li>
+<li>Deep records finalized at 3 files only after removing 3 older leftover drafts that had mixed into the run folder: <code>01-burnout-language-summary.md</code>, <code>02-people-pleasing-self-blame.md</code>, <code>03-women-leadership-rest-worth.md</code>.</li>
+<li>Main recommendation: <code>如果你最近真的没有力气了，先别急着骂自己</code>. Second choice: <code>你不是不想休息，是总有人默认你还能再撑一下</code>.</li>
+<li>Wrote <code>plans/daily-video/2026-06-29.md</code>, <code>plans/daily-video/2026-06-29-hermes-handoff.md</code>, and <code>plans/run-reports/2026-06-29-codex-daily-backend-report.md</code>.</li>
+<li>Handoff scrub stayed clean: no local paths, backend terms like 来源方式/采集状态/人工补采, score-table language, secrets, or forbidden growth promises.</li>
+<li>Published the command-center site with commits <code>5212c7e</code> and <code>fa6b2a1</code>. GitHub Pages for the day's dashboard and Hermes detail returned HTTP 200 during manual verification, but the automated publish script left <code>reports/2026-06-29/publish.json</code> in <code>published-http-pending</code> because its internal retry window hit an early 404 before the Pages deployment fully settled.</li>
+<li>OpenClaw notification did not finish cleanly and was interrupted; the local outbox file was written and the pages are live, but notification status should be treated as failed/pending manual follow-up.</li>
+<li>Run time was around 2026-06-29 06:34-06:59 CST.</li>
 </ul></article>
     </div>
   
