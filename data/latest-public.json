@@ -1,5 +1,5 @@
 {
-  "status": "pending-publish",
+  "status": "published",
   "date": "2026-06-29",
   "automation": "a",
   "generatedAt": "2026-06-29T13:27:25.134Z",
@@ -8,5 +8,12 @@
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-29/cron/index.html",
   "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-06-29/cron/a/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
-  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git",
+  "contentCommit": "8bf55fd",
+  "commit": "8bf55fd",
+  "http": {
+    "ok": true,
+    "attempts": 1,
+    "output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0\r  0 22430    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0\nHTTP/2 200 \r\nserver: GitHub.com\r\ncontent-type: text/html; charset=utf-8\r\nlast-modified: Mon, 29 Jun 2026 11:04:47 GMT\r\naccess-control-allow-origin: *\r\nstrict-transport-security: max-age=31556952\r\netag: \"6a42514f-579e\"\r\nexpires: Mon, 29 Jun 2026 13:37:34 GMT\r\ncache-control: max-age=600\r\nx-proxy-cache: MISS\r\nx-github-request-id: ADDE:29003D:16BD7B0:1749EB7:6A4272C6\r\naccept-ranges: bytes\r\nage: 0\r\ndate: Mon, 29 Jun 2026 13:27:34 GMT\r\nvia: 1.1 varnish\r\nx-served-by: cache-nrt-rjaa8190026-NRT\r\nx-cache: MISS\r\nx-cache-hits: 0\r\nx-timer: S1782739655.601058,VS0,VE187\r\nvary: Accept-Encoding\r\nx-fastly-request-id: 5a2fea02dffed8a9f6a52945f43446ea3d41069c\r\ncontent-length: 22430\r\n\r\n"
+  }
 }
