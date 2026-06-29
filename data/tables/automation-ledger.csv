@@ -3,7 +3,7 @@ hermes,Hermes 每日任务,每日日报任务,ACTIVE,每天 06:30,内容简报�
 automation-3,曹博士岗位更新,每日日报任务,ACTIVE,每天 22:30,岗位情报官,被每日岗位简报收录,DELIVERY_SUCCESS,019f1076-e6ed-77f3-87ea-c19f2a4b02b0,-,本地归档,本地归档,3,30,55,reports/2026-06-29/cron/automation-3/index.html
 automation-2,总经理助理,每日日报任务,ACTIVE,每天 19:00,总经理助理,被总经理日报收录,DELIVERY_SUCCESS,019f130a-1e42-7552-9483-94c599a0d38a,-,本地归档,本地归档,15,125,90,reports/2026-06-29/cron/automation-2/index.html
 automation,每天 07:00 双创比赛今日任务发布到 Linux 桌面,每日日报任务,ACTIVE,每天 07:00,机会雷达官,被每日机会简报收录,HTTP_200,019f1076-e6ed-77f3-87ea-c19f2a4b02b0,-,本地归档,本地归档,6,64,87,reports/2026-06-29/cron/automation/index.html
-a,A股每日模拟盘研究与盈亏回放,每日日报任务,ACTIVE,A 股交易日 00:00,交易研究官,交易日被日报收录,DELIVERY_SUCCESS,019f130a-1e42-7552-9483-94c599a0d38a,-,本地归档,本地归档,2,16,44,reports/2026-06-29/cron/a/index.html
+a,A股每日模拟盘研究与盈亏回放,每日日报任务,ACTIVE,A 股交易日 00:00,交易研究官,交易日被日报收录,RECORDED,019f135c-fa60-7983-a6cb-c8610e830bcd,-,本地归档,本地归档,2,16,44,reports/2026-06-29/cron/a/index.html
 17-00-linux-mac,每天 17:00 Linux 工作日报验收并拉取到 Mac,每日日报任务,ACTIVE,每天 17:00,Linux 验收官,被每日验收记录收录,HTTP_200,019f129d-2aab-7793-bdaf-ec115732a8c4,/home/wang/Desktop/今日任务.html,本地归档,本地归档,4,40,66,reports/2026-06-29/cron/17-00-linux-mac/index.html
 24-6,公司机会总控中台24小时主控,专项主控 Cron,PAUSED,24 小时主控,机会总控官,作为公司机会总控类目被日报引用,HTTP_200,019f105c-59bd-76d0-a590-9d6c11b11d4e,-,-,本地归档,1,2,26,reports/2026-06-29/cron/24-6/index.html
 24-2,竞品同行服务商情报24小时主控,专项主控 Cron,PAUSED,24 小时主控,竞品情报官,作为竞品类目被日报引用,HTTP_200,019f129d-2aab-7793-bdaf-ec115732a8c4,/home/wang/Desktop/今日任务.html,本地归档,本地归档,2,14,37,reports/2026-06-29/cron/24-2/index.html
