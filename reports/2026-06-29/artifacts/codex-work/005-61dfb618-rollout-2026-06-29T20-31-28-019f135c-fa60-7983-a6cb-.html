@@ -77,13 +77,13 @@
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
             <span class="chip">1.5 MB</span>
-            <span class="chip">2026-06-29 13:26:46</span>
+            <span class="chip">2026-06-29 13:31:50</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>1.5 MB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>191</b><span>评分</span></div><div class="metric"><b>1.5 MB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：A股每日模拟盘研究与盈亏回放</h3>
-          <p>总控台发布会重建本地日报、自动化详情页并尝试推送 GitHub Pages。我会直接运行指定脚本，随后检查本地发布页禁用内容和公开 URL 响应。</p>
-          <ul class="mini-list"><li>总控台发布会重建本地日报、自动化详情页并尝试推送 GitHub Pages</li></ul>
+          <p>完成了 2026-06-29 的 A 股每日模拟盘自动化。全程保持模拟盘口径，没有登录券商、读取真实账户或产生真实交易动作。HTML 报告已重新生成并打开；总控台已发布到 GitHub Pages。 **3 分钟简报** 今天结论：今天按交易日候选日完成了模拟盘回放、策略复盘、下一批十股计划和公开总控台发布；本次到期十股没有全部卖出，因为上一批 2026-06-26 是阻塞状态，没有形成可回放的十股持仓批次。 今日重点： 1. 今天按 2026-06-29 周一处理，东方财富实时全市场接口可用，历史 K 线 300/300 成功，但 Tushare token 缺失。 2. 到期卖出结果为 0 只；按预设价 PRESET_TARGET_PRICE 成交的是无，按收盘/尾盘 ACTUAL_CLOSE_OR_TAIL_PRICE 强平的是无，原因是没有上一批完整十股持仓可结算。 3. 今日模拟盈亏为 +0.00 CNY，当日模拟收益率 +0.00%，累计模拟收益率 -0.47%，连续超过 5% 的完整交易日仍为 0/3。 4. 下一批十只模拟候选已写入：亚威股份、至纯科技、晶瑞电材、招商证券、京东方Ａ、宏柏新材、祥鑫科技、太极实业、飞凯材料、士兰微；计划买入日是 2026-06-30，计划卖出日是 2026-07-01。 5. 今天落地的策略优化是 PUBLIC_CLIST_STOCK_ONLY_FILTER：东方财富全市场 clist 先用 f13 交易所字段和代码前缀一致性排除指数/非股票记录，避免候选池被指数类数据污染。 风险和缺口：最大风险仍是 Tushare token 缺失，行业、概念、公告、财务、龙虎榜排雷不完整；部分候选还有高波动和隔夜跳空风险。 下一步：明天优先看亚威股份开盘后是否满足观察价区间、量能不萎缩、10 日均线不破；不满足就让模拟计划保持不触发或后续按回放退出。 公开入口： 当天总看板 本自动化详情页 产物已写入： Markdown 日报 HTML 报告 模拟账本 持仓快照 PnL 文件 Skill 复盘 验证状态：15 个单元测试</p>
+          <ul class="mini-list"><li>完成了 2026-06-29 的 A 股每日模拟盘自动化</li><li>全程保持模拟盘口径，没有登录券商、读取真实账户或产生真实交易动作</li><li>HTML 报告已重新生成并打开</li><li>总控台已发布到 GitHub Pages</li><li>**3 分钟简报** 今天结论：今天按交易日候选日完成了模拟盘回放、策略复盘、下一批十股计划和公开总控台发布</li><li>本次到期十股没有全部卖出，因为上一批 2026-06-26 是阻塞状态，没有形成可回放的十股持仓批次</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：A股每日模拟盘研究与盈亏回放</span>
           <span>开始：2026-06-29 20:31:28</span>
-          <span>完成：2026-06-29 20:31:28</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1782739910</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,48 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>总控台发布会重建本地日报、自动化详情页并尝试推送 GitHub Pages。我会直接运行指定脚本，随后检查本地发布页禁用内容和公开 URL 响应。</p></article>
+      <article class="doc"><p>完成了 2026-06-29 的 A 股每日模拟盘自动化。全程保持模拟盘口径，没有登录券商、读取真实账户或产生真实交易动作。HTML 报告已重新生成并打开；总控台已发布到 GitHub Pages。 <strong>3 分钟简报</strong> 今天结论：今天按交易日候选日完成了模拟盘回放、策略复盘、下一批十股计划和公开总控台发布；本次到期十股没有全部卖出，因为上一批 2026-06-26 是阻塞状态，没有形成可回放的十股持仓批次。 今日重点： 1. 今天按 2026-06-29 周一处理，东方财富实时全市场接口可用，历史 K 线 300/300 成功，但 Tushare token 缺失。 2. 到期卖出结果为 0 只；按预设价 PRESET_TARGET_PRICE 成交的是无，按收盘/尾盘 ACTUAL_CLOSE_OR_TAIL_PRICE 强平的是无，原因是没有上一批完整十股持仓可结算。 3. 今日模拟盈亏为 +0.00 CNY，当日模拟收益率 +0.00%，累计模拟收益率 -0.47%，连续超过 5% 的完整交易日仍为 0/3。 4. 下一批十只模拟候选已写入：亚威股份、至纯科技、晶瑞电材、招商证券、京东方Ａ、宏柏新材、祥鑫科技、太极实业、飞凯材料、士兰微；计划买入日是 2026-06-30，计划卖出日是 2026-07-01。 5. 今天落地的策略优化是 PUBLIC_CLIST_STOCK_ONLY_FILTER：东方财富全市场 clist 先用 f13 交易所字段和代码前缀一致性排除指数/非股票记录，避免候选池被指数类数据污染。 风险和缺口：最大风险仍是 Tushare token 缺失，行业、概念、公告、财务、龙虎榜排雷不完整；部分候选还有高波动和隔夜跳空风险。 下一步：明天优先看亚威股份开盘后是否满足观察价区间、量能不萎缩、10 日均线不破；不满足就让模拟计划保持不触发或后续按回放退出。 公开入口： 当天总看板 本自动化详情页 产物已写入： Markdown 日报 HTML 报告 模拟账本 持仓快照 PnL 文件 Skill 复盘 验证状态：15 个单元测试</p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>20260629-paper-trading.html</h3><p>~/Desktop/股票/reports/html/20260629-paper-trading.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>6 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>20260629-paper-trading.md</h3><p>~/Desktop/股票/reports/daily/20260629-paper-trading.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>20260629-paper-trading.html</h3><p>~/Desktop/股票/reports/html/20260629-paper-trading.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">CSV</span>
+          <div><h3>ledger.csv</h3><p>~/Desktop/股票/trades/paper/ledger.csv</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">CSV</span>
+          <div><h3>20260629.csv</h3><p>~/Desktop/股票/trades/paper/positions/20260629.csv</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">CSV</span>
+          <div><h3>20260629-pnl.csv</h3><p>~/Desktop/股票/trades/paper/pnl/20260629-pnl.csv</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>20260629-skill-review.md</h3><p>~/Desktop/股票/working/skill-reviews/20260629-skill-review.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>
