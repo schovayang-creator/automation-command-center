@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:19:24.856Z",
+  "generatedAt": "2026-06-29T23:21:27.755Z",
   "reportDate": "2026-06-30",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1358,8 +1358,8 @@
       "name": "每天 07:00 双创比赛今日任务发布到 Linux 桌面",
       "role": "机会雷达官",
       "status": "ACTIVE",
-      "artifacts": 4,
-      "points": 44,
+      "artifacts": 5,
+      "points": 50,
       "href": "reports/2026-06-30/cron/automation/index.html"
     },
     {
@@ -1465,7 +1465,7 @@
       "role": "总经理助理",
       "latestRun": {
         "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-2 memory",
         "publishTarget": ""
       },
@@ -1489,7 +1489,7 @@
       "role": "机会雷达官",
       "latestRun": {
         "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Last run: 2026-06-29T07:26:00+08:00",
         "publishTarget": ""
       },
@@ -1501,8 +1501,8 @@
         "dailyReport": "双创比赛今日任务发布到 Linux 桌面",
         "acceptance": "双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。"
       },
-      "artifacts": 4,
-      "points": 44,
+      "artifacts": 5,
+      "points": 50,
       "href": "reports/2026-06-30/cron/automation/index.html"
     },
     {
@@ -1513,7 +1513,7 @@
       "role": "交易研究官",
       "latestRun": {
         "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-29 21:29:11 CST",
         "publishTarget": ""
       },
@@ -1537,7 +1537,7 @@
       "role": "Linux 验收官",
       "latestRun": {
         "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-22 17:35 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
@@ -1561,7 +1561,7 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-30 07:01:00",
         "publishTarget": ""
       },
@@ -1664,7 +1664,7 @@
       "role": "政策机会官",
       "latestRun": {
         "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-30 07:01:00",
         "publishTarget": ""
       },
@@ -1682,7 +1682,7 @@
       "role": "资源池官",
       "latestRun": {
         "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-30 07:01:00",
         "publishTarget": ""
       },
@@ -1700,7 +1700,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-30 07:01:00",
         "publishTarget": ""
       },
@@ -1754,7 +1754,7 @@
       "status": "已发布",
       "type": "业务类目",
       "cadence": "类目汇报",
-      "artifacts": 4,
+      "artifacts": 5,
       "href": "reports/2026-06-30/competition-scout/index.html"
     },
     {
