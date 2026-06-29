@@ -83,7 +83,7 @@
       </div>
       <aside class="panel hero-side">
         <h2>今日总览</h2>
-        <div class="metric-row"><div class="metric"><b>6/6</b><span>固定任务</span></div><div class="metric"><b>3/6</b><span>日报汇总</span></div><div class="metric"><b>0</b><span>本地 HTML</span></div><div class="metric"><b>1782</b><span>总 XP</span></div></div>
+        <div class="metric-row"><div class="metric"><b>6/6</b><span>固定任务</span></div><div class="metric"><b>4/6</b><span>日报汇总</span></div><div class="metric"><b>0</b><span>本地 HTML</span></div><div class="metric"><b>1972</b><span>总 XP</span></div></div>
       </aside>
     </section>
     <section class="grid">
@@ -92,7 +92,7 @@
         <div class="brief-grid">
           <article>
             <b>日报链路</b>
-            <strong>3/6 已收录</strong>
+            <strong>4/6 已收录</strong>
             <span>六个每日 cron 都按 1 到 6 的顺序进入最终日报；自动化简报只负责快速扫一遍。</span>
           </article>
           <article>
@@ -108,7 +108,7 @@
           <article>
             <b>等级系统</b>
             <strong>Lv.3 自动化主管</strong>
-            <span>49% 进度，下一阶段：OKR 调度官。</span>
+            <span>64% 进度，下一阶段：OKR 调度官。</span>
           </article>
         </div>
       </section>
@@ -151,20 +151,20 @@
                 <span class="chip">每天 07:00</span>
                 <span class="chip">自动化工厂</span>
                 <span class="chip">机会雷达官</span>
-                <span class="chip">44 XP</span>
+                <span class="chip">64 XP</span>
               </div>
             </div>
           </a><a class="daily-task-card click-card" href="../cron/17-00-linux-mac/index.html">
             <div class="daily-task-time">每天 17:00</div>
             <div>
-              <div class="module-head"><h3>Linux 工作日报验收并拉取到 Mac</h3><span class="status ok">今日待补</span></div>
-              <p>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</p>
-              <ul class="mini-list"><li>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</li><li>今天报告内容仍是测试链路，业务日志和任务识别规则还没有完全接入。</li></ul>
+              <div class="module-head"><h3>Linux 工作日报验收并拉取到 Mac</h3><span class="status ok">今日已完成</span></div>
+              <p>今天按 17:00 到 17:30 的规则持续重试连接 192.168.3.32，但 Linux 主机仍不可达，无法重新读取今日任务，也没有拉回 Linux 原始日报；Mac 侧已补写今天的失败验收页和验收记录。</p>
+              <ul class="mini-list"><li>Linux 今日任务今天无法重新确认。</li><li>上次成功连机时，Linux 桌面 文件存在，但内容停留在 2026-06-16。</li></ul>
               <div class="chip-row">
                 <span class="chip">每天 17:00</span>
                 <span class="chip">5月</span>
                 <span class="chip">Linux 验收官</span>
-                <span class="chip">14 XP</span>
+                <span class="chip">40 XP</span>
               </div>
             </div>
           </a><a class="daily-task-card click-card" href="../cron/automation-2/index.html">
@@ -218,14 +218,14 @@
             <div>
               <h3>双创比赛今日任务发布到 Linux 桌面</h3>
               <p>今天不建议新增申报，重点是收口已经处在官方窗口内的存量机会。</p>
-              <div class="chip-row"><span class="chip">机会雷达官</span><span class="chip">已收录</span><span class="chip">44 XP</span></div>
+              <div class="chip-row"><span class="chip">机会雷达官</span><span class="chip">已收录</span><span class="chip">64 XP</span></div>
             </div>
           </a><a class="daily-card click-card" href="../cron/17-00-linux-mac/index.html">
             <div class="daily-order">4</div>
             <div>
               <h3>Linux 工作日报验收并拉取到 Mac</h3>
-              <p>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</p>
-              <div class="chip-row"><span class="chip">Linux 验收官</span><span class="chip">今日待补</span><span class="chip">14 XP</span></div>
+              <p>今天按 17:00 到 17:30 的规则持续重试连接 192.168.3.32，但 Linux 主机仍不可达，无法重新读取今日任务，也没有拉回 Linux 原始日报；Mac 侧已补写今天的失败验收页和验收记录。</p>
+              <div class="chip-row"><span class="chip">Linux 验收官</span><span class="chip">已收录</span><span class="chip">40 XP</span></div>
             </div>
           </a><a class="daily-card click-card" href="../cron/automation-2/index.html">
             <div class="daily-order">5</div>
@@ -245,20 +245,27 @@
         </div>
       </section>
       <section class="panel span-7">
-        <div class="section-title"><h2>Codex 工作交差</h2><span>2 个会话交差页</span></div>
+        <div class="section-title"><h2>Codex 工作交差</h2><span>3 个会话交差页</span></div>
         <div class="compact-list">
-          <a class="compact-row click-card" href="../artifacts/codex-work/001-4838a553-rollout-2026-06-29T06-31-55-019f105c-59bd-76d0-a590-.html">
+          <a class="compact-row click-card" href="../artifacts/codex-work/002-96cb5fb7-rollout-2026-06-29T07-00-55-019f1076-e6ed-77f3-87ea-.html">
+            <span class="nav-code">WORK</span>
+            <div>
+              <h3>&lt;name&gt;startup-competition-scout&lt;/name&gt; &lt;path&gt;本地归档 --- name: startup-com…</h3>
+              <p>HTML / 页面 · 2026-06-29 07:00:55 · HTML 2</p>
+            </div>
+            <div class="row-actions"><span>交差</span></div>
+          </a><a class="compact-row click-card" href="../artifacts/codex-work/001-4838a553-rollout-2026-06-29T06-31-55-019f105c-59bd-76d0-a590-.html">
             <span class="nav-code">WORK</span>
             <div>
               <h3>自动化任务：Hermes 每日任务</h3>
               <p>HTML / 页面 · 2026-06-29 06:31:55 · HTML 0</p>
             </div>
             <div class="row-actions"><span>交差</span></div>
-          </a><a class="compact-row click-card" href="../artifacts/codex-work/002-96cb5fb7-rollout-2026-06-29T07-00-55-019f1076-e6ed-77f3-87ea-.html">
+          </a><a class="compact-row click-card" href="../artifacts/codex-work/003-9bf2e02c-rollout-2026-06-29T17-01-57-019f129d-2aab-7793-bdaf-.html">
             <span class="nav-code">WORK</span>
             <div>
-              <h3>&lt;name&gt;startup-competition-scout&lt;/name&gt; &lt;path&gt;本地归档 --- name: startup-com…</h3>
-              <p>HTML / 页面 · 2026-06-29 07:00:55 · HTML 0</p>
+              <h3>自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</h3>
+              <p>飞书 / 协作 · 2026-06-29 17:01:57 · HTML 0</p>
             </div>
             <div class="row-actions"><span>交差</span></div>
           </a>
@@ -266,7 +273,7 @@
         <div class="link-list"><a href="../codex-work/index.html">打开 Codex 工作交差日期看板</a></div>
       </section>
       <section class="panel span-5">
-        <div class="section-title"><h2>Codex HTML 交付件</h2><span>12 个统一批阅页</span></div>
+        <div class="section-title"><h2>Codex HTML 交付件</h2><span>14 个统一批阅页</span></div>
         <div class="compact-list">
           <a class="compact-row click-card" href="../artifacts/codex-html/012-f6640dd8-2026-06-29-早间任务发布.html">
             <span class="nav-code">HTML</span>
@@ -275,11 +282,25 @@
               <p>Codex 会话提到的 HTML · 16 KB · 2026-06-28 23:16:21</p>
             </div>
             <div class="row-actions"><span>批阅</span></div>
+          </a><a class="compact-row click-card" href="../artifacts/codex-html/014-503c0546-2026-06-29-Linux工作日报.html">
+            <span class="nav-code">HTML</span>
+            <div>
+              <h3>Linux 工作日报验收</h3>
+              <p>Codex 会话提到的 HTML · 8 KB · 2026-06-29 09:36:47</p>
+            </div>
+            <div class="row-actions"><span>批阅</span></div>
           </a><a class="compact-row click-card" href="../artifacts/codex-html/001-656dc3ef-今日任务.html">
             <span class="nav-code">HTML</span>
             <div>
               <h3>今日任务 - 双创比赛：今天先核官方入口，继续守全国赛主线</h3>
               <p>Codex 会话提到的 HTML · 16 KB · 2026-06-28 23:16:10</p>
+            </div>
+            <div class="row-actions"><span>批阅</span></div>
+          </a><a class="compact-row click-card" href="../artifacts/codex-html/013-9ca34e96-2026-06-28-Linux工作日报.html">
+            <span class="nav-code">HTML</span>
+            <div>
+              <h3>Linux 工作日报验收</h3>
+              <p>Codex 会话提到的 HTML · 8 KB · 2026-06-28 09:32:42</p>
             </div>
             <div class="row-actions"><span>批阅</span></div>
           </a><a class="compact-row click-card" href="../artifacts/codex-html/011-d3259238-sogou-sample.html">
@@ -308,20 +329,6 @@
             <div>
               <h3>今日任务 - 双创比赛</h3>
               <p>Codex 会话提到的 HTML · 17 KB · 2026-06-09 23:14:06</p>
-            </div>
-            <div class="row-actions"><span>批阅</span></div>
-          </a><a class="compact-row click-card" href="../artifacts/codex-html/005-fc30fef0-2026-06-11-早间任务发布.html">
-            <span class="nav-code">HTML</span>
-            <div>
-              <h3>今日任务 - 双创比赛</h3>
-              <p>Codex 会话提到的 HTML · 21 KB · 2026-06-10 23:32:12</p>
-            </div>
-            <div class="row-actions"><span>批阅</span></div>
-          </a><a class="compact-row click-card" href="../artifacts/codex-html/006-a3859cba-2026-06-14-早间任务发布.html">
-            <span class="nav-code">HTML</span>
-            <div>
-              <h3>今日任务 - 双创比赛</h3>
-              <p>Codex 会话提到的 HTML · 20 KB · 2026-06-13 23:12:52</p>
             </div>
             <div class="row-actions"><span>批阅</span></div>
           </a>
@@ -364,11 +371,31 @@
           <span>批阅</span>
           <span>自动化</span>
         </div>
-      </a><a class="compact-row click-card" href="../artifacts/cron-automation/001-f6640dd8-2026-06-29-早间任务发布.html">
+      </a><a class="compact-row click-card" href="../artifacts/cron-automation/001-a70ddbd7-2026-06-29-Linux发布失败记录.html">
+        <span class="nav-code">DS</span>
+        <div>
+          <h3>2026-06-29-Linux发布失败记录</h3>
+          <p>每天 07:00 双创比赛今日任务发布到 Linux 桌面 · 双创日报 · 647 B</p>
+        </div>
+        <div class="row-actions">
+          <span>批阅</span>
+          <span>自动化</span>
+        </div>
+      </a><a class="compact-row click-card" href="../artifacts/cron-automation/003-f6640dd8-2026-06-29-早间任务发布.html">
         <span class="nav-code">DS</span>
         <div>
           <h3>今日任务 - 双创比赛：今天先核官方入口，继续守全国赛主线</h3>
           <p>每天 07:00 双创比赛今日任务发布到 Linux 桌面 · 双创日报 · 16 KB</p>
+        </div>
+        <div class="row-actions">
+          <span>批阅</span>
+          <span>自动化</span>
+        </div>
+      </a><a class="compact-row click-card" href="../artifacts/cron-17-00-linux-mac/001-503c0546-2026-06-29-Linux工作日报.html">
+        <span class="nav-code">LX</span>
+        <div>
+          <h3>Linux 工作日报验收</h3>
+          <p>每天 17:00 Linux 工作日报验收并拉取到 Mac · Linux 日报收件箱 · 8 KB</p>
         </div>
         <div class="row-actions">
           <span>批阅</span>
@@ -384,7 +411,37 @@
           <span>批阅</span>
           <span>类目</span>
         </div>
-      </a><a class="compact-row click-card" href="../artifacts/competition-scout/001-f6640dd8-2026-06-29-早间任务发布.html">
+      </a><a class="compact-row click-card" href="../artifacts/codex-html/014-503c0546-2026-06-29-Linux工作日报.html">
+        <span class="nav-code">HTML</span>
+        <div>
+          <h3>Linux 工作日报验收</h3>
+          <p>Codex HTML 交付件 · Codex 会话提到的 HTML · 8 KB</p>
+        </div>
+        <div class="row-actions">
+          <span>批阅</span>
+          <span>类目</span>
+        </div>
+      </a><a class="compact-row click-card" href="../artifacts/cron-17-00-linux-mac/002-394ea0ab-2026-06-29-验收记录.html">
+        <span class="nav-code">LX</span>
+        <div>
+          <h3>2026-06-29-验收记录</h3>
+          <p>每天 17:00 Linux 工作日报验收并拉取到 Mac · Linux 日报收件箱 · 2 KB</p>
+        </div>
+        <div class="row-actions">
+          <span>批阅</span>
+          <span>自动化</span>
+        </div>
+      </a><a class="compact-row click-card" href="../artifacts/competition-scout/001-a70ddbd7-2026-06-29-Linux发布失败记录.html">
+        <span class="nav-code">DS</span>
+        <div>
+          <h3>2026-06-29-Linux发布失败记录</h3>
+          <p>双创比赛机会雷达 · 日报 · 647 B</p>
+        </div>
+        <div class="row-actions">
+          <span>批阅</span>
+          <span>类目</span>
+        </div>
+      </a><a class="compact-row click-card" href="../artifacts/competition-scout/003-f6640dd8-2026-06-29-早间任务发布.html">
         <span class="nav-code">DS</span>
         <div>
           <h3>今日任务 - 双创比赛：今天先核官方入口，继续守全国赛主线</h3>
@@ -424,16 +481,6 @@
           <span>批阅</span>
           <span>类目</span>
         </div>
-      </a><a class="compact-row click-card" href="../artifacts/cron-automation/002-656dc3ef-今日任务.html">
-        <span class="nav-code">DS</span>
-        <div>
-          <h3>今日任务 - 双创比赛：今天先核官方入口，继续守全国赛主线</h3>
-          <p>每天 07:00 双创比赛今日任务发布到 Linux 桌面 · 当前任务 · 16 KB</p>
-        </div>
-        <div class="row-actions">
-          <span>批阅</span>
-          <span>自动化</span>
-        </div>
       </a><a class="compact-row click-card" href="../artifacts/competitor-intel/004-fa410603-本公司服务产品化建议.html">
         <span class="nav-code">CI</span>
         <div>
@@ -444,7 +491,7 @@
           <span>批阅</span>
           <span>类目</span>
         </div>
-      </a><a class="compact-row click-card" href="../artifacts/competition-scout/003-86a26580-双创比赛机会表-2026-05-27-更新版.html">
+      </a><a class="compact-row click-card" href="../artifacts/competition-scout/005-86a26580-双创比赛机会表-2026-05-27-更新版.html">
         <span class="nav-code">DS</span>
         <div>
           <h3>双创比赛机会表_2026-05-27_更新版</h3>
@@ -464,16 +511,6 @@
           <span>批阅</span>
           <span>类目</span>
         </div>
-      </a><a class="compact-row click-card" href="../artifacts/competition-scout/002-68ef095e-全国人才政策创新创业大赛总表-含苏州专项-2026-05-27-阶段终版.html">
-        <span class="nav-code">DS</span>
-        <div>
-          <h3>全国人才政策创新创业大赛总表_含苏州专项_2026-05-27_阶段终版</h3>
-          <p>双创比赛机会雷达 · 机会表 · 240 KB</p>
-        </div>
-        <div class="row-actions">
-          <span>批阅</span>
-          <span>类目</span>
-        </div>
       </a><a class="compact-row click-card" href="../artifacts/codex-html/001-656dc3ef-今日任务.html">
         <span class="nav-code">HTML</span>
         <div>
@@ -484,31 +521,11 @@
           <span>批阅</span>
           <span>类目</span>
         </div>
-      </a><a class="compact-row click-card" href="../artifacts/codex-html/011-d3259238-sogou-sample.html">
+      </a><a class="compact-row click-card" href="../artifacts/codex-html/013-9ca34e96-2026-06-28-Linux工作日报.html">
         <span class="nav-code">HTML</span>
         <div>
-          <h3>2026 创赢未来 创业大赛 报名 截止 - 搜狗搜索</h3>
-          <p>Codex HTML 交付件 · Codex 会话提到的 HTML · 424 KB</p>
-        </div>
-        <div class="row-actions">
-          <span>批阅</span>
-          <span>类目</span>
-        </div>
-      </a><a class="compact-row click-card" href="../artifacts/codex-html/002-9e2e8f40-2026-06-08-早间任务发布.html">
-        <span class="nav-code">HTML</span>
-        <div>
-          <h3>今日任务 - 双创比赛</h3>
-          <p>Codex HTML 交付件 · Codex 会话提到的 HTML · 16 KB</p>
-        </div>
-        <div class="row-actions">
-          <span>批阅</span>
-          <span>类目</span>
-        </div>
-      </a><a class="compact-row click-card" href="../artifacts/competition-scout/004-554e4180-各地人才政策创新创业大赛机会报告-2026-05-27.html">
-        <span class="nav-code">DS</span>
-        <div>
-          <h3>各地人才政策创新创业大赛机会报告_2026-05-27</h3>
-          <p>双创比赛机会雷达 · 机会表 · 10 KB</p>
+          <h3>Linux 工作日报验收</h3>
+          <p>Codex HTML 交付件 · Codex 会话提到的 HTML · 8 KB</p>
         </div>
         <div class="row-actions">
           <span>批阅</span>
@@ -522,7 +539,7 @@
         <ul class="plain-list">
           <li><strong>体重趋势</strong><span>尚未读取到健康 CSV。</span></li>
           <li><strong>训练记录</strong><span>待建立体重、训练和有氧记录。</span></li>
-          <li><strong>XP 入账</strong><span>自动化 442，业务类目 500，日报 360，身体 0。</span></li>
+          <li><strong>XP 入账</strong><span>自动化 492，业务类目 520，日报 480，身体 0。</span></li>
           <li><strong>当前解锁</strong><span>解锁每日日报任务评分和失败复盘。</span></li>
         </ul>
         <div class="link-list">
@@ -558,14 +575,14 @@
             <span class="nav-code">WORK</span>
             <div>
               <h3>Codex 工作交差</h3>
-              <p>2 次 Codex 工作已生成交差页，说明做了什么和证据在哪里。</p>
+              <p>3 次 Codex 工作已生成交差页，说明做了什么和证据在哪里。</p>
             </div>
             <strong>总控台</strong>
           </a><a class="review-card click-card" href="../codex-html/index.html">
             <span class="nav-code">HTML</span>
             <div>
               <h3>Codex HTML 交付件</h3>
-              <p>12 个 HTML 已进入总控台统一批阅页。</p>
+              <p>14 个 HTML 已进入总控台统一批阅页。</p>
             </div>
             <strong>总控台</strong>
           </a><a class="review-card click-card" href="../../../calendar.html">
@@ -586,7 +603,7 @@
             <span class="nav-code">XP</span>
             <div>
               <h3>等级体系</h3>
-              <p>Lv.3 自动化主管，1782 XP。</p>
+              <p>Lv.3 自动化主管，1972 XP。</p>
             </div>
             <strong>总控台</strong>
           </a><a class="review-card click-card" href="../verification/index.html">
