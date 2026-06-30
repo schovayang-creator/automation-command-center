@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">371 KB</span>
-            <span class="chip">2026-06-30 09:33:06</span>
+            <span class="chip">422 KB</span>
+            <span class="chip">2026-06-30 09:36:21</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>371 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>185</b><span>评分</span></div><div class="metric"><b>422 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</h3>
-          <p>本地产物已经自检通过，内容和 3 分钟简报都在。现在执行总控台发布脚本，把今天的 Linux 验收结果写进当天总看板并推到 GitHub Pages。</p>
-          <ul class="mini-list"><li>本地产物已经自检通过，内容和 3 分钟简报都在</li></ul>
+          <p>今天 17:00 到 17:30 按规则持续重试后，192.168.3.32 仍不可达，最终表现是 ping 100% 丢包、22 端口超时或 Host is down、ARP 一直是 incomplete，所以今天没法重新读取 Linux 的 Linux 桌面，也没法检查 codex/openclaw/python/node 是否仍在运行，更没有拉回 Linux 原始日报。本次没有关机，也没有终止任何进程。 我已经把今天的失败验收正式补到 Mac 收件箱： 本地归档 本地归档 3 分钟简报： 今天结论：今天没有完成 Linux 原始日报拉回，原因是 Linux 主机到 17:30 仍不可达；Mac 侧已补写失败验收页和验收记录。 今日重点：Linux 今日任务今天无法重新确认；上次 2026-06-26 成功连机时，任务页文件存在，但内容停留在 2026-06-16。今天完成了 17:03、17:13、17:18、17:23、17:28、17:30 和最终校验的连通性检查，证据都指向主机不在线或不在当前可达网络里。由于没有成功登录，Linux 桌面直观日报入口也没有重新读取，所以没有拉回原始日报。今天也无法确认是否仍有任务运行，因此只记录状态，不做干预。 风险和缺口：当前缺的是可用 SSH 通道、当天任务页确认、Linux 原始日报和运行状态快照；如果明天仍然不可达，需要人工检查 Linux 电源、网络、IP 所在网段和开机状态。 下一步：先人工确认 192.168.3.32 已开机并回到当前局域网，再重新跑 SSH 验收和日报拉回。 公开入口：当天总看板 ｜ 本自动化详情页 总控台已经发布成功。公开当天总看板是 https://schovayang-creator.github.io/automation-command-cent</p>
+          <ul class="mini-list"><li>今天 17:00 到 17:30 按规则持续重试后，192.168.3.32 仍不可达，最终表现是 ping 100% 丢包、22 端口超时或 Host is down、ARP 一直是 incomplete，所以今天没法重新读取 Linux 的 Linux 桌面，也没法检查 codex/openclaw/python/node 是否仍在运行，更没有拉回 Linux 原始日报</li><li>本次没有关机，也没有终止任何进程</li><li>我已经把今天的失败验收正式补到 Mac 收件箱： 本地归档 本地归档 3 分钟简报： 今天结论：今天没有完成 Linux 原始日报拉回，原因是 Linux 主机到 17:30 仍不可达</li><li>Mac 侧已补写失败验收页和验收记录</li><li>今日重点：Linux 今日任务今天无法重新确认</li><li>上次 2026-06-26 成功连机时，任务页文件存在，但内容停留在 2026-06-16</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</span>
           <span>开始：2026-06-30 17:01:02</span>
-          <span>完成：2026-06-30 17:01:02</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1782812181</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,41 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>本地产物已经自检通过，内容和 3 分钟简报都在。现在执行总控台发布脚本，把今天的 Linux 验收结果写进当天总看板并推到 GitHub Pages。</p></article>
+      <article class="doc"><p>今天 17:00 到 17:30 按规则持续重试后，192.168.3.32 仍不可达，最终表现是 ping 100% 丢包、22 端口超时或 Host is down、ARP 一直是 incomplete，所以今天没法重新读取 Linux 的 Linux 桌面，也没法检查 codex/openclaw/python/node 是否仍在运行，更没有拉回 Linux 原始日报。本次没有关机，也没有终止任何进程。 我已经把今天的失败验收正式补到 Mac 收件箱： 本地归档 本地归档 3 分钟简报： 今天结论：今天没有完成 Linux 原始日报拉回，原因是 Linux 主机到 17:30 仍不可达；Mac 侧已补写失败验收页和验收记录。 今日重点：Linux 今日任务今天无法重新确认；上次 2026-06-26 成功连机时，任务页文件存在，但内容停留在 2026-06-16。今天完成了 17:03、17:13、17:18、17:23、17:28、17:30 和最终校验的连通性检查，证据都指向主机不在线或不在当前可达网络里。由于没有成功登录，Linux 桌面直观日报入口也没有重新读取，所以没有拉回原始日报。今天也无法确认是否仍有任务运行，因此只记录状态，不做干预。 风险和缺口：当前缺的是可用 SSH 通道、当天任务页确认、Linux 原始日报和运行状态快照；如果明天仍然不可达，需要人工检查 Linux 电源、网络、IP 所在网段和开机状态。 下一步：先人工确认 192.168.3.32 已开机并回到当前局域网，再重新跑 SSH 验收和日报拉回。 公开入口：当天总看板 ｜ 本自动化详情页 总控台已经发布成功。公开当天总看板是 <a href="https://schovayang-creator.github.io/automation-command-cent">https://schovayang-creator.github.io/automation-command-cent</a></p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-30-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-30-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>4 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-06-30-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-06-30-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>2026-06-30-验收记录.md</h3><p>~/Desktop/Linux日报收件箱/2026-06-30-验收记录.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>memory.md</h3><p>~/.codex/automations/17-00-linux-mac/memory.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>2026-06-30-验收记录.md</h3><p>~/Desktop/Linux日报收件箱/2026-06-30-Linux工作日报.html
+本地归档</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>

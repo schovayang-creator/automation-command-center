@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T09:33:45.325Z",
+  "generatedAt": "2026-06-30T11:05:21.285Z",
   "reportDate": "2026-06-30",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1388,7 +1388,7 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "ACTIVE",
-      "artifacts": 10,
+      "artifacts": 15,
       "points": 125,
       "href": "reports/2026-06-30/cron/automation-2/index.html"
     },
@@ -1464,7 +1464,7 @@
       "lane": "每日日报任务",
       "role": "总经理助理",
       "latestRun": {
-        "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
+        "sessionId": "019f1831-780b-70f2-befd-ce0f55a78a1e",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-2 memory",
         "publishTarget": ""
@@ -1477,7 +1477,7 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 10,
+      "artifacts": 15,
       "points": 125,
       "href": "reports/2026-06-30/cron/automation-2/index.html"
     },
@@ -1512,7 +1512,7 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
+        "sessionId": "019f1831-780b-70f2-befd-ce0f55a78a1e",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-06-29 21:29:11 CST",
         "publishTarget": ""
@@ -1538,7 +1538,7 @@
       "latestRun": {
         "sessionId": "019f17c2-af02-7270-ad6b-b58352d2e0f9",
         "status": "HTTP_200",
-        "completedAt": "2026-06-30 17:30 CST",
+        "completedAt": "2026-06-29 17:39 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
@@ -1799,7 +1799,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 17,
+      "artifacts": 43,
       "href": "reports/2026-06-30/codex-html/index.html"
     },
     {
@@ -1808,7 +1808,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 3,
+      "artifacts": 4,
       "href": "reports/2026-06-30/codex-work/index.html"
     }
   ]

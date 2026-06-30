@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">9 KB</span>
-            <span class="chip">2026-06-29 09:40:23</span>
+            <span class="chip">10 KB</span>
+            <span class="chip">2026-06-30 09:34:56</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>9 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>10 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -186,6 +186,15 @@
 <li>已执行 <code>本地归档 本地归档 --date 2026-06-29 --automation 17-00-linux-mac --publish --notify</code>；发布成功，<code>reports/2026-06-29/publish.json</code> 状态为 <code>published</code>。</li>
 <li>公开状态：当天总看板和本自动化详情页 HTTP 均为 <code>200</code>；发布记录 <code>contentCommit=45d9e7a</code>、<code>commit=cb2ae6b</code>、<code>finalHead=cb2ae6b</code>，<code>openclawStatus=delivered</code>。</li>
 <li>本次运行时长：约 32 分钟。</li>
+</ul>
+<p>2026-06-30 17:35 CST</p>
+<ul>
+<li>今天按 17:00 到 17:30 的规则持续重试连接 <code>192.168.3.32</code>；17:03 初检失败，17:13、17:18、17:23、17:28、17:30 和 17:30 最终校验都显示 <code>ping</code> 100% 丢包、<code>22</code> 端口超时或 host down、<code>ARP incomplete</code>，SSH 最终仍不可达。</li>
+<li>今天无法重新读取 <code>/home/wang/Desktop/今日任务.html</code>、<code>/home/wang/Desktop/inbox</code> 和 Linux 原始日报目录，也无法确认 <code>codex/openclaw/python/node</code> 是否仍在运行；本次只记录状态，不终止进程、不关机。</li>
+<li>已在 <code>本地归档</code> 生成 <code>2026-06-30-Linux工作日报.html</code> 和 <code>2026-06-30-验收记录.md</code>，内容为今天的失败验收与 3 分钟简报。</li>
+<li>已执行 <code>本地归档 本地归档 --date 2026-06-30 --automation 17-00-linux-mac --publish --notify</code>；发布成功，<code>reports/2026-06-30/publish.json</code> 状态为 <code>published</code>。</li>
+<li>公开状态：当天总看板和本自动化详情页 HTTP 均为 <code>200</code>；发布记录 <code>contentCommit=78b9a44</code>、<code>commit=e78ecea</code>、<code>finalHead=e78ecea</code>，<code>openclawStatus=already-delivered</code>。</li>
+<li>本次运行时长：约 34 分钟。</li>
 </ul></article>
     </div>
   
