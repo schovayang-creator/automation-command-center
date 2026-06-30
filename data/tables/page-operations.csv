@@ -33,7 +33,7 @@ data-tables,EDIT,修改口径,未来改权重、改奖励、改分类，优先�
 data-tables,QA,验收,数据页验收不是看漂亮，而是看字段是否足够追责、CSV 是否可下载、链接是否能下钻。,验收官,reports/2026-06-30/data-tables/index.html#page-guide
 help,FINAL,最终页边界,最终页只放结论、摘要、建议和成品入口；后台配置、证据链、验收方法集中在 Help。,总控台,reports/2026-06-30/help/index.html
 help,DATA,数据表入口,需要改积分、分类、页面说明、日报序列或自动化配置时，先看数据表。,数据台账,reports/2026-06-30/data-tables/index.html
-help,RAW,脱敏证据,Session、memory、发布输出和 automation.toml 只作为后台证据，不进入客户视图。,验收官,reports/2026-06-30/help/index.html#raw-evidence
+help,RAW,脱敏证据,会话状态、memory、发布输出和 automation.toml 只作为后台证据，不进入客户视图。,验收官,reports/2026-06-30/help/index.html#raw-evidence
 help,REQ,需求台账,用户要求和自评体系保存在后台，作为后续修改依据。,Codex,reports/2026-06-30/help/index.html#requirements
 system-detail,BRIEF,简报入口,3 分钟简报先给结论，避免详细页一打开就失焦。,总指挥,reports/2026-06-30/system-detail/index.html
 system-detail,RULE,规则展开,等级、XP、日报、自动化、业务类目、日历、数据治理都要能从这里找到完整解释。,系统司令,reports/2026-06-30/system-detail/index.html#level-detail
