@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:21:27.755Z",
+  "generatedAt": "2026-06-30T00:20:13.413Z",
   "reportDate": "2026-06-30",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1343,7 +1343,7 @@
       "name": "Hermes 每日任务",
       "role": "内容简报官",
       "status": "ACTIVE",
-      "artifacts": 10,
+      "artifacts": 11,
       "points": 100,
       "href": "reports/2026-06-30/cron/hermes/index.html"
     },
@@ -1429,7 +1429,7 @@
         "dailyReport": "Hermes 每日任务",
         "acceptance": "素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。"
       },
-      "artifacts": 10,
+      "artifacts": 11,
       "points": 100,
       "href": "reports/2026-06-30/cron/hermes/index.html"
     },
