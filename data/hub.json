@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T15:10:52.117Z",
+  "generatedAt": "2026-06-30T15:12:23.316Z",
   "reportDate": "2026-06-30",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1578,15 +1578,15 @@
       "lane": "专项主控 Cron",
       "role": "竞品情报官",
       "latestRun": {
-        "sessionId": "",
-        "status": "RECORDED",
+        "sessionId": "019f18f0-d363-7dc2-a01d-e09ddae052fb",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Automation 24-2 Memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-06-30/cron/24-2/index.html"
     },
     {
@@ -1799,7 +1799,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 66,
+      "artifacts": 67,
       "href": "reports/2026-06-30/codex-html/index.html"
     },
     {

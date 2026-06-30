@@ -6,7 +6,7 @@ automation,每天 07:00 双创比赛今日任务发布到 Linux 桌面,每日日
 a,A股每日模拟盘研究与盈亏回放,每日日报任务,ACTIVE,A 股交易日 00:00,交易研究官,交易日被日报收录,SUCCESS,019f1883-6998-7ee2-9fd5-93a972a778fb,-,本地归档,本地归档,2,16,44,reports/2026-06-30/cron/a/index.html
 17-00-linux-mac,每天 17:00 Linux 工作日报验收并拉取到 Mac,每日日报任务,ACTIVE,每天 17:00,Linux 验收官,被每日验收记录收录,HTTP_200,019f17c2-af02-7270-ad6b-b58352d2e0f9,/home/wang/Desktop/今日任务.html,本地归档,本地归档,4,40,66,reports/2026-06-30/cron/17-00-linux-mac/index.html
 24-6,公司机会总控中台24小时主控,专项主控 Cron,PAUSED,24 小时主控,机会总控官,作为公司机会总控类目被日报引用,DELIVERY_SUCCESS,019f159d-55ea-74f2-bf35-537d238f9b1e,-,-,本地归档,1,2,26,reports/2026-06-30/cron/24-6/index.html
-24-2,竞品同行服务商情报24小时主控,专项主控 Cron,PAUSED,24 小时主控,竞品情报官,作为竞品类目被日报引用,RECORDED,-,-,本地归档,本地归档,1,12,29,reports/2026-06-30/cron/24-2/index.html
+24-2,竞品同行服务商情报24小时主控,专项主控 Cron,PAUSED,24 小时主控,竞品情报官,作为竞品类目被日报引用,DELIVERY_SUCCESS,019f18f0-d363-7dc2-a01d-e09ddae052fb,-,本地归档,本地归档,2,14,37,reports/2026-06-30/cron/24-2/index.html
 24,山西研发客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为山西类目被日报引用,RECORDED,-,-,本地归档,本地归档,1,12,29,reports/2026-06-30/cron/24/index.html
 automation-5,苏州客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为苏州类目被日报引用,DELIVERY_SUCCESS,019f18f0-d363-7dc2-a01d-e09ddae052fb,-,本地归档,本地归档,2,14,37,reports/2026-06-30/cron/automation-5/index.html
 automation-4,陶瓷膜客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,客户转化官,作为陶瓷膜类目被日报引用,DELIVERY_SUCCESS,019f18f0-d363-7dc2-a01d-e09ddae052fb,-,本地归档,本地归档,2,14,37,reports/2026-06-30/cron/automation-4/index.html
