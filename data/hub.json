@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T00:33:35.286Z",
+  "generatedAt": "2026-06-30T09:33:45.325Z",
   "reportDate": "2026-06-30",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1278,7 +1278,7 @@
         "project": "P02",
         "task": "T02",
         "priority": "P1",
-        "title": "补齐 3 篇日报入口",
+        "title": "补齐 2 篇日报入口",
         "owner": "日报复盘官",
         "status": "待补",
         "xp": 100,
@@ -1343,7 +1343,7 @@
       "name": "Hermes 每日任务",
       "role": "内容简报官",
       "status": "ACTIVE",
-      "artifacts": 11,
+      "artifacts": 12,
       "points": 100,
       "href": "reports/2026-06-30/cron/hermes/index.html"
     },
@@ -1373,8 +1373,8 @@
       "name": "每天 17:00 Linux 工作日报验收并拉取到 Mac",
       "role": "Linux 验收官",
       "status": "ACTIVE",
-      "artifacts": 2,
-      "points": 14,
+      "artifacts": 4,
+      "points": 40,
       "href": "reports/2026-06-30/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1429,7 +1429,7 @@
         "dailyReport": "Hermes 每日任务",
         "acceptance": "素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。"
       },
-      "artifacts": 11,
+      "artifacts": 12,
       "points": 100,
       "href": "reports/2026-06-30/cron/hermes/index.html"
     },
@@ -1490,7 +1490,7 @@
       "latestRun": {
         "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
         "status": "DELIVERY_SUCCESS",
-        "completedAt": "Last run: 2026-06-29T07:26:00+08:00",
+        "completedAt": "automation memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1536,9 +1536,9 @@
       "lane": "每日日报任务",
       "role": "Linux 验收官",
       "latestRun": {
-        "sessionId": "019f159d-55ea-74f2-bf35-537d238f9b1e",
-        "status": "DELIVERY_SUCCESS",
-        "completedAt": "2026-06-22 17:35 CST",
+        "sessionId": "019f17c2-af02-7270-ad6b-b58352d2e0f9",
+        "status": "HTTP_200",
+        "completedAt": "2026-06-30 17:30 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
@@ -1549,8 +1549,8 @@
         "dailyReport": "Linux 工作日报验收并拉取到 Mac",
         "acceptance": "Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。"
       },
-      "artifacts": 2,
-      "points": 14,
+      "artifacts": 4,
+      "points": 40,
       "href": "reports/2026-06-30/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1799,7 +1799,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 15,
+      "artifacts": 17,
       "href": "reports/2026-06-30/codex-html/index.html"
     },
     {
@@ -1808,7 +1808,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 2,
+      "artifacts": 3,
       "href": "reports/2026-06-30/codex-work/index.html"
     }
   ]
