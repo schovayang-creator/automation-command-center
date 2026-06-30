@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">878 KB</span>
-            <span class="chip">2026-06-30 12:52:03</span>
+            <span class="chip">984 KB</span>
+            <span class="chip">2026-06-30 12:56:11</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>878 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>179</b><span>评分</span></div><div class="metric"><b>984 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：A股每日模拟盘研究与盈亏回放</h3>
-          <p>日报重生成完成。现在运行总控台发布脚本，并会记录 GitHub/HTTP 验证结果。</p>
-          <ul class="mini-list"><li>日报重生成完成。现在运行总控台发布脚本，并会记录 GitHub/HTTP 验证结果。</li></ul>
+          <p>已完成 2026-06-30 A 股每日模拟盘自动化，并发布到总控台。报告已生成并打开；没有任何真实交易动作。 **3 分钟简报** 今天结论：2026-06-30 是交易日候选日；今天完成了 2026-06-29 批次的模拟买入触发回放、账户盈亏计算、策略复盘和总控台发布，但下一批正式十股买入计划被阻塞。 今日重点： 1. 2026-06-29 批次今天有 6 只模拟买入触发，4 只未触发；当前模拟持仓为晶瑞电材、招商证券、京东方Ａ、宏柏新材、祥鑫科技、士兰微。 2. 今天不是这批持仓的到期卖出日，强制卖出日是 2026-07-01；今天没有按预设价成交，也没有按收盘或尾盘强平。 3. 今日模拟盈亏为 +1,327.15 CNY，模拟日收益率 +1.33%，累计模拟收益率 +0.85%；连续 +5% gate 仍为 0/3。 4. 下一批候选硬过滤后只有 6 只可执行：TCL中环、紫光国微、泰格医药、传音控股、恒瑞医药、复星医药；不足 10 只，所以没有凑数写入正式买入批次。 5. 我修了两个自动化问题：单票 K 线源异常不再中断整次日报；已有配对 T+1 卖出计划会被保留，避免重复写模拟卖出。 风险和缺口：Tushare 敏感凭证 缺失，东方财富全市场实时接口今天 502，研究降级为 seed universe K 线 fallback；行业、概念、公告、财务和龙虎榜排雷仍不完整。最大风险是数据源缺口叠加高弹性轮动，明天先看 2026-07-01 的六只持仓是否触达预设目标价。 下一步：明天优先回放 6 只当前模拟持仓的 T+1 卖出结果，并补强/扩展可审计股票池，候选不足 10 只前继续阻塞正式新批次。 公开入口： - 当天总看板：2026-06-30 总控台 - 本自动化详情页：A 股模拟盘自动化详情 发布状态：GitHub content commit e400fce，final head 9c2ac6c；GitHub Pages HTTP 验证为 200 OK。本地报告见 本地归档</p>
+          <ul class="mini-list"><li>已完成 2026-06-30 A 股每日模拟盘自动化，并发布到总控台</li><li>报告已生成并打开</li><li>没有任何真实交易动作</li><li>**3 分钟简报** 今天结论：2026-06-30 是交易日候选日</li><li>今天完成了 2026-06-29 批次的模拟买入触发回放、账户盈亏计算、策略复盘和总控台发布，但下一批正式十股买入计划被阻塞</li><li>今日重点： 1. 2026-06-29 批次今天有 6 只模拟买入触发，4 只未触发</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：A股每日模拟盘研究与盈亏回放</span>
           <span>开始：2026-06-30 20:31:33</span>
-          <span>完成：2026-06-30 20:31:33</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1782824171</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,32 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>日报重生成完成。现在运行总控台发布脚本，并会记录 GitHub/HTTP 验证结果。</p></article>
+      <article class="doc"><p>已完成 2026-06-30 A 股每日模拟盘自动化，并发布到总控台。报告已生成并打开；没有任何真实交易动作。 <strong>3 分钟简报</strong> 今天结论：2026-06-30 是交易日候选日；今天完成了 2026-06-29 批次的模拟买入触发回放、账户盈亏计算、策略复盘和总控台发布，但下一批正式十股买入计划被阻塞。 今日重点： 1. 2026-06-29 批次今天有 6 只模拟买入触发，4 只未触发；当前模拟持仓为晶瑞电材、招商证券、京东方Ａ、宏柏新材、祥鑫科技、士兰微。 2. 今天不是这批持仓的到期卖出日，强制卖出日是 2026-07-01；今天没有按预设价成交，也没有按收盘或尾盘强平。 3. 今日模拟盈亏为 +1,327.15 CNY，模拟日收益率 +1.33%，累计模拟收益率 +0.85%；连续 +5% gate 仍为 0/3。 4. 下一批候选硬过滤后只有 6 只可执行：TCL中环、紫光国微、泰格医药、传音控股、恒瑞医药、复星医药；不足 10 只，所以没有凑数写入正式买入批次。 5. 我修了两个自动化问题：单票 K 线源异常不再中断整次日报；已有配对 T+1 卖出计划会被保留，避免重复写模拟卖出。 风险和缺口：Tushare 敏感凭证 缺失，东方财富全市场实时接口今天 502，研究降级为 seed universe K 线 fallback；行业、概念、公告、财务和龙虎榜排雷仍不完整。最大风险是数据源缺口叠加高弹性轮动，明天先看 2026-07-01 的六只持仓是否触达预设目标价。 下一步：明天优先回放 6 只当前模拟持仓的 T+1 卖出结果，并补强/扩展可审计股票池，候选不足 10 只前继续阻塞正式新批次。 公开入口： - 当天总看板：2026-06-30 总控台 - 本自动化详情页：A 股模拟盘自动化详情 发布状态：GitHub content commit e400fce，final head 9c2ac6c；GitHub Pages HTTP 验证为 200 OK。本地报告见 本地归档</p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>20260630-paper-trading.html</h3><p>~/Desktop/股票/reports/html/20260630-paper-trading.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>2 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>20260630-paper-trading.md</h3><p>~/Desktop/股票/reports/daily/20260630-paper-trading.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>20260630-paper-trading.html</h3><p>~/Desktop/股票/reports/html/20260630-paper-trading.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>

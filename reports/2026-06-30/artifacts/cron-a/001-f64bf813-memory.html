@@ -77,7 +77,7 @@
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
             <span class="chip">2 KB</span>
-            <span class="chip">2026-06-30 12:51:52</span>
+            <span class="chip">2026-06-30 12:55:43</span>
           </div>
         </div>
       </div>
@@ -94,8 +94,8 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>Automation a Memory</h3>
-          <p>Last run: 2026-06-30 20:51:52 CST</p>
-          <ul class="mini-list"><li>Last run: 2026-06-30 20:51:52 CST</li><li>Ran daily A-share paper-trading automation for 20260630.</li><li>Boundary preserved: paper trading only; no broker login, no real-account read, no real order.</li><li>Data source state: Tushare 敏感凭证 Tushare 数据源缺口; Eastmoney realtime full-market endpoint FAIL; historical K-line OK (167/168 succeed…</li><li>Replayed prior paper plans: status REPLAYED, day PnL 1,327.15 CNY, day return 1.33%.</li></ul>
+          <p>Last run: 2026-06-30 20:54:49 CST</p>
+          <ul class="mini-list"><li>Last run: 2026-06-30 20:54:49 CST</li><li>Ran daily A-share paper-trading automation for 20260630.</li><li>Boundary preserved: paper trading only; no broker login, no real-account read, no real order.</li><li>Data source state: Tushare 敏感凭证 Tushare 数据源缺口; Eastmoney realtime full-market endpoint FAIL; historical K-line OK (167/168 succeed…</li><li>Replayed prior paper plans: status REPLAYED, day PnL 1,327.15 CNY, day return 1.33%.</li></ul>
         </article>
         <aside class="summary-side">
           <b>批阅路径</b>
@@ -109,15 +109,19 @@
   
       <article class="panel doc"><div class="section-title"><h2>报告正文</h2><span>memory</span></div><h1>Automation a Memory</h1>
 <ul>
-<li>Last run: 2026-06-30 20:51:52 CST</li>
+<li>Last run: 2026-06-30 20:54:49 CST</li>
 <li>Ran daily A-share paper-trading automation for 20260630.</li>
 <li>Boundary preserved: paper trading only; no broker login, no real-account read, no real order.</li>
 <li>Data source state: Tushare 敏感凭证 Tushare 数据源缺口; Eastmoney realtime full-market endpoint FAIL; historical K-line OK (167/168 succeeded, 1 failed).</li>
 <li>Replayed prior paper plans: status REPLAYED, day PnL 1,327.15 CNY, day return 1.33%.</li>
 <li>Loss-rebalance response: LOSS_REBALANCE_HIGH_ELASTIC; no profit guarantee was made.</li>
 <li>Strategy overlay: Applied project-local DEGRADED_SOURCE_SEED_EXPANSION_REQUIRED overlay on top of EXECUTABLE_DEPTH_REQUIRED: when Tushare is missing, Eastmoney realtime full-market quotes fail, seed-universe fallback is in use, and hard filters again leave fewer than 10 executable candidates, the next research cycle must expand or refresh the auditable project-local seed universe before attempting another formal ten-stock batch. The fallback universe should reach at least 300 seed symbols or produce at least 60 fresh, round-lot-executable prefilter candidates; otherwise keep PARTIAL_UNIVERSE_BLOCKED / HUMAN_DECISION_REQUIRED and list the missing seed-expansion source instead of reranking the same shallow pool.</li>
-<li>Recorded 6 pending/preserved paper trade plans and marked cost model A_SHARE_STANDARD_COST_MODEL_2026.</li>
+<li>Preserved 6 current-position paired T+1 sell plans for 2026-07-01 and blocked the next buy batch as PARTIAL_UNIVERSE_BLOCKED because hard filters left 6/10 executable candidates.</li>
+<li>Fixed daily replay resilience: per-symbol K-line source failures now become PENDING_DATA instead of aborting; existing paired T+1 sell plans are preserved to avoid duplicate paper exits.</li>
+<li>Verification: tests.test_paper_trading_daily passed 12 tests.</li>
 <li>Gate state: PAPER_GATE_CONTINUE, consecutive count 0/3.</li>
+<li>Published commander site: dashboard <a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-30/index.html;">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-30/index.html;</a> automation <a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-06-30/cron/a/index.html.">https://schovayang-creator.github.io/automation-command-center/reports/2026-06-30/cron/a/index.html.</a></li>
+<li>Publish status: GitHub commits e400fce content and 9c2ac6c final head; HTTP verification 200 OK.</li>
 <li>Report: 本地归档</li>
 <li>HTML: 本地归档</li>
 </ul></article>
