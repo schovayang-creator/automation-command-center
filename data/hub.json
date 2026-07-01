@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:58:34.229Z",
+  "generatedAt": "2026-07-01T23:04:49.899Z",
   "reportDate": "2026-07-02",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1388,8 +1388,8 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "ACTIVE",
-      "artifacts": 6,
-      "points": 80,
+      "artifacts": 10,
+      "points": 125,
       "href": "reports/2026-07-02/cron/automation-2/index.html"
     },
     {
@@ -1477,8 +1477,8 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 6,
-      "points": 80,
+      "artifacts": 10,
+      "points": 125,
       "href": "reports/2026-07-02/cron/automation-2/index.html"
     },
     {
@@ -1488,9 +1488,9 @@
       "lane": "每日日报任务",
       "role": "机会雷达官",
       "latestRun": {
-        "sessionId": "019f1e6a-62da-7b63-8582-ef00e3462be9",
-        "status": "HTTP_200",
-        "completedAt": "automation memory",
+        "sessionId": "019f1fea-9b26-7010-bab3-4bf8b026790a",
+        "status": "PUBLISH_SUCCESS",
+        "completedAt": "2026-07-01 07:14 CST",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1559,11 +1559,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "机会总控官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f1fcf-2359-7f83-8c19-ef970d3ded67",
+        "status": "SUCCESS",
+        "completedAt": "2026-07-02 06:31:36",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-02/cron/24-6/index.html"
     },
     {
@@ -1684,9 +1689,9 @@
       "lane": "一次性 / 线程唤醒",
       "role": "研究验收官",
       "latestRun": {
-        "sessionId": "019f1e6a-62da-7b63-8582-ef00e3462be9",
-        "status": "RECORDED",
-        "completedAt": "2026-07-02 00:01:56",
+        "sessionId": "019f1fcf-2359-7f83-8c19-ef970d3ded67",
+        "status": "SUCCESS",
+        "completedAt": "2026-07-02 06:31:36",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1784,7 +1789,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 3,
+      "artifacts": 14,
       "href": "reports/2026-07-02/codex-html/index.html"
     },
     {
@@ -1793,7 +1798,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 11,
+      "artifacts": 12,
       "href": "reports/2026-07-02/codex-work/index.html"
     }
   ]
