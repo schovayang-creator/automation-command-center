@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T23:31:09.226Z",
+  "generatedAt": "2026-07-01T09:30:37.163Z",
   "reportDate": "2026-07-01",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1278,7 +1278,7 @@
         "project": "P02",
         "task": "T02",
         "priority": "P1",
-        "title": "补齐 3 篇日报入口",
+        "title": "补齐 2 篇日报入口",
         "owner": "日报复盘官",
         "status": "待补",
         "xp": 100,
@@ -1343,7 +1343,7 @@
       "name": "Hermes 每日任务",
       "role": "内容简报官",
       "status": "ACTIVE",
-      "artifacts": 11,
+      "artifacts": 12,
       "points": 100,
       "href": "reports/2026-07-01/cron/hermes/index.html"
     },
@@ -1373,8 +1373,8 @@
       "name": "每天 17:00 Linux 工作日报验收并拉取到 Mac",
       "role": "Linux 验收官",
       "status": "ACTIVE",
-      "artifacts": 1,
-      "points": 13,
+      "artifacts": 4,
+      "points": 40,
       "href": "reports/2026-07-01/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1429,7 +1429,7 @@
         "dailyReport": "Hermes 每日任务",
         "acceptance": "素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。"
       },
-      "artifacts": 11,
+      "artifacts": 12,
       "points": 100,
       "href": "reports/2026-07-01/cron/hermes/index.html"
     },
@@ -1536,9 +1536,9 @@
       "lane": "每日日报任务",
       "role": "Linux 验收官",
       "latestRun": {
-        "sessionId": "",
+        "sessionId": "019f1ce9-d10b-7d63-9a4a-349450353680",
         "status": "HTTP_200",
-        "completedAt": "2026-06-22 17:35 CST",
+        "completedAt": "2026-07-01 17:20 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
@@ -1549,8 +1549,8 @@
         "dailyReport": "Linux 工作日报验收并拉取到 Mac",
         "acceptance": "Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。"
       },
-      "artifacts": 1,
-      "points": 13,
+      "artifacts": 4,
+      "points": 40,
       "href": "reports/2026-07-01/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1699,9 +1699,9 @@
       "lane": "一次性 / 线程唤醒",
       "role": "研究验收官",
       "latestRun": {
-        "sessionId": "019f1ac3-c56a-73c1-91f7-031f31d5b6a7",
-        "status": "HTTP_200",
-        "completedAt": "2026-06-30 08:31 CST",
+        "sessionId": "019f1ce9-d10b-7d63-9a4a-349450353680",
+        "status": "SUCCESS",
+        "completedAt": "2026-07-01 17:20 CST",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1799,7 +1799,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 21,
+      "artifacts": 23,
       "href": "reports/2026-07-01/codex-html/index.html"
     },
     {
@@ -1808,7 +1808,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 2,
+      "artifacts": 11,
       "href": "reports/2026-07-01/codex-work/index.html"
     }
   ]
