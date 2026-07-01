@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T23:04:49.899Z",
+  "generatedAt": "2026-07-01T23:09:15.315Z",
   "reportDate": "2026-07-02",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1417,8 +1417,8 @@
       "role": "内容简报官",
       "latestRun": {
         "sessionId": "019f1fcf-2359-7f83-8c19-ef970d3ded67",
-        "status": "SUCCESS",
-        "completedAt": "Hermes Daily Automation Memory",
+        "status": "HTTP_200",
+        "completedAt": "Hermes Automation Memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1490,7 +1490,7 @@
       "latestRun": {
         "sessionId": "019f1fea-9b26-7010-bab3-4bf8b026790a",
         "status": "PUBLISH_SUCCESS",
-        "completedAt": "2026-07-01 07:14 CST",
+        "completedAt": "automation memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1561,7 +1561,7 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019f1fcf-2359-7f83-8c19-ef970d3ded67",
-        "status": "SUCCESS",
+        "status": "RECORDED",
         "completedAt": "2026-07-02 06:31:36",
         "publishTarget": ""
       },
@@ -1689,9 +1689,9 @@
       "lane": "一次性 / 线程唤醒",
       "role": "研究验收官",
       "latestRun": {
-        "sessionId": "019f1fcf-2359-7f83-8c19-ef970d3ded67",
-        "status": "SUCCESS",
-        "completedAt": "2026-07-02 06:31:36",
+        "sessionId": "019f1fea-9b26-7010-bab3-4bf8b026790a",
+        "status": "PUBLISH_SUCCESS",
+        "completedAt": "2026-07-02 07:01:36",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1789,7 +1789,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 14,
+      "artifacts": 15,
       "href": "reports/2026-07-02/codex-html/index.html"
     },
     {
