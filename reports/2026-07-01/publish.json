@@ -1,5 +1,5 @@
 {
-  "status": "pending-publish",
+  "status": "published",
   "date": "2026-07-01",
   "automation": "automation-2",
   "generatedAt": "2026-07-01T11:03:54.882Z",
@@ -8,5 +8,12 @@
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-01/cron/index.html",
   "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-01/cron/automation-2/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
-  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git",
+  "contentCommit": "76eeed0",
+  "commit": "76eeed0",
+  "http": {
+    "ok": true,
+    "attempts": 1,
+    "output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0\r  0 24606    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0\nHTTP/2 200 \r\nserver: GitHub.com\r\ncontent-type: text/html; charset=utf-8\r\nlast-modified: Wed, 01 Jul 2026 09:31:36 GMT\r\naccess-control-allow-origin: *\r\nstrict-transport-security: max-age=31556952\r\netag: \"6a44de78-601e\"\r\nexpires: Wed, 01 Jul 2026 11:14:14 GMT\r\ncache-control: max-age=600\r\nx-proxy-cache: MISS\r\nx-github-request-id: 521E:348651:86993A:890E9C:6A44F42E\r\naccept-ranges: bytes\r\nage: 0\r\ndate: Wed, 01 Jul 2026 11:04:14 GMT\r\nvia: 1.1 varnish\r\nx-served-by: cache-nrt-rjtf7700099-NRT\r\nx-cache: MISS\r\nx-cache-hits: 0\r\nx-timer: S1782903855.590303,VS0,VE215\r\nvary: Accept-Encoding\r\nx-fastly-request-id: 421ccac225af2ec9dd6dc33790b9b97819311bc1\r\ncontent-length: 24606\r\n\r\n"
+  }
 }
