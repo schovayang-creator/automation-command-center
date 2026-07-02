@@ -77,7 +77,7 @@
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
             <span class="chip">12 KB</span>
-            <span class="chip">2026-07-01 09:32:35</span>
+            <span class="chip">2026-07-02 09:05:23</span>
           </div>
         </div>
       </div>
@@ -212,6 +212,16 @@
 <li>公开状态：当天总看板、当天最终日报和本自动化详情页均已更新到今天的真实验收口径；GitHub Pages HTTP 校验为 <code>200</code>。</li>
 <li>公开正文已确认显示“Linux 已可通过 SSH 登录，HTML 日报已拉回 Mac，但今日任务页仍停留在 2026-06-16，inbox 目录不存在”，不再是旧的测试占位文案。</li>
 <li>本次最终运行时长：约 30 分钟。</li>
+</ul>
+<p>2026-07-02 17:05:23 CST</p>
+<ul>
+<li>今天通过 SSH 登录 <code>192.168.3.32</code> 成功；ping 有 50% 丢包但 22 端口可访问。</li>
+<li>Linux 上 <code>/home/wang/Desktop/今日任务.html</code>、<code>/home/wang/Desktop/inbox</code> 和 <code>/home/wang/Desktop/linux-daily-report</code> 都不存在，未能拉回 Linux 原始日报。</li>
+<li>检查到 openclaw-gateway、python 和 node/Chrome 相关进程仍在运行；本次只记录状态，没有终止进程，也没有关机。</li>
+<li>已在 <code>本地归档</code> 写入 <code>2026-07-02-Linux工作日报.html</code>、<code>2026-07-02-验收记录.md</code>、连通性日志和发布验证日志。</li>
+<li>总控台发布脚本已完成并推送；publish.json 状态为 published，contentCommit=b62fd92，final commit=7949542，OpenClaw 状态 already-delivered。</li>
+<li>公开页面已做 HTTP 校验；后续重点是恢复 Linux 侧今日任务页、inbox 和日报生成目录。</li>
+<li>本次运行时间：约 3 分钟。</li>
 </ul></article>
     </div>
   
