@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T23:18:27.814Z",
+  "generatedAt": "2026-07-03T09:34:26.459Z",
   "reportDate": "2026-07-03",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1278,7 +1278,7 @@
         "project": "P02",
         "task": "T02",
         "priority": "P1",
-        "title": "补齐 3 篇日报入口",
+        "title": "补齐 2 篇日报入口",
         "owner": "日报复盘官",
         "status": "待补",
         "xp": 100,
@@ -1373,8 +1373,8 @@
       "name": "每天 17:00 Linux 工作日报验收并拉取到 Mac",
       "role": "Linux 验收官",
       "status": "ACTIVE",
-      "artifacts": 1,
-      "points": 13,
+      "artifacts": 4,
+      "points": 40,
       "href": "reports/2026-07-03/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1465,7 +1465,7 @@
       "role": "机会雷达官",
       "latestRun": {
         "sessionId": "019f250f-e97d-78c0-a07f-8e96f8c87e21",
-        "status": "SUCCESS",
+        "status": "HTTP_200",
         "completedAt": "2026-07-03 07:10 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
@@ -1488,7 +1488,7 @@
       "lane": "每日日报任务",
       "role": "Linux 验收官",
       "latestRun": {
-        "sessionId": "",
+        "sessionId": "019f2736-3d10-75c3-a945-55c129a77ffc",
         "status": "HTTP_200",
         "completedAt": "2026-06-22 17:35 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
@@ -1501,8 +1501,8 @@
         "dailyReport": "Linux 工作日报验收并拉取到 Mac",
         "acceptance": "Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。"
       },
-      "artifacts": 1,
-      "points": 13,
+      "artifacts": 4,
+      "points": 40,
       "href": "reports/2026-07-03/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1684,10 +1684,10 @@
       "lane": "一次性 / 线程唤醒",
       "role": "研究验收官",
       "latestRun": {
-        "sessionId": "019f250f-e97d-78c0-a07f-8e96f8c87e21",
+        "sessionId": "019f2736-3d10-75c3-a945-55c129a77ffc",
         "status": "SUCCESS",
-        "completedAt": "2026-07-03 07:00:27",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
+        "completedAt": "2026-07-03 17:01:33",
+        "publishTarget": ""
       },
       "memoryPath": "",
       "dailyTask": null,
@@ -1784,7 +1784,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 4,
+      "artifacts": 6,
       "href": "reports/2026-07-03/codex-html/index.html"
     },
     {
@@ -1793,7 +1793,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 2,
+      "artifacts": 4,
       "href": "reports/2026-07-03/codex-work/index.html"
     }
   ]

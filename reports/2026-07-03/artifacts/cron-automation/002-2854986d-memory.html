@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">915 B</span>
-            <span class="chip">2026-07-02 23:15:14</span>
+            <span class="chip">2 KB</span>
+            <span class="chip">2026-07-02 23:19:37</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>915 B</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>2 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -101,7 +101,7 @@
           <b>批阅路径</b>
           <span>上方报告摘要</span>
           <span>下方完整正文</span>
-          <span>2026-07-03 07:10 CST</span><span>2026-07-03 07:15 CST</span>
+          <span>2026-07-03 07:10 CST</span><span>2026-07-03 07:15 CST</span><span>2026-07-03 07:19 CST final</span><span>2026-07-03 07:19 CST final verified</span>
           <a href="#" data-local-only="true">查看脱敏详情</a>
         </aside>
       </div>
@@ -119,6 +119,18 @@
 <h2>2026-07-03 07:15 CST</h2>
 <ul>
 <li>Linux 发布失败：指定发布脚本不存在，直接 scp 兜底失败；已回填今日 HTML 和 3 分钟简报，并写入失败记录。</li>
+</ul>
+<h2>2026-07-03 07:19 CST final</h2>
+<ul>
+<li>总控台二次发布成功，最终 commit e42a004；公开总看板与自动化详情页 HTTP 200。</li>
+<li>最终校验：存在缺口；详情见 本地归档。</li>
+<li>Linux 桌面发布失败，原因是发布脚本缺失且 192.168.3.32:22 scp 连接超时；已写失败记录。</li>
+</ul>
+<h2>2026-07-03 07:19 CST final verified</h2>
+<ul>
+<li>公开详情页缓存刷新后校验通过：HTTP 200，包含 3 分钟简报、SCIP+、湖南省（国际）创新创业大赛、Linux 发布失败口径；无 file/local/脱敏证据 等禁用内容。</li>
+<li>最终总控台 commit e42a004，内容 commit 5126da3。</li>
+<li>今日仍需人工处理：恢复 Linux 发布脚本或确认 192.168.3.32 SSH 可达。</li>
 </ul></article>
     </div>
   

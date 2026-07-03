@@ -1,19 +1,12 @@
 {
-  "status": "published",
+  "status": "pending-publish",
   "date": "2026-07-03",
-  "automation": "automation",
-  "generatedAt": "2026-07-02T23:18:27.962Z",
+  "automation": "17-00-linux-mac",
+  "generatedAt": "2026-07-03T09:34:26.587Z",
   "publicDashboardUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-03/index.html",
   "publicDailyReportUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-03/daily-report/index.html",
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-03/cron/index.html",
-  "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-03/cron/automation/index.html",
+  "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-03/cron/17-00-linux-mac/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
-  "remote": "https://github.com/schovayang-creator/automation-command-center.git",
-  "contentCommit": "5126da3",
-  "commit": "5126da3",
-  "http": {
-    "ok": true,
-    "attempts": 1,
-    "output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0 19937    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\nHTTP/2 200 \r\nserver: GitHub.com\r\ncontent-type: text/html; charset=utf-8\r\nlast-modified: Thu, 02 Jul 2026 23:16:51 GMT\r\naccess-control-allow-origin: *\r\nstrict-transport-security: max-age=31556952\r\netag: \"6a46f163-4de1\"\r\nexpires: Thu, 02 Jul 2026 23:28:31 GMT\r\ncache-control: max-age=600\r\nx-proxy-cache: MISS\r\nx-github-request-id: ADDC:3535BF:1AC07D:1B185D:6A46F1C7\r\naccept-ranges: bytes\r\nage: 0\r\ndate: Thu, 02 Jul 2026 23:18:31 GMT\r\nvia: 1.1 varnish\r\nx-served-by: cache-nrt-rjaa8190040-NRT\r\nx-cache: MISS\r\nx-cache-hits: 0\r\nx-timer: S1783034311.263487,VS0,VE180\r\nvary: Accept-Encoding\r\nx-fastly-request-id: d5b26aa29a1b8e329ed55ea2bf73ec0caace0c73\r\ncontent-length: 19937\r\n\r\n"
-  }
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
 }
