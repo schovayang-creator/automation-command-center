@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">14 KB</span>
-            <span class="chip">2026-07-03 09:52:21</span>
+            <span class="chip">15 KB</span>
+            <span class="chip">2026-07-04 09:39:14</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>14 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>自动化记忆</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>15 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -231,6 +231,16 @@
 <li>已执行 <code>publish-local-daily-index.mjs --date 2026-07-03 --automation 17-00-linux-mac --publish --notify</code> 并推送成功；<code>publish.json</code> 状态为 <code>published</code>，<code>contentCommit=1746db5</code>，最终 <code>commit=35b1c71</code>。</li>
 <li>本地总控台页面已正确呈现今天“17:30 前仍不可达”的失败验收，但截至 17:50，公开 GitHub Pages 总看板和本自动化详情页虽返回 HTTP <code>200</code>，正文仍命中旧缓存，未刷新到今天内容。</li>
 <li>本次运行时长：约 49 分钟。</li>
+</ul>
+<p>2026-07-04 17:38 CST</p>
+<ul>
+<li>今天按 17:02 到 17:30 的规则持续重试连接 <code>192.168.3.32</code>；<code>17:02</code>、<code>17:08</code>、<code>17:13</code>、<code>17:18</code>、<code>17:23</code>、<code>17:28</code> 和 <code>17:30</code> 终检都显示 <code>ping</code> 100% 丢包、<code>22</code> 端口超时、SSH 超时，截止前始终不可达。</li>
+<li>因 Linux 截止前一直不可达，今天无法读取 <code>/home/wang/Desktop/今日任务.html</code>、<code>/home/wang/Desktop/inbox</code>、<code>/home/wang/Desktop/linux-daily-report</code>，也无法确认 <code>codex/openclaw/python/node</code> 是否仍在运行；本次只记录失败，不关机。</li>
+<li>用户指定的本地脚本目录 <code>本地归档</code> 仍不存在，所以即使 Linux 恢复，后续也不能按原脚本链路直接执行。</li>
+<li>已在 <code>本地归档</code> 生成 <code>2026-07-04-Linux工作日报.html</code>、<code>2026-07-04-验收记录.md</code>、<code>2026-07-04-linux-check.log</code>、<code>2026-07-04-publish.log</code>、<code>2026-07-04-public-verify.log</code>。</li>
+<li>已执行 <code>publish-local-daily-index.mjs --date 2026-07-04 --automation 17-00-linux-mac --publish --notify</code> 并推送成功；<code>publish.json</code> 状态为 <code>published</code>，<code>contentCommit=45ccbfa</code>，最终 <code>commit=829bca5</code>，<code>openclawStatus=already-delivered</code>。</li>
+<li>公开状态已复核：当天总看板和本自动化详情页 HTTP 均为 <code>200</code>，并且公开正文已命中“17:30 前 Linux 仍不可达”“没有把 Linux 原始日报拉回 Mac”等今天的失败验收内容。</li>
+<li>本次运行时长：约 37 分钟。</li>
 </ul></article>
     </div>
   
