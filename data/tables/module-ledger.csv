@@ -8,5 +8,5 @@ policy-subsidy,PC,政策补贴项目申报雷达,待归档,业务类目,类目�
 bidding-signal,BD,招投标环评技改意向雷达,待归档,业务类目,类目汇报,0,待补,招投标、环评、备案、技改、设备更新等花钱信号进入日报体系；当前保留类目位。,reports/2026-07-05/bidding-signal/index.html
 expert-pool,EX,专家高校博士资源池,待归档,业务类目,类目汇报,0,待补,专家、高校、博士团队、技术转移与产学研资源进入日报体系；当前保留类目位。,reports/2026-07-05/expert-pool/index.html
 company-command,OC,公司机会总控中台,待启动,业务类目,类目汇报,0,待补,公司机会、销售触点、政策、客户和资源池的总控类目；作为跨类目汇总入口保留。,reports/2026-07-05/company-command/index.html
-codex-html,HTML,Codex HTML 交付件,自动收录,交付件看板,按日归档,4,Yang 自动化总控台 / Yang 自动化总控台 / Yang 自动化总控台,当天 Codex 会话和本地看板提到的 HTML 成品统一进入这里：每个 HTML 都有总控台风格批阅页，说明做了什么、脱敏证据在哪里。,reports/2026-07-05/codex-html/index.html
-codex-work,WORK,Codex 工作交差,自动收录,交差看板,按会话归档,1,自动化任务：Hermes 每日任务,本机 Codex 会话按日期自动生成交差页：每次工作都说明用户要什么、Codex 做了什么、结果和证据在哪里；HTML 成品另进入 Codex HTML 交付件看板。,reports/2026-07-05/codex-work/index.html
+codex-html,HTML,Codex HTML 交付件,自动收录,交付件看板,按日归档,21,今日任务 - 双创比赛：周日跳过，明日回到 SCIP+ 与湖南赛核验 / Yang 自动化总控台 / Yang 自动化总控台,当天 Codex 会话和本地看板提到的 HTML 成品统一进入这里：每个 HTML 都有总控台风格批阅页，说明做了什么、脱敏证据在哪里。,reports/2026-07-05/codex-html/index.html
+codex-work,WORK,Codex 工作交差,自动收录,交差看板,按会话归档,2,自动化任务：Hermes 每日任务 / <name>startup-competition-scout</name> <path>本地归档 --- name: startup-com…,本机 Codex 会话按日期自动生成交差页：每次工作都说明用户要什么、Codex 做了什么、结果和证据在哪里；HTML 成品另进入 Codex HTML 交付件看板。,reports/2026-07-05/codex-work/index.html
