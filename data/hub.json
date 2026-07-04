@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T22:39:53.752Z",
+  "generatedAt": "2026-07-04T22:43:37.494Z",
   "reportDate": "2026-07-05",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1417,7 +1417,7 @@
       "role": "内容简报官",
       "latestRun": {
         "sessionId": "019f2f41-dbb9-7091-9463-9cca0b7b39a4",
-        "status": "RECORDED",
+        "status": "HTTP_200",
         "completedAt": "Hermes Automation Memory",
         "publishTarget": ""
       },
@@ -1559,11 +1559,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "机会总控官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f2f41-dbb9-7091-9463-9cca0b7b39a4",
+        "status": "HTTP_200",
+        "completedAt": "2026-07-05 06:31:13",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-05/cron/24-6/index.html"
     },
     {
@@ -1657,11 +1662,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "政策机会官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f2f41-dbb9-7091-9463-9cca0b7b39a4",
+        "status": "HTTP_200",
+        "completedAt": "2026-07-05 06:31:13",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-05/cron/24-3/index.html"
     },
     {
@@ -1670,11 +1680,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "资源池官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f2f41-dbb9-7091-9463-9cca0b7b39a4",
+        "status": "HTTP_200",
+        "completedAt": "2026-07-05 06:31:13",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-05/cron/24-5/index.html"
     },
     {
@@ -1685,7 +1700,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019f2f41-dbb9-7091-9463-9cca0b7b39a4",
-        "status": "RECORDED",
+        "status": "HTTP_200",
         "completedAt": "2026-07-05 06:31:13",
         "publishTarget": ""
       },
@@ -1784,7 +1799,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 0,
+      "artifacts": 4,
       "href": "reports/2026-07-05/codex-html/index.html"
     },
     {
