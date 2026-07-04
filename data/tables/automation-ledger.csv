@@ -1,16 +1,16 @@
 ID,名称,分层,状态,频率,角色,收录方式,最新运行,会话状态,发布目标,Memory,工作目录,产物,XP,治理分,页面
 hermes,Hermes 每日任务,每日日报任务,ACTIVE,每天 06:30,内容简报官,被内容日报收录,DELIVERY_SUCCESS,019f2a1a-7d86-77d3-b0f4-37ed79d075d7,-,本地归档,本地归档,11,100,90,reports/2026-07-04/cron/hermes/index.html
-automation-2,总经理助理,每日日报任务,ACTIVE,每天 19:00,总经理助理,被总经理日报收录,RECORDED,-,-,本地归档,本地归档,9,125,90,reports/2026-07-04/cron/automation-2/index.html
+automation-2,总经理助理,每日日报任务,ACTIVE,每天 19:00,总经理助理,被总经理日报收录,SUCCESS,019f2a36-6a73-7db3-9786-2b6e6c6ce476,/home/wang/Desktop/今日任务.html,本地归档,本地归档,10,125,90,reports/2026-07-04/cron/automation-2/index.html
 automation,每天 07:00 双创比赛今日任务发布到 Linux 桌面,每日日报任务,ACTIVE,每天 07:00,机会雷达官,被每日机会简报收录,SUCCESS,019f2a36-6a73-7db3-9786-2b6e6c6ce476,/home/wang/Desktop/今日任务.html,本地归档,本地归档,3,30,60,reports/2026-07-04/cron/automation/index.html
-17-00-linux-mac,每天 17:00 Linux 工作日报验收并拉取到 Mac,每日日报任务,ACTIVE,每天 17:00,Linux 验收官,被每日验收记录收录,HTTP_200,-,/home/wang/Desktop/今日任务.html,本地归档,本地归档,1,13,36,reports/2026-07-04/cron/17-00-linux-mac/index.html
-automation-3,曹博士岗位更新,每日日报任务,PAUSED,每天 22:30,岗位情报官,被每日岗位简报收录,DELIVERY_SUCCESS,-,-,本地归档,本地归档,2,28,35,reports/2026-07-04/cron/automation-3/index.html
+17-00-linux-mac,每天 17:00 Linux 工作日报验收并拉取到 Mac,每日日报任务,ACTIVE,每天 17:00,Linux 验收官,被每日验收记录收录,HTTP_200,019f2c5c-3a83-7092-b0fb-84efa641860f,/home/wang/Desktop/今日任务.html,本地归档,本地归档,4,40,66,reports/2026-07-04/cron/17-00-linux-mac/index.html
+automation-3,曹博士岗位更新,每日日报任务,PAUSED,每天 22:30,岗位情报官,被每日岗位简报收录,DELIVERY_SUCCESS,019f2a36-6a73-7db3-9786-2b6e6c6ce476,/home/wang/Desktop/今日任务.html,本地归档,本地归档,3,30,43,reports/2026-07-04/cron/automation-3/index.html
 a,A股每日模拟盘研究与盈亏回放,每日日报任务,PAUSED,A 股交易日 00:00,交易研究官,交易日被日报收录,DELIVERY_SUCCESS,019f2a36-6a73-7db3-9786-2b6e6c6ce476,/home/wang/Desktop/今日任务.html,本地归档,本地归档,2,16,32,reports/2026-07-04/cron/a/index.html
-24-6,公司机会总控中台24小时主控,专项主控 Cron,PAUSED,24 小时主控,机会总控官,作为公司机会总控类目被日报引用,DELIVERY_SUCCESS,019f2a1a-7d86-77d3-b0f4-37ed79d075d7,-,-,本地归档,1,2,26,reports/2026-07-04/cron/24-6/index.html
-24-2,竞品同行服务商情报24小时主控,专项主控 Cron,PAUSED,24 小时主控,竞品情报官,作为竞品类目被日报引用,RECORDED,-,-,本地归档,本地归档,1,12,29,reports/2026-07-04/cron/24-2/index.html
-24,山西研发客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为山西类目被日报引用,RECORDED,-,-,本地归档,本地归档,1,12,29,reports/2026-07-04/cron/24/index.html
-automation-5,苏州客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为苏州类目被日报引用,SUCCESS,-,-,本地归档,本地归档,1,12,29,reports/2026-07-04/cron/automation-5/index.html
-automation-4,陶瓷膜客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,客户转化官,作为陶瓷膜类目被日报引用,RECORDED,-,-,本地归档,本地归档,1,12,29,reports/2026-07-04/cron/automation-4/index.html
-24-4,招投标环评技改意向雷达24小时主控,专项主控 Cron,PAUSED,24 小时主控,意向信号官,作为招投标类目被日报引用,待归档,-,-,-,本地归档,0,0,18,reports/2026-07-04/cron/24-4/index.html
-24-3,政策补贴项目申报雷达24小时主控,专项主控 Cron,PAUSED,24 小时主控,政策机会官,作为政策类目被日报引用,待归档,-,-,-,本地归档,0,0,18,reports/2026-07-04/cron/24-3/index.html
+24-6,公司机会总控中台24小时主控,专项主控 Cron,PAUSED,24 小时主控,机会总控官,作为公司机会总控类目被日报引用,SUCCESS,019f2a36-6a73-7db3-9786-2b6e6c6ce476,/home/wang/Desktop/今日任务.html,-,本地归档,1,2,26,reports/2026-07-04/cron/24-6/index.html
+24-2,竞品同行服务商情报24小时主控,专项主控 Cron,PAUSED,24 小时主控,竞品情报官,作为竞品类目被日报引用,HTTP_200,019f2c5c-3a83-7092-b0fb-84efa641860f,/home/wang/Desktop/今日任务.html,本地归档,本地归档,2,14,37,reports/2026-07-04/cron/24-2/index.html
+24,山西研发客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为山西类目被日报引用,HTTP_200,019f2c5c-3a83-7092-b0fb-84efa641860f,/home/wang/Desktop/今日任务.html,本地归档,本地归档,2,14,37,reports/2026-07-04/cron/24/index.html
+automation-5,苏州客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,销售转化官,作为苏州类目被日报引用,HTTP_200,019f2c5c-3a83-7092-b0fb-84efa641860f,/home/wang/Desktop/今日任务.html,本地归档,本地归档,2,14,37,reports/2026-07-04/cron/automation-5/index.html
+automation-4,陶瓷膜客户转化24小时主控,专项主控 Cron,PAUSED,24 小时主控,客户转化官,作为陶瓷膜类目被日报引用,HTTP_200,019f2c5c-3a83-7092-b0fb-84efa641860f,/home/wang/Desktop/今日任务.html,本地归档,本地归档,2,14,37,reports/2026-07-04/cron/automation-4/index.html
+24-4,招投标环评技改意向雷达24小时主控,专项主控 Cron,PAUSED,24 小时主控,意向信号官,作为招投标类目被日报引用,HTTP_200,019f2c5c-3a83-7092-b0fb-84efa641860f,/home/wang/Desktop/今日任务.html,-,本地归档,1,2,26,reports/2026-07-04/cron/24-4/index.html
+24-3,政策补贴项目申报雷达24小时主控,专项主控 Cron,PAUSED,24 小时主控,政策机会官,作为政策类目被日报引用,SUCCESS,019f2a36-6a73-7db3-9786-2b6e6c6ce476,/home/wang/Desktop/今日任务.html,-,本地归档,1,2,26,reports/2026-07-04/cron/24-3/index.html
 24-5,专家高校博士资源池24小时主控,专项主控 Cron,PAUSED,24 小时主控,资源池官,作为专家资源类目被日报引用,DELIVERY_SUCCESS,019f2a1a-7d86-77d3-b0f4-37ed79d075d7,-,-,本地归档,1,2,26,reports/2026-07-04/cron/24-5/index.html
-skill,8小时后验收隔日预测 skill 重做优化,一次性 / 线程唤醒,PAUSED,一次性 8 小时后验收,研究验收官,登记在自动化台账，不计入每日日报任务,DELIVERY_SUCCESS,019f2a1a-7d86-77d3-b0f4-37ed79d075d7,-,-,-,7,53,76,reports/2026-07-04/cron/skill/index.html
+skill,8小时后验收隔日预测 skill 重做优化,一次性 / 线程唤醒,PAUSED,一次性 8 小时后验收,研究验收官,登记在自动化台账，不计入每日日报任务,SUCCESS,019f2a36-6a73-7db3-9786-2b6e6c6ce476,/home/wang/Desktop/今日任务.html,-,-,7,53,76,reports/2026-07-04/cron/skill/index.html

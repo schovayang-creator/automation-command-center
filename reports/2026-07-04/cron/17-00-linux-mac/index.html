@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>每天 17:00 Linux 工作日报验收并拉取到 Mac</title>
+  <title>Linux 工作日报验收并拉取到 Mac</title>
   <link rel="stylesheet" href="../../../../assets/commander.css?v=20260704-todo1">
 </head>
 <body class="commander">
@@ -59,119 +59,67 @@
             <div class="crumbs">
               <a href="../../../../index.html">总控台</a>
               <span>/</span>
-              <span>每天 17:00 Linux 工作日报验收并拉取到 Mac</span>
+              <span>Linux 工作日报验收并拉取到 Mac</span>
             </div>
-            <p class="small">Linux 验收官 · 当天自动化报告批阅页</p>
+            <p class="small">Linux 验收官 · Cron 任务原网页已套用总控台风格</p>
           </div>
           <div class="top-actions">
             <a class="action primary" href="../../daily-report/index.html">当天最终日报</a><a class="action " href="../index.html">每日自动化简报</a><a class="action " href="../../index.html">当天总看板</a>
           </div>
         </header>
         
-    <section class="hero compact-hero">
+    <section class="hero compact-hero report-detail-hero">
       <div class="hero-main">
         <div>
-          <p class="kicker">每日日报任务 · Linux 验收官</p>
-          <h2>每天 17:00 Linux 工作日报验收并拉取到 Mac</h2>
+          <p class="kicker">每天 17:00 · Linux 验收官</p>
+          <h2>Linux 工作日报验收并拉取到 Mac</h2>
           <p class="hero-copy">从 Linux 拉取当日工作日报，核对早间任务并写 Mac 端验收记录。</p>
           <div class="chip-row hero-chip-row">
-            <span class="chip">今日待补</span>
-            <span class="chip">每天 17:00</span>
-            <span class="chip">13 XP</span>
+            <span class="chip">每日日报任务</span>
+            <span class="chip">今日已完成</span>
+            <span class="chip">40 XP</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>任务指标</h2>
-        <div class="metric-row"><div class="metric"><b>今日待补</b><span>报告状态</span></div><div class="metric"><b>0</b><span>可批阅</span></div><div class="metric"><b>13</b><span>XP</span></div><div class="metric"><b>36</b><span>治理分</span></div></div>
+        <div class="metric-row"><div class="metric"><b>今日已完成</b><span>状态</span></div><div class="metric"><b>4</b><span>产物</span></div><div class="metric"><b>66</b><span>治理分</span></div><div class="metric"><b>4</b><span>日报序列</span></div></div>
       </aside>
     </section>
     <section class="grid">
-      
-      
-    <section class="panel span-12 artifact-summary automation-report-summary">
-      <div class="section-title"><h2>3 分钟简报</h2><span>今日待补</span></div>
-      <div class="summary-layout">
-        <article class="summary-main">
-          <h3>Linux 工作日报验收并拉取到 Mac</h3>
-          <p>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</p>
-          <ul class="mini-list summary-points">
-            <li>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</li><li>今天报告内容仍是测试链路，业务日志和任务识别规则还没有完全接入。</li><li>Linux 端检测到仍有后台进程运行，页面只记录状态，不做终止。</li><li>下一轮要确认日报内容源、任务状态识别规则和传输稳定性。</li><li>今日正式报告尚未归档，保留日报入口等待补齐。</li>
-          </ul>
-        </article>
-        <aside class="summary-side">
-          <b>今天怎么读</b>
-          <span>下一步把真实 Codex/OpenClaw 日志接入日报内容源，再复核跨设备拉取是否稳定。</span>
-          <span>当前报告能证明链路跑通，但不能证明 Linux 当天所有业务任务已经被完整汇总。</span>
-          <span>有正式报告时看正文；没有正式报告时看待补原因和下一步。</span>
-          <a href="../../daily-report/index.html">返回当天最终日报</a>
-        </aside>
-      </div>
-    </section>
-  
+      <section class="panel span-12 artifact-summary automation-report-summary">
+        <div class="section-title"><h2>3 分钟简报</h2><span>Cron 原网页已按总控台风格重排</span></div>
+        <div class="summary-layout">
+          <article class="summary-main">
+            <h3>2026-07-04 Linux 工作日报</h3>
+            <p>今天按 17:00 到 17:30 的规则持续重试连接 Linux，但 192.168.3.32 一直不可达，因此没有读取到 Linux 桌面，也没有把 Linux 原始日报拉回 Mac；本次在 Mac 侧生成失败验收日报。</p>
+            <ul class="mini-list summary-points"><li>17:02、17:08、17:13、17:18、17:23、17:28 和 17:30 终检都显示 ping 100% 丢包，22 端口探测持续超时，SSH 始终无法登录。</li><li>因为整段时间都没有成功连接 Linux，今天无法确认 Linux 桌面 是否存在，也无法检查 Linux 桌面、Linux 桌面 和正在运行的 codex、openclaw、python、node 任务状态。</li><li>今日产物已完成生成，关键交付入口已更新。</li><li>今日正式网页已接入总控台，并转成原生日报详情页。</li><li>已沉淀 2 个可打开成果：2026-07-04 Linux 工作日报、2026-07-04-验收记录。</li></ul>
+          </article>
+          <aside class="summary-side">
+            <b>今天怎么读</b>
+            <span>人工现在最该先检查 Linux 电源、网络和 SSH 可达性；主机恢复后，明天第一步重新读取今日任务页并补拉原始日报。</span>
+            <span>当前缺口是 Linux 主机网络或开机状态异常，导致今日任务页、直观日报、正式 HTML 日报和运行中任务状态都无法验收；同时本地既定拉取脚本目录缺失，后续仍需补回或继续使用直连 SSH 兜底。</span>
+            <span>下方保留原 cron 网页内容，但已经拆成总控台原生板块。</span>
+            <a href="../../daily-report/index.html">返回当天最终日报</a>
+          </aside>
+        </div>
+      </section>
       
     <section class="panel span-12 native-html-report inline-report">
-      <div class="section-title"><h2>任务原网页内容</h2><span>今日待补原因已按总控台风格重排</span></div>
+      <div class="section-title"><h2>任务原网页内容</h2><span>直接按总控台风格重排</span></div>
       <div class="native-html-grid">
         <article class="native-html-section">
           <div class="module-head">
-            <h3>Linux 工作日报验收并拉取到 Mac</h3>
-            <span class="status warn">今日待补</span>
+            <h3>3 分钟简报</h3>
+            <span class="status info">任务页</span>
           </div>
-          <ul class="mini-list native-html-list">
-            <li>Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。</li>
-            <li>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</li>
-            <li>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</li><li>今天报告内容仍是测试链路，业务日志和任务识别规则还没有完全接入。</li><li>Linux 端检测到仍有后台进程运行，页面只记录状态，不做终止。</li><li>下一轮要确认日报内容源、任务状态识别规则和传输稳定性。</li><li>今日正式报告尚未归档，保留日报入口等待补齐。</li>
-          </ul>
-        </article>
-        <article class="native-html-section">
-          <div class="module-head">
-            <h3>待补处理口径</h3>
-            <span class="status info">日报占位</span>
-          </div>
-          <ul class="mini-list native-html-list">
-            <li>今天没有匹配到正式报告、任务页或可归档 HTML，因此本区只展示待补说明，不展示源报告内容。</li>
-            <li>下一步把真实 Codex/OpenClaw 日志接入日报内容源，再复核跨设备拉取是否稳定。</li>
-            <li>当前报告能证明链路跑通，但不能证明 Linux 当天所有业务任务已经被完整汇总。</li>
-          </ul>
+          <ul class="mini-list native-html-list"><li>验收结论：17:30 前 Linux 仍不可达</li><li>今天按 17:00 到 17:30 的规则持续重试连接 Linux，但 192.168.3.32 一直不可达，因此没有读取到 Linux 桌面，也没有把 Linux 原始日报拉回 Mac；本次在 Mac 侧生成失败验收日报。</li><li>17:02、17:08、17:13、17:18、17:23、17:28 和 17:30 终检都显示 ping 100% 丢包，22 端口探测持续超时，SSH 始终无法登录。</li><li>因为整段时间都没有成功连接 Linux，今天无法确认 Linux 桌面 是否存在，也无法检查 Linux 桌面、Linux 桌面 和正在运行的 codex、openclaw、python、node 任务状态。</li><li>用户指定的本地脚本目录 本地归档 在 Mac 上仍不存在，所以即使 Linux 恢复，后续也不能按原脚本链路直接执行。</li><li>今天已经把连通性日志、失败验收 HTML 和验收记录统一写入 Mac 收件箱，便于后续人工排查和总控台发布。</li><li>当前缺口是 Linux 主机网络或开机状态异常，导致今日任务页、直观日报、正式 HTML 日报和运行中任务状态都无法验收；同时本地既定拉取脚本目录缺失，后续仍需补回或继续使用直连 SSH 兜底。</li><li>人工现在最该先检查 Linux 电源、网络和 SSH 可达性；主机恢复后，明天第一步重新读取今日任务页并补拉原始日报。</li></ul>
+          
         </article>
       </div>
+      
     </section>
   
-      
-      
-      <section class="panel span-4">
-        <div class="section-title"><h2>每日日报归属</h2><span>每日日报</span></div>
-        <a class="daily-task-card compact-task-card click-card" href="../../daily-report/index.html">
-          <div class="daily-task-time">每天 17:00</div>
-          <div>
-            <div class="module-head"><h3>Linux 工作日报验收并拉取到 Mac</h3><span class="status warn">今日待补</span></div>
-            <p>Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。</p>
-            <div class="chip-row">
-              <span class="chip">来源：5月</span>
-              <span class="chip">被每日日报收录</span>
-              <span class="chip">13 XP</span>
-            </div>
-          </div>
-        </a>
-      </section>
-      <section class="panel span-4">
-        <div class="section-title"><h2>今日结论</h2><span>今日待补</span></div>
-        <ul class="plain-list">
-          <li><strong>结论</strong><span>Linux 日报已生成并拉回 Mac，本轮验证的是 HTML 生成和 SSH/SCP 传输链路。</span></li><li><strong>结论</strong><span>今天报告内容仍是测试链路，业务日志和任务识别规则还没有完全接入。</span></li><li><strong>结论</strong><span>Linux 端检测到仍有后台进程运行，页面只记录状态，不做终止。</span></li><li><strong>结论</strong><span>下一轮要确认日报内容源、任务状态识别规则和传输稳定性。</span></li><li><strong>结论</strong><span>今日正式报告尚未归档，保留日报入口等待补齐。</span></li>
-          <li><strong>下一步</strong><span>下一步把真实 Codex/OpenClaw 日志接入日报内容源，再复核跨设备拉取是否稳定。</span></li>
-        </ul>
-        <div class="link-list">
-          
-          <a href="../../daily-report/index.html">进入日报汇总</a>
-        </div>
-      </section>
-      <section class="panel span-4">
-        <div class="section-title"><h2>重点报告</h2><span>待归档</span></div>
-        <div class="artifact-grid compact-artifacts">
-          <div class="callout"><strong>今日报告待补齐。</strong><p>当前报告能证明链路跑通，但不能证明 Linux 当天所有业务任务已经被完整汇总。</p></div>
-        </div>
-      </section>
     </section>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>
