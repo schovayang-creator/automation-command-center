@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T11:09:21.346Z",
+  "generatedAt": "2026-07-05T11:18:09.359Z",
   "reportDate": "2026-07-05",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1442,7 +1442,7 @@
       "latestRun": {
         "sessionId": "019f31f1-023c-7983-93c8-9c4316fbc8a1",
         "status": "DELIVERY_SUCCESS",
-        "completedAt": "2026-07-01 19:05:21 CST",
+        "completedAt": "2026-07-05 19:13:51 CST",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
