@@ -1,8 +1,8 @@
 {
-  "status": "pending-publish",
+  "status": "public-tree-ready",
   "date": "2026-07-06",
   "automation": "hermes",
-  "generatedAt": "2026-07-05T22:55:54.300Z",
+  "generatedAt": "2026-07-05T23:09:46.700Z",
   "publicDashboardUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-06/index.html",
   "publicDailyReportUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-06/daily-report/index.html",
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-06/cron/index.html",
