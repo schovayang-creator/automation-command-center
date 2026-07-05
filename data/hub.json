@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T23:23:08.256Z",
+  "generatedAt": "2026-07-05T23:28:14.284Z",
   "reportDate": "2026-07-06",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1440,8 +1440,8 @@
       "lane": "每日日报任务",
       "role": "总经理助理",
       "latestRun": {
-        "sessionId": "019f3468-50eb-7eb3-95dc-2398ecd14cef",
-        "status": "DELIVERY_SUCCESS",
+        "sessionId": "019f3484-b128-7993-976e-ed39fb548e19",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-07-05 19:13:51 CST",
         "publishTarget": ""
       },
@@ -1488,8 +1488,8 @@
       "lane": "每日日报任务",
       "role": "Linux 验收官",
       "latestRun": {
-        "sessionId": "019f3468-50eb-7eb3-95dc-2398ecd14cef",
-        "status": "HTTP_200",
+        "sessionId": "019f3484-b128-7993-976e-ed39fb548e19",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-07-05 17:38 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
@@ -1512,8 +1512,8 @@
       "lane": "每日日报任务",
       "role": "岗位情报官",
       "latestRun": {
-        "sessionId": "019f3468-50eb-7eb3-95dc-2398ecd14cef",
-        "status": "DELIVERY_SUCCESS",
+        "sessionId": "019f3484-b128-7993-976e-ed39fb548e19",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-07-01",
         "publishTarget": ""
       },
@@ -1668,9 +1668,9 @@
       "lane": "专项主控 Cron",
       "role": "政策机会官",
       "latestRun": {
-        "sessionId": "019f3468-50eb-7eb3-95dc-2398ecd14cef",
-        "status": "HTTP_200",
-        "completedAt": "2026-07-06 06:31:19",
+        "sessionId": "019f3484-b128-7993-976e-ed39fb548e19",
+        "status": "PUBLISH_SUCCESS",
+        "completedAt": "2026-07-06 07:02:19",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1686,9 +1686,9 @@
       "lane": "专项主控 Cron",
       "role": "资源池官",
       "latestRun": {
-        "sessionId": "019f3468-50eb-7eb3-95dc-2398ecd14cef",
-        "status": "HTTP_200",
-        "completedAt": "2026-07-06 06:31:19",
+        "sessionId": "019f3484-b128-7993-976e-ed39fb548e19",
+        "status": "PUBLISH_SUCCESS",
+        "completedAt": "2026-07-06 07:02:19",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1704,9 +1704,9 @@
       "lane": "一次性 / 线程唤醒",
       "role": "研究验收官",
       "latestRun": {
-        "sessionId": "019f3468-50eb-7eb3-95dc-2398ecd14cef",
-        "status": "HTTP_200",
-        "completedAt": "2026-07-06 06:31:19",
+        "sessionId": "019f3484-b128-7993-976e-ed39fb548e19",
+        "status": "PUBLISH_SUCCESS",
+        "completedAt": "2026-07-06 07:02:19",
         "publishTarget": ""
       },
       "memoryPath": "",
