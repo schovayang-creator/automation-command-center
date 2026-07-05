@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
-            <span class="chip">16 KB</span>
-            <span class="chip">2026-07-05 22:45:48</span>
+            <span class="chip">17 KB</span>
+            <span class="chip">2026-07-05 22:55:07</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>内容计划</b><span>分组</span></div><div class="metric"><b>58</b><span>评分</span></div><div class="metric"><b>16 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>MD</b><span>类型</span></div><div class="metric"><b>内容计划</b><span>分组</span></div><div class="metric"><b>58</b><span>评分</span></div><div class="metric"><b>17 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -120,7 +120,7 @@
 <li>Hermes 给创作者转述时要保持轻一点，不说后台评分和采集过程，只说今天更适合拍一个“把休息从奖励变回需要”的温柔口播。</li>
 </ol>
 <h3>风险和缺口</h3>
-<p>今天手动兜底入口占比过半，国内平台和部分海外平台的可见页面摘要仍需要人工补充。经验库仍为空，正式脚本需要创作者补一个可公开、低隐私的生活场景，并避免心理诊断、治疗承诺或效率化口号。</p>
+<p>今天手动兜底入口占比过半，国内平台和部分海外平台的可见页面摘要仍需要人工补充。经验库仍为空，正式脚本需要创作者补一个可公开、低隐私的生活场景，并避免心理诊断、治疗承诺或效率化口号。总控台文件已生成并推送，但 GitHub Pages 在本次检查时仍返回 404，公开入口需要等待远端生效后复查。</p>
 <h3>下一步</h3>
 <p>今天人工最该做的是让创作者补一个“休息前先证明自己够努力”的真实小场景，让主推题从共鸣观点落到她自己的生活观察。</p>
 <h3>公开入口</h3>
@@ -285,8 +285,11 @@
 <ul>
 <li>公开当天总看板：<a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-07-06/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-07-06/index.html</a></li>
 <li>公开 Hermes 详情页：<a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-07-06/cron/hermes/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-07-06/cron/hermes/index.html</a></li>
-<li>发布状态：待执行发布脚本后补充。</li>
-<li>GitHub Pages 验证：待执行发布脚本后补充。</li>
+<li>发布状态：已执行发布脚本并推送到 <code>automation-command-center</code> 仓库；脚本返回 <code>published-http-pending</code>。</li>
+<li>GitHub commit：内容提交 <code>678c634</code>；最终提交 <code>700f175</code>。</li>
+<li>GitHub Pages 验证：公开当天总看板和 Hermes 详情页在脚本内 5 次检查及额外复查中仍返回 HTTP 404，判断为远端 Pages 尚未生效。</li>
+<li>通知状态：脚本返回 <code>openclawStatus: delivered</code>。</li>
+<li>公开树清洁检查：本地通过，未检出本地路径、raw/published 链接、iframe 或敏感字段。</li>
 </ul></article>
     </div>
   
