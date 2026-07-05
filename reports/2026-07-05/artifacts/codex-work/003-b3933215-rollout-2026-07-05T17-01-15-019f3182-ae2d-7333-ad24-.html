@@ -76,14 +76,14 @@
           <p class="hero-copy">这是当天总日报下钻后的报告批阅详情：先读摘要，再看正文或预览，最后回到当天最终日报确认是否通过。</p>
           <div class="chip-row hero-chip-row">
             <span class="chip">JSONL</span>
-            <span class="chip">579 KB</span>
-            <span class="chip">2026-07-05 09:34:13</span>
+            <span class="chip">744 KB</span>
+            <span class="chip">2026-07-05 09:39:41</span>
           </div>
         </div>
       </div>
       <aside class="panel hero-side">
         <h2>批阅摘要</h2>
-        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>165</b><span>评分</span></div><div class="metric"><b>579 KB</b><span>大小</span></div></div>
+        <div class="metric-row"><div class="metric"><b>JSONL</b><span>类型</span></div><div class="metric"><b>Codex 会话交差</b><span>分组</span></div><div class="metric"><b>188</b><span>评分</span></div><div class="metric"><b>744 KB</b><span>大小</span></div></div>
         <div class="link-list"><a href="#" data-local-only="true">查看脱敏详情</a></div>
       </aside>
     </section>
@@ -93,15 +93,15 @@
       <div class="summary-layout">
         <article class="summary-main">
           <h3>自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</h3>
-          <p>本地正式产物已写好，下一步跑总控台发布脚本，并单独做一次公开 URL 的 HTTP 验证和正文抽查。</p>
-          <ul class="mini-list"><li>本地正式产物已写好，下一步跑总控台发布脚本，并单独做一次公开 URL 的 HTTP 验证和正文抽查。</li></ul>
+          <p>**3 分钟简报** - 今天结论：到 2026-07-05 17:30 截止前，Linux 192.168.3.32 一直不可达，所以没有读取 Linux 桌面，也没有把 Linux 原始日报拉回 Mac；我已在 Mac 侧生成失败验收日报。 - 今日重点：17:07、17:13、17:20、17:25、17:30 五轮探测里，ping 100% 丢包，22 端口和 SSH 全部超时，最后一轮在 17:32:23 结束。今天无法确认 Linux 今日任务是否存在，也无法确认 codex、openclaw、python、node 是否仍在运行。原定本地拉取脚本目录仍缺失，所以今天只能走 SSH 兜底。正式产物已经写入 Mac 收件箱，并同步发布到总控台。 - 风险和缺口：当前缺口是 Linux 主机电源、网络或 SSH 可达性异常；因此今天没有任务页证据、没有 Linux 原始日报、没有进程状态证据。 - 下一步：先人工恢复 Linux 电源或网络并确认 SSH 可达，明天优先重读任务页并补拉原始日报。 - 公开入口：当天总看板 ，本自动化详情页 本地产物已落地到收件箱：2026-07-05-Linux工作日报.html、2026-07-05-验收记录.md。日志已保存为 2026-07-05-linux-check.log、2026-07-05-publish.log、2026-07-05-public-verify.log。 发布结果：contentCommit=d7c78ad，最终推送 commit=570bb1a。独立 curl 验证中，当天总看板 和 本自动化详情页 都返回 HTTP 200。未对 Linux 做关机或进程终止操作。</p>
+          <ul class="mini-list"><li>**3 分钟简报** - 今天结论：到 2026-07-05 17:30 截止前，Linux 192.168.3.32 一直不可达，所以没有读取 Linux 桌面，也没有把 Linux 原始日报拉回 Mac</li><li>我已在 Mac 侧生成失败验收日报</li><li>- 今日重点：17:07、17:13、17:20、17:25、17:30 五轮探测里，ping 100% 丢包，22 端口和 SSH 全部超时，最后一轮在 17:32:23 结束</li><li>今天无法确认 Linux 今日任务是否存在，也无法确认 codex、openclaw、python、node 是否仍在运行</li><li>正式产物已经写入 Mac 收件箱，并同步发布到总控台</li><li>- 风险和缺口：当前缺口是 Linux 主机电源、网络或 SSH 可达性异常</li></ul>
         </article>
         <aside class="summary-side">
           <b>交差路径</b>
           <span>用户要求：自动化任务：每天 17:00 Linux 工作日报验收并拉取到 Mac</span>
           <span>开始：2026-07-05 17:01:15</span>
-          <span>完成：2026-07-05 17:01:15</span>
-          <span>HTML 成品：0</span>
+          <span>完成：1783244381</span>
+          <span>HTML 成品：1</span>
           <a href="#" data-local-only="true">打开原始会话证据</a>
         </aside>
       </div>
@@ -112,10 +112,44 @@
     </section>
     <section class="panel">
       <div class="section-title"><h2>完成说明</h2><span>Codex 最终交差</span></div>
-      <article class="doc"><p>本地正式产物已写好，下一步跑总控台发布脚本，并单独做一次公开 URL 的 HTTP 验证和正文抽查。</p></article>
+      <article class="doc"><p><strong>3 分钟简报</strong> - 今天结论：到 2026-07-05 17:30 截止前，Linux 192.168.3.32 一直不可达，所以没有读取 Linux 桌面，也没有把 Linux 原始日报拉回 Mac；我已在 Mac 侧生成失败验收日报。 - 今日重点：17:07、17:13、17:20、17:25、17:30 五轮探测里，ping 100% 丢包，22 端口和 SSH 全部超时，最后一轮在 17:32:23 结束。今天无法确认 Linux 今日任务是否存在，也无法确认 codex、openclaw、python、node 是否仍在运行。原定本地拉取脚本目录仍缺失，所以今天只能走 SSH 兜底。正式产物已经写入 Mac 收件箱，并同步发布到总控台。 - 风险和缺口：当前缺口是 Linux 主机电源、网络或 SSH 可达性异常；因此今天没有任务页证据、没有 Linux 原始日报、没有进程状态证据。 - 下一步：先人工恢复 Linux 电源或网络并确认 SSH 可达，明天优先重读任务页并补拉原始日报。 - 公开入口：当天总看板 ，本自动化详情页 本地产物已落地到收件箱：2026-07-05-Linux工作日报.html、2026-07-05-验收记录.md。日志已保存为 2026-07-05-linux-check.log、2026-07-05-publish.log、2026-07-05-public-verify.log。 发布结果：contentCommit=d7c78ad，最终推送 commit=570bb1a。独立 curl 验证中，当天总看板 和 本自动化详情页 都返回 HTTP 200。未对 Linux 做关机或进程终止操作。</p></article>
     </section>
-    
-    
+    <section class="panel">
+      <div class="section-title"><h2>关联 HTML 成品</h2><span>1 个会进入 HTML 交付件体系</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-07-05-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-07-05-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>原件</span></div>
+        </a>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="section-title"><h2>关联本地证据</h2><span>5 个文件路径</span></div>
+      <div class="compact-list">
+        <a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">HTML</span>
+          <div><h3>2026-07-05-Linux工作日报.html</h3><p>~/Desktop/Linux日报收件箱/2026-07-05-Linux工作日报.html</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">MD</span>
+          <div><h3>2026-07-05-验收记录.md</h3><p>~/Desktop/Linux日报收件箱/2026-07-05-验收记录.md</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">LOG</span>
+          <div><h3>2026-07-05-linux-check.log</h3><p>~/Desktop/Linux日报收件箱/2026-07-05-linux-check.log</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">LOG</span>
+          <div><h3>2026-07-05-publish.log</h3><p>~/Desktop/Linux日报收件箱/2026-07-05-publish.log</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a><a class="compact-row click-card" href="#" data-local-only="true">
+          <span class="nav-code">LOG</span>
+          <div><h3>2026-07-05-public-verify.log</h3><p>~/Desktop/Linux日报收件箱/2026-07-05-public-verify.log</p></div>
+          <div class="row-actions"><span>证据</span></div>
+        </a>
+      </div>
+    </section>
   </div>
   
         <p class="footer-note">本页汇总当日成品报告、关键结论和可打开入口。</p>

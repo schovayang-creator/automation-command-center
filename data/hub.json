@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T09:34:51.607Z",
+  "generatedAt": "2026-07-05T11:09:21.346Z",
   "reportDate": "2026-07-05",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1388,7 +1388,7 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "ACTIVE",
-      "artifacts": 9,
+      "artifacts": 15,
       "points": 125,
       "href": "reports/2026-07-05/cron/automation-2/index.html"
     },
@@ -1440,7 +1440,7 @@
       "lane": "每日日报任务",
       "role": "总经理助理",
       "latestRun": {
-        "sessionId": "",
+        "sessionId": "019f31f1-023c-7983-93c8-9c4316fbc8a1",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-01 19:05:21 CST",
         "publishTarget": ""
@@ -1453,7 +1453,7 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 9,
+      "artifacts": 15,
       "points": 125,
       "href": "reports/2026-07-05/cron/automation-2/index.html"
     },
@@ -1490,7 +1490,7 @@
       "latestRun": {
         "sessionId": "019f3182-ae2d-7333-ad24-78b3532a955d",
         "status": "HTTP_200",
-        "completedAt": "2026-06-22 17:35 CST",
+        "completedAt": "2026-07-05 17:38 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
       "memoryPath": "本地归档",
@@ -1536,10 +1536,10 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "019f2f5c-6909-78b1-8096-47857c207df8",
+        "sessionId": "019f31f1-023c-7983-93c8-9c4316fbc8a1",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-01 20:52:44 CST",
-        "publishTarget": "/home/wang/Desktop/今日任务.html"
+        "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": {
@@ -1804,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 40,
+      "artifacts": 76,
       "href": "reports/2026-07-05/codex-html/index.html"
     },
     {
@@ -1813,7 +1813,7 @@
       "status": "自动收录",
       "type": "交差看板",
       "cadence": "按会话归档",
-      "artifacts": 3,
+      "artifacts": 4,
       "href": "reports/2026-07-05/codex-work/index.html"
     }
   ]
