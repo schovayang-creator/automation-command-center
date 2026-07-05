@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T23:09:46.551Z",
+  "generatedAt": "2026-07-05T23:23:08.256Z",
   "reportDate": "2026-07-06",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1465,7 +1465,7 @@
       "role": "机会雷达官",
       "latestRun": {
         "sessionId": "019f3484-b128-7993-976e-ed39fb548e19",
-        "status": "RECORDED",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-07-05 07:08:19 CST",
         "publishTarget": ""
       },
@@ -1537,7 +1537,7 @@
       "role": "交易研究官",
       "latestRun": {
         "sessionId": "019f3484-b128-7993-976e-ed39fb548e19",
-        "status": "DELIVERY_SUCCESS",
+        "status": "PUBLISH_SUCCESS",
         "completedAt": "2026-07-01 20:52:44 CST",
         "publishTarget": ""
       },
@@ -1804,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 18,
+      "artifacts": 19,
       "href": "reports/2026-07-06/codex-html/index.html"
     },
     {
