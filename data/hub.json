@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T22:46:29.111Z",
+  "generatedAt": "2026-07-08T22:49:15.421Z",
   "reportDate": "2026-07-09",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1559,11 +1559,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "机会总控官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f43db-d2c0-7070-97be-f2b2cb8532e8",
+        "status": "HTTP_200",
+        "completedAt": "2026-07-09 06:31:47",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-09/cron/24-6/index.html"
     },
     {
@@ -1670,11 +1675,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "资源池官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f43db-d2c0-7070-97be-f2b2cb8532e8",
+        "status": "HTTP_200",
+        "completedAt": "2026-07-09 06:31:47",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-09/cron/24-5/index.html"
     },
     {
