@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T22:44:06.956Z",
+  "generatedAt": "2026-07-09T22:49:26.382Z",
   "reportDate": "2026-07-10",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1804,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 3,
+      "artifacts": 4,
       "href": "reports/2026-07-10/codex-html/index.html"
     },
     {
