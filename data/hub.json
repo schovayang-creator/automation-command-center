@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T22:40:35.555Z",
+  "generatedAt": "2026-07-09T22:44:06.956Z",
   "reportDate": "2026-07-10",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1328,8 +1328,8 @@
       "name": "A股每日模拟盘研究与盈亏回放",
       "role": "交易研究官",
       "status": "PAUSED",
-      "artifacts": 1,
-      "points": 14,
+      "artifacts": 2,
+      "points": 16,
       "href": "reports/2026-07-10/cron/a/index.html"
     },
     {
@@ -1358,8 +1358,8 @@
       "name": "每天 07:00 双创比赛今日任务发布到 Linux 桌面",
       "role": "机会雷达官",
       "status": "PAUSED",
-      "artifacts": 2,
-      "points": 28,
+      "artifacts": 3,
+      "points": 30,
       "href": "reports/2026-07-10/cron/automation/index.html"
     },
     {
@@ -1373,8 +1373,8 @@
       "name": "每天 17:00 Linux 工作日报验收并拉取到 Mac",
       "role": "Linux 验收官",
       "status": "PAUSED",
-      "artifacts": 1,
-      "points": 13,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-07-10/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1388,8 +1388,8 @@
       "name": "总经理助理",
       "role": "总经理助理",
       "status": "PAUSED",
-      "artifacts": 4,
-      "points": 60,
+      "artifacts": 5,
+      "points": 63,
       "href": "reports/2026-07-10/cron/automation-2/index.html"
     },
     {
@@ -1403,8 +1403,8 @@
       "name": "曹博士岗位更新",
       "role": "岗位情报官",
       "status": "PAUSED",
-      "artifacts": 2,
-      "points": 28,
+      "artifacts": 3,
+      "points": 30,
       "href": "reports/2026-07-10/cron/automation-3/index.html"
     }
   ],
@@ -1417,7 +1417,7 @@
       "role": "内容简报官",
       "latestRun": {
         "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
-        "status": "HTTP_200",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Hermes Automation Memory",
         "publishTarget": ""
       },
@@ -1440,7 +1440,7 @@
       "lane": "每日日报任务",
       "role": "岗位情报官",
       "latestRun": {
-        "sessionId": "",
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-01",
         "publishTarget": ""
@@ -1453,8 +1453,8 @@
         "dailyReport": "曹博士岗位日报",
         "acceptance": "岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。"
       },
-      "artifacts": 2,
-      "points": 28,
+      "artifacts": 3,
+      "points": 30,
       "href": "reports/2026-07-10/cron/automation-3/index.html"
     },
     {
@@ -1464,8 +1464,8 @@
       "lane": "每日日报任务",
       "role": "机会雷达官",
       "latestRun": {
-        "sessionId": "",
-        "status": "SUCCESS",
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-06 07:29 CST",
         "publishTarget": ""
       },
@@ -1477,8 +1477,8 @@
         "dailyReport": "双创比赛今日任务发布到 Linux 桌面",
         "acceptance": "双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。"
       },
-      "artifacts": 2,
-      "points": 28,
+      "artifacts": 3,
+      "points": 30,
       "href": "reports/2026-07-10/cron/automation/index.html"
     },
     {
@@ -1488,8 +1488,8 @@
       "lane": "每日日报任务",
       "role": "Linux 验收官",
       "latestRun": {
-        "sessionId": "",
-        "status": "SUCCESS",
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-05 17:38 CST",
         "publishTarget": "/home/wang/Desktop/今日任务.html"
       },
@@ -1501,8 +1501,8 @@
         "dailyReport": "Linux 工作日报验收并拉取到 Mac",
         "acceptance": "Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。"
       },
-      "artifacts": 1,
-      "points": 13,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-07-10/cron/17-00-linux-mac/index.html"
     },
     {
@@ -1512,7 +1512,7 @@
       "lane": "每日日报任务",
       "role": "总经理助理",
       "latestRun": {
-        "sessionId": "",
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-05 19:13:51 CST",
         "publishTarget": ""
@@ -1525,8 +1525,8 @@
         "dailyReport": "总经理日报",
         "acceptance": "经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。"
       },
-      "artifacts": 4,
-      "points": 60,
+      "artifacts": 5,
+      "points": 63,
       "href": "reports/2026-07-10/cron/automation-2/index.html"
     },
     {
@@ -1536,7 +1536,7 @@
       "lane": "每日日报任务",
       "role": "交易研究官",
       "latestRun": {
-        "sessionId": "",
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
         "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-01 20:52:44 CST",
         "publishTarget": ""
@@ -1549,8 +1549,8 @@
         "dailyReport": "A股每日模拟盘研究与盈亏回放",
         "acceptance": "模拟盘日报、盈亏回放、持仓、skill 复盘和次日观察计划进入每日日报。"
       },
-      "artifacts": 1,
-      "points": 14,
+      "artifacts": 2,
+      "points": 16,
       "href": "reports/2026-07-10/cron/a/index.html"
     },
     {
@@ -1559,11 +1559,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "机会总控官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-10 06:32:13",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-10/cron/24-6/index.html"
     },
     {
@@ -1573,15 +1578,15 @@
       "lane": "专项主控 Cron",
       "role": "竞品情报官",
       "latestRun": {
-        "sessionId": "",
-        "status": "RECORDED",
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Automation 24-2 Memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-07-10/cron/24-2/index.html"
     },
     {
@@ -1591,15 +1596,15 @@
       "lane": "专项主控 Cron",
       "role": "销售转化官",
       "latestRun": {
-        "sessionId": "",
-        "status": "RECORDED",
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Automation 24 Memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-07-10/cron/24/index.html"
     },
     {
@@ -1609,15 +1614,15 @@
       "lane": "专项主控 Cron",
       "role": "销售转化官",
       "latestRun": {
-        "sessionId": "",
-        "status": "SUCCESS",
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-07-10/cron/automation-5/index.html"
     },
     {
@@ -1627,15 +1632,15 @@
       "lane": "专项主控 Cron",
       "role": "客户转化官",
       "latestRun": {
-        "sessionId": "",
-        "status": "RECORDED",
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-07-10/cron/automation-4/index.html"
     },
     {
@@ -1644,11 +1649,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "意向信号官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-10 06:32:13",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-10/cron/24-4/index.html"
     },
     {
@@ -1657,11 +1667,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "政策机会官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-10 06:32:13",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-10/cron/24-3/index.html"
     },
     {
@@ -1670,11 +1685,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "资源池官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-10 06:32:13",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-10/cron/24-5/index.html"
     },
     {
@@ -1685,7 +1705,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019f4902-9262-73b1-bdd3-191f8e4d5cf1",
-        "status": "RECORDED",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-10 06:32:13",
         "publishTarget": ""
       },
@@ -1784,7 +1804,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 0,
+      "artifacts": 3,
       "href": "reports/2026-07-10/codex-html/index.html"
     },
     {
