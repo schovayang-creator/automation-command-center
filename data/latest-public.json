@@ -1,19 +1,12 @@
 {
-  "status": "published-http-pending",
+  "status": "pending-publish",
   "date": "2026-07-12",
   "automation": "hermes",
-  "generatedAt": "2026-07-11T22:40:04.647Z",
+  "generatedAt": "2026-07-11T22:43:15.459Z",
   "publicDashboardUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-12/index.html",
   "publicDailyReportUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-12/daily-report/index.html",
   "publicCronUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-12/cron/index.html",
   "publicAutomationUrl": "https://schovayang-creator.github.io/automation-command-center/reports/2026-07-12/cron/hermes/index.html",
   "publicBaseUrl": "https://schovayang-creator.github.io/automation-command-center",
-  "remote": "https://github.com/schovayang-creator/automation-command-center.git",
-  "contentCommit": "32ce648",
-  "commit": "32ce648",
-  "http": {
-    "ok": false,
-    "attempts": 5,
-    "output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0  9379    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\nHTTP/2 404 \r\nserver: GitHub.com\r\ncontent-type: text/html; charset=utf-8\r\naccess-control-allow-origin: *\r\nstrict-transport-security: max-age=31556952\r\netag: \"6a5155b6-24a3\"\r\ncontent-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\r\nx-proxy-cache: MISS\r\nx-github-request-id: 7CE6:16F081:5845C7:5BB092:6A52C649\r\naccept-ranges: bytes\r\ndate: Sat, 11 Jul 2026 22:40:30 GMT\r\nvia: 1.1 varnish\r\nage: 21\r\nx-served-by: cache-nrt-rjtf7700045-NRT\r\nx-cache: HIT\r\nx-cache-hits: 1\r\nx-timer: S1783809630.486539,VS0,VE1\r\nvary: Accept-Encoding\r\nx-fastly-request-id: 0b8d7be36c38291766fe867bf62233add056e613\r\ncontent-length: 9379\r\n\r\n"
-  }
+  "remote": "https://github.com/schovayang-creator/automation-command-center.git"
 }
