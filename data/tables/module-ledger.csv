@@ -1,12 +1,12 @@
 ID,代码,类目,状态,类型,节奏,产物,关键报告,说明,页面
-suzhou-customers,SZ,苏州客户挖掘,已收口,业务类目,类目汇报,0,待补,苏州制造业线索池、Top20 外呼名单、直联缺口和环评触发新增统一归档；不是日报本身，由每日日报收录。,reports/2026-07-13/suzhou-customers/index.html
-shanxi-rd,SX,山西研发客户挖掘,持续拓展,业务类目,类目汇报,0,待补,山西研发、检测认证、实验室专项和持续拓展线索统一收口；不是日报本身，由每日日报收录。,reports/2026-07-13/shanxi-rd/index.html
-ceramic-membrane,CM,陶瓷膜客户转化,v1.7,业务类目,类目汇报,0,待补,陶瓷膜下游厂家研究转成采购入口、Top20 核验和可销售切入包。,reports/2026-07-13/ceramic-membrane/index.html
-competitor-intel,CI,竞品同行服务商情报,已交接,业务类目,类目汇报,7,Top 20 值得重点对标服务商 / 同行服务包拆解报告 / 本公司服务产品化建议,同行服务包、证据对象、价格锚点、服务 SKU 和销售话术统一入库。,reports/2026-07-13/competitor-intel/index.html
-competition-scout,DS,双创比赛机会雷达,已发布,业务类目,类目汇报,3,双创比赛机会表_2026-05-27_更新版 / 全国人才政策创新创业大赛总表_含苏州专项_2026-05-27_阶段终版 / 各地人才政策创新创业大赛机会报告_2026-05-27,双创比赛早间任务发布和历史机会总表并入每日机会入口。,reports/2026-07-13/competition-scout/index.html
-policy-subsidy,PC,政策补贴项目申报雷达,待归档,业务类目,类目汇报,0,待补,政策、补贴、项目申报机会与客户匹配建议进入日报体系；当前保留类目位，等待主控产物归档。,reports/2026-07-13/policy-subsidy/index.html
-bidding-signal,BD,招投标环评技改意向雷达,待归档,业务类目,类目汇报,0,待补,招投标、环评、备案、技改、设备更新等花钱信号进入日报体系；当前保留类目位。,reports/2026-07-13/bidding-signal/index.html
-expert-pool,EX,专家高校博士资源池,待归档,业务类目,类目汇报,0,待补,专家、高校、博士团队、技术转移与产学研资源进入日报体系；当前保留类目位。,reports/2026-07-13/expert-pool/index.html
-company-command,OC,公司机会总控中台,待启动,业务类目,类目汇报,0,待补,公司机会、销售触点、政策、客户和资源池的总控类目；作为跨类目汇总入口保留。,reports/2026-07-13/company-command/index.html
-codex-html,HTML,Codex HTML 交付件,自动收录,交付件看板,按日归档,0,待补,当天 Codex 会话和本地看板提到的 HTML 成品统一进入这里：每个 HTML 都有总控台风格批阅页，说明做了什么、脱敏证据在哪里。,reports/2026-07-13/codex-html/index.html
-codex-work,WORK,Codex 工作交差,自动收录,交差看板,按会话归档,1,自动化任务：Hermes 每日任务,本机 Codex 会话按日期自动生成交差页：每次工作都说明用户要什么、Codex 做了什么、结果和证据在哪里；HTML 成品另进入 Codex HTML 交付件看板。,reports/2026-07-13/codex-work/index.html
+suzhou-customers,SZ,苏州客户挖掘,已收口,业务类目,类目汇报,0,待补,苏州制造业线索池、Top20 外呼名单、直联缺口和环评触发新增统一归档；不是日报本身，由每日日报收录。,reports/2026-07-14/suzhou-customers/index.html
+shanxi-rd,SX,山西研发客户挖掘,持续拓展,业务类目,类目汇报,0,待补,山西研发、检测认证、实验室专项和持续拓展线索统一收口；不是日报本身，由每日日报收录。,reports/2026-07-14/shanxi-rd/index.html
+ceramic-membrane,CM,陶瓷膜客户转化,v1.7,业务类目,类目汇报,0,待补,陶瓷膜下游厂家研究转成采购入口、Top20 核验和可销售切入包。,reports/2026-07-14/ceramic-membrane/index.html
+competitor-intel,CI,竞品同行服务商情报,已交接,业务类目,类目汇报,7,Top 20 值得重点对标服务商 / 同行服务包拆解报告 / 本公司服务产品化建议,同行服务包、证据对象、价格锚点、服务 SKU 和销售话术统一入库。,reports/2026-07-14/competitor-intel/index.html
+competition-scout,DS,双创比赛机会雷达,已发布,业务类目,类目汇报,3,双创比赛机会表_2026-05-27_更新版 / 全国人才政策创新创业大赛总表_含苏州专项_2026-05-27_阶段终版 / 各地人才政策创新创业大赛机会报告_2026-05-27,双创比赛早间任务发布和历史机会总表并入每日机会入口。,reports/2026-07-14/competition-scout/index.html
+policy-subsidy,PC,政策补贴项目申报雷达,待归档,业务类目,类目汇报,0,待补,政策、补贴、项目申报机会与客户匹配建议进入日报体系；当前保留类目位，等待主控产物归档。,reports/2026-07-14/policy-subsidy/index.html
+bidding-signal,BD,招投标环评技改意向雷达,待归档,业务类目,类目汇报,0,待补,招投标、环评、备案、技改、设备更新等花钱信号进入日报体系；当前保留类目位。,reports/2026-07-14/bidding-signal/index.html
+expert-pool,EX,专家高校博士资源池,待归档,业务类目,类目汇报,0,待补,专家、高校、博士团队、技术转移与产学研资源进入日报体系；当前保留类目位。,reports/2026-07-14/expert-pool/index.html
+company-command,OC,公司机会总控中台,待启动,业务类目,类目汇报,0,待补,公司机会、销售触点、政策、客户和资源池的总控类目；作为跨类目汇总入口保留。,reports/2026-07-14/company-command/index.html
+codex-html,HTML,Codex HTML 交付件,自动收录,交付件看板,按日归档,0,待补,当天 Codex 会话和本地看板提到的 HTML 成品统一进入这里：每个 HTML 都有总控台风格批阅页，说明做了什么、脱敏证据在哪里。,reports/2026-07-14/codex-html/index.html
+codex-work,WORK,Codex 工作交差,自动收录,交差看板,按会话归档,1,自动化任务：Hermes 每日任务,本机 Codex 会话按日期自动生成交差页：每次工作都说明用户要什么、Codex 做了什么、结果和证据在哪里；HTML 成品另进入 Codex HTML 交付件看板。,reports/2026-07-14/codex-work/index.html
