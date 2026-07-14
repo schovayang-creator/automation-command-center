@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T22:46:43.142Z",
+  "generatedAt": "2026-07-14T22:53:30.789Z",
   "reportDate": "2026-07-15",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1417,7 +1417,7 @@
       "role": "内容简报官",
       "latestRun": {
         "sessionId": "019f62c0-dc40-7a42-8157-9f15a6e95d73",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-12 06:44 CST",
         "publishTarget": ""
       },
@@ -1559,11 +1559,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "机会总控官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f62c0-dc40-7a42-8157-9f15a6e95d73",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-15 06:30:34",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-15/cron/24-6/index.html"
     },
     {
@@ -1670,11 +1675,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "资源池官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f62c0-dc40-7a42-8157-9f15a6e95d73",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-15 06:30:34",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-15/cron/24-5/index.html"
     },
     {
@@ -1685,7 +1695,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019f62c0-dc40-7a42-8157-9f15a6e95d73",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-15 06:30:34",
         "publishTarget": ""
       },
