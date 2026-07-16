@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T22:52:22.843Z",
+  "generatedAt": "2026-07-16T22:56:22.719Z",
   "reportDate": "2026-07-17",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1418,7 +1418,7 @@
       "latestRun": {
         "sessionId": "019f6d0d-4aee-7b52-a049-fbd5677c33c6",
         "status": "PUBLISH_SUCCESS",
-        "completedAt": "2026-07-12 06:44 CST",
+        "completedAt": "2026-07-17 06:55 CST",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1799,7 +1799,7 @@
       "status": "自动收录",
       "type": "交付件看板",
       "cadence": "按日归档",
-      "artifacts": 2,
+      "artifacts": 5,
       "href": "reports/2026-07-17/codex-html/index.html"
     },
     {
