@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T22:46:28.820Z",
+  "generatedAt": "2026-07-17T22:50:58.298Z",
   "reportDate": "2026-07-18",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1417,7 +1417,7 @@
       "role": "内容简报官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-17 06:55 CST",
         "publishTarget": ""
       },
@@ -1561,7 +1561,7 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-18 06:31:57",
         "publishTarget": ""
       },
@@ -1579,7 +1579,7 @@
       "role": "竞品情报官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Automation 24-2 Memory",
         "publishTarget": ""
       },
@@ -1597,7 +1597,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "Automation 24 Memory",
         "publishTarget": ""
       },
@@ -1615,7 +1615,7 @@
       "role": "销售转化官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
@@ -1633,7 +1633,7 @@
       "role": "客户转化官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
@@ -1651,7 +1651,7 @@
       "role": "意向信号官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-18 06:31:57",
         "publishTarget": ""
       },
@@ -1669,7 +1669,7 @@
       "role": "政策机会官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-18 06:31:57",
         "publishTarget": ""
       },
@@ -1687,7 +1687,7 @@
       "role": "资源池官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-18 06:31:57",
         "publishTarget": ""
       },
@@ -1705,7 +1705,7 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019f7235-364e-7ac3-b6c8-d7345f2d0238",
-        "status": "PUBLISH_SUCCESS",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "2026-07-18 06:31:57",
         "publishTarget": ""
       },
