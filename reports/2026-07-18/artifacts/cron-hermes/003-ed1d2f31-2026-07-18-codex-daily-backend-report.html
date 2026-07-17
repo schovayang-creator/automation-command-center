@@ -77,7 +77,7 @@
           <div class="chip-row hero-chip-row">
             <span class="chip">MD</span>
             <span class="chip">5 KB</span>
-            <span class="chip">2026-07-17 22:39:22</span>
+            <span class="chip">2026-07-17 22:55:11</span>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
         <article class="summary-main">
           <h3>2026-07-18 Codex 每日后台运行报告</h3>
           <p>**如果你总在发出去之前删掉自己**</p>
-          <ul class="mini-list"><li>运行时间: 2026-07-18 06:33 CST - 2026-07-18 06:45 CST 完成核心产物；公开总控台发布与 HTTP 复验在后续步骤记录。</li><li>启动检查: `codex-cli 0.142.1`；`Python 3.9.6`；已有脏工作区已记录，未回滚、未 commit、未 push 本仓库。</li><li>`research/material-bank/runs/2026-07-18-v0/materials.json`</li><li>`research/material-bank/runs/2026-07-18-v0/materials.md`</li><li>`research/material-bank/runs/2026-07-18-v0/daily-digest.md`</li></ul>
+          <ul class="mini-list"><li>运行时间: 2026-07-18 06:33 CST - 2026-07-18 06:54 CST 完成核心产物、总控台发布、HTTP 复验和 OpenClaw 通知重试。</li><li>启动检查: `codex-cli 0.142.1`；`Python 3.9.6`；已有脏工作区已记录，未回滚、未 commit、未 push 本仓库。</li><li>`research/material-bank/runs/2026-07-18-v0/materials.json`</li><li>`research/material-bank/runs/2026-07-18-v0/materials.md`</li><li>`research/material-bank/runs/2026-07-18-v0/daily-digest.md`</li></ul>
         </article>
         <aside class="summary-side">
           <b>批阅路径</b>
@@ -111,7 +111,7 @@
 <h2>是否成功</h2>
 <ul>
 <li>状态: 成功。</li>
-<li>运行时间: 2026-07-18 06:33 CST - 2026-07-18 06:45 CST 完成核心产物；公开总控台发布与 HTTP 复验在后续步骤记录。</li>
+<li>运行时间: 2026-07-18 06:33 CST - 2026-07-18 06:54 CST 完成核心产物、总控台发布、HTTP 复验和 OpenClaw 通知重试。</li>
 <li>工作目录: <code>本地归档</code>，实际解析到 <code>本地归档</code>。</li>
 <li>启动检查: <code>codex-cli 0.142.1</code>；<code>Python 3.9.6</code>；已有脏工作区已记录，未回滚、未 commit、未 push 本仓库。</li>
 </ul>
@@ -151,15 +151,19 @@
 <li>创作者经验库为空，不能虚构第一人称故事。</li>
 <li>本地抖音归档只能学结构，不能复制原句、标题、封面、账号身份、评论或案例顺序。</li>
 <li>主推需要创作者补一个可公开的小场景；没有场景时必须改成观察口吻。</li>
+<li>发布过程中出现两个已解决问题: Hermes 页面联动校验需要“每日素材雷达/今日素材工作台”锚点，已把 HTML 标题改为正式锚点；OpenClaw 通知脚本默认硬编码 Node v22，已用 Node24 wrapper 手动投递成功。</li>
 </ul>
 <h2>公开总控台发布</h2>
 <ul>
 <li>公开当天总看板: <a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-07-18/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-07-18/index.html</a></li>
 <li>公开本自动化详情页: <a href="https://schovayang-creator.github.io/automation-command-center/reports/2026-07-18/cron/hermes/index.html">https://schovayang-creator.github.io/automation-command-center/reports/2026-07-18/cron/hermes/index.html</a></li>
-<li>GitHub commit/HTTP 验证: 待发布脚本完成后回填。</li>
+<li>GitHub content commit: <code>abffd69</code></li>
+<li>GitHub final metadata commit: <code>e0cc88d</code></li>
+<li>HTTP 验证: 发布脚本 1 次通过；最终人工复验当天总看板 HTTP 200，Hermes 详情页 HTTP 200。</li>
+<li>OpenClaw: 初次通知因脚本固定 Node v22.22.0 失败；使用 Node24 wrapper 手动重试成功，返回 <code>deliverySucceeded: true</code>。</li>
 </ul>
 <h2>明天建议</h2>
-<p>明天优先补 3 条可见页面摘要，方向是“朋友圈发出前删掉”“想说不舒服却改成没事”“休息时也在自责”。这样可以把今天的表达自我审查题发展成一组稳定的女性边界感内容，而不是继续重复低能量休息题。</p>
+<p>明天优先补 3 条可见页面摘要，方向是“朋友圈发出前删掉”“想说不舒服却改成没事”“休息时也在自责”。同时建议修正总控台 OpenClaw 通知脚本的 Node 路径，避免下次继续走 v22。这样可以把今天的表达自我审查题发展成一组稳定的女性边界感内容，而不是继续重复低能量休息题。</p>
 <h2>3 分钟简报</h2>
 <h3>今天结论</h3>
 <p>今天完成了 Hermes 每日后台选题生产，主推是“如果你总在发出去之前删掉自己”，Hermes 可以直接改成创作者可见简报。</p>
