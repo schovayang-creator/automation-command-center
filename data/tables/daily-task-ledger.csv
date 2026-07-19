@@ -1,7 +1,7 @@
 顺序,时间,任务,日报名称,来源工作区,角色,状态,产物,XP,验收规则,页面
-1,工作日 00:00,A股每日模拟盘研究与盈亏回放,A股每日模拟盘研究与盈亏回放,股票,交易研究官,PAUSED,1,14,模拟盘日报、盈亏回放、持仓、skill 复盘和次日观察计划进入每日日报。,reports/2026-07-18/cron/a/index.html
-2,每天 06:30,Hermes 每日任务,Hermes 每日任务,AI-IP-Studio,内容简报官,ACTIVE,11,100,素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。,reports/2026-07-18/cron/hermes/index.html
-3,每天 07:00,每天 07:00 双创比赛今日任务发布到 Linux 桌面,双创比赛今日任务发布到 Linux 桌面,自动化工厂,机会雷达官,PAUSED,2,28,双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。,reports/2026-07-18/cron/automation/index.html
-4,每天 17:00,每天 17:00 Linux 工作日报验收并拉取到 Mac,Linux 工作日报验收并拉取到 Mac,5月,Linux 验收官,PAUSED,1,13,Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。,reports/2026-07-18/cron/17-00-linux-mac/index.html
-5,每天 19:00,总经理助理,总经理日报,5月,总经理助理,PAUSED,4,60,经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。,reports/2026-07-18/cron/automation-2/index.html
-6,每天 22:30,曹博士岗位更新,曹博士岗位日报,5月,岗位情报官,PAUSED,2,28,岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。,reports/2026-07-18/cron/automation-3/index.html
+1,工作日 00:00,A股每日模拟盘研究与盈亏回放,A股每日模拟盘研究与盈亏回放,股票,交易研究官,PAUSED,1,14,模拟盘日报、盈亏回放、持仓、skill 复盘和次日观察计划进入每日日报。,reports/2026-07-20/cron/a/index.html
+2,每天 06:30,Hermes 每日任务,Hermes 每日任务,AI-IP-Studio,内容简报官,ACTIVE,11,100,素材雷达、候选选题、主推方案、交接稿和运行报告进入每日日报。,reports/2026-07-20/cron/hermes/index.html
+3,每天 07:00,每天 07:00 双创比赛今日任务发布到 Linux 桌面,双创比赛今日任务发布到 Linux 桌面,自动化工厂,机会雷达官,PAUSED,1,14,双创比赛早间任务、今日任务 HTML 和 Linux 桌面发布结果进入每日日报。,reports/2026-07-20/cron/automation/index.html
+4,每天 17:00,每天 17:00 Linux 工作日报验收并拉取到 Mac,Linux 工作日报验收并拉取到 Mac,5月,Linux 验收官,PAUSED,1,13,Linux 工作日报、Mac 拉取结果、验收记录和失败缺口进入每日日报。,reports/2026-07-20/cron/17-00-linux-mac/index.html
+5,每天 19:00,总经理助理,总经理日报,5月,总经理助理,PAUSED,4,60,经营结论、董事长决策题、项目/任务看板、明日队列进入每日日报。,reports/2026-07-20/cron/automation-2/index.html
+6,每天 22:30,曹博士岗位更新,曹博士岗位日报,5月,岗位情报官,PAUSED,2,28,岗位长报告、简报、结果表、HTML 看板和夜间检索记录进入每日日报。,reports/2026-07-20/cron/automation-3/index.html
