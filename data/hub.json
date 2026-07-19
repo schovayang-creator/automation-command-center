@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T22:57:37.878Z",
+  "generatedAt": "2026-07-19T23:15:04.599Z",
   "reportDate": "2026-07-20",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1561,8 +1561,8 @@
       "role": "机会总控官",
       "latestRun": {
         "sessionId": "019f7c81-ab01-7ba3-8cf6-d2da8f5d38ee",
-        "status": "HTTP_200",
-        "completedAt": "2026-07-20 06:31:40",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-18 06:54 CST",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1579,8 +1579,8 @@
       "role": "竞品情报官",
       "latestRun": {
         "sessionId": "019f7c81-ab01-7ba3-8cf6-d2da8f5d38ee",
-        "status": "HTTP_200",
-        "completedAt": "Automation 24-2 Memory",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-18 06:54 CST",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
@@ -1664,8 +1664,8 @@
       "role": "政策机会官",
       "latestRun": {
         "sessionId": "019f7c81-ab01-7ba3-8cf6-d2da8f5d38ee",
-        "status": "HTTP_200",
-        "completedAt": "2026-07-20 06:31:40",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-18 06:54 CST",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1682,8 +1682,8 @@
       "role": "资源池官",
       "latestRun": {
         "sessionId": "019f7c81-ab01-7ba3-8cf6-d2da8f5d38ee",
-        "status": "HTTP_200",
-        "completedAt": "2026-07-20 06:31:40",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-18 06:54 CST",
         "publishTarget": ""
       },
       "memoryPath": "",
@@ -1700,8 +1700,8 @@
       "role": "研究验收官",
       "latestRun": {
         "sessionId": "019f7c81-ab01-7ba3-8cf6-d2da8f5d38ee",
-        "status": "HTTP_200",
-        "completedAt": "2026-07-20 06:31:40",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-18 06:54 CST",
         "publishTarget": ""
       },
       "memoryPath": "",
