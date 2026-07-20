@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T22:47:32.988Z",
+  "generatedAt": "2026-07-20T22:54:43.377Z",
   "reportDate": "2026-07-21",
   "previousDate": "2026-06-06",
   "architecture": {
@@ -1614,15 +1614,15 @@
       "lane": "专项主控 Cron",
       "role": "销售转化官",
       "latestRun": {
-        "sessionId": "",
-        "status": "SUCCESS",
+        "sessionId": "019f81a7-6a02-7231-9df6-283ff362bcb8",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-5 memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-07-21/cron/automation-5/index.html"
     },
     {
@@ -1632,15 +1632,15 @@
       "lane": "专项主控 Cron",
       "role": "客户转化官",
       "latestRun": {
-        "sessionId": "",
-        "status": "RECORDED",
+        "sessionId": "019f81a7-6a02-7231-9df6-283ff362bcb8",
+        "status": "DELIVERY_SUCCESS",
         "completedAt": "automation-4 memory",
         "publishTarget": ""
       },
       "memoryPath": "本地归档",
       "dailyTask": null,
-      "artifacts": 1,
-      "points": 12,
+      "artifacts": 2,
+      "points": 14,
       "href": "reports/2026-07-21/cron/automation-4/index.html"
     },
     {
@@ -1649,11 +1649,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "意向信号官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f81a7-6a02-7231-9df6-283ff362bcb8",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-21 06:31:00",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-21/cron/24-4/index.html"
     },
     {
@@ -1662,11 +1667,16 @@
       "status": "PAUSED",
       "lane": "专项主控 Cron",
       "role": "政策机会官",
-      "latestRun": null,
+      "latestRun": {
+        "sessionId": "019f81a7-6a02-7231-9df6-283ff362bcb8",
+        "status": "DELIVERY_SUCCESS",
+        "completedAt": "2026-07-21 06:31:00",
+        "publishTarget": ""
+      },
       "memoryPath": "",
       "dailyTask": null,
-      "artifacts": 0,
-      "points": 0,
+      "artifacts": 1,
+      "points": 2,
       "href": "reports/2026-07-21/cron/24-3/index.html"
     },
     {
