@@ -1,7 +1,7 @@
 代码,轨道,负责人,目标,当前 XP,评分,状态,页面
-OKR,公司 OKR,总经理助理,目标、KR、每日动作和验收证据统一。,260,42,待补 KR 数据,reports/2026-07-21/roles/index.html
-CTD,公司待办,总指挥,P0/P1/P2 公司任务进入右上角待办看板。,360,58,P0 缺口已显式列出,reports/2026-07-21/daily-report/index.html
+OKR,公司 OKR,总经理助理,目标、KR、每日动作和验收证据统一。,260,42,待补 KR 数据,reports/2026-07-22/roles/index.html
+CTD,公司待办,总指挥,P0/P1/P2 公司任务进入右上角待办看板。,360,58,P0 缺口已显式列出,reports/2026-07-22/daily-report/index.html
 PTD,个人待办,个人执行官,个人事项纳入日历，不和公司 P0 混账。,120,25,待接入个人待办源,calendar.html
 WGT,体重管理,体重管理官,体重、训练、有氧和里程碑统一追踪。,0,0,待建表,calendar.html
-AUTO,每日日报任务,自动化主管,6 个固定每日任务进入每日日报；其他自动化继续登记在自动化台账。,371,100,15 个自动化,reports/2026-07-21/cron/index.html
-RPT,日报复盘,总经理助理,六个固定 cron 按序汇总，作为当天总账。,120,80,6 个每日 cron 日报,reports/2026-07-21/daily-report/index.html
+AUTO,每日日报任务,自动化主管,6 个固定每日任务进入每日日报；其他自动化继续登记在自动化台账。,359,73,15 个自动化,reports/2026-07-22/cron/index.html
+RPT,日报复盘,总经理助理,六个固定 cron 按序汇总，作为当天总账。,120,80,6 个每日 cron 日报,reports/2026-07-22/daily-report/index.html
